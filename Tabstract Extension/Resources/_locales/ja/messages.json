@@ -1,0 +1,2706 @@
+{
+  "SnoozeInfo": {
+    "message": "ツールバーのバッジは保存されたセッションを記録し、忘れられないようにします。スヌーズはバッジを一時的に非表示にします。"
+  },
+  "accentColorLabel": {
+    "message": "色"
+  },
+  "actionLockTabGroup": {
+    "message": "タブグループをロック"
+  },
+  "actionSendToTabGroup": {
+    "message": "タブをタブグループに送信"
+  },
+  "actionSendToTrash": {
+    "message": "タブをゴミ箱に送信"
+  },
+  "actionSessionName": {
+    "message": "名前"
+  },
+  "actionSetColor": {
+    "message": "タブグループの色を設定"
+  },
+  "actionSetLockStatus": {
+    "message": "ロック状態を設定"
+  },
+  "actionsMenu": {
+    "message": "アクション"
+  },
+  "advancedMode": {
+    "message": "詳細モード"
+  },
+  "aiDisabledNotice": {
+    "message": "<strong>Apple Intelligenceが現在オフになっているか、利用できません。</strong>システム設定のApple Intelligenceメニューを確認してください"
+  },
+  "aiEnabledButInaccessible": {
+    "message": "<strong>Apple Intelligenceがお使いのシステムで有効になっているようですが、Tabstractはアクセスできません。</strong><br><br>一般的な原因:<ul><li>macOSの言語とSiriの言語が一致していません。Appleは両方を同じ言語に設定することを要求しています。</li><li>Apple Intelligenceがまだ初期化中です。数分待ってからTabstract → 設定を再読み込みしてください。</li><li>サポートされていない国にいます。Apple Intelligenceは、中国本土で購入されたデバイス、または国または地域が中国本土に設定されたApple IDで中国本土で使用されているデバイスでは利用できません。</li></ul>"
+  },
+  "aiExperimentalNotice": {
+    "message": "<strong>これは新しい実験的な機能です</strong>、結果は時間とともに改善され続けます"
+  },
+  "aiLanguageNotSupported": {
+    "message": "Apple IntelligenceがまだこのAI機能をサポートしていないため、この言語では利用できません。AI機能を使用するには、英語、スペイン語、フランス語、ドイツ語、イタリア語、日本語、韓国語、ポルトガル語(ブラジル)、または中国語(簡体字)に切り替えてください。"
+  },
+  "aiNotAvailable": {
+    "message": "<strong>Apple Intelligenceは利用できません。</strong>システム設定を確認して、有効になっていて準備ができていることを確認してください"
+  },
+  "aiRegenerateTitle": {
+    "message": "タイトルを再生成"
+  },
+  "aiSmartCategorizationDesc": {
+    "message": "<strong>6個以上</strong>のタブグループを自動的にトピック別に整理します <span class=\"hint\"><strong class=\"info\"></strong><em>セッションタイトルを生成</em>を有効にする必要があります</span>"
+  },
+  "aiSmartCategorizationLabel": {
+    "message": "スマート分類"
+  },
+  "aiTitleSuggestionsDesc": {
+    "message": "Apple Intelligence（プライベートなデバイス上AI）を使用して、タブ保存時にセッションタイトルを提案します"
+  },
+  "aiTitleSuggestionsLabel": {
+    "message": "セッションタイトルを生成"
+  },
+  "aiUnsupportedNotice": {
+    "message": "AI機能にはApple Intelligenceをサポートするmacと macOS 26.0以降が必要です"
+  },
+  "all": {
+    "message": "すべて"
+  },
+  "am": {
+    "message": "午前"
+  },
+  "any": {
+    "message": "いずれか"
+  },
+  "appName": {
+    "message": "Tabstract"
+  },
+  "appleIntelligenceUnavailable": {
+    "message": "Apple Intelligence を利用できません"
+  },
+  "atLeastOnePatternRequired": {
+    "message": "少なくとも1つのパターンが必要です"
+  },
+  "avoidDuplicatesDesc": {
+    "message": "同じURLを1つのセッションで複数回保存するのを防ぎます"
+  },
+  "avoidDuplicatesLabel": {
+    "message": "重複したタブを保存しない"
+  },
+  "avoidDuplicatesSetting": {
+    "message": "<strong>同一セッション内の重複タブを保存しない</strong>"
+  },
+  "bannerNewFeatures": {
+    "message": "<strong>新機能！</strong> アクションメニュー、繁体字中国語対応、リッチテキストコピー、重複クリーンアップ！"
+  },
+  "bannerText": {
+    "message": "新しい自動バックアップでタブをもう失くしません！ベータテスター募集中！"
+  },
+  "bannerTitle": {
+    "message": "Tabstract 3.1"
+  },
+  "bulkActionCreateGroup": {
+    "message": "統合"
+  },
+  "bulkActionDeselect": {
+    "message": "すべて選択解除"
+  },
+  "bulkActionDuplicate": {
+    "message": "複製"
+  },
+  "bulkActionLockUnlock": {
+    "message": "選択項目をロック/ロック解除"
+  },
+  "bulkActionRestore": {
+    "message": "復元"
+  },
+  "bulkActionTrash": {
+    "message": "ゴミ箱"
+  },
+  "cancel": {
+    "message": "キャンセル"
+  },
+  "clearData": {
+    "message": "Tabstract をリセット"
+  },
+  "clearFilters": {
+    "message": "リセット"
+  },
+  "clearSchedule": {
+    "message": "スケジュールをクリア"
+  },
+  "clearSearch": {
+    "message": "検索をクリア"
+  },
+  "clearSnooze": {
+    "message": "スヌーズ解除"
+  },
+  "clickNewToGetStarted": {
+    "message": "「新規」をクリックして始めましょう。"
+  },
+  "clipboardError": {
+    "message": "クリップボードへのコピーに失敗しました"
+  },
+  "close": {
+    "message": "閉じる"
+  },
+  "closeFiltersModal": {
+    "message": "フィルタモーダルを閉じる"
+  },
+  "closeHomeTabOnOpen": {
+    "message": "セッション復元後に Tabstract を閉じる"
+  },
+  "closeHomeTabOnOpenDesc": {
+    "message": "タブのグループを開くときにTabstractを閉じます"
+  },
+  "closeHomeTabOnOpenLabel": {
+    "message": "復元後にTabstractを閉じる"
+  },
+  "collapseAll": {
+    "message": "すべて折りたたむ"
+  },
+  "collapseExpandAll": {
+    "message": "すべて折りたたむ/展開する"
+  },
+  "collapseSession": {
+    "message": "セッションを折りたたむ"
+  },
+  "collapseTemplate": {
+    "message": "ルーティンを折りたたむ"
+  },
+  "colorBlue": {
+    "message": "ブルー"
+  },
+  "colorDefault": {
+    "message": "デフォルト"
+  },
+  "colorGreen": {
+    "message": "グリーン"
+  },
+  "colorOrange": {
+    "message": "オレンジ"
+  },
+  "colorPink": {
+    "message": "ピンク"
+  },
+  "colorPurple": {
+    "message": "パープル"
+  },
+  "colorRed": {
+    "message": "レッド"
+  },
+  "colorYellow": {
+    "message": "イエロー"
+  },
+  "columnColor": {
+    "message": "色"
+  },
+  "columnDateCreated": {
+    "message": "作成日"
+  },
+  "columnDomain": {
+    "message": "ドメイン"
+  },
+  "columnGroup": {
+    "message": "タブグループ"
+  },
+  "columnLock": {
+    "message": "ロック済み"
+  },
+  "columnPinned": {
+    "message": "固定"
+  },
+  "columnTitle": {
+    "message": "タイトル"
+  },
+  "confirmClearSchedule": {
+    "message": "このスケジュールをクリアしますか？"
+  },
+  "confirmDeleteFromTrash": {
+    "message": "このリンクを完全に削除してもよろしいですか？この操作は元に戻せません。"
+  },
+  "confirmDeleteTemplate": {
+    "message": "このルーティンを削除しますか？この操作は元に戻せません。"
+  },
+  "confirmEmptyTrash": {
+    "message": "ゴミ箱のすべてのアイテムを完全に削除してもよろしいですか？この操作は元に戻せません。"
+  },
+  "confirmImport": {
+    "message": "警告: これにより、現在のすべてのTabstractデータ（セッション、設定、ルーティン）が置き換えられます。この操作は元に戻せません。続行しますか？"
+  },
+  "confirmReset": {
+    "message": "本当に Tabstract をリセットしてもよろしいですか？\n\nロックされたセッションのタブを含むすべてのタブが削除されます。\n\nこの操作は元に戻せません。"
+  },
+  "contactSupport": {
+    "message": "問い合わせ"
+  },
+  "copiedToClipboard": {
+    "message": "コピーしました！"
+  },
+  "copyAllToClipboard": {
+    "message": "Markdownとしてコピー"
+  },
+  "copyFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "copyFormatPlain": {
+    "message": "プレーンテキスト"
+  },
+  "copyFormatRich": {
+    "message": "リッチテキスト"
+  },
+  "copyMenu": {
+    "message": "コピー..."
+  },
+  "createFilter": {
+    "message": "フィルターを作成"
+  },
+  "createNewFilter": {
+    "message": "新しいフィルタを作成"
+  },
+  "customColor": {
+    "message": "カスタムカラー"
+  },
+  "dailyAt": {
+    "message": "毎日 {time}"
+  },
+  "darkAuto": {
+    "message": "自動"
+  },
+  "darkDark": {
+    "message": "ダーク"
+  },
+  "darkLight": {
+    "message": "ライト"
+  },
+  "darkModeDesc": {
+    "message": "配色を選択"
+  },
+  "darkModeLabel": {
+    "message": "ダークモード"
+  },
+  "darkOff": {
+    "message": "オフ"
+  },
+  "darkSystem": {
+    "message": "システム"
+  },
+  "dayFormat": {
+    "message": "numeric"
+  },
+  "dayOfMonth": {
+    "message": "日："
+  },
+  "days": {
+    "message": "曜日："
+  },
+  "debugConsole": {
+    "message": "デバッグコンソール"
+  },
+  "deleteAfterRestore": {
+    "message": "復元するとタブは Tabstract から削除されます <span class=\"hint\"><strong class=\"info\">Shift+クリック</strong>で一時的に無効化</span>"
+  },
+  "deleteAfterRestoreDesc": {
+    "message": "復元されたタブはTabstractから削除されます <span class=\"hint\"><strong class=\"info\">Shift+クリック</strong> で一時的に無効化</span>"
+  },
+  "deleteAfterRestoreLabel": {
+    "message": "復元後にタブを削除"
+  },
+  "deleteBackup": {
+    "message": "バックアップを削除"
+  },
+  "deleteSmartGroup": {
+    "message": "フィルターを削除"
+  },
+  "deleteTab": {
+    "message": "このタブを削除"
+  },
+  "dismissAIUnavailableMessage": {
+    "message": "Apple Intelligence 利用不可メッセージを閉じる"
+  },
+  "downloadData": {
+    "message": "データをダウンロード"
+  },
+  "downloadReport": {
+    "message": "レポートをダウンロード"
+  },
+  "draftDelete": {
+    "message": "削除"
+  },
+  "dragToReorder": {
+    "message": "ドラッグして順序を変更"
+  },
+  "duplicateGroup": {
+    "message": "グループを複製"
+  },
+  "duplicatesRemoved": {
+    "message": "{count}個の重複を削除しました"
+  },
+  "editFilter": {
+    "message": "フィルターを編集"
+  },
+  "editSchedule": {
+    "message": "スケジュールを編集"
+  },
+  "emailBodyTemplate": {
+    "message": "こんにちは、\n\nTabstract で問題が発生しています。\n\n問題を再現する手順：\n1.\n2.\n3.\n\n\nトラブルシューティング用のローカルストレージデータ：\n\n$1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "data": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "emailSupport": {
+    "message": "メールサポート"
+  },
+  "emptySessionHint": {
+    "message": "リンクをここにドラッグしてこのセッションに追加"
+  },
+  "emptyTrash": {
+    "message": "ゴミ箱を空にする"
+  },
+  "emptyTrashWithCount": {
+    "message": "ゴミ箱を空にする（$1 件）",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "enableBadge": {
+    "message": "ツールバーにリマインダーバッジを表示"
+  },
+  "enableKeyboardShortcuts": {
+    "message": "キーボードショートカットを有効化"
+  },
+  "errorMaxLength": {
+    "message": "最大文字数を超えました"
+  },
+  "errorParsingJson": {
+    "message": "JSON の解析エラー: $1"
+  },
+  "expandAll": {
+    "message": "すべて展開"
+  },
+  "expandSession": {
+    "message": "セッションを展開"
+  },
+  "expandTemplate": {
+    "message": "ルーティンを展開"
+  },
+  "expiredLabel": {
+    "message": "期限切れ"
+  },
+  "expiresInDays": {
+    "message": "$1 日後に期限切れ",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInHours": {
+    "message": "$1 時間後に期限切れ",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInLessThanHour": {
+    "message": "1 時間未満で期限切れ"
+  },
+  "export": {
+    "message": "エクスポート"
+  },
+  "exportFormatHTML": {
+    "message": "HTML"
+  },
+  "exportFormatJSON": {
+    "message": "JSON"
+  },
+  "exportFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "exportFormatOPML": {
+    "message": "OPML"
+  },
+  "exportFormatPlain": {
+    "message": "プレーンテキスト"
+  },
+  "exportMenu": {
+    "message": "エクスポート..."
+  },
+  "exportSavedLinks": {
+    "message": "保存済みリンクをエクスポート"
+  },
+  "exportSuccess": {
+    "message": "エクスポートに成功しました！"
+  },
+  "filterAll": {
+    "message": "すべて"
+  },
+  "filterColor": {
+    "message": "色:"
+  },
+  "filterDate": {
+    "message": "日付:"
+  },
+  "filterDateLastMonth": {
+    "message": "先月"
+  },
+  "filterDateLastWeek": {
+    "message": "先週"
+  },
+  "filterDateMonth": {
+    "message": "今月"
+  },
+  "filterDateToday": {
+    "message": "今日"
+  },
+  "filterDateWeek": {
+    "message": "今週"
+  },
+  "filterDateYesterday": {
+    "message": "昨日"
+  },
+  "filterDomain": {
+    "message": "ドメイン:"
+  },
+  "filterLock": {
+    "message": "ロック:"
+  },
+  "filterName": {
+    "message": "説明"
+  },
+  "filters": {
+    "message": "フィルター"
+  },
+  "filtersDescription": {
+    "message": "フィルターは、ドメイン、キーワード、またはその他のパターンに基づいて、タブを自動的に並べ替えて整理できます。<strong>フィルターは優先順位に従って処理されます</strong>（上から下へ）。ドラッグして並べ替えます。"
+  },
+  "formatOneTab": {
+    "message": "OneTab エクスポート"
+  },
+  "formatTSV": {
+    "message": "TSV"
+  },
+  "formatTabSpace": {
+    "message": "Tab Space バックアップ"
+  },
+  "formatTabsSaver": {
+    "message": "Tabs Saver バックアップ"
+  },
+  "formatTabstractJSON": {
+    "message": "Tabstract JSON エクスポート"
+  },
+  "frequency": {
+    "message": "頻度："
+  },
+  "fullScreenMode": {
+    "message": "フルスクリーンモード (F)"
+  },
+  "groupNameRequired": {
+    "message": "グループ名は必須です"
+  },
+  "guideAIFeaturesBody": {
+    "message": "お使いのコンピュータが Apple Intelligence に対応している場合、Tabstract は保存したタブを自動的にトピック別のグループに分類できます。任意のセッションタイトルの横にある <strong>✨ きらめきアイコン</strong> をクリックすると新しいタイトルを生成します。Apple Intelligence に非対応のコンピュータでは代わりに日付と時刻が使用されます。"
+  },
+  "guideAIFeaturesTitle": {
+    "message": "AI でタブを整理"
+  },
+  "guideBadgeNotificationsBody": {
+    "message": "ツールバーバッジは保存済みセッションの数を表示し、見えなくても忘れないようにします。スヌーズでバッジを最長 24 時間非表示にしたり、設定で完全に無効化したりできます。"
+  },
+  "guideBadgeNotificationsTitle": {
+    "message": "ツールバーバッジ"
+  },
+  "guideDragToReorderBody": {
+    "message": "リンクやセッションをクリックしてドラッグし、保存したタブを好みの順番に並べ替えられます。"
+  },
+  "guideDragToReorderTitle": {
+    "message": "ドラッグ＆ドロップで整理"
+  },
+  "guideGettingStartedBody": {
+    "message": "Tabstract は Safari のタブを保存して整理するのに役立ちます。開始するには、Safari のツールバーを右クリックして「カスタマイズ」を選び、Tabstract アイコンをツールバーにドラッグしてください。追加したら Tabstract をクリックし、<strong>タブを保存</strong> を押して現在のウィンドウで開いているタブをすべて保存します。 "
+  },
+  "guideGettingStartedTitle": {
+    "message": "はじめに"
+  },
+  "guideKeyboardShortcutsBody": {
+    "message": "Tabstract にはパワーユーザー向けのキーボードショートカットや修飾キーの組み合わせが用意されています。ショートカットは設定で無効にできます。<br><br>\n                <strong>主なショートカット:</strong><br><br>\n                すべてのタブを保存：<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd><br>\n                現在のタブだけを保存：<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd><br>\n                保存済みセッション一覧を開く：<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd><br><br>\n                <strong>クイックアクション:</strong><br><br>\n                検索ボックスにフォーカス：<kbd>/</kbd><br>\n                新しいセッションを作成：<kbd>N</kbd><br><br>\n                <strong>修飾キーの組み合わせ:</strong><br><br>\n                現在のタブだけを保存：<kbd>Shift</kbd> + <em>タブを保存</em> をクリック<br>\n                すべてのセッションを展開/折りたたみ：<kbd>Shift</kbd> + <em>セッション折りたたみボタン</em> をクリック<br>\n                「復元後にタブを削除」の設定を一時的に無効化：<kbd>Shift</kbd> + <em>復元</em> をクリック<br>\n                「タブをバックグラウンドで復元」の設定を一時的に無効化：<kbd>Option</kbd> + <em>復元</em> をクリック"
+  },
+  "guideKeyboardShortcutsTitle": {
+    "message": "キーボードショートカット"
+  },
+  "guidePasteLinksBody": {
+    "message": "他のアプリからリンクをコピーし、その URL を Tabstract に直接ペーストできます。Tabstract が自動的にページタイトルを取得し、コレクションに追加します。 "
+  },
+  "guidePasteLinksTitle": {
+    "message": "Tabstract にリンクをコピー＆ペースト"
+  },
+  "guideShiftClickBody": {
+    "message": "任意のセッションの折りたたみボタンをクリックするときに <kbd>Shift</kbd> を押し続けると、すべてのセッションを一度に展開または折りたためます。"
+  },
+  "guideShiftClickTitle": {
+    "message": "Shift+クリックでまとめて展開/折りたたみ"
+  },
+  "guideTrashUndoBody": {
+    "message": "削除したリンクは 30 日間ゴミ箱に移動され、その後自動的に削除されます。Tabstract を快適に保つため、ゴミ箱は 1,000 件までに制限されています。"
+  },
+  "guideTrashUndoTitle": {
+    "message": "ゴミ箱"
+  },
+  "helpPageTitle": {
+    "message": "サポートとトラブルシューティング - Tabstract"
+  },
+  "helpSupportInstructions": {
+    "message": "ご質問、機能リクエスト、サポートが必要な場合は、<em>メールサポート</em> をクリックしてから <em>許可</em> を選択するか、システムレポートを <em>help@tabstract.app</em> 宛に問題の詳細と一緒に送信してください。<br /><br />機能リクエスト、バグ報告、翻訳の改善などもお気軽にメールでお寄せください。"
+  },
+  "helpTitle": {
+    "message": "サポートとトラブルシューティング"
+  },
+  "hourFormat": {
+    "message": "numeric"
+  },
+  "hourAgo": {
+    "message": "$1時間前",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hoursAgo": {
+    "message": "$1時間前",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "import": {
+    "message": "インポート"
+  },
+  "importData": {
+    "message": "データをインポート"
+  },
+  "importError": {
+    "message": "インポートエラー: $ERROR$"
+  },
+  "importFailedPrefix": {
+    "message": "インポートに失敗しました："
+  },
+  "importLinksLabel": {
+    "message": "他のタブマネージャーからリンクをインポート"
+  },
+  "importMenu": {
+    "message": "インポート..."
+  },
+  "importSuccess": {
+    "message": "インポートが完了しました！ $COUNT$ 件のセッションと設定が復元されました。"
+  },
+  "importSuccessMessage": {
+    "message": "$1 個の有効なリンク（$2 個のセッションにまたがる）をインポートしました。\n$3 個の無効なリンクをスキップしました。\n\nページタイトルはバックグラウンドで取得されます。",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "errors": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$3",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "links": {
+        "content": "$1"
+      },
+      "sessions": {
+        "content": "$2"
+      }
+    }
+  },
+  "importSystemBackup": {
+    "message": "システムバックアップをインポート"
+  },
+  "invalidJsonFormat": {
+    "message": "無効な JSON 形式です。セッションの配列が必要です。"
+  },
+  "invalidRegexPrefix": {
+    "message": "無効な正規表現: "
+  },
+  "justNow": {
+    "message": "たった今"
+  },
+  "langNameArabic": {
+    "message": "アラビア語"
+  },
+  "langNameChineseCN": {
+    "message": "簡体字中国語"
+  },
+  "langNameChineseTW": {
+    "message": "繁体字中国語"
+  },
+  "langNameDanish": {
+    "message": "デンマーク語"
+  },
+  "langNameDutch": {
+    "message": "オランダ語"
+  },
+  "langNameEnglish": {
+    "message": "英語"
+  },
+  "langNameFrench": {
+    "message": "フランス語"
+  },
+  "langNameFrenchCA": {
+    "message": "カナダフランス語"
+  },
+  "langNameGerman": {
+    "message": "ドイツ語"
+  },
+  "langNameItalian": {
+    "message": "イタリア語"
+  },
+  "langNameJapanese": {
+    "message": "日本語"
+  },
+  "langNameKorean": {
+    "message": "韓国語"
+  },
+  "langNameNorwegian": {
+    "message": "ノルウェー語"
+  },
+  "langNamePortugueseBR": {
+    "message": "ブラジルポルトガル語"
+  },
+  "langNamePortuguesePT": {
+    "message": "ポルトガル語"
+  },
+  "langNameRussian": {
+    "message": "ロシア語"
+  },
+  "langNameSpanish": {
+    "message": "スペイン語"
+  },
+  "langNameSpanishLA": {
+    "message": "ラテンアメリカスペイン語"
+  },
+  "langNameSwedish": {
+    "message": "スウェーデン語"
+  },
+  "langNameTurkish": {
+    "message": "トルコ語"
+  },
+  "langNameVietnamese": {
+    "message": "ベトナム語"
+  },
+  "languageAuto": {
+    "message": "システムのデフォルト"
+  },
+  "languageDesc": {
+    "message": "表示言語を選択"
+  },
+  "languageLabel": {
+    "message": "言語"
+  },
+  "lastRun": {
+    "message": "最終実行：{time}"
+  },
+  "launchOnStartup": {
+    "message": "ブラウザ起動時に Tabstract を表示"
+  },
+  "launchOnStartupDesc": {
+    "message": "Safariを起動するとTabstractを開きます"
+  },
+  "launchOnStartupLabel": {
+    "message": "起動時に開く"
+  },
+  "learnMore": {
+    "message": "詳しく見る"
+  },
+  "learnMoreAboutFeatures": {
+    "message": "新機能について詳しく見る"
+  },
+  "linkRestored": {
+    "message": "リンクを新しいセッションに復元しました"
+  },
+  "lockAll": {
+    "message": "すべてロック"
+  },
+  "lockSession": {
+    "message": "ロック"
+  },
+  "lockSessionTitle": {
+    "message": "セッションをロック"
+  },
+  "lockUnlockAll": {
+    "message": "すべてロック/ロック解除"
+  },
+  "manageFiltersMenuItem": {
+    "message": "フィルターを管理..."
+  },
+  "manageTemplates": {
+    "message": "ルーティンを管理"
+  },
+  "manageTemplatesMenuItem": {
+    "message": "ルーティンを管理..."
+  },
+  "match": {
+    "message": "もし"
+  },
+  "matches": {
+    "message": "一致："
+  },
+  "mergeIntoSessionBelow": {
+    "message": "下のセッションと統合"
+  },
+  "minuteFormat": {
+    "message": "numeric"
+  },
+  "minuteAgo": {
+    "message": "$1分前",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "minutesAgo": {
+    "message": "$1分前",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "monthFormat": {
+    "message": "long"
+  },
+  "monthlyOn": {
+    "message": "毎月 {day} 日 {time}"
+  },
+  "moreActions": {
+    "message": "その他のアクション"
+  },
+  "moveToTop": {
+    "message": "先頭に移動"
+  },
+  "navHelp": {
+    "message": "ヘルプ + ヒント"
+  },
+  "navHome": {
+    "message": "ホーム"
+  },
+  "navSelect": {
+    "message": "選択"
+  },
+  "navSettings": {
+    "message": "設定"
+  },
+  "navSnooze": {
+    "message": "スヌーズ"
+  },
+  "needHelpWithTabstract": {
+    "message": "Tabstract のヘルプが必要ですか"
+  },
+  "never": {
+    "message": "未実行"
+  },
+  "newButton": {
+    "message": "新規"
+  },
+  "newTabGroup": {
+    "message": "新しいタブグループ"
+  },
+  "no": {
+    "message": "いいえ"
+  },
+  "noAvailableTabs": {
+    "message": "利用可能なタブがありません"
+  },
+  "noColor": {
+    "message": "色なし"
+  },
+  "noResultsFound": {
+    "message": "該当する結果が見つかりません:"
+  },
+  "noSavedLinksToExport": {
+    "message": "エクスポートする保存済みリンクがありません。"
+  },
+  "noTabsAvailableToSave": {
+    "message": "保存可能なタブがありません"
+  },
+  "noTabsSaved": {
+    "message": "保存されたタブはありません。"
+  },
+  "noTemplatesInstructions": {
+    "message": "まだルーティンが保存されていません。<br>セッションからルーティンを作成して開始してください。"
+  },
+  "noTemplatesSaved": {
+    "message": "まだルーティンが保存されていません。<br>セッションからルーティンを作成して開始してください。"
+  },
+  "noTemplatesSavedYet": {
+    "message": "まだルーティンは保存されていません"
+  },
+  "nonMatchingWarning": {
+    "message": "<strong>⚠️ 警告:</strong> このグループの $1 個のタブがパターンに一致しないため、新しいセッション \"<strong>$2 から削除</strong>\" に移動します。",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "content": "$1"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$2",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "none": {
+    "message": "なし"
+  },
+  "ofTheFollowingConditions": {
+    "message": "以下の条件が満たされている場合："
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "oneclickSave": {
+    "actionsMenu": {
+      "message": "Actions"
+    },
+    "bulkActionDuplicate": {
+      "message": "Duplicate"
+    },
+    "bulkActionLockUnlock": {
+      "message": "Lock/Unlock Selected"
+    },
+    "colorBlue": {
+      "message": "Blue"
+    },
+    "colorDefault": {
+      "message": "Default"
+    },
+    "colorGreen": {
+      "message": "Green"
+    },
+    "colorOrange": {
+      "message": "Orange"
+    },
+    "colorPink": {
+      "message": "Pink"
+    },
+    "colorPurple": {
+      "message": "Purple"
+    },
+    "colorRed": {
+      "message": "Red"
+    },
+    "colorYellow": {
+      "message": "Yellow"
+    },
+    "filterAll": {
+      "message": "All"
+    },
+    "message": "ワンクリック保存 <span class=\"hint\"><strong class=\"caution\">注意:</strong> これによりホームとスヌーズが削除されます。Shift+Command+Hでホームを表示できます。</span>"
+  },
+  "oneclickSaveDesc": {
+    "message": "<span class=\"hint\"><strong class=\"caution\">注意:</strong> この実験的な機能はホームとスヌーズのボタンを削除します。<strong>Shift+Command+H</strong> でホームを開けます。</span>"
+  },
+  "oneclickSaveLabel": {
+    "message": "ワンクリック保存"
+  },
+  "openLink": {
+    "message": "$1 を開く",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "pageTitle": {
+    "message": "ツールと設定 - Tabstract"
+  },
+  "pasteLinks": {
+    "message": "リンクを貼り付け"
+  },
+  "performActions": {
+    "message": "次のアクションを実行："
+  },
+  "pinToTop": {
+    "message": "トップに固定"
+  },
+  "pinnedTabsDesc": {
+    "message": "固定タブは閉じたりTabstractに保存されたりしません"
+  },
+  "pinnedTabsLabel": {
+    "message": "固定タブを保存しない"
+  },
+  "pinnedTabsSetting": {
+    "message": "<strong>固定タブは保存しない</strong>（固定タブは閉じず、Tabstract に保存されません）"
+  },
+  "pleaseEnterDayBetween1And31": {
+    "message": "1 から 31 の間の日を入力してください。"
+  },
+  "pleaseEnterPattern": {
+    "message": "パターン値を入力してください"
+  },
+  "pleaseSelectAtLeastOneDay": {
+    "message": "週間スケジュールには少なくとも 1 日を選択してください。"
+  },
+  "pm": {
+    "message": "午後"
+  },
+  "refreshData": {
+    "message": "デバッグデータを更新"
+  },
+  "removeFromSession": {
+    "message": "セッションから $1 を削除",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "removedFrom": {
+    "message": "$1から削除",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "resetGroupColors": {
+    "message": "色をリセット"
+  },
+  "restoreAllTabs": {
+    "message": "すべてのタブを復元"
+  },
+  "restoreInBackground": {
+    "message": "復元したタブはバックグラウンドで開きます <span class=\"hint\"><strong class=\"info\">Option+クリック</strong> で一時的に無効化</span>"
+  },
+  "restoreInBackgroundDesc": {
+    "message": "復元したタブはフォーカスを切り替えずTabstractの背後で開きます <span class=\"hint\"><strong class=\"info\">Option+クリック</strong> で一時的に無効化</span>"
+  },
+  "restoreInBackgroundLabel": {
+    "message": "バックグラウンドでタブを復元"
+  },
+  "restoreTabsMerge": {
+    "message": "統合"
+  },
+  "restoreTabsReplace": {
+    "message": "置換"
+  },
+  "restoreTabsToCurrentWindow": {
+    "message": "現在のウィンドウ"
+  },
+  "restoreTabsToLabel": {
+    "message": "タブグループの復元先："
+  },
+  "restoreTabsToNewWindow": {
+    "message": "新しいウィンドウ"
+  },
+  "restoredFromTrashSessionName": {
+    "message": "ゴミ箱から復元"
+  },
+  "restoredLinkSessionName": {
+    "message": "復元されたリンク"
+  },
+  "reviewButton": {
+    "message": "App Storeで評価してください ★★★★★"
+  },
+  "reviewLaterButton": {
+    "message": "後で"
+  },
+  "reviewMessage": {
+    "message": "Tabstractは無料ですが、評価とレビューで成り立っています。評価をお願いします！"
+  },
+  "reviewModalText": {
+    "message": "Tabstract は無料ですが、評価とレビューで成り立っています 🚀 5つ星の評価をお願いします！"
+  },
+  "reviewModalTitle": {
+    "message": "Tabstract は気に入りましたか？"
+  },
+  "runFiltersConfirm": {
+    "message": "{sessions}個のセッション（{tabs}個のタブ）を処理します。続行しますか？"
+  },
+  "runFiltersMenuItem": {
+    "message": "フィルターを実行"
+  },
+  "runFiltersNoFilters": {
+    "message": "フィルターが定義されていません。まずフィルターを作成してください。"
+  },
+  "runFiltersNoSessions": {
+    "message": "処理するロック解除されたセッションがありません。"
+  },
+  "runFiltersSuccess": {
+    "message": "{matched}個のタブがフィルターで処理されました"
+  },
+  "sampleSessionCreated": {
+    "message": "サンプルを作成しました！"
+  },
+  "sampleSessionName": {
+    "message": "Tabstract を始める"
+  },
+  "sampleTab1Title": {
+    "message": "Tabstract ウェブサイト"
+  },
+  "sampleTab2Title": {
+    "message": "App Store の Tabstract"
+  },
+  "sampleTab3Title": {
+    "message": "App Store で Tabstract を評価"
+  },
+  "sampleTab4Title": {
+    "message": "By The Farm"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "saveAllWindowsDesc": {
+    "message": "現在フォーカスされているウィンドウだけでなく、開いているすべてのSafariウィンドウからタブを保存します"
+  },
+  "saveAllWindowsLabel": {
+    "message": "すべてのウィンドウからタブを保存"
+  },
+  "saveAlsoCloses": {
+    "message": "保存時にタブを閉じる"
+  },
+  "saveAlsoClosesDesc": {
+    "message": "Tabstractへ保存後にタブを自動的に閉じます"
+  },
+  "saveAlsoClosesLabel": {
+    "message": "保存時にタブを閉じる"
+  },
+  "saveAsTemplate": {
+    "message": "ルーティンとして保存"
+  },
+  "saveFilter": {
+    "message": "フィルターを保存"
+  },
+  "saveSelected": {
+    "message": "選択したタブを保存"
+  },
+  "saveSelectedPlural": {
+    "message": "{count}個のタブを保存"
+  },
+  "saveSelectedSingular": {
+    "message": "1つのタブを保存"
+  },
+  "saveTab": {
+    "message": "タブを保存"
+  },
+  "saveTabs": {
+    "message": "タブを保存"
+  },
+  "saveTabsOnStartupDesc": {
+    "message": "Safariを起動すると開いているすべてのタブを自動的に保存して閉じます"
+  },
+  "saveTabsOnStartupLabel": {
+    "message": "起動時に開いているタブを保存して閉じる"
+  },
+  "savedOnLabel": {
+    "message": "保存日: $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "date": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "scheduleAddButton": {
+    "message": "+ スケジュール"
+  },
+  "scheduleDaily": {
+    "message": "毎日"
+  },
+  "scheduleEditButton": {
+    "message": "編集"
+  },
+  "scheduleHourly": {
+    "message": "1時間ごと"
+  },
+  "scheduleMonthly": {
+    "message": "毎月"
+  },
+  "scheduleNotifyLabel": {
+    "message": "ルーティン作成時に通知を表示"
+  },
+  "scheduleWeekly": {
+    "message": "毎週"
+  },
+  "searchFocusTitle": {
+    "message": "検索にフォーカス（ショートカット: /）"
+  },
+  "searchPlaceholder": {
+    "message": "検索"
+  },
+  "searchResults": {
+    "message": "検索結果"
+  },
+  "sectionAppleIntelligence": {
+    "message": "人工知能 - ベータ"
+  },
+  "sectionAppleIntelligenceDesc": {
+    "message": "Apple Intelligence が提供するデバイス上の AI 機能"
+  },
+  "sectionInterface": {
+    "message": "一般"
+  },
+  "sectionInterfaceDesc": {
+    "message": "Tabstractの体験をカスタマイズ"
+  },
+  "sectionTabRestoring": {
+    "message": "タブの復元"
+  },
+  "sectionTabRestoringDesc": {
+    "message": "タブを復元するときの動作を制御"
+  },
+  "sectionTabSaving": {
+    "message": "タブの保存"
+  },
+  "sectionTabSavingDesc": {
+    "message": "タブを保存するときの動作を制御"
+  },
+  "selectAll": {
+    "message": "すべて選択"
+  },
+  "selectFileToImport": {
+    "message": "インポートするファイルを選択してください。"
+  },
+  "selectNone": {
+    "message": "選択解除"
+  },
+  "selectTabsToSave": {
+    "message": "保存するタブを選択"
+  },
+  "sessionActions": {
+    "message": "セッション操作"
+  },
+  "sessionLocked": {
+    "message": "セッションはロックされています"
+  },
+  "settingsSubtitle": {
+    "message": "変更はすぐに適用されます"
+  },
+  "shortcutOpenTabstractLabel": {
+    "message": "Tabstract を開く:"
+  },
+  "shortcutSaveCurrentTabLabel": {
+    "message": "現在のタブを保存:"
+  },
+  "shortcutSaveTabsLabel": {
+    "message": "タブを保存:"
+  },
+  "simpleMode": {
+    "message": "シンプルモード"
+  },
+  "smartGroupCopyButton": {
+    "message": "コピー"
+  },
+  "smartGroupDeleteConfirm": {
+    "message": "このフィルターを削除しますか？このグループのタブは通常のセッションに変換されます。"
+  },
+  "smartGroupHelpDomain": {
+    "message": "ドメイン名 (例: github.com) を入力します。完全一致とすべてのサブドメインに一致します。"
+  },
+  "smartGroupHelpKeyword": {
+    "message": "URL とページタイトルを検索するキーワードを入力します (例: \"react\")。大文字と小文字は区別されません。"
+  },
+  "smartGroupHelpRegex": {
+    "message": "正規表現パターンを入力します (例: (github|gitlab)\\.com)。URL とタイトルに対して一致します。"
+  },
+  "smartGroupNameLabel": {
+    "message": "フィルター名"
+  },
+  "smartGroupNamePlaceholder": {
+    "message": "例: GitHub プロジェクト"
+  },
+  "smartGroupNameRequired": {
+    "message": "フィルター名は必須です"
+  },
+  "smartGroupPatternInvalidRegex": {
+    "message": "正規表現が無効です"
+  },
+  "smartGroupPatternLabel": {
+    "message": "パターン"
+  },
+  "smartGroupPatternRequired": {
+    "message": "パターンは必須です"
+  },
+  "smartGroupPatternTypeKeyword": {
+    "message": "キーワード"
+  },
+  "smartGroupPatternTypeLabel": {
+    "message": "パターンの種類"
+  },
+  "smartGroupPatternTypeRegex": {
+    "message": "正規表現"
+  },
+  "smartGroupPinButton": {
+    "message": "ピン留め"
+  },
+  "smartGroupPreviewText": {
+    "message": "現在このパターンに一致しています"
+  },
+  "smartGroupUnpinButton": {
+    "message": "ピン留めを解除"
+  },
+  "smartGroupsCreateButton": {
+    "message": "+ フィルターを作成"
+  },
+  "smartGroupsEmptyMessage": {
+    "message": "まだフィルターがありません。"
+  },
+  "smartGroupsModalTitle": {
+    "message": "フィルターを管理"
+  },
+  "snoozeLabel": {
+    "message": "<strong>スヌーズ</strong>でバッジを非表示"
+  },
+  "snoozeSuffix": {
+    "message": "時間"
+  },
+  "snoozeToolbarBadge": {
+    "message": "ツールバーのバッジをスヌーズ"
+  },
+  "sortBy": {
+    "message": "並べ替え"
+  },
+  "sortNewest": {
+    "message": "新しい順"
+  },
+  "sortNewestToOldest": {
+    "message": "新しい順に並べ替え"
+  },
+  "sortOldest": {
+    "message": "古い順"
+  },
+  "sortOldestToNewest": {
+    "message": "古い順に並べ替え"
+  },
+  "sortRainbow": {
+    "message": "虹色順"
+  },
+  "splitGroup": {
+    "message": "グループを分割"
+  },
+  "supportedFormatsHeading": {
+    "message": "対応フォーマット:"
+  },
+  "tabCount": {
+    "message": "$1 個のタブ",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabCountOfTotal": {
+    "message": "$2 中 $1 $3",
+    "placeholders": {
+      "filtered": {
+        "content": "$1"
+      },
+      "tabWord": {
+        "content": "$3"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "tabCountPlural": {
+    "message": "$1 個のタブ",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabGroupLetter": {
+    "message": "ウィンドウ {letter}"
+  },
+  "tabPlural": {
+    "message": "タブ"
+  },
+  "tabSingular": {
+    "message": "タブ"
+  },
+  "templateScheduleNotification": {
+    "message": "ルーティン \"%s\" がセッションに追加されました。"
+  },
+  "templates": {
+    "message": "ルーティン"
+  },
+  "time": {
+    "message": "時刻："
+  },
+  "tipsOppensession": {
+    "message": "Shiftキーを押しながらクリックしてすべてのセッションを展開または折りたたむ"
+  },
+  "tipsReminders": {
+    "message": "通知バッジで保存したセッションを常に表示"
+  },
+  "tipsRename": {
+    "message": "セッションにラベルを付けて整理を保つ"
+  },
+  "tipsSingletab": {
+    "message": "Shiftキーを押し続けて現在のタブのみを保存"
+  },
+  "tipsTitle": {
+    "message": "ヒント"
+  },
+  "tipsToolbar": {
+    "message": "開始するには、TabstractをSafariツールバーにドラッグしてください。"
+  },
+  "todayAt": {
+    "message": "今日、$1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "toggleAllTabsInWindow": {
+    "message": "$1 内のすべてのタブを切り替え",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "window": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "toolbar": {
+    "message": "ツールバー"
+  },
+  "trashAutoDeletesHint": {
+    "message": "$1日後に自動削除",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "days": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "trashCleanupLog": {
+    "message": "ゴミ箱のクリーンアップ: 期限切れ/超過アイテムを削除しました"
+  },
+  "trashDuplicates": {
+    "message": "重複を削除"
+  },
+  "trashEmpty": {
+    "message": "ゴミ箱は空です"
+  },
+  "trashEmptyDesc": {
+    "message": "削除したリンクはここに表示され、30 日後に自動的に削除されます。"
+  },
+  "trashExpiringSoon": {
+    "message": "まもなく期限切れ"
+  },
+  "trashExpiringThisWeek": {
+    "message": "今週期限切れ"
+  },
+  "trashExpiringToday": {
+    "message": "今日期限切れ"
+  },
+  "trashExpiringTomorrow": {
+    "message": "明日期限切れ"
+  },
+  "trashLimitHint": {
+    "message": "ゴミ箱は$1件のリンクまで",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "max": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "undo": {
+    "message": "元に戻す"
+  },
+  "undoDeleteLink": {
+    "message": "リンクが削除されました。元に戻しますか？"
+  },
+  "undoDeleteSession": {
+    "message": "セッションが削除されました。元に戻しますか？"
+  },
+  "undoMergeSession": {
+    "message": "セッションが統合されました。元に戻しますか？"
+  },
+  "undoTimeoutDescPost": {
+    "message": "削除後"
+  },
+  "undoTimeoutDescPre": {
+    "message": "「元に戻す」ボタンを表示:"
+  },
+  "undoTimeoutLabel": {
+    "message": "<em>元に戻す</em> ボタンを表示:"
+  },
+  "undoTimeoutSuffix": {
+    "message": "秒"
+  },
+  "unlockAll": {
+    "message": "すべてロック解除"
+  },
+  "unlockSession": {
+    "message": "ロック解除"
+  },
+  "unlocked": {
+    "message": "ロック解除"
+  },
+  "unpinFromTop": {
+    "message": "トップから固定解除"
+  },
+  "unrecognizedFileFormat": {
+    "message": "認識できないファイル形式です。対応: HTMLブックマーク、Markdown、OneTab、OPML、プレーンテキスト、Tab Space、Tabs Saver、Tabstract JSON、TSV。"
+  },
+  "unsnooze": {
+    "message": "解除"
+  },
+  "untitledFilter": {
+    "message": "このフィルターを説明してください..."
+  },
+  "upgradeToPro": {
+    "message": "Proにアップグレード"
+  },
+  "userGuideTitle": {
+    "message": "Tabstract の使い方"
+  },
+  "viewTrash": {
+    "message": "ゴミ箱を表示"
+  },
+  "weekdayFormat": {
+    "message": "long"
+  },
+  "weekdaysAt": {
+    "message": "平日 {time}"
+  },
+  "weekendsAt": {
+    "message": "週末 {time}"
+  },
+  "weeklyAt": {
+    "message": "毎週 {time}"
+  },
+  "welcomeActionHelp": {
+    "message": "詳細を見る"
+  },
+  "welcomeActionSave": {
+    "message": "サンプルセッションを試す"
+  },
+  "welcomeBackSubtitle": {
+    "message": "Tabstractを最大限に活用するためのヒントをご紹介します:"
+  },
+  "welcomeBackTitle1": {
+    "message": "見て、タブがない! 💅"
+  },
+  "welcomeBackTitle2": {
+    "message": "タブゼロ。夢のよう!"
+  },
+  "welcomeBackTitle3": {
+    "message": "タブなし?伝説だ。😎"
+  },
+  "welcomeBackTitle4": {
+    "message": "全部完了?すごい!"
+  },
+  "welcomeDescription": {
+    "message": "Tabstractは、あなたのSafariタブを保存して整理し、生活をシンプルにするのに役立ちます。"
+  },
+  "welcomeStep0Description": {
+    "message": "TabstractアイコンをSafariツールバーにドラッグして、タブの保存と復元へのクイックアクセスを可能にします。"
+  },
+  "welcomeStep0Title": {
+    "message": "ツールバーに追加"
+  },
+  "welcomeStep1Description": {
+    "message": "ツールバーの Tabstract アイコンをクリックするか、Cmd+Shift+S を使って開いているすべてのタブを保存します。"
+  },
+  "welcomeStep1Title": {
+    "message": "タブを保存"
+  },
+  "welcomeStep2Description": {
+    "message": "セッションにカスタム名を付け、重要なものをロックして、整理された状態を保ちます。"
+  },
+  "welcomeStep2Title": {
+    "message": "セッションを整理"
+  },
+  "welcomeStep3Description": {
+    "message": "任意のセッションをクリックして、すべてのタブを瞬時に復元するか、必要に応じて個別のタブを復元します。"
+  },
+  "welcomeStep3Title": {
+    "message": "いつでも復元"
+  },
+  "welcomeTip": {
+    "message": "☆ プロのヒント：保存ボタンをクリック時にShiftキーを押し続けると、現在のタブのみが保存されます ☆"
+  },
+  "welcomeTitle": {
+    "message": "Tabstractを始める"
+  },
+  "windowLabel": {
+    "message": "ウィンドウ"
+  },
+  "yes": {
+    "message": "はい"
+  },
+  "yesterdayAt": {
+    "message": "昨日、$1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "zeroTabs": {
+    "message": "タブ 0 件"
+  },
+  "backupAutomatic": {
+    "message": "自動"
+  },
+  "backupComplete": {
+    "message": "バックアップ完了！"
+  },
+  "backupExplainer": {
+    "message": "Tabstractはタブを保存するたびに、また1時間ごとに自動的にデータをバックアップします。24時間以上経過したバックアップは1日1つに削減され、その後1週間に1つになり、30日後に削除されます。手動バックアップは無期限に保持されます。"
+  },
+  "backupFailed": {
+    "message": "バックアップに失敗しました"
+  },
+  "backupLoadError": {
+    "message": "バックアップの読み込みに失敗しました。"
+  },
+  "backupManual": {
+    "message": "手動"
+  },
+  "backupManualBadge": {
+    "message": "手動"
+  },
+  "backupMenuRestoreMerge": {
+    "message": "タブを復元（統合）"
+  },
+  "backupMenuRestoreReplace": {
+    "message": "タブを復元（置換）"
+  },
+  "backupMenuRestoreSystem": {
+    "message": "システム復元（完全リセット）"
+  },
+  "backupNow": {
+    "message": "今すぐバックアップ"
+  },
+  "backupPreRestoreBadge": {
+    "message": "復元ポイント"
+  },
+  "backupActionsLabel": {
+    "message": "バックアップ操作"
+  },
+  "backupTabCount": {
+    "message": "$1 タブ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupsTitle": {
+    "message": "バックアップと復元"
+  },
+  "confirmDeleteBackup": {
+    "message": "このバックアップを削除してもよろしいですか？この操作は元に戻せません。"
+  },
+  "confirmRestoreEverything": {
+    "message": "現在のTabstractデータ（タブ、設定、ルーティン、フィルターなど）がすべてこのバックアップのデータに置き換えられます。\n\n念のため、復元前のバックアップが最初に作成されます。\n\n続行しますか？"
+  },
+  "confirmRestoreTabsMerge": {
+    "message": "バックアップのタブが既存のタブと統合され、両方が保持されます。\n\n念のため、復元前のバックアップも作成されます。\n\n続行しますか？"
+  },
+  "confirmRestoreTabsOnly": {
+    "message": "保存されたタブのみがこのバックアップのタブに置き換えられます。設定、ルーティン、フィルターは変更されません。\n\n念のため、復元前のバックアップが最初に作成されます。\n\n続行しますか？"
+  },
+  "lastBackup": {
+    "message": "最終バックアップ："
+  },
+  "loadingBackups": {
+    "message": "バックアップを読み込み中..."
+  },
+  "noBackupsYet": {
+    "message": "バックアップはまだありません"
+  },
+  "restoreError": {
+    "message": "バックアップからの復元に失敗しました。もう一度お試しください。"
+  },
+  "restoreTabsDialogDetail": {
+    "message": "統合すると、バックアップのタブが既存のタブと並べて追加されます。復元前のバックアップが最初に作成されます。"
+  },
+  "restoreTabsDialogMessage": {
+    "message": "現在のタブを置き換えますか、それともバックアップと統合しますか？"
+  },
+  "exportBackupShowInFinder": {
+    "message": "Finderで表示"
+  }
+}

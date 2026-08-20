@@ -1,0 +1,2706 @@
+{
+  "SnoozeInfo": {
+    "message": "Huy hiệu thanh công cụ theo dõi các phiên đã lưu để không bị lãng quên. Tạm hoãn ẩn huy hiệu tạm thời."
+  },
+  "accentColorLabel": {
+    "message": "Màu sắc"
+  },
+  "actionLockTabGroup": {
+    "message": "Khóa nhóm tab"
+  },
+  "actionSendToTabGroup": {
+    "message": "Gửi tab đến nhóm tab"
+  },
+  "actionSendToTrash": {
+    "message": "Gửi tab đến thùng rác"
+  },
+  "actionSessionName": {
+    "message": "Tên"
+  },
+  "actionSetColor": {
+    "message": "Đặt màu của nhóm tab"
+  },
+  "actionSetLockStatus": {
+    "message": "Đặt trạng thái khóa"
+  },
+  "actionsMenu": {
+    "message": "Thao tác"
+  },
+  "advancedMode": {
+    "message": "Chế độ nâng cao"
+  },
+  "aiDisabledNotice": {
+    "message": "<strong>Apple Intelligence hiện đang tắt hoặc không khả dụng.</strong> Kiểm tra menu Apple Intelligence trong Cài đặt hệ thống"
+  },
+  "aiEnabledButInaccessible": {
+    "message": "<strong>Apple Intelligence dường như đã được bật trên hệ thống của bạn, nhưng Tabstract không thể truy cập.</strong><br><br>Nguyên nhân phổ biến:<ul><li>Ngôn ngữ macOS và ngôn ngữ Siri không khớp. Apple yêu cầu cả hai phải được đặt cùng một ngôn ngữ.</li><li>Apple Intelligence vẫn đang khởi tạo; đợi vài phút và tải lại Tabstract → Cài đặt.</li><li>Bạn ở trong một quốc gia không được hỗ trợ. Apple Intelligence không khả dụng trên các thiết bị mua tại Trung Quốc đại lục, hoặc trên các thiết bị sử dụng tại Trung Quốc đại lục với Apple ID có quốc gia hoặc vùng được đặt là Trung Quốc đại lục.</li></ul>"
+  },
+  "aiExperimentalNotice": {
+    "message": "<strong>Đây là tính năng mới và thử nghiệm</strong>, kết quả sẽ tiếp tục được cải thiện theo thời gian"
+  },
+  "aiLanguageNotSupported": {
+    "message": "Các tính năng AI không khả dụng trong ngôn ngữ này vì Apple Intelligence chưa hỗ trợ. Vui lòng chuyển sang tiếng Anh, tiếng Tây Ban Nha, tiếng Pháp, tiếng Đức, tiếng Ý, tiếng Nhật, tiếng Hàn, tiếng Bồ Đào Nha (Brazil), tiếng Trung (giản thể) hoặc tiếng Trung (phồn thể) để sử dụng các tính năng AI."
+  },
+  "aiNotAvailable": {
+    "message": "<strong>Apple Intelligence không khả dụng.</strong> Kiểm tra cài đặt hệ thống của bạn để đảm bảo nó đã được bật và sẵn sàng"
+  },
+  "aiRegenerateTitle": {
+    "message": "Tạo lại tiêu đề"
+  },
+  "aiSmartCategorizationDesc": {
+    "message": "Tự động sắp xếp các nhóm tab có <strong>6 tab trở lên</strong> thành các chủ đề <span class=\"hint\"><strong class=\"info\"></strong>Yêu cầu bật <em>Tạo tiêu đề phiên</em></span>"
+  },
+  "aiSmartCategorizationLabel": {
+    "message": "Phân loại thông minh"
+  },
+  "aiTitleSuggestionsDesc": {
+    "message": "Sử dụng Apple Intelligence—AI riêng tư, trên thiết bị—để đề xuất tiêu đề phiên khi lưu tab"
+  },
+  "aiTitleSuggestionsLabel": {
+    "message": "Tạo tiêu đề phiên"
+  },
+  "aiUnsupportedNotice": {
+    "message": "Các tính năng AI yêu cầu máy Mac hỗ trợ Apple Intelligence và macOS 26.0 trở lên"
+  },
+  "all": {
+    "message": "tất cả"
+  },
+  "am": {
+    "message": "SA"
+  },
+  "any": {
+    "message": "bất kỳ"
+  },
+  "appName": {
+    "message": "Tabstract"
+  },
+  "appleIntelligenceUnavailable": {
+    "message": "Apple Intelligence không khả dụng"
+  },
+  "atLeastOnePatternRequired": {
+    "message": "Cần ít nhất một mẫu"
+  },
+  "avoidDuplicatesDesc": {
+    "message": "Ngăn việc lưu cùng một URL nhiều lần trong một phiên"
+  },
+  "avoidDuplicatesLabel": {
+    "message": "Không lưu các tab trùng lặp"
+  },
+  "avoidDuplicatesSetting": {
+    "message": "<strong>Không lưu các tab trùng lặp</strong> trong cùng một phiên"
+  },
+  "bannerNewFeatures": {
+    "message": "<strong>Tính năng mới!</strong> Menu hành động, hỗ trợ tiếng Trung phồn thể, sao chép văn bản có định dạng, dọn dẹp trùng lặp!"
+  },
+  "bannerText": {
+    "message": "Không bao giờ mất tab nữa nhờ hệ thống sao lưu tự động mới! Tuyển người thử nghiệm beta!"
+  },
+  "bannerTitle": {
+    "message": "Tabstract 3.1"
+  },
+  "bulkActionCreateGroup": {
+    "message": "Gộp"
+  },
+  "bulkActionDeselect": {
+    "message": "Bỏ chọn tất cả"
+  },
+  "bulkActionDuplicate": {
+    "message": "Nhân bản"
+  },
+  "bulkActionLockUnlock": {
+    "message": "Khóa/Mở khóa mục đã chọn"
+  },
+  "bulkActionRestore": {
+    "message": "Khôi phục"
+  },
+  "bulkActionTrash": {
+    "message": "Thùng rác"
+  },
+  "cancel": {
+    "message": "Hủy"
+  },
+  "clearData": {
+    "message": "Xóa dữ liệu và đặt lại Tabstract"
+  },
+  "clearFilters": {
+    "message": "Đặt lại"
+  },
+  "clearSchedule": {
+    "message": "Xóa lịch"
+  },
+  "clearSearch": {
+    "message": "Xóa tìm kiếm"
+  },
+  "clearSnooze": {
+    "message": "Xóa tạm hoãn"
+  },
+  "clickNewToGetStarted": {
+    "message": "Nhấp vào \"Mới\" để bắt đầu."
+  },
+  "clipboardError": {
+    "message": "Không thể sao chép vào bảng nhớ tạm"
+  },
+  "close": {
+    "message": "Đóng"
+  },
+  "closeFiltersModal": {
+    "message": "Đóng cửa sổ bộ lọc"
+  },
+  "closeHomeTabOnOpen": {
+    "message": "Đóng Tabstract sau khi khôi phục phiên"
+  },
+  "closeHomeTabOnOpenDesc": {
+    "message": "Đóng Tabstract khi mở các nhóm tab"
+  },
+  "closeHomeTabOnOpenLabel": {
+    "message": "Đóng Tabstract sau khi khôi phục"
+  },
+  "collapseAll": {
+    "message": "Thu gọn tất cả"
+  },
+  "collapseExpandAll": {
+    "message": "Thu gọn/Mở rộng tất cả"
+  },
+  "collapseSession": {
+    "message": "Thu gọn phiên"
+  },
+  "collapseTemplate": {
+    "message": "Thu gọn quy trình"
+  },
+  "colorBlue": {
+    "message": "Xanh dương"
+  },
+  "colorDefault": {
+    "message": "Mặc định"
+  },
+  "colorGreen": {
+    "message": "Xanh lá"
+  },
+  "colorOrange": {
+    "message": "Cam"
+  },
+  "colorPink": {
+    "message": "Hồng"
+  },
+  "colorPurple": {
+    "message": "Tím"
+  },
+  "colorRed": {
+    "message": "Đỏ"
+  },
+  "colorYellow": {
+    "message": "Vàng"
+  },
+  "columnColor": {
+    "message": "Màu sắc"
+  },
+  "columnDateCreated": {
+    "message": "Ngày tạo"
+  },
+  "columnDomain": {
+    "message": "Tên miền"
+  },
+  "columnGroup": {
+    "message": "Nhóm tab"
+  },
+  "columnLock": {
+    "message": "Đã khóa"
+  },
+  "columnPinned": {
+    "message": "Đã ghim"
+  },
+  "columnTitle": {
+    "message": "Tiêu đề"
+  },
+  "confirmClearSchedule": {
+    "message": "Xóa lịch này?"
+  },
+  "confirmDeleteFromTrash": {
+    "message": "Bạn có chắc chắn muốn xóa vĩnh viễn liên kết này không? Hành động này không thể hoàn tác."
+  },
+  "confirmDeleteTemplate": {
+    "message": "Xóa quy trình này? Hành động này không thể hoàn tác."
+  },
+  "confirmEmptyTrash": {
+    "message": "Bạn có chắc chắn muốn xóa vĩnh viễn tất cả các mục trong thùng rác không? Hành động này không thể hoàn tác."
+  },
+  "confirmImport": {
+    "message": "CẢNH BÁO: Thao tác này sẽ thay thế hoàn toàn tất cả dữ liệu Tabstract hiện tại của bạn (cài đặt, phiên đã lưu, thùng rác, v.v.) bằng dữ liệu nhập vào.\n\nHành động này không thể hoàn tác.\n\nBạn có chắc chắn muốn tiếp tục không?"
+  },
+  "confirmReset": {
+    "message": "Bạn có chắc chắn muốn đặt lại Tabstract không?\n\nTất cả các tab sẽ bị xóa, bao gồm cả các tab trong phiên đã khóa.\n\nHành động này không thể hoàn tác."
+  },
+  "contactSupport": {
+    "message": "Liên hệ"
+  },
+  "copiedToClipboard": {
+    "message": "Đã sao chép!"
+  },
+  "copyAllToClipboard": {
+    "message": "Sao chép dạng Markdown"
+  },
+  "copyFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "copyFormatPlain": {
+    "message": "Văn bản thuần"
+  },
+  "copyFormatRich": {
+    "message": "Văn bản có định dạng"
+  },
+  "copyMenu": {
+    "message": "Sao chép dạng..."
+  },
+  "createFilter": {
+    "message": "Tạo bộ lọc"
+  },
+  "createNewFilter": {
+    "message": "Tạo bộ lọc mới"
+  },
+  "customColor": {
+    "message": "Màu tùy chỉnh"
+  },
+  "dailyAt": {
+    "message": "Hàng ngày lúc {time}"
+  },
+  "darkAuto": {
+    "message": "Tự động"
+  },
+  "darkDark": {
+    "message": "Tối"
+  },
+  "darkLight": {
+    "message": "Sáng"
+  },
+  "darkModeDesc": {
+    "message": "Chọn bảng màu của bạn"
+  },
+  "darkModeLabel": {
+    "message": "Chế độ tối"
+  },
+  "darkOff": {
+    "message": "Tắt"
+  },
+  "darkSystem": {
+    "message": "Hệ thống"
+  },
+  "dayFormat": {
+    "message": "numeric"
+  },
+  "dayOfMonth": {
+    "message": "Ngày trong tháng:"
+  },
+  "days": {
+    "message": "Ngày:"
+  },
+  "debugConsole": {
+    "message": "Bảng điều khiển gỡ lỗi"
+  },
+  "deleteAfterRestore": {
+    "message": "Khôi phục tab sẽ xóa chúng khỏi Tabstract <span class=\"hint\"><strong class=\"info\">Shift+Click</strong> khi khôi phục để tạm thời vô hiệu hóa</span>"
+  },
+  "deleteAfterRestoreDesc": {
+    "message": "Tab sẽ bị xóa khỏi Tabstract khi được khôi phục <span class=\"hint\"><strong class=\"info\">Shift+Click</strong> để tạm thời vô hiệu hóa</span>"
+  },
+  "deleteAfterRestoreLabel": {
+    "message": "Xóa tab sau khi khôi phục"
+  },
+  "deleteBackup": {
+    "message": "Xóa bản sao lưu"
+  },
+  "deleteSmartGroup": {
+    "message": "Xóa bộ lọc"
+  },
+  "deleteTab": {
+    "message": "Xóa tab này"
+  },
+  "dismissAIUnavailableMessage": {
+    "message": "Bỏ qua thông báo Apple Intelligence không khả dụng"
+  },
+  "downloadData": {
+    "message": "Tải xuống dữ liệu"
+  },
+  "downloadReport": {
+    "message": "Tải xuống báo cáo hệ thống"
+  },
+  "draftDelete": {
+    "message": "Xóa"
+  },
+  "dragToReorder": {
+    "message": "Kéo để sắp xếp lại"
+  },
+  "duplicateGroup": {
+    "message": "Nhân bản nhóm"
+  },
+  "duplicatesRemoved": {
+    "message": "Đã xóa {count} mục trùng lặp"
+  },
+  "editFilter": {
+    "message": "Sửa bộ lọc"
+  },
+  "editSchedule": {
+    "message": "Sửa lịch"
+  },
+  "emailBodyTemplate": {
+    "message": "Xin chào,\n\nTôi đang gặp vấn đề với Tabstract.\n\nLàm theo các bước sau để tái tạo vấn đề của tôi:\n1.\n2.\n3.\n\n\nĐây là dữ liệu lưu trữ cục bộ của tôi để khắc phục sự cố:\n\n$1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "data": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "emailSupport": {
+    "message": "Email hỗ trợ"
+  },
+  "emptySessionHint": {
+    "message": "Kéo liên kết vào đây để thêm chúng vào phiên này"
+  },
+  "emptyTrash": {
+    "message": "Dọn thùng rác"
+  },
+  "emptyTrashWithCount": {
+    "message": "Dọn thùng rác ($1 mục)",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "enableBadge": {
+    "message": "Hiển thị huy hiệu nhắc nhở trên thanh công cụ"
+  },
+  "enableKeyboardShortcuts": {
+    "message": "Bật phím tắt"
+  },
+  "errorMaxLength": {
+    "message": "Đã vượt quá độ dài tối đa"
+  },
+  "errorParsingJson": {
+    "message": "Lỗi phân tích JSON: $1"
+  },
+  "expandAll": {
+    "message": "Mở rộng tất cả"
+  },
+  "expandSession": {
+    "message": "Mở rộng phiên"
+  },
+  "expandTemplate": {
+    "message": "Mở rộng quy trình"
+  },
+  "expiredLabel": {
+    "message": "Đã hết hạn"
+  },
+  "expiresInDays": {
+    "message": "Hết hạn trong $1 ngày",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInHours": {
+    "message": "Hết hạn trong $1 giờ",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInLessThanHour": {
+    "message": "Hết hạn trong < 1 giờ"
+  },
+  "export": {
+    "message": "Xuất"
+  },
+  "exportFormatHTML": {
+    "message": "HTML"
+  },
+  "exportFormatJSON": {
+    "message": "JSON"
+  },
+  "exportFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "exportFormatOPML": {
+    "message": "OPML"
+  },
+  "exportFormatPlain": {
+    "message": "Văn bản thuần"
+  },
+  "exportMenu": {
+    "message": "Xuất..."
+  },
+  "exportSavedLinks": {
+    "message": "Xuất liên kết đã lưu"
+  },
+  "exportSuccess": {
+    "message": "Xuất thành công!"
+  },
+  "filterAll": {
+    "message": "Tất cả"
+  },
+  "filterColor": {
+    "message": "Màu sắc:"
+  },
+  "filterDate": {
+    "message": "Ngày:"
+  },
+  "filterDateLastMonth": {
+    "message": "Tháng trước"
+  },
+  "filterDateLastWeek": {
+    "message": "Tuần trước"
+  },
+  "filterDateMonth": {
+    "message": "Tháng này"
+  },
+  "filterDateToday": {
+    "message": "Hôm nay"
+  },
+  "filterDateWeek": {
+    "message": "Tuần này"
+  },
+  "filterDateYesterday": {
+    "message": "Hôm qua"
+  },
+  "filterDomain": {
+    "message": "Tên miền:"
+  },
+  "filterLock": {
+    "message": "Khóa:"
+  },
+  "filterName": {
+    "message": "Mô tả"
+  },
+  "filters": {
+    "message": "Bộ lọc"
+  },
+  "filtersDescription": {
+    "message": "Bộ lọc có thể tự động sắp xếp và tổ chức các tab của bạn dựa trên tên miền, từ khóa hoặc các mẫu khác. <strong>Bộ lọc được xử lý theo thứ tự ưu tiên</strong>, từ trên xuống dưới; kéo để sắp xếp lại."
+  },
+  "formatOneTab": {
+    "message": "Xuất từ OneTab"
+  },
+  "formatTSV": {
+    "message": "TSV"
+  },
+  "formatTabSpace": {
+    "message": "Sao lưu Tab Space"
+  },
+  "formatTabsSaver": {
+    "message": "Sao lưu Tabs Saver"
+  },
+  "formatTabstractJSON": {
+    "message": "Xuất JSON Tabstract"
+  },
+  "frequency": {
+    "message": "Tần suất:"
+  },
+  "fullScreenMode": {
+    "message": "Chế độ toàn màn hình (F)"
+  },
+  "groupNameRequired": {
+    "message": "Tên nhóm là bắt buộc"
+  },
+  "guideAIFeaturesBody": {
+    "message": "Nếu máy tính của bạn hỗ trợ Apple Intelligence, Tabstract có thể tự động phân loại các tab đã lưu của bạn thành các nhóm chủ đề khác nhau. Nhấp vào <strong>biểu tượng ✨ lấp lánh</strong> bên cạnh bất kỳ tiêu đề phiên nào để tạo tiêu đề mới. Các máy tính không hỗ trợ Apple Intelligence sẽ sử dụng ngày và giờ thay thế."
+  },
+  "guideAIFeaturesTitle": {
+    "message": "Sắp xếp tab với AI"
+  },
+  "guideBadgeNotificationsBody": {
+    "message": "Huy hiệu thanh công cụ hiển thị số lượng phiên đã lưu, để chúng không bị lãng quên dù đã khuất tầm nhìn. Tạm hoãn ẩn huy hiệu thanh công cụ trong tối đa 24 giờ, hoặc bạn có thể tắt hoàn toàn trong cài đặt."
+  },
+  "guideBadgeNotificationsTitle": {
+    "message": "Huy hiệu thanh công cụ"
+  },
+  "guideDragToReorderBody": {
+    "message": "Nhấp và kéo các liên kết riêng lẻ, và các phiên, để sắp xếp lại các tab đã lưu theo bất kỳ thứ tự nào bạn muốn."
+  },
+  "guideDragToReorderTitle": {
+    "message": "Sắp xếp bằng kéo và thả"
+  },
+  "guideGettingStartedBody": {
+    "message": "Tabstract giúp bạn lưu và sắp xếp các tab Safari. Để bắt đầu, nhấp chuột phải vào thanh công cụ Safari, chọn Tùy chỉnh, và kéo biểu tượng Tabstract vào thanh công cụ của bạn. Sau khi đã cài đặt vào thanh công cụ, nhấp Tabstract, sau đó <strong>Lưu Tab</strong> để lưu tất cả các tab đang mở trong cửa sổ hiện tại. "
+  },
+  "guideGettingStartedTitle": {
+    "message": "Bắt đầu"
+  },
+  "guideKeyboardShortcutsBody": {
+    "message": "Tabstract bao gồm phím tắt và tổ hợp phím bổ trợ cho người dùng nâng cao. Phím tắt có thể được tắt trong Cài đặt.<br><br><strong>Phím tắt chính:</strong><br><br>Lưu tất cả tab: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd><br>Chỉ lưu tab hiện tại: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd><br>Mở danh sách phiên đã lưu: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd><br><br><strong>Thao tác nhanh:</strong><br><br>Đặt con trỏ vào ô tìm kiếm: <kbd>/</kbd><br>Tạo phiên mới: <kbd>N</kbd><br><br><strong>Tổ hợp phím bổ trợ:</strong><br><br>Chỉ lưu tab hiện tại: <kbd>Shift</kbd> + Click <em>Lưu Tab</em><br>Mở rộng/thu gọn tất cả phiên: <kbd>Shift</kbd> + Click <em>nút thu gọn phiên</em><br>Tạm thời đảo ngược cài đặt \"Xóa tab sau khi khôi phục\": <kbd>Shift</kbd> + Click <em>Khôi phục</em><br>Tạm thời đảo ngược cài đặt \"Khôi phục tab ở chế độ nền\": <kbd>Option</kbd> + Click <em>Khôi phục</em>"
+  },
+  "guideKeyboardShortcutsTitle": {
+    "message": "Phím tắt"
+  },
+  "guidePasteLinksBody": {
+    "message": "Bạn có thể sao chép liên kết từ các ứng dụng khác và dán các URL đó trực tiếp vào Tabstract! Tabstract sẽ tự động lấy tiêu đề trang và thêm chúng vào bộ sưu tập của bạn. "
+  },
+  "guidePasteLinksTitle": {
+    "message": "Sao chép và dán liên kết vào Tabstract"
+  },
+  "guideShiftClickBody": {
+    "message": "Giữ <kbd>Shift</kbd> trong khi nhấp vào nút thu gọn của bất kỳ phiên nào để mở rộng hoặc thu gọn tất cả các phiên cùng một lúc."
+  },
+  "guideShiftClickTitle": {
+    "message": "Shift-Click để mở rộng/thu gọn tất cả"
+  },
+  "guideTrashUndoBody": {
+    "message": "Các liên kết đã xóa được chuyển vào thùng rác trong 30 ngày trước khi tự động bị xóa. Thùng rác giới hạn 1.000 mục để giúp Tabstract hoạt động nhanh."
+  },
+  "guideTrashUndoTitle": {
+    "message": "Thùng rác"
+  },
+  "helpPageTitle": {
+    "message": "Hỗ trợ và khắc phục sự cố - Tabstract"
+  },
+  "helpSupportInstructions": {
+    "message": "Có câu hỏi, yêu cầu tính năng hoặc cần trợ giúp? Nhấp <em>Email hỗ trợ</em> sau đó nhấp <em>Cho phép</em>, hoặc gửi email Báo cáo hệ thống của bạn đến <em>help@tabstract.app</em>, cùng với bất kỳ chi tiết nào về vấn đề của bạn.<br /><br />Vui lòng liên hệ với chúng tôi về yêu cầu tính năng, báo cáo lỗi, cải thiện bản dịch, v.v."
+  },
+  "helpTitle": {
+    "message": "Hỗ trợ"
+  },
+  "hourFormat": {
+    "message": "numeric"
+  },
+  "hourAgo": {
+    "message": "$1 giờ trước",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hoursAgo": {
+    "message": "$1 giờ trước",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "import": {
+    "message": "Nhập"
+  },
+  "importData": {
+    "message": "Nhập dữ liệu"
+  },
+  "importError": {
+    "message": "Không thể nhập dữ liệu. Vui lòng đảm bảo tệp là xuất dữ liệu Tabstract hợp lệ."
+  },
+  "importFailedPrefix": {
+    "message": "Nhập thất bại: "
+  },
+  "importLinksLabel": {
+    "message": "Nhập liên kết"
+  },
+  "importMenu": {
+    "message": "Nhập..."
+  },
+  "importSuccess": {
+    "message": "Nhập dữ liệu thành công! Tabstract sẽ tải lại ngay."
+  },
+  "importSuccessMessage": {
+    "message": "Đã nhập $1 liên kết hợp lệ (trong $2 phiên).\nĐã bỏ qua $3 liên kết không hợp lệ.\n\nTiêu đề trang sẽ được lấy ở chế độ nền.",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "errors": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$3",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "links": {
+        "content": "$1"
+      },
+      "sessions": {
+        "content": "$2"
+      }
+    }
+  },
+  "importSystemBackup": {
+    "message": "Nhập bản sao lưu hệ thống"
+  },
+  "invalidJsonFormat": {
+    "message": "Định dạng JSON không hợp lệ."
+  },
+  "invalidRegexPrefix": {
+    "message": "Biểu thức chính quy không hợp lệ: "
+  },
+  "justNow": {
+    "message": "Vừa xong"
+  },
+  "langNameArabic": {
+    "message": "Tiếng Ả Rập"
+  },
+  "langNameChineseCN": {
+    "message": "Tiếng Trung giản thể"
+  },
+  "langNameChineseTW": {
+    "message": "Tiếng Trung phồn thể"
+  },
+  "langNameDanish": {
+    "message": "Tiếng Đan Mạch"
+  },
+  "langNameDutch": {
+    "message": "Tiếng Hà Lan"
+  },
+  "langNameEnglish": {
+    "message": "Tiếng Anh"
+  },
+  "langNameFrench": {
+    "message": "Tiếng Pháp"
+  },
+  "langNameFrenchCA": {
+    "message": "Tiếng Pháp Canada"
+  },
+  "langNameGerman": {
+    "message": "Tiếng Đức"
+  },
+  "langNameItalian": {
+    "message": "Tiếng Ý"
+  },
+  "langNameJapanese": {
+    "message": "Tiếng Nhật"
+  },
+  "langNameKorean": {
+    "message": "Tiếng Hàn"
+  },
+  "langNameNorwegian": {
+    "message": "Tiếng Na Uy"
+  },
+  "langNamePortugueseBR": {
+    "message": "Tiếng Bồ Đào Nha Brazil"
+  },
+  "langNamePortuguesePT": {
+    "message": "Tiếng Bồ Đào Nha"
+  },
+  "langNameRussian": {
+    "message": "Tiếng Nga"
+  },
+  "langNameSpanish": {
+    "message": "Tiếng Tây Ban Nha"
+  },
+  "langNameSpanishLA": {
+    "message": "Tiếng Tây Ban Nha Mỹ Latinh"
+  },
+  "langNameSwedish": {
+    "message": "Tiếng Thụy Điển"
+  },
+  "langNameTurkish": {
+    "message": "Tiếng Thổ Nhĩ Kỳ"
+  },
+  "langNameVietnamese": {
+    "message": "Tiếng Việt"
+  },
+  "languageAuto": {
+    "message": "Mặc định hệ thống"
+  },
+  "languageDesc": {
+    "message": "Chọn ngôn ngữ hiển thị"
+  },
+  "languageLabel": {
+    "message": "Ngôn ngữ"
+  },
+  "lastRun": {
+    "message": "Lần chạy cuối: {time}"
+  },
+  "launchOnStartup": {
+    "message": "Hiển thị Tabstract khi bạn khởi động trình duyệt"
+  },
+  "launchOnStartupDesc": {
+    "message": "Mở Tabstract khi bạn khởi chạy Safari"
+  },
+  "launchOnStartupLabel": {
+    "message": "Khởi chạy khi khởi động"
+  },
+  "learnMore": {
+    "message": "Tìm hiểu thêm"
+  },
+  "learnMoreAboutFeatures": {
+    "message": "Tìm hiểu thêm về các tính năng mới"
+  },
+  "linkRestored": {
+    "message": "Đã khôi phục liên kết vào phiên mới"
+  },
+  "lockAll": {
+    "message": "Khóa tất cả"
+  },
+  "lockSession": {
+    "message": "Khóa"
+  },
+  "lockSessionTitle": {
+    "message": "Khóa phiên"
+  },
+  "lockUnlockAll": {
+    "message": "Khóa/Mở khóa tất cả"
+  },
+  "manageFiltersMenuItem": {
+    "message": "Quản lý bộ lọc..."
+  },
+  "manageTemplates": {
+    "message": "Quản lý quy trình"
+  },
+  "manageTemplatesMenuItem": {
+    "message": "Quản lý quy trình..."
+  },
+  "match": {
+    "message": "Nếu"
+  },
+  "matches": {
+    "message": "Khớp:"
+  },
+  "mergeIntoSessionBelow": {
+    "message": "Gộp vào phiên bên dưới"
+  },
+  "minuteFormat": {
+    "message": "numeric"
+  },
+  "minuteAgo": {
+    "message": "$1 phút trước",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "minutesAgo": {
+    "message": "$1 phút trước",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "monthFormat": {
+    "message": "long"
+  },
+  "monthlyOn": {
+    "message": "Hàng tháng vào ngày {day} lúc {time}"
+  },
+  "moreActions": {
+    "message": "Thêm hành động"
+  },
+  "moveToTop": {
+    "message": "Đưa lên đầu"
+  },
+  "navHelp": {
+    "message": "Trợ giúp + Mẹo"
+  },
+  "navHome": {
+    "message": "Trang chủ"
+  },
+  "navSelect": {
+    "message": "Chọn"
+  },
+  "navSettings": {
+    "message": "Cài đặt"
+  },
+  "navSnooze": {
+    "message": "Tạm hoãn"
+  },
+  "needHelpWithTabstract": {
+    "message": "Cần trợ giúp với Tabstract"
+  },
+  "never": {
+    "message": "Chưa bao giờ"
+  },
+  "newButton": {
+    "message": "Mới"
+  },
+  "newTabGroup": {
+    "message": "Nhóm tab mới"
+  },
+  "no": {
+    "message": "Không"
+  },
+  "noAvailableTabs": {
+    "message": "Không có tab khả dụng"
+  },
+  "noColor": {
+    "message": "Không màu"
+  },
+  "noResultsFound": {
+    "message": "Không tìm thấy kết quả cho"
+  },
+  "noSavedLinksToExport": {
+    "message": "Không có phiên đã lưu để xuất."
+  },
+  "noTabsAvailableToSave": {
+    "message": "Không có tab nào để lưu"
+  },
+  "noTabsSaved": {
+    "message": "Chưa lưu tab nào."
+  },
+  "noTemplatesInstructions": {
+    "message": "Chưa lưu quy trình nào.<br>Tạo quy trình từ một phiên để bắt đầu."
+  },
+  "noTemplatesSaved": {
+    "message": "Chưa lưu quy trình nào.<br>Tạo quy trình từ một phiên để bắt đầu."
+  },
+  "noTemplatesSavedYet": {
+    "message": "Chưa lưu quy trình nào"
+  },
+  "nonMatchingWarning": {
+    "message": "<strong>⚠️ Cảnh báo:</strong> $1 tab trong nhóm này không còn khớp với các mẫu và sẽ được chuyển sang phiên mới có tiêu đề \"<strong>Đã xóa khỏi $2</strong>\".",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "content": "$1"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$2",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "none": {
+    "message": "Không có"
+  },
+  "ofTheFollowingConditions": {
+    "message": "điều kiện sau được đáp ứng:"
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "oneclickSave": {
+    "actionsMenu": {
+      "message": "Actions"
+    },
+    "bulkActionDuplicate": {
+      "message": "Duplicate"
+    },
+    "bulkActionLockUnlock": {
+      "message": "Lock/Unlock Selected"
+    },
+    "colorBlue": {
+      "message": "Blue"
+    },
+    "colorDefault": {
+      "message": "Default"
+    },
+    "colorGreen": {
+      "message": "Green"
+    },
+    "colorOrange": {
+      "message": "Orange"
+    },
+    "colorPink": {
+      "message": "Pink"
+    },
+    "colorPurple": {
+      "message": "Purple"
+    },
+    "colorRed": {
+      "message": "Red"
+    },
+    "colorYellow": {
+      "message": "Yellow"
+    },
+    "filterAll": {
+      "message": "All"
+    },
+    "message": "Lưu một chạm <span class=\"hint\"><strong class=\"caution\">Cảnh báo:</strong> Điều này sẽ xóa Trang chủ và Tạm hoãn; sử dụng Shift+Command+H để hiển thị Trang chủ.</span>"
+  },
+  "oneclickSaveDesc": {
+    "message": "<span class=\"hint\"><strong class=\"caution\">Cẩn thận:</strong> Đây là tính năng thử nghiệm và loại bỏ các nút Trang chủ / Tạm hoãn. Sử dụng <strong>Shift+Command+H</strong> để mở Trang chủ</span>"
+  },
+  "oneclickSaveLabel": {
+    "message": "Lưu một chạm"
+  },
+  "openLink": {
+    "message": "Mở $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "pageTitle": {
+    "message": "Công cụ và cài đặt - Tabstract"
+  },
+  "pasteLinks": {
+    "message": "Dán URL"
+  },
+  "performActions": {
+    "message": "Thực hiện các hành động sau:"
+  },
+  "pinToTop": {
+    "message": "Ghim lên đầu"
+  },
+  "pinnedTabsDesc": {
+    "message": "Các tab đã ghim sẽ không bị đóng hoặc lưu vào Tabstract"
+  },
+  "pinnedTabsLabel": {
+    "message": "Không lưu các tab đã ghim"
+  },
+  "pinnedTabsSetting": {
+    "message": "<strong>Không lưu các tab đã ghim</strong> (các tab đã ghim không bị đóng hoặc lưu vào Tabstract)"
+  },
+  "pleaseEnterDayBetween1And31": {
+    "message": "Vui lòng nhập một ngày từ 1 đến 31."
+  },
+  "pleaseEnterPattern": {
+    "message": "Vui lòng nhập giá trị mẫu"
+  },
+  "pleaseSelectAtLeastOneDay": {
+    "message": "Vui lòng chọn ít nhất một ngày cho lịch hàng tuần."
+  },
+  "pm": {
+    "message": "CH"
+  },
+  "refreshData": {
+    "message": "Làm mới dữ liệu gỡ lỗi"
+  },
+  "removeFromSession": {
+    "message": "Xóa $1 khỏi phiên",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "removedFrom": {
+    "message": "Đã xóa khỏi $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "resetGroupColors": {
+    "message": "Đặt lại màu"
+  },
+  "restoreAllTabs": {
+    "message": "Khôi phục tất cả tab"
+  },
+  "restoreInBackground": {
+    "message": "Tab được khôi phục mở ở chế độ nền <span class=\"hint\"><strong class=\"info\">Option+Click</strong> khi khôi phục để tạm thời vô hiệu hóa</span>"
+  },
+  "restoreInBackgroundDesc": {
+    "message": "Tab được khôi phục mở phía sau Tabstract thay vì chuyển tiêu điểm <span class=\"hint\"><strong class=\"info\">Option+Click</strong> để tạm thời vô hiệu hóa</span>"
+  },
+  "restoreInBackgroundLabel": {
+    "message": "Khôi phục tab ở chế độ nền"
+  },
+  "restoreTabsMerge": {
+    "message": "Gộp"
+  },
+  "restoreTabsReplace": {
+    "message": "Thay thế"
+  },
+  "restoreTabsToCurrentWindow": {
+    "message": "Cửa sổ hiện tại"
+  },
+  "restoreTabsToLabel": {
+    "message": "Khôi phục nhóm tab trong:"
+  },
+  "restoreTabsToNewWindow": {
+    "message": "Cửa sổ mới"
+  },
+  "restoredFromTrashSessionName": {
+    "message": "Khôi phục từ thùng rác"
+  },
+  "restoredLinkSessionName": {
+    "message": "Liên kết đã khôi phục"
+  },
+  "reviewButton": {
+    "message": "Đánh giá chúng tôi trên App Store ★★★★★"
+  },
+  "reviewLaterButton": {
+    "message": "Để sau"
+  },
+  "reviewMessage": {
+    "message": "Tabstract miễn phí nhưng hoạt động nhờ đánh giá và nhận xét, vui lòng để lại đánh giá cho chúng tôi!"
+  },
+  "reviewModalText": {
+    "message": "Tabstract miễn phí nhưng được tiếp sức bởi đánh giá và nhận xét 🚀 Vui lòng cân nhắc cho chúng tôi 5 sao!"
+  },
+  "reviewModalTitle": {
+    "message": "Bạn thích Tabstract?"
+  },
+  "runFiltersConfirm": {
+    "message": "Sẽ xử lý {sessions} phiên với {tabs} tab. Tiếp tục?"
+  },
+  "runFiltersMenuItem": {
+    "message": "Chạy bộ lọc"
+  },
+  "runFiltersNoFilters": {
+    "message": "Chưa định nghĩa bộ lọc. Tạo bộ lọc trước."
+  },
+  "runFiltersNoSessions": {
+    "message": "Không có phiên nào chưa khóa để xử lý."
+  },
+  "runFiltersSuccess": {
+    "message": "{matched} tab đã được xử lý bởi bộ lọc"
+  },
+  "sampleSessionCreated": {
+    "message": "Đã tạo mẫu!"
+  },
+  "sampleSessionName": {
+    "message": "Bắt đầu với Tabstract"
+  },
+  "sampleTab1Title": {
+    "message": "Trang web Tabstract"
+  },
+  "sampleTab2Title": {
+    "message": "Tabstract trên App Store"
+  },
+  "sampleTab3Title": {
+    "message": "Đánh giá Tabstract trên App Store"
+  },
+  "sampleTab4Title": {
+    "message": "By The Farm"
+  },
+  "save": {
+    "message": "Lưu"
+  },
+  "saveAllWindowsDesc": {
+    "message": "Lưu tab từ tất cả các cửa sổ Safari đang mở, thay vì chỉ cửa sổ đang được chọn"
+  },
+  "saveAllWindowsLabel": {
+    "message": "Lưu tab từ tất cả các cửa sổ"
+  },
+  "saveAlsoCloses": {
+    "message": "<strong>Đóng tab</strong> khi lưu"
+  },
+  "saveAlsoClosesDesc": {
+    "message": "Tab sẽ tự động đóng sau khi lưu vào Tabstract"
+  },
+  "saveAlsoClosesLabel": {
+    "message": "Đóng tab khi lưu"
+  },
+  "saveAsTemplate": {
+    "message": "Lưu thành quy trình"
+  },
+  "saveFilter": {
+    "message": "Lưu bộ lọc"
+  },
+  "saveSelected": {
+    "message": "Lưu đã chọn"
+  },
+  "saveSelectedPlural": {
+    "message": "Lưu {count} Tab"
+  },
+  "saveSelectedSingular": {
+    "message": "Lưu 1 Tab"
+  },
+  "saveTab": {
+    "message": "Lưu tab"
+  },
+  "saveTabs": {
+    "message": "Lưu Tab"
+  },
+  "saveTabsOnStartupDesc": {
+    "message": "Tự động lưu và đóng tất cả các tab đang mở khi bạn khởi động Safari"
+  },
+  "saveTabsOnStartupLabel": {
+    "message": "Lưu và đóng các tab đang mở khi khởi động"
+  },
+  "savedOnLabel": {
+    "message": "Đã lưu: $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "date": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "scheduleAddButton": {
+    "message": "+ Lịch"
+  },
+  "scheduleDaily": {
+    "message": "Hàng ngày"
+  },
+  "scheduleEditButton": {
+    "message": "Sửa"
+  },
+  "scheduleHourly": {
+    "message": "Hàng giờ"
+  },
+  "scheduleMonthly": {
+    "message": "Hàng tháng"
+  },
+  "scheduleNotifyLabel": {
+    "message": "Hiển thị thông báo khi quy trình chạy"
+  },
+  "scheduleWeekly": {
+    "message": "Hàng tuần"
+  },
+  "searchFocusTitle": {
+    "message": "Đặt con trỏ vào tìm kiếm (phím tắt: /)"
+  },
+  "searchPlaceholder": {
+    "message": "Tìm kiếm"
+  },
+  "searchResults": {
+    "message": "Kết quả tìm kiếm"
+  },
+  "sectionAppleIntelligence": {
+    "message": "Trí tuệ nhân tạo - Beta"
+  },
+  "sectionAppleIntelligenceDesc": {
+    "message": "Tính năng AI trên thiết bị được cung cấp bởi Apple Intelligence"
+  },
+  "sectionInterface": {
+    "message": "Chung"
+  },
+  "sectionInterfaceDesc": {
+    "message": "Tùy chỉnh trải nghiệm Tabstract của bạn"
+  },
+  "sectionTabRestoring": {
+    "message": "Khôi phục tab"
+  },
+  "sectionTabRestoringDesc": {
+    "message": "Điều khiển những gì xảy ra khi bạn khôi phục tab"
+  },
+  "sectionTabSaving": {
+    "message": "Lưu tab"
+  },
+  "sectionTabSavingDesc": {
+    "message": "Điều khiển những gì xảy ra khi bạn lưu tab"
+  },
+  "selectAll": {
+    "message": "Chọn tất cả"
+  },
+  "selectFileToImport": {
+    "message": "Vui lòng chọn tệp để nhập."
+  },
+  "selectNone": {
+    "message": "Bỏ chọn tất cả"
+  },
+  "selectTabsToSave": {
+    "message": "Chọn tab để lưu"
+  },
+  "sessionActions": {
+    "message": "Hành động phiên"
+  },
+  "sessionLocked": {
+    "message": "Phiên đã bị khóa"
+  },
+  "settingsSubtitle": {
+    "message": "Thay đổi có hiệu lực ngay lập tức"
+  },
+  "shortcutOpenTabstractLabel": {
+    "message": "Mở Tabstract:"
+  },
+  "shortcutSaveCurrentTabLabel": {
+    "message": "Lưu tab hiện tại:"
+  },
+  "shortcutSaveTabsLabel": {
+    "message": "Lưu Tab:"
+  },
+  "simpleMode": {
+    "message": "Chế độ đơn giản"
+  },
+  "smartGroupCopyButton": {
+    "message": "Sao chép"
+  },
+  "smartGroupDeleteConfirm": {
+    "message": "Xóa bộ lọc này? Các tab trong nhóm này sẽ được chuyển thành phiên thông thường."
+  },
+  "smartGroupHelpDomain": {
+    "message": "Nhập tên miền (ví dụ: github.com). Khớp chính xác tên miền và tất cả các tên miền phụ."
+  },
+  "smartGroupHelpKeyword": {
+    "message": "Nhập từ khóa để tìm kiếm trong URL và tiêu đề trang (ví dụ: \"react\"). Không phân biệt chữ hoa chữ thường."
+  },
+  "smartGroupHelpRegex": {
+    "message": "Nhập mẫu biểu thức chính quy (ví dụ: (github|gitlab)\\.com). Khớp với URL và tiêu đề."
+  },
+  "smartGroupNameLabel": {
+    "message": "Tên bộ lọc"
+  },
+  "smartGroupNamePlaceholder": {
+    "message": "ví dụ: Dự án GitHub"
+  },
+  "smartGroupNameRequired": {
+    "message": "Tên bộ lọc là bắt buộc"
+  },
+  "smartGroupPatternInvalidRegex": {
+    "message": "Biểu thức chính quy không hợp lệ"
+  },
+  "smartGroupPatternLabel": {
+    "message": "Mẫu"
+  },
+  "smartGroupPatternRequired": {
+    "message": "Mẫu là bắt buộc"
+  },
+  "smartGroupPatternTypeKeyword": {
+    "message": "Từ khóa"
+  },
+  "smartGroupPatternTypeLabel": {
+    "message": "Loại mẫu"
+  },
+  "smartGroupPatternTypeRegex": {
+    "message": "Biểu thức chính quy"
+  },
+  "smartGroupPinButton": {
+    "message": "Ghim"
+  },
+  "smartGroupPreviewText": {
+    "message": "hiện đang khớp với mẫu này"
+  },
+  "smartGroupUnpinButton": {
+    "message": "Bỏ ghim"
+  },
+  "smartGroupsCreateButton": {
+    "message": "+ Tạo bộ lọc"
+  },
+  "smartGroupsEmptyMessage": {
+    "message": "Chưa tạo bộ lọc nào."
+  },
+  "smartGroupsModalTitle": {
+    "message": "Quản lý bộ lọc"
+  },
+  "snoozeLabel": {
+    "message": "<strong>Tạm hoãn</strong> ẩn huy hiệu trong"
+  },
+  "snoozeSuffix": {
+    "message": "giờ"
+  },
+  "snoozeToolbarBadge": {
+    "message": "Tạm hoãn huy hiệu thanh công cụ"
+  },
+  "sortBy": {
+    "message": "Sắp xếp theo"
+  },
+  "sortNewest": {
+    "message": "Mới nhất trước"
+  },
+  "sortNewestToOldest": {
+    "message": "Sắp xếp mới nhất trước"
+  },
+  "sortOldest": {
+    "message": "Cũ nhất trước"
+  },
+  "sortOldestToNewest": {
+    "message": "Sắp xếp cũ nhất trước"
+  },
+  "sortRainbow": {
+    "message": "Cầu vồng"
+  },
+  "splitGroup": {
+    "message": "Tách nhóm"
+  },
+  "supportedFormatsHeading": {
+    "message": "Các định dạng được hỗ trợ:"
+  },
+  "tabCount": {
+    "message": "$1 tab",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabCountOfTotal": {
+    "message": "$1 trong số $2 $3",
+    "placeholders": {
+      "filtered": {
+        "content": "$1"
+      },
+      "tabWord": {
+        "content": "$3"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "tabCountPlural": {
+    "message": "$1 tab",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabGroupLetter": {
+    "message": "Cửa sổ {letter}"
+  },
+  "tabPlural": {
+    "message": "tab"
+  },
+  "tabSingular": {
+    "message": "tab"
+  },
+  "templateScheduleNotification": {
+    "message": "Quy trình \"%s\" đã được thêm vào phiên của bạn."
+  },
+  "templates": {
+    "message": "Quy trình"
+  },
+  "time": {
+    "message": "Thời gian:"
+  },
+  "tipsOppensession": {
+    "message": "Shift-click để mở rộng hoặc thu gọn tất cả các phiên"
+  },
+  "tipsReminders": {
+    "message": "Huy hiệu thông báo giúp ghi nhớ các phiên đã lưu"
+  },
+  "tipsRename": {
+    "message": "Đặt tên cho các phiên để giữ ngăn nắp"
+  },
+  "tipsSingletab": {
+    "message": "Giữ Shift để chỉ lưu tab hiện tại"
+  },
+  "tipsTitle": {
+    "message": "Mẹo"
+  },
+  "tipsToolbar": {
+    "message": "Kéo Tabstract vào thanh công cụ Safari để bắt đầu."
+  },
+  "todayAt": {
+    "message": "Hôm nay, $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "toggleAllTabsInWindow": {
+    "message": "Chuyển đổi tất cả tab trong $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "window": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "toolbar": {
+    "message": "Thanh công cụ"
+  },
+  "trashAutoDeletesHint": {
+    "message": "Tự động xóa sau $1 ngày",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "days": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "trashCleanupLog": {
+    "message": "Dọn dẹp thùng rác: đã xóa các mục hết hạn/dư thừa"
+  },
+  "trashDuplicates": {
+    "message": "Xóa trùng lặp"
+  },
+  "trashEmpty": {
+    "message": "Thùng rác trống"
+  },
+  "trashEmptyDesc": {
+    "message": "Các liên kết đã xóa sẽ xuất hiện ở đây và tự động bị xóa sau 30 ngày."
+  },
+  "trashExpiringSoon": {
+    "message": "Sắp hết hạn"
+  },
+  "trashExpiringThisWeek": {
+    "message": "Hết hạn tuần này"
+  },
+  "trashExpiringToday": {
+    "message": "Hết hạn hôm nay"
+  },
+  "trashExpiringTomorrow": {
+    "message": "Hết hạn ngày mai"
+  },
+  "trashLimitHint": {
+    "message": "Thùng rác giới hạn $1 liên kết",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "max": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "undo": {
+    "message": "Hoàn tác"
+  },
+  "undoDeleteLink": {
+    "message": "Đã xóa liên kết. Hoàn tác?"
+  },
+  "undoDeleteSession": {
+    "message": "Đã xóa phiên. Hoàn tác?"
+  },
+  "undoMergeSession": {
+    "message": "Đã gộp phiên. Hoàn tác?"
+  },
+  "undoTimeoutDescPost": {
+    "message": "sau khi xóa"
+  },
+  "undoTimeoutDescPre": {
+    "message": "Hiển thị nút Hoàn tác trong"
+  },
+  "undoTimeoutLabel": {
+    "message": "Thời gian chờ nút Hoàn tác"
+  },
+  "undoTimeoutSuffix": {
+    "message": "giây"
+  },
+  "unlockAll": {
+    "message": "Mở khóa tất cả"
+  },
+  "unlockSession": {
+    "message": "Mở khóa"
+  },
+  "unlocked": {
+    "message": "Chưa khóa"
+  },
+  "unpinFromTop": {
+    "message": "Bỏ ghim khỏi đầu"
+  },
+  "unrecognizedFileFormat": {
+    "message": "Định dạng tệp không được nhận dạng. Các định dạng được hỗ trợ: JSON, dấu trang HTML, OPML, Markdown, TSV, văn bản thuần túy và xuất từ Tab Space, Tabs Saver và OneTab."
+  },
+  "unsnooze": {
+    "message": "Hủy tạm hoãn"
+  },
+  "untitledFilter": {
+    "message": "Mô tả bộ lọc này..."
+  },
+  "upgradeToPro": {
+    "message": "Nâng cấp lên Pro"
+  },
+  "userGuideTitle": {
+    "message": "Cách sử dụng Tabstract"
+  },
+  "viewTrash": {
+    "message": "Xem thùng rác"
+  },
+  "weekdayFormat": {
+    "message": "long"
+  },
+  "weekdaysAt": {
+    "message": "Các ngày trong tuần lúc {time}"
+  },
+  "weekendsAt": {
+    "message": "Cuối tuần lúc {time}"
+  },
+  "weeklyAt": {
+    "message": "Hàng tuần lúc {time}"
+  },
+  "welcomeActionHelp": {
+    "message": "Tìm hiểu thêm"
+  },
+  "welcomeActionSave": {
+    "message": "Thử phiên mẫu"
+  },
+  "welcomeBackSubtitle": {
+    "message": "Đây là một số mẹo để giúp bạn tận dụng tối đa Tabstract:"
+  },
+  "welcomeBackTitle1": {
+    "message": "Nhìn bạn kìa, không có tab! 💅"
+  },
+  "welcomeBackTitle2": {
+    "message": "Zero tab. Sống trong mơ!"
+  },
+  "welcomeBackTitle3": {
+    "message": "Không tab? Bạn là huyền thoại. 😎"
+  },
+  "welcomeBackTitle4": {
+    "message": "Đã xong hết? Ấn tượng!"
+  },
+  "welcomeDescription": {
+    "message": "Tabstract lưu và sắp xếp các tab Safari của bạn để bạn có thể dọn dẹp cuộc sống. "
+  },
+  "welcomeStep0Description": {
+    "message": "Kéo biểu tượng Tabstract vào thanh công cụ Safari để truy cập nhanh việc lưu và khôi phục tab."
+  },
+  "welcomeStep0Title": {
+    "message": "Thêm vào thanh công cụ"
+  },
+  "welcomeStep1Description": {
+    "message": "Nhấp vào biểu tượng Tabstract trên thanh công cụ hoặc sử dụng Cmd+Shift+S để lưu tất cả các tab đang mở."
+  },
+  "welcomeStep1Title": {
+    "message": "Lưu Tab của bạn"
+  },
+  "welcomeStep2Description": {
+    "message": "Đặt tên tùy chỉnh cho các phiên, khóa những phiên quan trọng, và giữ gọn gàng."
+  },
+  "welcomeStep2Title": {
+    "message": "Sắp xếp phiên"
+  },
+  "welcomeStep3Description": {
+    "message": "Nhấp vào bất kỳ phiên nào để khôi phục ngay lập tức tất cả các tab của nó, hoặc khôi phục từng tab riêng lẻ nếu cần."
+  },
+  "welcomeStep3Title": {
+    "message": "Khôi phục bất cứ lúc nào"
+  },
+  "welcomeTip": {
+    "message": "☆ Mẹo: Giữ Shift khi nhấp nút lưu để chỉ lưu tab hiện tại ☆"
+  },
+  "welcomeTitle": {
+    "message": "Bắt đầu với Tabstract"
+  },
+  "windowLabel": {
+    "message": "Cửa sổ"
+  },
+  "yes": {
+    "message": "Có"
+  },
+  "yesterdayAt": {
+    "message": "Hôm qua, $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "zeroTabs": {
+    "message": "0 tab"
+  },
+  "backupAutomatic": {
+    "message": "Tự động"
+  },
+  "backupComplete": {
+    "message": "Sao lưu hoàn tất!"
+  },
+  "backupExplainer": {
+    "message": "Tabstract tự động sao lưu dữ liệu mỗi khi bạn lưu tab và mỗi giờ một lần. Các bản sao lưu cũ hơn 24 giờ được giảm xuống một bản mỗi ngày, sau đó một bản mỗi tuần và bị xóa sau 30 ngày. Các bản sao lưu thủ công được giữ vô thời hạn."
+  },
+  "backupFailed": {
+    "message": "Sao lưu thất bại"
+  },
+  "backupLoadError": {
+    "message": "Không thể tải các bản sao lưu."
+  },
+  "backupManual": {
+    "message": "Thủ công"
+  },
+  "backupManualBadge": {
+    "message": "Thủ công"
+  },
+  "backupMenuRestoreMerge": {
+    "message": "Khôi phục tab (Gộp)"
+  },
+  "backupMenuRestoreReplace": {
+    "message": "Khôi phục tab (Thay thế)"
+  },
+  "backupMenuRestoreSystem": {
+    "message": "Khôi phục hệ thống (Đặt lại hoàn toàn)"
+  },
+  "backupNow": {
+    "message": "Sao lưu ngay"
+  },
+  "backupPreRestoreBadge": {
+    "message": "Điểm khôi phục"
+  },
+  "backupActionsLabel": {
+    "message": "Thao tác sao lưu"
+  },
+  "backupTabCount": {
+    "message": "$1 tab",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupsTitle": {
+    "message": "Sao lưu và khôi phục"
+  },
+  "confirmDeleteBackup": {
+    "message": "Bạn có chắc chắn muốn xóa bản sao lưu này không? Hành động này không thể hoàn tác."
+  },
+  "confirmRestoreEverything": {
+    "message": "Thao tác này sẽ thay thế TẤT CẢ dữ liệu Tabstract hiện tại (tab, cài đặt, quy trình, bộ lọc, v.v.) bằng dữ liệu từ bản sao lưu này.\n\nMột bản sao lưu trước khi khôi phục sẽ được tạo trước, đề phòng.\n\nTiếp tục?"
+  },
+  "confirmRestoreTabsMerge": {
+    "message": "Thao tác này sẽ hợp nhất các tab sao lưu với các tab hiện tại, giữ lại cả hai.\n\nMột bản sao lưu trước khi khôi phục cũng sẽ được tạo, đề phòng.\n\nTiếp tục?"
+  },
+  "confirmRestoreTabsOnly": {
+    "message": "Thao tác này chỉ thay thế các tab đã lưu bằng tab từ bản sao lưu này. Cài đặt, quy trình và bộ lọc sẽ không thay đổi.\n\nMột bản sao lưu trước khi khôi phục sẽ được tạo trước, đề phòng.\n\nTiếp tục?"
+  },
+  "lastBackup": {
+    "message": "Sao lưu gần nhất:"
+  },
+  "loadingBackups": {
+    "message": "Đang tải các bản sao lưu..."
+  },
+  "noBackupsYet": {
+    "message": "Chưa có bản sao lưu nào"
+  },
+  "restoreError": {
+    "message": "Khôi phục từ bản sao lưu thất bại. Vui lòng thử lại."
+  },
+  "restoreTabsDialogDetail": {
+    "message": "Hợp nhất sẽ thêm các tab sao lưu bên cạnh các tab hiện tại. Một bản sao lưu trước khi khôi phục sẽ được tạo trước."
+  },
+  "restoreTabsDialogMessage": {
+    "message": "Bạn muốn thay thế các tab hiện tại hay hợp nhất chúng với bản sao lưu?"
+  },
+  "exportBackupShowInFinder": {
+    "message": "Hiển thị trong Finder"
+  }
+}

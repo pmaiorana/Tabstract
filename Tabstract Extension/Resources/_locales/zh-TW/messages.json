@@ -1,0 +1,2706 @@
+{
+  "SnoozeInfo": {
+    "message": "工具列徽章可追蹤已儲存的工作階段，以免遺忘。延後會暫時隱藏徽章。"
+  },
+  "accentColorLabel": {
+    "message": "顏色"
+  },
+  "actionLockTabGroup": {
+    "message": "鎖定分頁群組"
+  },
+  "actionSendToTabGroup": {
+    "message": "將分頁傳送到分頁群組"
+  },
+  "actionSendToTrash": {
+    "message": "將分頁傳送到垃圾桶"
+  },
+  "actionSessionName": {
+    "message": "名稱"
+  },
+  "actionSetColor": {
+    "message": "設定分頁群組的顏色"
+  },
+  "actionSetLockStatus": {
+    "message": "設定鎖定狀態"
+  },
+  "actionsMenu": {
+    "message": "操作"
+  },
+  "advancedMode": {
+    "message": "進階模式"
+  },
+  "aiDisabledNotice": {
+    "message": "<strong>Apple Intelligence 目前已關閉或無法使用。</strong>請檢查系統設定中的 Apple Intelligence 選單"
+  },
+  "aiEnabledButInaccessible": {
+    "message": "<strong>您的系統似乎已啟用 Apple Intelligence，但 Tabstract 無法存取。</strong><br><br>常見原因:<ul><li>您的 macOS 語言和 Siri 語言不符。Apple 要求兩者必須設定為相同的語言。</li><li>Apple Intelligence 仍在初始化中;請等待幾分鐘，然後重新載入 Tabstract → 設定。</li><li>您在不支援的國家/地區。在中國大陸購買的裝置，或在中國大陸使用且 Apple ID 的國家或地區設定為中國大陸的裝置上，Apple Intelligence 無法使用。</li></ul>"
+  },
+  "aiExperimentalNotice": {
+    "message": "<strong>這是一個全新的實驗性功能</strong>，結果會隨著時間持續改進"
+  },
+  "aiLanguageNotSupported": {
+    "message": "AI 功能不支援此語言，因為 Apple Intelligence 尚未支援。請切換至英文、西班牙文、法文、德文、義大利文、日文、韓文、葡萄牙文(巴西)、簡體中文或繁體中文以使用 AI 功能。"
+  },
+  "aiNotAvailable": {
+    "message": "<strong>Apple Intelligence 無法使用。</strong>請檢查您的系統設定以確保它已啟用並準備就緒"
+  },
+  "aiRegenerateTitle": {
+    "message": "重新產生標題"
+  },
+  "aiSmartCategorizationDesc": {
+    "message": "自動將<strong>6 個或更多</strong>分頁群組整理成主題 <span class=\"hint\"><strong class=\"info\"></strong>需要啟用<em>產生工作階段標題</em></span>"
+  },
+  "aiSmartCategorizationLabel": {
+    "message": "智慧分類"
+  },
+  "aiTitleSuggestionsDesc": {
+    "message": "使用 Apple Intelligence—私密的裝置端 AI—在儲存分頁時建議工作階段標題"
+  },
+  "aiTitleSuggestionsLabel": {
+    "message": "產生工作階段標題"
+  },
+  "aiUnsupportedNotice": {
+    "message": "AI 功能需要支援 Apple Intelligence 的 Mac 和 macOS 26.0 或更新版本"
+  },
+  "all": {
+    "message": "全部"
+  },
+  "am": {
+    "message": "上午"
+  },
+  "any": {
+    "message": "任一"
+  },
+  "appName": {
+    "message": "Tabstract"
+  },
+  "appleIntelligenceUnavailable": {
+    "message": "Apple Intelligence 無法使用"
+  },
+  "atLeastOnePatternRequired": {
+    "message": "至少需要一個模式"
+  },
+  "avoidDuplicatesDesc": {
+    "message": "防止在同一個工作階段中多次儲存相同的網址"
+  },
+  "avoidDuplicatesLabel": {
+    "message": "不要儲存重複的分頁"
+  },
+  "avoidDuplicatesSetting": {
+    "message": "在同一個工作階段中<strong>不要儲存重複的分頁</strong>"
+  },
+  "bannerNewFeatures": {
+    "message": "<strong>新功能!</strong> 動作選單、繁體中文支援、複製為 RTF 格式文字、清除重複項!"
+  },
+  "bannerText": {
+    "message": "全新自動備份系統，再也不怕遺失分頁！招募Beta測試員！"
+  },
+  "bannerTitle": {
+    "message": "Tabstract 3.1"
+  },
+  "bulkActionCreateGroup": {
+    "message": "合併"
+  },
+  "bulkActionDeselect": {
+    "message": "取消全選"
+  },
+  "bulkActionDuplicate": {
+    "message": "複製"
+  },
+  "bulkActionLockUnlock": {
+    "message": "鎖定/解鎖所選"
+  },
+  "bulkActionRestore": {
+    "message": "還原"
+  },
+  "bulkActionTrash": {
+    "message": "垃圾桶"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "clearData": {
+    "message": "刪除資料並重置 Tabstract"
+  },
+  "clearFilters": {
+    "message": "重置"
+  },
+  "clearSchedule": {
+    "message": "清除排程"
+  },
+  "clearSearch": {
+    "message": "清除搜尋"
+  },
+  "clearSnooze": {
+    "message": "清除延後"
+  },
+  "clickNewToGetStarted": {
+    "message": "點擊「新增」開始。"
+  },
+  "clipboardError": {
+    "message": "無法複製到剪貼簿"
+  },
+  "close": {
+    "message": "關閉"
+  },
+  "closeFiltersModal": {
+    "message": "關閉篩選器模式"
+  },
+  "closeHomeTabOnOpen": {
+    "message": "還原工作階段後關閉 Tabstract"
+  },
+  "closeHomeTabOnOpenDesc": {
+    "message": "開啟分頁群組時關閉 Tabstract"
+  },
+  "closeHomeTabOnOpenLabel": {
+    "message": "還原後關閉 Tabstract"
+  },
+  "collapseAll": {
+    "message": "全部摺疊"
+  },
+  "collapseExpandAll": {
+    "message": "摺疊/展開全部"
+  },
+  "collapseSession": {
+    "message": "收合工作階段"
+  },
+  "collapseTemplate": {
+    "message": "收合例行程序"
+  },
+  "colorBlue": {
+    "message": "藍色"
+  },
+  "colorDefault": {
+    "message": "預設"
+  },
+  "colorGreen": {
+    "message": "綠色"
+  },
+  "colorOrange": {
+    "message": "橘色"
+  },
+  "colorPink": {
+    "message": "粉紅色"
+  },
+  "colorPurple": {
+    "message": "紫色"
+  },
+  "colorRed": {
+    "message": "紅色"
+  },
+  "colorYellow": {
+    "message": "黃色"
+  },
+  "columnColor": {
+    "message": "顏色"
+  },
+  "columnDateCreated": {
+    "message": "建立日期"
+  },
+  "columnDomain": {
+    "message": "網域"
+  },
+  "columnGroup": {
+    "message": "分頁群組"
+  },
+  "columnLock": {
+    "message": "已鎖定"
+  },
+  "columnPinned": {
+    "message": "已釘選"
+  },
+  "columnTitle": {
+    "message": "標題"
+  },
+  "confirmClearSchedule": {
+    "message": "清除此排程?"
+  },
+  "confirmDeleteFromTrash": {
+    "message": "您確定要永久刪除此連結嗎?此動作無法復原。"
+  },
+  "confirmDeleteTemplate": {
+    "message": "刪除此例程?此動作無法復原。"
+  },
+  "confirmEmptyTrash": {
+    "message": "您確定要永久刪除垃圾桶中的所有項目嗎?此動作無法復原。"
+  },
+  "confirmImport": {
+    "message": "警告：這將完全取代您目前所有的 Tabstract 資料(設定、已儲存的工作階段、垃圾桶等)為匯入的資料。\n\n此動作無法復原。\n\n您確定要繼續嗎?"
+  },
+  "confirmReset": {
+    "message": "您確定要重置 Tabstract 嗎?\n\n所有分頁都將被刪除，包括已鎖定工作階段中的分頁。\n\n此動作無法復原。"
+  },
+  "contactSupport": {
+    "message": "聯絡我們"
+  },
+  "copiedToClipboard": {
+    "message": "已複製!"
+  },
+  "copyAllToClipboard": {
+    "message": "複製為 Markdown"
+  },
+  "copyFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "copyFormatPlain": {
+    "message": "純文字"
+  },
+  "copyFormatRich": {
+    "message": "RTF 格式文字"
+  },
+  "copyMenu": {
+    "message": "複製..."
+  },
+  "createFilter": {
+    "message": "建立篩選器"
+  },
+  "createNewFilter": {
+    "message": "建立新篩選器"
+  },
+  "customColor": {
+    "message": "自訂顏色"
+  },
+  "dailyAt": {
+    "message": "每天於 {time}"
+  },
+  "darkAuto": {
+    "message": "自動"
+  },
+  "darkDark": {
+    "message": "深色"
+  },
+  "darkLight": {
+    "message": "淺色"
+  },
+  "darkModeDesc": {
+    "message": "選擇您的配色方案"
+  },
+  "darkModeLabel": {
+    "message": "深色模式"
+  },
+  "darkOff": {
+    "message": "關閉"
+  },
+  "darkSystem": {
+    "message": "系統"
+  },
+  "dayFormat": {
+    "message": "numeric"
+  },
+  "dayOfMonth": {
+    "message": "每月的日期:"
+  },
+  "days": {
+    "message": "天數:"
+  },
+  "debugConsole": {
+    "message": "偵錯主控台"
+  },
+  "deleteAfterRestore": {
+    "message": "還原分頁會將它們從 Tabstract 中移除 <span class=\"hint\"><strong class=\"info\">按住 Shift 並點擊</strong>還原時可暫時停用</span>"
+  },
+  "deleteAfterRestoreDesc": {
+    "message": "還原時從 Tabstract 中刪除分頁 <span class=\"hint\"><strong class=\"info\">按住 Shift 並點擊</strong>可暫時停用</span>"
+  },
+  "deleteAfterRestoreLabel": {
+    "message": "還原後移除分頁"
+  },
+  "deleteBackup": {
+    "message": "刪除備份"
+  },
+  "deleteSmartGroup": {
+    "message": "刪除篩選器"
+  },
+  "deleteTab": {
+    "message": "刪除此分頁"
+  },
+  "dismissAIUnavailableMessage": {
+    "message": "關閉 Apple Intelligence 無法使用訊息"
+  },
+  "downloadData": {
+    "message": "下載資料"
+  },
+  "downloadReport": {
+    "message": "下載系統報告"
+  },
+  "draftDelete": {
+    "message": "刪除"
+  },
+  "dragToReorder": {
+    "message": "拖曳以重新排序"
+  },
+  "duplicateGroup": {
+    "message": "複製群組"
+  },
+  "duplicatesRemoved": {
+    "message": "已移除 {count} 個重複項"
+  },
+  "editFilter": {
+    "message": "編輯篩選器"
+  },
+  "editSchedule": {
+    "message": "編輯排程"
+  },
+  "emailBodyTemplate": {
+    "message": "您好，\n\n我在使用 Tabstract 時遇到問題。\n\n請依照以下步驟重現我的問題:\n1.\n2.\n3.\n\n\n以下是我的本機儲存資料供疑難排解:\n\n$1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "data": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "emailSupport": {
+    "message": "電郵支援"
+  },
+  "emptySessionHint": {
+    "message": "將連結拖曳到此處以加入到此工作階段"
+  },
+  "emptyTrash": {
+    "message": "清空垃圾桶"
+  },
+  "emptyTrashWithCount": {
+    "message": "清空垃圾桶 ($1 個項目)",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "enableBadge": {
+    "message": "在工具列顯示提醒徽章"
+  },
+  "enableKeyboardShortcuts": {
+    "message": "啟用鍵盤快速鍵"
+  },
+  "errorMaxLength": {
+    "message": "超過最大長度"
+  },
+  "errorParsingJson": {
+    "message": "解析 JSON 錯誤: $1"
+  },
+  "expandAll": {
+    "message": "全部展開"
+  },
+  "expandSession": {
+    "message": "展開工作階段"
+  },
+  "expandTemplate": {
+    "message": "展開例程"
+  },
+  "expiredLabel": {
+    "message": "已過期"
+  },
+  "expiresInDays": {
+    "message": "$1 天後到期",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInHours": {
+    "message": "$1 小時後到期",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInLessThanHour": {
+    "message": "不到 1 小時後到期"
+  },
+  "export": {
+    "message": "匯出"
+  },
+  "exportFormatHTML": {
+    "message": "HTML"
+  },
+  "exportFormatJSON": {
+    "message": "JSON"
+  },
+  "exportFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "exportFormatOPML": {
+    "message": "OPML"
+  },
+  "exportFormatPlain": {
+    "message": "純文字"
+  },
+  "exportMenu": {
+    "message": "匯出..."
+  },
+  "exportSavedLinks": {
+    "message": "匯出已儲存的連結"
+  },
+  "exportSuccess": {
+    "message": "匯出成功!"
+  },
+  "filterAll": {
+    "message": "全部"
+  },
+  "filterColor": {
+    "message": "顏色:"
+  },
+  "filterDate": {
+    "message": "日期:"
+  },
+  "filterDateLastMonth": {
+    "message": "上個月"
+  },
+  "filterDateLastWeek": {
+    "message": "上週"
+  },
+  "filterDateMonth": {
+    "message": "本月"
+  },
+  "filterDateToday": {
+    "message": "今天"
+  },
+  "filterDateWeek": {
+    "message": "本週"
+  },
+  "filterDateYesterday": {
+    "message": "昨天"
+  },
+  "filterDomain": {
+    "message": "網域:"
+  },
+  "filterLock": {
+    "message": "鎖定:"
+  },
+  "filterName": {
+    "message": "描述"
+  },
+  "filters": {
+    "message": "篩選器"
+  },
+  "filtersDescription": {
+    "message": "篩選器可以根據網域、關鍵字或其他模式自動分類和整理您的分頁。<strong>篩選器會依優先順序處理</strong>，由上而下;拖曳以重新排序。"
+  },
+  "formatOneTab": {
+    "message": "OneTab 匯出"
+  },
+  "formatTSV": {
+    "message": "TSV"
+  },
+  "formatTabSpace": {
+    "message": "Tab Space 備份"
+  },
+  "formatTabsSaver": {
+    "message": "Tabs Saver 備份"
+  },
+  "formatTabstractJSON": {
+    "message": "Tabstract JSON 匯出"
+  },
+  "frequency": {
+    "message": "頻率:"
+  },
+  "fullScreenMode": {
+    "message": "全螢幕模式 (F)"
+  },
+  "groupNameRequired": {
+    "message": "群組名稱為必填"
+  },
+  "guideAIFeaturesBody": {
+    "message": "如果您的電腦支援 Apple Intelligence，Tabstract 可以自動將您儲存的分頁分類到不同的主題群組。點擊任何工作階段標題旁的<strong>✨ 閃爍圖示</strong>以產生新標題。不支援 Apple Intelligence 的電腦將使用日期和時間。"
+  },
+  "guideAIFeaturesTitle": {
+    "message": "使用 AI 整理分頁"
+  },
+  "guideBadgeNotificationsBody": {
+    "message": "工具列徽章會顯示已儲存的工作階段數量，這樣即使看不見也不會忘記。延後會將工具列徽章隱藏最多 24 小時，或者您可以在設定中完全停用它。"
+  },
+  "guideBadgeNotificationsTitle": {
+    "message": "工具列徽章"
+  },
+  "guideDragToReorderBody": {
+    "message": "點擊並拖曳個別連結和工作階段，將您儲存的分頁重新排列成您偏好的順序。"
+  },
+  "guideDragToReorderTitle": {
+    "message": "拖放整理"
+  },
+  "guideGettingStartedBody": {
+    "message": "Tabstract 可幫助您儲存和整理 Safari 分頁。若要開始使用，請在 Safari 工具列上按右鍵，選擇「自訂」，然後將 Tabstract 圖示拖曳到您的工具列。安裝到工具列後，點擊 Tabstract，然後點擊<strong>儲存分頁</strong>以擷取目前視窗中所有開啟的分頁。"
+  },
+  "guideGettingStartedTitle": {
+    "message": "開始使用"
+  },
+  "guideKeyboardShortcutsBody": {
+    "message": "Tabstract 包含鍵盤快速鍵和修飾鍵組合，適合進階使用者。快速鍵可以在設定中停用。<br><br><strong>主要快速鍵:</strong><br><br>儲存所有分頁: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd><br>只儲存目前分頁: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd><br>開啟已儲存的工作階段列表: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd><br><br><strong>快速動作:</strong><br><br>聚焦搜尋框: <kbd>/</kbd><br>建立新工作階段: <kbd>N</kbd><br><br><strong>修飾鍵組合:</strong><br><br>只儲存目前分頁: <kbd>Shift</kbd> + 點擊<em>儲存分頁</em><br>展開/摺疊所有工作階段: <kbd>Shift</kbd> + 點擊<em>工作階段摺疊按鈕</em><br>暫時反轉「還原後移除分頁」設定: <kbd>Shift</kbd> + 點擊<em>還原</em><br>暫時反轉「在背景還原分頁」設定: <kbd>Option</kbd> + 點擊<em>還原</em>"
+  },
+  "guideKeyboardShortcutsTitle": {
+    "message": "鍵盤快速鍵"
+  },
+  "guidePasteLinksBody": {
+    "message": "您可以從其他應用程式複製連結，並直接將這些網址貼到 Tabstract!Tabstract 會自動擷取頁面標題並將它們加入到您的收藏中。"
+  },
+  "guidePasteLinksTitle": {
+    "message": "複製貼上連結到 Tabstract"
+  },
+  "guideShiftClickBody": {
+    "message": "按住 <kbd>Shift</kbd> 並點擊任何工作階段的摺疊按鈕，可一次展開或摺疊所有工作階段。"
+  },
+  "guideShiftClickTitle": {
+    "message": "按住 Shift 並點擊以展開/摺疊全部"
+  },
+  "guideTrashUndoBody": {
+    "message": "已刪除的連結會移到垃圾桶 30 天，然後自動刪除。垃圾桶限制為 1,000 個項目，以幫助 Tabstract 保持快速。"
+  },
+  "guideTrashUndoTitle": {
+    "message": "垃圾桶"
+  },
+  "helpPageTitle": {
+    "message": "支援與疑難排解 - Tabstract"
+  },
+  "helpSupportInstructions": {
+    "message": "有問題、功能建議或需要協助嗎?點擊<em>電郵支援</em>然後點擊<em>允許</em>，或將您的系統報告電郵至<em>help@tabstract.app</em>，並附上您的問題詳情。<br /><br />也歡迎您透過電郵向我們提出功能需求、錯誤報告、翻譯改進等。"
+  },
+  "helpTitle": {
+    "message": "支援"
+  },
+  "hourFormat": {
+    "message": "numeric"
+  },
+  "hourAgo": {
+    "message": "$1 小時前",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hoursAgo": {
+    "message": "$1 小時前",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "import": {
+    "message": "匯入"
+  },
+  "importData": {
+    "message": "匯入資料"
+  },
+  "importError": {
+    "message": "匯入資料失敗。請確保該檔案是有效的 Tabstract 資料匯出檔案。"
+  },
+  "importFailedPrefix": {
+    "message": "匯入失敗: "
+  },
+  "importLinksLabel": {
+    "message": "匯入連結"
+  },
+  "importMenu": {
+    "message": "匯入..."
+  },
+  "importSuccess": {
+    "message": "資料匯入成功! Tabstract 現在將重新載入。"
+  },
+  "importSuccessMessage": {
+    "message": "已匯入 $1 個有效連結(橫跨 $2 個工作階段)。\n已跳過 $3 個無效連結。\n\n頁面標題將在背景擷取。",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "errors": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$3",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "links": {
+        "content": "$1"
+      },
+      "sessions": {
+        "content": "$2"
+      }
+    }
+  },
+  "importSystemBackup": {
+    "message": "匯入系統備份"
+  },
+  "invalidJsonFormat": {
+    "message": "無效的 JSON 格式。"
+  },
+  "invalidRegexPrefix": {
+    "message": "無效的正規表示式: "
+  },
+  "justNow": {
+    "message": "剛剛"
+  },
+  "langNameArabic": {
+    "message": "阿拉伯文"
+  },
+  "langNameChineseCN": {
+    "message": "簡體中文"
+  },
+  "langNameChineseTW": {
+    "message": "繁體中文"
+  },
+  "langNameDanish": {
+    "message": "丹麥語"
+  },
+  "langNameDutch": {
+    "message": "荷蘭文"
+  },
+  "langNameEnglish": {
+    "message": "英文"
+  },
+  "langNameFrench": {
+    "message": "法文"
+  },
+  "langNameFrenchCA": {
+    "message": "加拿大法文"
+  },
+  "langNameGerman": {
+    "message": "德文"
+  },
+  "langNameItalian": {
+    "message": "義大利文"
+  },
+  "langNameJapanese": {
+    "message": "日文"
+  },
+  "langNameKorean": {
+    "message": "韓文"
+  },
+  "langNameNorwegian": {
+    "message": "挪威語"
+  },
+  "langNamePortugueseBR": {
+    "message": "巴西葡萄牙文"
+  },
+  "langNamePortuguesePT": {
+    "message": "葡萄牙文"
+  },
+  "langNameRussian": {
+    "message": "俄文"
+  },
+  "langNameSpanish": {
+    "message": "西班牙文"
+  },
+  "langNameSpanishLA": {
+    "message": "拉丁美洲西班牙文"
+  },
+  "langNameSwedish": {
+    "message": "瑞典文"
+  },
+  "langNameTurkish": {
+    "message": "土耳其語"
+  },
+  "langNameVietnamese": {
+    "message": "越南語"
+  },
+  "languageAuto": {
+    "message": "系統預設"
+  },
+  "languageDesc": {
+    "message": "選擇顯示語言"
+  },
+  "languageLabel": {
+    "message": "語言"
+  },
+  "lastRun": {
+    "message": "上次執行: {time}"
+  },
+  "launchOnStartup": {
+    "message": "當您啟動網頁瀏覽器時顯示 Tabstract"
+  },
+  "launchOnStartupDesc": {
+    "message": "當您啟動 Safari 時開啟 Tabstract"
+  },
+  "launchOnStartupLabel": {
+    "message": "啟動時開啟"
+  },
+  "learnMore": {
+    "message": "了解更多"
+  },
+  "learnMoreAboutFeatures": {
+    "message": "了解更多新功能"
+  },
+  "linkRestored": {
+    "message": "連結已還原到新工作階段"
+  },
+  "lockAll": {
+    "message": "全部鎖定"
+  },
+  "lockSession": {
+    "message": "鎖定"
+  },
+  "lockSessionTitle": {
+    "message": "鎖定工作階段"
+  },
+  "lockUnlockAll": {
+    "message": "全部鎖定/解鎖"
+  },
+  "manageFiltersMenuItem": {
+    "message": "管理篩選器..."
+  },
+  "manageTemplates": {
+    "message": "管理例程"
+  },
+  "manageTemplatesMenuItem": {
+    "message": "管理例程..."
+  },
+  "match": {
+    "message": "如果"
+  },
+  "matches": {
+    "message": "符合:"
+  },
+  "mergeIntoSessionBelow": {
+    "message": "合併到下方的工作階段"
+  },
+  "minuteFormat": {
+    "message": "numeric"
+  },
+  "minuteAgo": {
+    "message": "$1 分鐘前",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "minutesAgo": {
+    "message": "$1 分鐘前",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "monthFormat": {
+    "message": "long"
+  },
+  "monthlyOn": {
+    "message": "每月 {day} 日於 {time}"
+  },
+  "moreActions": {
+    "message": "更多動作"
+  },
+  "moveToTop": {
+    "message": "移至頂端"
+  },
+  "navHelp": {
+    "message": "說明 + 秘訣"
+  },
+  "navHome": {
+    "message": "首頁"
+  },
+  "navSelect": {
+    "message": "選擇"
+  },
+  "navSettings": {
+    "message": "設定"
+  },
+  "navSnooze": {
+    "message": "延後"
+  },
+  "needHelpWithTabstract": {
+    "message": "需要 Tabstract 的協助"
+  },
+  "never": {
+    "message": "從未"
+  },
+  "newButton": {
+    "message": "新增"
+  },
+  "newTabGroup": {
+    "message": "新分頁群組"
+  },
+  "no": {
+    "message": "否"
+  },
+  "noAvailableTabs": {
+    "message": "沒有可用的分頁"
+  },
+  "noColor": {
+    "message": "無顏色"
+  },
+  "noResultsFound": {
+    "message": "找不到結果"
+  },
+  "noSavedLinksToExport": {
+    "message": "沒有已儲存的工作階段可匯出。"
+  },
+  "noTabsAvailableToSave": {
+    "message": "沒有可儲存的分頁"
+  },
+  "noTabsSaved": {
+    "message": "沒有儲存的分頁。"
+  },
+  "noTemplatesInstructions": {
+    "message": "尚未儲存例程。<br>從工作階段建立例程以開始使用。"
+  },
+  "noTemplatesSaved": {
+    "message": "尚未儲存例程。<br>從工作階段建立例程以開始使用。"
+  },
+  "noTemplatesSavedYet": {
+    "message": "尚未儲存例程"
+  },
+  "nonMatchingWarning": {
+    "message": "<strong>⚠️ 警告:</strong> 此群組中的 $1 個分頁不再符合模式，將被移至標題為「<strong>從 $2 移除</strong>」的新工作階段。",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "content": "$1"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$2",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "none": {
+    "message": "無"
+  },
+  "ofTheFollowingConditions": {
+    "message": "以下條件滿足："
+  },
+  "ok": {
+    "message": "確定"
+  },
+  "oneclickSave": {
+    "actionsMenu": {
+      "message": "Actions"
+    },
+    "bulkActionDuplicate": {
+      "message": "Duplicate"
+    },
+    "bulkActionLockUnlock": {
+      "message": "Lock/Unlock Selected"
+    },
+    "colorBlue": {
+      "message": "Blue"
+    },
+    "colorDefault": {
+      "message": "Default"
+    },
+    "colorGreen": {
+      "message": "Green"
+    },
+    "colorOrange": {
+      "message": "Orange"
+    },
+    "colorPink": {
+      "message": "Pink"
+    },
+    "colorPurple": {
+      "message": "Purple"
+    },
+    "colorRed": {
+      "message": "Red"
+    },
+    "colorYellow": {
+      "message": "Yellow"
+    },
+    "filterAll": {
+      "message": "All"
+    },
+    "message": "一鍵儲存 <span class=\"hint\"><strong class=\"caution\">注意:</strong> 這會移除首頁和稍後提醒；使用 Shift+Command+H 顯示首頁。</span>"
+  },
+  "oneclickSaveDesc": {
+    "message": "<span class=\"hint\"><strong class=\"caution\">注意:</strong> 這是實驗性功能，會移除首頁/延後按鈕。使用 <strong>Shift+Command+H</strong> 來開啟首頁</span>"
+  },
+  "oneclickSaveLabel": {
+    "message": "一鍵儲存"
+  },
+  "openLink": {
+    "message": "開啟 $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "pageTitle": {
+    "message": "工具與設定 - Tabstract"
+  },
+  "pasteLinks": {
+    "message": "貼上網址"
+  },
+  "performActions": {
+    "message": "執行以下操作："
+  },
+  "pinToTop": {
+    "message": "釘選到頂端"
+  },
+  "pinnedTabsDesc": {
+    "message": "已釘選的分頁不會被關閉或儲存到 Tabstract"
+  },
+  "pinnedTabsLabel": {
+    "message": "不要儲存已釘選的分頁"
+  },
+  "pinnedTabsSetting": {
+    "message": "<strong>不要儲存已釘選的分頁</strong>(已釘選的分頁不會被關閉或儲存到 Tabstract)"
+  },
+  "pleaseEnterDayBetween1And31": {
+    "message": "請輸入 1 到 31 之間的日期。"
+  },
+  "pleaseEnterPattern": {
+    "message": "請輸入模式值"
+  },
+  "pleaseSelectAtLeastOneDay": {
+    "message": "請為每週排程至少選擇一天。"
+  },
+  "pm": {
+    "message": "下午"
+  },
+  "refreshData": {
+    "message": "重新整理偵錯資料"
+  },
+  "removeFromSession": {
+    "message": "從工作階段中移除 $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "removedFrom": {
+    "message": "從 $1 移除",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "resetGroupColors": {
+    "message": "重置顏色"
+  },
+  "restoreAllTabs": {
+    "message": "還原所有分頁"
+  },
+  "restoreInBackground": {
+    "message": "已還原的分頁在背景開啟 <span class=\"hint\"><strong class=\"info\">按住 Option 並點擊</strong>還原時可暫時停用</span>"
+  },
+  "restoreInBackgroundDesc": {
+    "message": "已還原的分頁在 Tabstract 後方開啟，而不是切換焦點 <span class=\"hint\"><strong class=\"info\">按住 Option 並點擊</strong>可暫時停用</span>"
+  },
+  "restoreInBackgroundLabel": {
+    "message": "在背景還原分頁"
+  },
+  "restoreTabsMerge": {
+    "message": "合併"
+  },
+  "restoreTabsReplace": {
+    "message": "取代"
+  },
+  "restoreTabsToCurrentWindow": {
+    "message": "目前視窗"
+  },
+  "restoreTabsToLabel": {
+    "message": "將分頁群組還原至:"
+  },
+  "restoreTabsToNewWindow": {
+    "message": "新視窗"
+  },
+  "restoredFromTrashSessionName": {
+    "message": "從垃圾桶還原"
+  },
+  "restoredLinkSessionName": {
+    "message": "已還原的連結"
+  },
+  "reviewButton": {
+    "message": "在 App Store 上評價我們 ★★★★★"
+  },
+  "reviewLaterButton": {
+    "message": "稍後再說"
+  },
+  "reviewMessage": {
+    "message": "Tabstract 是免費的，但需要您的評價與評論來維持運作，請給我們一個評價!"
+  },
+  "reviewModalText": {
+    "message": "Tabstract 是免費的，但仰賴評價與評論來成長 🚀 請考慮給我們一個五星評價!"
+  },
+  "reviewModalTitle": {
+    "message": "喜歡 Tabstract 嗎?"
+  },
+  "runFiltersConfirm": {
+    "message": "將處理 {sessions} 個工作階段的 {tabs} 個分頁。要繼續嗎?"
+  },
+  "runFiltersMenuItem": {
+    "message": "執行篩選器"
+  },
+  "runFiltersNoFilters": {
+    "message": "未定義篩選器。請先建立篩選器。"
+  },
+  "runFiltersNoSessions": {
+    "message": "沒有未鎖定的工作階段可處理。"
+  },
+  "runFiltersSuccess": {
+    "message": "篩選器已處理 {matched} 個分頁"
+  },
+  "sampleSessionCreated": {
+    "message": "範例已建立!"
+  },
+  "sampleSessionName": {
+    "message": "開始使用 Tabstract"
+  },
+  "sampleTab1Title": {
+    "message": "Tabstract 網站"
+  },
+  "sampleTab2Title": {
+    "message": "App Store 上的 Tabstract"
+  },
+  "sampleTab3Title": {
+    "message": "在 App Store 上評價 Tabstract"
+  },
+  "sampleTab4Title": {
+    "message": "By The Farm"
+  },
+  "save": {
+    "message": "儲存"
+  },
+  "saveAllWindowsDesc": {
+    "message": "儲存所有開啟的 Safari 視窗中的分頁，而不只是目前聚焦的視窗"
+  },
+  "saveAllWindowsLabel": {
+    "message": "儲存所有視窗的分頁"
+  },
+  "saveAlsoCloses": {
+    "message": "儲存時<strong>關閉分頁</strong>"
+  },
+  "saveAlsoClosesDesc": {
+    "message": "儲存到 Tabstract 後自動關閉分頁"
+  },
+  "saveAlsoClosesLabel": {
+    "message": "儲存時關閉分頁"
+  },
+  "saveAsTemplate": {
+    "message": "另存為例程"
+  },
+  "saveFilter": {
+    "message": "儲存篩選器"
+  },
+  "saveSelected": {
+    "message": "儲存所選"
+  },
+  "saveSelectedPlural": {
+    "message": "儲存 {count} 個分頁"
+  },
+  "saveSelectedSingular": {
+    "message": "儲存 1 個分頁"
+  },
+  "saveTab": {
+    "message": "儲存分頁"
+  },
+  "saveTabs": {
+    "message": "儲存分頁"
+  },
+  "saveTabsOnStartupDesc": {
+    "message": "當您啟動 Safari 時自動儲存並關閉所有開啟的分頁"
+  },
+  "saveTabsOnStartupLabel": {
+    "message": "啟動時儲存並關閉開啟的分頁"
+  },
+  "savedOnLabel": {
+    "message": "儲存於: $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "date": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "scheduleAddButton": {
+    "message": "+ 排程"
+  },
+  "scheduleDaily": {
+    "message": "每天"
+  },
+  "scheduleEditButton": {
+    "message": "編輯"
+  },
+  "scheduleHourly": {
+    "message": "每小時"
+  },
+  "scheduleMonthly": {
+    "message": "每月"
+  },
+  "scheduleNotifyLabel": {
+    "message": "當例程產生時顯示通知"
+  },
+  "scheduleWeekly": {
+    "message": "每週"
+  },
+  "searchFocusTitle": {
+    "message": "聚焦搜尋(快速鍵: /)"
+  },
+  "searchPlaceholder": {
+    "message": "搜尋"
+  },
+  "searchResults": {
+    "message": "搜尋結果"
+  },
+  "sectionAppleIntelligence": {
+    "message": "人工智慧 - Beta"
+  },
+  "sectionAppleIntelligenceDesc": {
+    "message": "由 Apple Intelligence 提供支援的裝置端 AI 功能"
+  },
+  "sectionInterface": {
+    "message": "一般"
+  },
+  "sectionInterfaceDesc": {
+    "message": "自訂您的 Tabstract 體驗"
+  },
+  "sectionTabRestoring": {
+    "message": "分頁還原"
+  },
+  "sectionTabRestoringDesc": {
+    "message": "控制還原分頁時會發生什麼"
+  },
+  "sectionTabSaving": {
+    "message": "分頁儲存"
+  },
+  "sectionTabSavingDesc": {
+    "message": "控制儲存分頁時會發生什麼"
+  },
+  "selectAll": {
+    "message": "全選"
+  },
+  "selectFileToImport": {
+    "message": "請選擇要匯入的檔案。"
+  },
+  "selectNone": {
+    "message": "全不選"
+  },
+  "selectTabsToSave": {
+    "message": "選擇要儲存的分頁"
+  },
+  "sessionActions": {
+    "message": "工作階段動作"
+  },
+  "sessionLocked": {
+    "message": "工作階段已鎖定"
+  },
+  "settingsSubtitle": {
+    "message": "變更立即生效"
+  },
+  "shortcutOpenTabstractLabel": {
+    "message": "開啟 Tabstract:"
+  },
+  "shortcutSaveCurrentTabLabel": {
+    "message": "儲存目前分頁:"
+  },
+  "shortcutSaveTabsLabel": {
+    "message": "儲存分頁:"
+  },
+  "simpleMode": {
+    "message": "簡單模式"
+  },
+  "smartGroupCopyButton": {
+    "message": "複製"
+  },
+  "smartGroupDeleteConfirm": {
+    "message": "刪除此篩選器?此群組中的分頁將被轉換為一般工作階段。"
+  },
+  "smartGroupHelpDomain": {
+    "message": "輸入網域名稱(例如: github.com)。會比對完全相符的網域和所有子網域。"
+  },
+  "smartGroupHelpKeyword": {
+    "message": "輸入要在網址和頁面標題中搜尋的關鍵字(例如: \"react\")。不區分大小寫。"
+  },
+  "smartGroupHelpRegex": {
+    "message": "輸入正規表示式模式(例如: (github|gitlab)\\.com)。會比對網址和標題。"
+  },
+  "smartGroupNameLabel": {
+    "message": "篩選器名稱"
+  },
+  "smartGroupNamePlaceholder": {
+    "message": "例如: GitHub 專案"
+  },
+  "smartGroupNameRequired": {
+    "message": "篩選器名稱為必填"
+  },
+  "smartGroupPatternInvalidRegex": {
+    "message": "無效的正規表示式"
+  },
+  "smartGroupPatternLabel": {
+    "message": "模式"
+  },
+  "smartGroupPatternRequired": {
+    "message": "模式為必填"
+  },
+  "smartGroupPatternTypeKeyword": {
+    "message": "關鍵字"
+  },
+  "smartGroupPatternTypeLabel": {
+    "message": "模式類型"
+  },
+  "smartGroupPatternTypeRegex": {
+    "message": "正規表示式"
+  },
+  "smartGroupPinButton": {
+    "message": "釘選"
+  },
+  "smartGroupPreviewText": {
+    "message": "目前符合此模式"
+  },
+  "smartGroupUnpinButton": {
+    "message": "取消釘選"
+  },
+  "smartGroupsCreateButton": {
+    "message": "+ 建立篩選器"
+  },
+  "smartGroupsEmptyMessage": {
+    "message": "尚未建立篩選器。"
+  },
+  "smartGroupsModalTitle": {
+    "message": "管理篩選器"
+  },
+  "snoozeLabel": {
+    "message": "<strong>延後</strong>隱藏徽章"
+  },
+  "snoozeSuffix": {
+    "message": "小時"
+  },
+  "snoozeToolbarBadge": {
+    "message": "延後工具列徽章"
+  },
+  "sortBy": {
+    "message": "排序方式"
+  },
+  "sortNewest": {
+    "message": "最新優先"
+  },
+  "sortNewestToOldest": {
+    "message": "由新到舊排序"
+  },
+  "sortOldest": {
+    "message": "最舊優先"
+  },
+  "sortOldestToNewest": {
+    "message": "由舊到新排序"
+  },
+  "sortRainbow": {
+    "message": "彩虹"
+  },
+  "splitGroup": {
+    "message": "分割群組"
+  },
+  "supportedFormatsHeading": {
+    "message": "支援的格式:"
+  },
+  "tabCount": {
+    "message": "$1 個分頁",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabCountOfTotal": {
+    "message": "$2 個$3中的 $1 個",
+    "placeholders": {
+      "filtered": {
+        "content": "$1"
+      },
+      "tabWord": {
+        "content": "$3"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "tabCountPlural": {
+    "message": "$1 個分頁",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabGroupLetter": {
+    "message": "視窗 {letter}"
+  },
+  "tabPlural": {
+    "message": "分頁"
+  },
+  "tabSingular": {
+    "message": "分頁"
+  },
+  "templateScheduleNotification": {
+    "message": "例程 \"%s\" 已加入到您的工作階段。"
+  },
+  "templates": {
+    "message": "例程"
+  },
+  "time": {
+    "message": "時間:"
+  },
+  "tipsOppensession": {
+    "message": "按住 Shift 並點擊可展開或摺疊所有工作階段"
+  },
+  "tipsReminders": {
+    "message": "通知徽章讓已儲存的工作階段保持在您的心上"
+  },
+  "tipsRename": {
+    "message": "標記工作階段以保持井然有序"
+  },
+  "tipsSingletab": {
+    "message": "按住 Shift 只儲存目前的分頁"
+  },
+  "tipsTitle": {
+    "message": "秘訣"
+  },
+  "tipsToolbar": {
+    "message": "將 Tabstract 拖曳到您的 Safari 工具列以開始使用。"
+  },
+  "todayAt": {
+    "message": "今天 $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "toggleAllTabsInWindow": {
+    "message": "切換 $1 中的所有分頁",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "window": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "toolbar": {
+    "message": "工具列"
+  },
+  "trashAutoDeletesHint": {
+    "message": "$1 天後自動刪除",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "days": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "trashCleanupLog": {
+    "message": "垃圾桶清理: 已移除過期/超出的項目"
+  },
+  "trashDuplicates": {
+    "message": "刪除重複項"
+  },
+  "trashEmpty": {
+    "message": "垃圾桶是空的"
+  },
+  "trashEmptyDesc": {
+    "message": "已刪除的連結會出現在這裡，並在 30 天後自動移除。"
+  },
+  "trashExpiringSoon": {
+    "message": "即將到期"
+  },
+  "trashExpiringThisWeek": {
+    "message": "本週到期"
+  },
+  "trashExpiringToday": {
+    "message": "今天到期"
+  },
+  "trashExpiringTomorrow": {
+    "message": "明天到期"
+  },
+  "trashLimitHint": {
+    "message": "垃圾桶限制為 $1 個連結",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "max": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "undo": {
+    "message": "復原"
+  },
+  "undoDeleteLink": {
+    "message": "連結已刪除。要復原嗎?"
+  },
+  "undoDeleteSession": {
+    "message": "工作階段已刪除。要復原嗎?"
+  },
+  "undoMergeSession": {
+    "message": "工作階段已合併。要復原嗎?"
+  },
+  "undoTimeoutDescPost": {
+    "message": "在刪除後"
+  },
+  "undoTimeoutDescPre": {
+    "message": "顯示復原按鈕"
+  },
+  "undoTimeoutLabel": {
+    "message": "復原按鈕逾時"
+  },
+  "undoTimeoutSuffix": {
+    "message": "秒"
+  },
+  "unlockAll": {
+    "message": "全部解鎖"
+  },
+  "unlockSession": {
+    "message": "解鎖"
+  },
+  "unlocked": {
+    "message": "已解鎖"
+  },
+  "unpinFromTop": {
+    "message": "取消釘選"
+  },
+  "unrecognizedFileFormat": {
+    "message": "無法辨識的檔案格式。支援的格式: JSON、HTML 書籤、OPML、Markdown、TSV、純文字 以及來自 Tab Space、Tabs Saver 和 OneTab 的匯出檔案。"
+  },
+  "unsnooze": {
+    "message": "取消延後"
+  },
+  "untitledFilter": {
+    "message": "描述此篩選器..."
+  },
+  "upgradeToPro": {
+    "message": "升級到 Pro"
+  },
+  "userGuideTitle": {
+    "message": "如何使用 Tabstract"
+  },
+  "viewTrash": {
+    "message": "檢視垃圾桶"
+  },
+  "weekdayFormat": {
+    "message": "long"
+  },
+  "weekdaysAt": {
+    "message": "平日於 {time}"
+  },
+  "weekendsAt": {
+    "message": "週末於 {time}"
+  },
+  "weeklyAt": {
+    "message": "每週於 {time}"
+  },
+  "welcomeActionHelp": {
+    "message": "了解更多"
+  },
+  "welcomeActionSave": {
+    "message": "試試範例工作階段"
+  },
+  "welcomeBackSubtitle": {
+    "message": "這裡有一些秘訣可幫助您充分利用 Tabstract:"
+  },
+  "welcomeBackTitle1": {
+    "message": "看看您，沒有分頁了! 💅"
+  },
+  "welcomeBackTitle2": {
+    "message": "分頁零。活在夢想中!"
+  },
+  "welcomeBackTitle3": {
+    "message": "沒有分頁?您是傳奇。😎"
+  },
+  "welcomeBackTitle4": {
+    "message": "全部處理完了?令人印象深刻!"
+  },
+  "welcomeDescription": {
+    "message": "Tabstract 可儲存和整理您的 Safari 分頁，讓您的生活井然有序。"
+  },
+  "welcomeStep0Description": {
+    "message": "將 Tabstract 圖示拖曳到您的 Safari 工具列，以快速存取儲存和還原分頁。"
+  },
+  "welcomeStep0Title": {
+    "message": "加入到工具列"
+  },
+  "welcomeStep1Description": {
+    "message": "點擊工具列中的 Tabstract 圖示或使用 Cmd+Shift+S 來儲存所有開啟的分頁。"
+  },
+  "welcomeStep1Title": {
+    "message": "儲存您的分頁"
+  },
+  "welcomeStep2Description": {
+    "message": "為您的工作階段命名，鎖定重要的工作階段，並保持井然有序。"
+  },
+  "welcomeStep2Title": {
+    "message": "整理工作階段"
+  },
+  "welcomeStep3Description": {
+    "message": "點擊任何工作階段以立即還原其所有分頁，或根據需要還原個別分頁。"
+  },
+  "welcomeStep3Title": {
+    "message": "隨時還原"
+  },
+  "welcomeTip": {
+    "message": "☆ 專業秘訣: 按住 Shift 並點擊儲存按鈕，只儲存目前的分頁 ☆"
+  },
+  "welcomeTitle": {
+    "message": "開始使用 Tabstract"
+  },
+  "windowLabel": {
+    "message": "視窗"
+  },
+  "yes": {
+    "message": "是"
+  },
+  "yesterdayAt": {
+    "message": "昨天 $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "zeroTabs": {
+    "message": "0 個分頁"
+  },
+  "backupAutomatic": {
+    "message": "自動"
+  },
+  "backupComplete": {
+    "message": "備份完成！"
+  },
+  "backupExplainer": {
+    "message": "Tabstract 會在每次儲存標籤頁時以及每小時自動備份您的資料。超過24小時的備份會縮減為每天一個，然後每週一個，30天後刪除。手動備份將無限期保留。"
+  },
+  "backupFailed": {
+    "message": "備份失敗"
+  },
+  "backupLoadError": {
+    "message": "無法載入備份。"
+  },
+  "backupManual": {
+    "message": "手動"
+  },
+  "backupManualBadge": {
+    "message": "手動"
+  },
+  "backupMenuRestoreMerge": {
+    "message": "還原分頁（合併）"
+  },
+  "backupMenuRestoreReplace": {
+    "message": "還原分頁（取代）"
+  },
+  "backupMenuRestoreSystem": {
+    "message": "還原系統（完全重設）"
+  },
+  "backupNow": {
+    "message": "立即備份"
+  },
+  "backupPreRestoreBadge": {
+    "message": "還原點"
+  },
+  "backupActionsLabel": {
+    "message": "備份操作"
+  },
+  "backupTabCount": {
+    "message": "$1 個分頁",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupsTitle": {
+    "message": "備份與還原"
+  },
+  "confirmDeleteBackup": {
+    "message": "確定要刪除此備份嗎？此操作無法復原。"
+  },
+  "confirmRestoreEverything": {
+    "message": "這將用此備份中的資料取代您目前所有的 Tabstract 資料（標籤頁、設定、例行程序、篩選器等）。\n\n為以防萬一，將先建立一個還原前備份。\n\n繼續？"
+  },
+  "confirmRestoreTabsMerge": {
+    "message": "這將把備份中的標籤頁與您現有的標籤頁合併，同時保留兩者。\n\n為以防萬一，也會建立一個還原前備份。\n\n繼續？"
+  },
+  "confirmRestoreTabsOnly": {
+    "message": "這將僅用此備份中的標籤頁取代您儲存的標籤頁。設定、例行程序和篩選器不會更改。\n\n為以防萬一，將先建立一個還原前備份。\n\n繼續？"
+  },
+  "lastBackup": {
+    "message": "上次備份："
+  },
+  "loadingBackups": {
+    "message": "正在載入備份..."
+  },
+  "noBackupsYet": {
+    "message": "尚無備份"
+  },
+  "restoreError": {
+    "message": "從備份還原失敗。請重試。"
+  },
+  "restoreTabsDialogDetail": {
+    "message": "合併將把備份中的標籤頁新增到您現有的標籤頁旁邊。將先建立一個還原前備份。"
+  },
+  "restoreTabsDialogMessage": {
+    "message": "您想取代目前的標籤頁還是將其與備份合併？"
+  },
+  "exportBackupShowInFinder": {
+    "message": "在 Finder 中顯示"
+  }
+}

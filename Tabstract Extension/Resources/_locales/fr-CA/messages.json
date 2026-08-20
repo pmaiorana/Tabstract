@@ -1,0 +1,2706 @@
+{
+  "SnoozeInfo": {
+    "message": "Le badge de la barre d'outils suit les sessions enregistrées pour qu'elles ne soient pas oubliées. Reporter masque temporairement le badge."
+  },
+  "accentColorLabel": {
+    "message": "Couleur"
+  },
+  "actionLockTabGroup": {
+    "message": "Verrouiller le groupe d'onglets"
+  },
+  "actionSendToTabGroup": {
+    "message": "Envoyer les onglets au groupe d'onglets"
+  },
+  "actionSendToTrash": {
+    "message": "Envoyer les onglets à la corbeille"
+  },
+  "actionSessionName": {
+    "message": "Nom"
+  },
+  "actionSetColor": {
+    "message": "Définir la couleur du groupe d'onglets"
+  },
+  "actionSetLockStatus": {
+    "message": "Définir l'état de verrouillage"
+  },
+  "actionsMenu": {
+    "message": "Actions"
+  },
+  "advancedMode": {
+    "message": "Mode avancé"
+  },
+  "aiDisabledNotice": {
+    "message": "<strong>Apple Intelligence est actuellement désactivé ou indisponible.</strong> Vérifiez le menu Apple Intelligence dans les Réglages Système"
+  },
+  "aiEnabledButInaccessible": {
+    "message": "<strong>Apple Intelligence semble être activé sur votre système, mais Tabstract ne peut pas y accéder.</strong><br><br>Causes courantes:<ul><li>La langue de macOS et la langue de Siri ne correspondent pas. Apple exige que les deux soient définis sur la même langue.</li><li>Apple Intelligence est toujours en cours d'initialisation ; attendez quelques minutes et rechargez Tabstract → Réglages.</li><li>Vous êtes dans un pays non pris en charge. Apple Intelligence n'est pas disponible sur les appareils achetés en Chine continentale, ou sur les appareils utilisés en Chine continentale avec un identifiant Apple dont le pays ou la région est défini sur Chine continentale.</li></ul>"
+  },
+  "aiExperimentalNotice": {
+    "message": "<strong>Cette fonctionnalité est nouvelle et expérimentale</strong>, les résultats continueront de s'améliorer avec le temps"
+  },
+  "aiLanguageNotSupported": {
+    "message": "Les fonctionnalités IA ne sont pas disponibles dans cette langue car Apple Intelligence ne la prend pas encore en charge. Veuillez passer à l'anglais, l'espagnol, le français, l'allemand, l'italien, le japonais, le coréen, le portugais (Brésil) ou le chinois (simplifié) pour utiliser les fonctionnalités IA."
+  },
+  "aiNotAvailable": {
+    "message": "<strong>Apple Intelligence n'est pas disponible.</strong> Vérifiez les paramètres de votre système pour vous assurer qu'il est activé et prêt"
+  },
+  "aiRegenerateTitle": {
+    "message": "Régénérer le titre"
+  },
+  "aiSmartCategorizationDesc": {
+    "message": "Organisez automatiquement les groupes d'onglets de <strong>6 onglets ou plus</strong> par thèmes <span class=\"hint\"><strong class=\"info\"></strong>Nécessite l'activation de <em>Générer des titres de session</em></span>"
+  },
+  "aiSmartCategorizationLabel": {
+    "message": "Catégorisation intelligente"
+  },
+  "aiTitleSuggestionsDesc": {
+    "message": "Utilisez Apple Intelligence — une IA privée sur l'appareil — pour suggérer des titres de session lors de l'enregistrement des onglets"
+  },
+  "aiTitleSuggestionsLabel": {
+    "message": "Générer des titres de session"
+  },
+  "aiUnsupportedNotice": {
+    "message": "Les fonctionnalités IA nécessitent un Mac compatible avec Apple Intelligence et macOS 26.0 ou version ultérieure"
+  },
+  "all": {
+    "message": "tous"
+  },
+  "am": {
+    "message": "AM"
+  },
+  "any": {
+    "message": "tout"
+  },
+  "appName": {
+    "message": "Tabstract"
+  },
+  "appleIntelligenceUnavailable": {
+    "message": "Apple Intelligence indisponible"
+  },
+  "atLeastOnePatternRequired": {
+    "message": "Au moins un motif requis"
+  },
+  "avoidDuplicatesDesc": {
+    "message": "Empêche d’enregistrer la même URL plusieurs fois dans une session"
+  },
+  "avoidDuplicatesLabel": {
+    "message": "Ne pas enregistrer les onglets en double"
+  },
+  "avoidDuplicatesSetting": {
+    "message": "<strong>Ne pas enregistrer les onglets en double</strong> dans la même session"
+  },
+  "bannerNewFeatures": {
+    "message": "<strong>Nouveautés!</strong> Menu d'actions, prise en charge du chinois traditionnel, copier en texte enrichi, nettoyage des doublons!"
+  },
+  "bannerText": {
+    "message": "Fini les onglets perdus grâce à notre nouveau système de sauvegarde automatique! En plus : bêta-testeurs recherchés!"
+  },
+  "bannerTitle": {
+    "message": "Tabstract 3.1"
+  },
+  "bulkActionCreateGroup": {
+    "message": "Fusionner"
+  },
+  "bulkActionDeselect": {
+    "message": "Tout désélectionner"
+  },
+  "bulkActionDuplicate": {
+    "message": "Dupliquer"
+  },
+  "bulkActionLockUnlock": {
+    "message": "Verrouiller/Déverrouiller la sélection"
+  },
+  "bulkActionRestore": {
+    "message": "Restaurer"
+  },
+  "bulkActionTrash": {
+    "message": "Corbeille"
+  },
+  "cancel": {
+    "message": "Annuler"
+  },
+  "clearData": {
+    "message": "Réinitialiser Tabstract"
+  },
+  "clearFilters": {
+    "actionsMenu": {
+      "message": "Actions"
+    },
+    "bulkActionDuplicate": {
+      "message": "Duplicate"
+    },
+    "bulkActionLockUnlock": {
+      "message": "Lock/Unlock Selected"
+    },
+    "colorBlue": {
+      "message": "Blue"
+    },
+    "colorDefault": {
+      "message": "Default"
+    },
+    "colorGreen": {
+      "message": "Green"
+    },
+    "colorOrange": {
+      "message": "Orange"
+    },
+    "colorPink": {
+      "message": "Pink"
+    },
+    "colorPurple": {
+      "message": "Purple"
+    },
+    "colorRed": {
+      "message": "Red"
+    },
+    "colorYellow": {
+      "message": "Yellow"
+    },
+    "filterAll": {
+      "message": "All"
+    },
+    "message": "Réinitialiser"
+  },
+  "clearSchedule": {
+    "message": "Effacer le planning"
+  },
+  "clearSearch": {
+    "message": "Effacer la recherche"
+  },
+  "clearSnooze": {
+    "message": "Annuler le rappel"
+  },
+  "clickNewToGetStarted": {
+    "message": "Cliquez sur « Nouveau » pour commencer."
+  },
+  "clipboardError": {
+    "message": "Impossible de copier dans le presse-papiers"
+  },
+  "close": {
+    "message": "Fermer"
+  },
+  "closeFiltersModal": {
+    "message": "Fermer la fenêtre de filtres"
+  },
+  "closeHomeTabOnOpen": {
+    "message": "Fermer Tabstract après la restauration des sessions"
+  },
+  "closeHomeTabOnOpenDesc": {
+    "message": "Fermer Tabstract lors de l'ouverture de groupes d'onglets"
+  },
+  "closeHomeTabOnOpenLabel": {
+    "message": "Fermer Tabstract après la restauration"
+  },
+  "collapseAll": {
+    "message": "Tout réduire"
+  },
+  "collapseExpandAll": {
+    "message": "Réduire/développer tout"
+  },
+  "collapseSession": {
+    "message": "Réduire la session"
+  },
+  "collapseTemplate": {
+    "message": "Réduire la routine"
+  },
+  "colorBlue": {
+    "message": "Bleu"
+  },
+  "colorDefault": {
+    "message": "Par défaut"
+  },
+  "colorGreen": {
+    "message": "Vert"
+  },
+  "colorOrange": {
+    "message": "Orange"
+  },
+  "colorPink": {
+    "message": "Rose"
+  },
+  "colorPurple": {
+    "message": "Violet"
+  },
+  "colorRed": {
+    "message": "Rouge"
+  },
+  "colorYellow": {
+    "message": "Jaune"
+  },
+  "columnColor": {
+    "message": "Couleur"
+  },
+  "columnDateCreated": {
+    "message": "Date de création"
+  },
+  "columnDomain": {
+    "message": "Domaine"
+  },
+  "columnGroup": {
+    "message": "Groupe d'onglets"
+  },
+  "columnLock": {
+    "message": "Verrouillé"
+  },
+  "columnPinned": {
+    "message": "Épinglé"
+  },
+  "columnTitle": {
+    "message": "Titre"
+  },
+  "confirmClearSchedule": {
+    "message": "Effacer ce planning?"
+  },
+  "confirmDeleteFromTrash": {
+    "message": "Êtes-vous sûr de vouloir supprimer définitivement ce lien ? Cette action est irréversible."
+  },
+  "confirmDeleteTemplate": {
+    "message": "Supprimer cette routine? Cette action est irréversible."
+  },
+  "confirmEmptyTrash": {
+    "message": "Êtes-vous sûr de vouloir supprimer définitivement tous les éléments de la corbeille ? Cette action est irréversible."
+  },
+  "confirmImport": {
+    "message": "ATTENTION: Cela remplacera complètement toutes vos données Tabstract actuelles (paramètres, sessions sauvegardées, corbeille, etc.) par les données importées.\n\nCette action est irréversible.\n\nÊtes-vous sûr de vouloir continuer?"
+  },
+  "confirmReset": {
+    "message": "Êtes-vous sûr de vouloir réinitialiser Tabstract ?\n\nTous les onglets seront supprimés, y compris ceux des sessions verrouillées.\n\nCette action est irréversible."
+  },
+  "contactSupport": {
+    "message": "Contact"
+  },
+  "copiedToClipboard": {
+    "message": "Copié !"
+  },
+  "copyAllToClipboard": {
+    "message": "Copier en Markdown"
+  },
+  "copyFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "copyFormatPlain": {
+    "message": "Texte brut"
+  },
+  "copyFormatRich": {
+    "message": "Texte enrichi"
+  },
+  "copyMenu": {
+    "message": "Copier..."
+  },
+  "createFilter": {
+    "message": "Créer un filtre"
+  },
+  "createNewFilter": {
+    "message": "Créer un nouveau filtre"
+  },
+  "customColor": {
+    "message": "Couleur personnalisée"
+  },
+  "dailyAt": {
+    "message": "Quotidien à {time}"
+  },
+  "darkAuto": {
+    "message": "Auto"
+  },
+  "darkDark": {
+    "message": "Sombre"
+  },
+  "darkLight": {
+    "message": "Clair"
+  },
+  "darkModeDesc": {
+    "message": "Choisissez votre thème de couleurs"
+  },
+  "darkModeLabel": {
+    "message": "Mode sombre"
+  },
+  "darkOff": {
+    "message": "Off"
+  },
+  "darkSystem": {
+    "message": "Système"
+  },
+  "dayFormat": {
+    "message": "numeric"
+  },
+  "dayOfMonth": {
+    "message": "Jour du mois:"
+  },
+  "days": {
+    "message": "Jours:"
+  },
+  "debugConsole": {
+    "message": "Console de débogage"
+  },
+  "deleteAfterRestore": {
+    "message": "La restauration des onglets les supprime de Tabstract <span class=\"hint\"><strong class=\"info\">Shift+Click</strong> lors de la restauration pour désactiver temporairement</span>"
+  },
+  "deleteAfterRestoreDesc": {
+    "message": "Les onglets sont supprimés de Tabstract lorsqu’ils sont restaurés <span class=\"hint\"><strong class=\"info\">Maj+Clic</strong> pour désactiver temporairement</span>"
+  },
+  "deleteAfterRestoreLabel": {
+    "message": "Supprimer les onglets après restauration"
+  },
+  "deleteBackup": {
+    "message": "Supprimer la sauvegarde"
+  },
+  "deleteSmartGroup": {
+    "message": "Supprimer le filtre"
+  },
+  "deleteTab": {
+    "message": "Supprimer cet onglet"
+  },
+  "dismissAIUnavailableMessage": {
+    "message": "Ignorer le message Apple Intelligence indisponible"
+  },
+  "downloadData": {
+    "message": "Télécharger les données"
+  },
+  "downloadReport": {
+    "message": "Télécharger le rapport système"
+  },
+  "draftDelete": {
+    "message": "Supprimer"
+  },
+  "dragToReorder": {
+    "message": "Glisser pour réorganiser"
+  },
+  "duplicateGroup": {
+    "message": "Dupliquer le groupe"
+  },
+  "duplicatesRemoved": {
+    "message": "{count} doublon(s) supprimé(s)"
+  },
+  "editFilter": {
+    "message": "Modifier le filtre"
+  },
+  "editSchedule": {
+    "message": "Modifier le planning"
+  },
+  "emailBodyTemplate": {
+    "message": "Bonjour,\n\nJ'ai un problème avec Tabstract.\n\nSuivez ces étapes pour reproduire mon problème :\n1.\n2.\n3.\n\n\nVoici mes données de stockage local pour le dépannage :\n\n$1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "data": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "emailSupport": {
+    "message": "Courriel au support"
+  },
+  "emptySessionHint": {
+    "message": "Glissez des liens ici pour les ajouter à cette session"
+  },
+  "emptyTrash": {
+    "message": "Vider la corbeille"
+  },
+  "emptyTrashWithCount": {
+    "message": "Vider la corbeille ($1 éléments)",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "enableBadge": {
+    "message": "Afficher le badge de rappel dans la barre d'outils"
+  },
+  "enableKeyboardShortcuts": {
+    "message": "Activer les raccourcis clavier"
+  },
+  "errorMaxLength": {
+    "message": "Longueur maximale dépassée"
+  },
+  "errorParsingJson": {
+    "message": "Erreur lors de l'analyse du JSON : $1"
+  },
+  "expandAll": {
+    "message": "Tout développer"
+  },
+  "expandSession": {
+    "message": "Développer la session"
+  },
+  "expandTemplate": {
+    "message": "Développer la routine"
+  },
+  "expiredLabel": {
+    "message": "Expiré"
+  },
+  "expiresInDays": {
+    "message": "Expire dans $1 jours",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInHours": {
+    "message": "Expire dans $1 heures",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInLessThanHour": {
+    "message": "Expire dans < 1 heure"
+  },
+  "export": {
+    "message": "Exporter"
+  },
+  "exportFormatHTML": {
+    "message": "HTML"
+  },
+  "exportFormatJSON": {
+    "message": "JSON"
+  },
+  "exportFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "exportFormatOPML": {
+    "message": "OPML"
+  },
+  "exportFormatPlain": {
+    "message": "Texte brut"
+  },
+  "exportMenu": {
+    "message": "Exporter..."
+  },
+  "exportSavedLinks": {
+    "message": "Exporter les liens enregistrés"
+  },
+  "exportSuccess": {
+    "message": "Exportation réussie!"
+  },
+  "filterAll": {
+    "message": "Tous"
+  },
+  "filterColor": {
+    "message": "Couleur :"
+  },
+  "filterDate": {
+    "message": "Date :"
+  },
+  "filterDateLastMonth": {
+    "message": "Le mois dernier"
+  },
+  "filterDateLastWeek": {
+    "message": "La semaine dernière"
+  },
+  "filterDateMonth": {
+    "message": "Ce mois-ci"
+  },
+  "filterDateToday": {
+    "message": "Aujourd'hui"
+  },
+  "filterDateWeek": {
+    "message": "Cette semaine"
+  },
+  "filterDateYesterday": {
+    "message": "Hier"
+  },
+  "filterDomain": {
+    "message": "Domaine :"
+  },
+  "filterLock": {
+    "message": "Verrouillage :"
+  },
+  "filterName": {
+    "message": "Description"
+  },
+  "filters": {
+    "message": "Filtres"
+  },
+  "filtersDescription": {
+    "message": "Les filtres peuvent trier et organiser automatiquement vos onglets selon un domaine, mot-clé ou autres motifs. <strong>Les filtres sont traités par ordre de priorité</strong>, de haut en bas; glissez pour réorganiser."
+  },
+  "formatOneTab": {
+    "message": "Export OneTab"
+  },
+  "formatTSV": {
+    "message": "TSV"
+  },
+  "formatTabSpace": {
+    "message": "Sauvegarde Tab Space"
+  },
+  "formatTabsSaver": {
+    "message": "Sauvegarde Tabs Saver"
+  },
+  "formatTabstractJSON": {
+    "message": "Export JSON Tabstract"
+  },
+  "frequency": {
+    "message": "Fréquence:"
+  },
+  "fullScreenMode": {
+    "message": "Mode plein écran (F)"
+  },
+  "groupNameRequired": {
+    "message": "Nom de groupe requis"
+  },
+  "guideAIFeaturesBody": {
+    "message": "Si votre ordinateur prend en charge Apple Intelligence, Tabstract peut automatiquement catégoriser vos onglets enregistrés en différents groupes thématiques. Cliquez sur l'<strong>icône étincelle ✨</strong> à côté de n'importe quel titre de session pour générer un nouveau titre. Les ordinateurs qui ne prennent pas en charge Apple Intelligence utiliseront la date et l'heure à la place."
+  },
+  "guideAIFeaturesTitle": {
+    "message": "Organisation des onglets avec l'IA"
+  },
+  "guideBadgeNotificationsBody": {
+    "message": "Le badge de la barre d'outils affiche le nombre de sessions enregistrées afin qu'elles ne soient pas oubliées même hors de vue. Snooze masque le badge jusqu'à 24 heures, ou vous pouvez le désactiver complètement dans les réglages."
+  },
+  "guideBadgeNotificationsTitle": {
+    "message": "Badge de la barre d'outils"
+  },
+  "guideDragToReorderBody": {
+    "message": "Cliquez et faites glisser des liens ou des sessions pour réorganiser vos onglets enregistrés dans l'ordre qui vous convient."
+  },
+  "guideDragToReorderTitle": {
+    "message": "Organisation par glisser-déposer"
+  },
+  "guideGettingStartedBody": {
+    "message": "Tabstract vous aide à enregistrer et organiser vos onglets Safari. Pour commencer, faites un clic droit sur la barre d'outils Safari, sélectionnez Personnaliser et glissez l'icône Tabstract vers votre barre d'outils. Une fois installé dans votre barre d'outils, cliquez sur Tabstract, puis sur <strong>Enregistrer les onglets</strong> pour capturer tous les onglets ouverts dans la fenêtre actuelle. "
+  },
+  "guideGettingStartedTitle": {
+    "message": "Premiers pas"
+  },
+  "guideKeyboardShortcutsBody": {
+    "message": "Tabstract inclut des raccourcis clavier et des combinaisons de touches modificatrices pour les utilisateurs avancés. Vous pouvez désactiver les raccourcis dans Réglages.<br><br>\n                <strong>Raccourcis principaux :</strong><br><br>\n                Enregistrer tous les onglets : <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd><br>\n                Enregistrer uniquement l'onglet actuel : <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd><br>\n                Ouvrir la liste des sessions enregistrées : <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd><br><br>\n                <strong>Actions rapides :</strong><br><br>\n                Mettre le champ de recherche en focus : <kbd>/</kbd><br>\n                Créer une nouvelle session : <kbd>N</kbd><br><br>\n                <strong>Combinaisons avec modificateurs :</strong><br><br>\n                Enregistrer uniquement l'onglet actuel : <kbd>Shift</kbd> + clic sur <em>Enregistrer les onglets</em><br>\n                Déployer/replier toutes les sessions : <kbd>Shift</kbd> + clic sur <em>bouton de réduction de session</em><br>\n                Désactiver temporairement le réglage \"Supprimer les onglets après restauration\" : <kbd>Shift</kbd> + clic sur <em>Restaurer</em><br>\n                Désactiver temporairement le réglage \"Restaurer les onglets en arrière-plan\" : <kbd>Option</kbd> + clic sur <em>Restaurer</em>"
+  },
+  "guideKeyboardShortcutsTitle": {
+    "message": "Raccourcis clavier"
+  },
+  "guidePasteLinksBody": {
+    "message": "Vous pouvez copier des liens depuis d'autres applications et coller ces URL directement dans Tabstract ! Tabstract récupèrera automatiquement les titres des pages et les ajoutera à votre collection. "
+  },
+  "guidePasteLinksTitle": {
+    "message": "Copier-coller des liens dans Tabstract"
+  },
+  "guideShiftClickBody": {
+    "message": "Maintenez <kbd>Shift</kbd> enfoncée tout en cliquant sur le bouton de réduction d'une session pour déployer ou replier toutes les sessions d'un coup."
+  },
+  "guideShiftClickTitle": {
+    "message": "Maj+Clic pour tout déployer/replier"
+  },
+  "guideTrashUndoBody": {
+    "message": "Les liens supprimés sont déplacés dans la corbeille pendant 30 jours avant d'être supprimés automatiquement. La corbeille est limitée à 1 000 éléments pour que Tabstract reste rapide."
+  },
+  "guideTrashUndoTitle": {
+    "message": "Corbeille"
+  },
+  "helpPageTitle": {
+    "message": "Assistance et dépannage - Tabstract"
+  },
+  "helpSupportInstructions": {
+    "message": "Vous avez des questions, des demandes de fonctionnalités ou besoin d'aide ? Cliquez sur <em>Courriel au support</em> puis sur <em>Autoriser</em>, ou envoyez votre rapport système à <em>help@tabstract.app</em>, avec tous les détails concernant votre problème.<br /><br />N'hésitez pas non plus à nous écrire pour des demandes de fonctionnalités, rapports de bogues, améliorations de traduction, etc."
+  },
+  "helpTitle": {
+    "message": "Assistance et dépannage"
+  },
+  "hourFormat": {
+    "message": "numeric"
+  },
+  "hourAgo": {
+    "message": "Il y a $1 heure",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hoursAgo": {
+    "message": "Il y a $1 heures",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "import": {
+    "message": "Importer"
+  },
+  "importData": {
+    "message": "Importer des données"
+  },
+  "importError": {
+    "message": "Échec de l'importation des données. Assurez-vous que le fichier est une exportation Tabstract valide."
+  },
+  "importFailedPrefix": {
+    "message": "Échec de l'importation: "
+  },
+  "importLinksLabel": {
+    "message": "Importer des liens d'autres gestionnaires d'onglets"
+  },
+  "importMenu": {
+    "message": "Importer..."
+  },
+  "importSuccess": {
+    "message": "Données importées avec succès! Tabstract va maintenant se recharger."
+  },
+  "importSuccessMessage": {
+    "message": "$1 lien(s) valide(s) importé(s) (sur $2 session(s)).\n$3 lien(s) invalide(s) ignoré(s).\n\nLes titres des pages seront récupérés en arrière-plan.",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "errors": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$3",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "links": {
+        "content": "$1"
+      },
+      "sessions": {
+        "content": "$2"
+      }
+    }
+  },
+  "importSystemBackup": {
+    "message": "Importer une sauvegarde système"
+  },
+  "invalidJsonFormat": {
+    "message": "Format JSON invalide : un tableau de sessions était attendu."
+  },
+  "invalidRegexPrefix": {
+    "message": "Expression régulière invalide: "
+  },
+  "justNow": {
+    "message": "À l'instant"
+  },
+  "langNameArabic": {
+    "message": "Arabe"
+  },
+  "langNameChineseCN": {
+    "message": "Chinois simplifié"
+  },
+  "langNameChineseTW": {
+    "message": "Chinois traditionnel"
+  },
+  "langNameDanish": {
+    "message": "Danois"
+  },
+  "langNameDutch": {
+    "message": "Néerlandais"
+  },
+  "langNameEnglish": {
+    "message": "Anglais"
+  },
+  "langNameFrench": {
+    "message": "Français"
+  },
+  "langNameFrenchCA": {
+    "message": "Français canadien"
+  },
+  "langNameGerman": {
+    "message": "Allemand"
+  },
+  "langNameItalian": {
+    "message": "Italien"
+  },
+  "langNameJapanese": {
+    "message": "Japonais"
+  },
+  "langNameKorean": {
+    "message": "Coréen"
+  },
+  "langNameNorwegian": {
+    "message": "Norvégien"
+  },
+  "langNamePortugueseBR": {
+    "message": "Portugais brésilien"
+  },
+  "langNamePortuguesePT": {
+    "message": "Portugais"
+  },
+  "langNameRussian": {
+    "message": "Russe"
+  },
+  "langNameSpanish": {
+    "message": "Espagnol"
+  },
+  "langNameSpanishLA": {
+    "message": "Espagnol d'Amérique latine"
+  },
+  "langNameSwedish": {
+    "message": "Suédois"
+  },
+  "langNameTurkish": {
+    "message": "Turc"
+  },
+  "langNameVietnamese": {
+    "message": "Vietnamien"
+  },
+  "languageAuto": {
+    "message": "Par défaut du système"
+  },
+  "languageDesc": {
+    "message": "Choisir la langue d'affichage"
+  },
+  "languageLabel": {
+    "message": "Langue"
+  },
+  "lastRun": {
+    "message": "Dernière exécution : {time}"
+  },
+  "launchOnStartup": {
+    "message": "Afficher Tabstract au démarrage du navigateur"
+  },
+  "launchOnStartupDesc": {
+    "message": "Ouvrir Tabstract au lancement de Safari"
+  },
+  "launchOnStartupLabel": {
+    "message": "Lancer au démarrage"
+  },
+  "learnMore": {
+    "message": "En savoir plus"
+  },
+  "learnMoreAboutFeatures": {
+    "message": "En savoir plus sur les nouvelles fonctionnalités"
+  },
+  "linkRestored": {
+    "message": "Lien restauré dans une nouvelle session"
+  },
+  "lockAll": {
+    "message": "Tout verrouiller"
+  },
+  "lockSession": {
+    "message": "Verrouiller"
+  },
+  "lockSessionTitle": {
+    "message": "Verrouiller la session"
+  },
+  "lockUnlockAll": {
+    "message": "Verrouiller/déverrouiller tout"
+  },
+  "manageFiltersMenuItem": {
+    "message": "Gérer les filtres..."
+  },
+  "manageTemplates": {
+    "message": "Gérer les routines"
+  },
+  "manageTemplatesMenuItem": {
+    "message": "Gérer les routines..."
+  },
+  "match": {
+    "message": "Si"
+  },
+  "matches": {
+    "message": "Correspondances :"
+  },
+  "mergeIntoSessionBelow": {
+    "message": "Fusionner avec la session ci-dessous"
+  },
+  "minuteFormat": {
+    "message": "numeric"
+  },
+  "minuteAgo": {
+    "message": "Il y a $1 minute",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "minutesAgo": {
+    "message": "Il y a $1 minutes",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "monthFormat": {
+    "message": "long"
+  },
+  "monthlyOn": {
+    "message": "Mensuel le {day} à {time}"
+  },
+  "moreActions": {
+    "message": "Plus d'actions"
+  },
+  "moveToTop": {
+    "message": "Envoyer en haut"
+  },
+  "navHelp": {
+    "message": "Aide + Astuces"
+  },
+  "navHome": {
+    "message": "Accueil"
+  },
+  "navSelect": {
+    "message": "Sélectionner"
+  },
+  "navSettings": {
+    "message": "Réglages"
+  },
+  "navSnooze": {
+    "message": "Reporter"
+  },
+  "needHelpWithTabstract": {
+    "message": "Besoin d'aide avec Tabstract"
+  },
+  "never": {
+    "message": "Jamais"
+  },
+  "newButton": {
+    "message": "Nouveau"
+  },
+  "newTabGroup": {
+    "message": "Nouveau groupe d'onglets"
+  },
+  "no": {
+    "message": "Non"
+  },
+  "noAvailableTabs": {
+    "message": "Aucun onglet disponible"
+  },
+  "noColor": {
+    "message": "Aucune couleur"
+  },
+  "noResultsFound": {
+    "message": "Aucun résultat trouvé pour"
+  },
+  "noSavedLinksToExport": {
+    "message": "Aucun lien enregistré à exporter."
+  },
+  "noTabsAvailableToSave": {
+    "message": "Aucun onglet disponible à sauvegarder"
+  },
+  "noTabsSaved": {
+    "message": "Aucun onglet enregistré."
+  },
+  "noTemplatesInstructions": {
+    "message": "Aucune routine enregistrée pour le moment.<br>Créez une routine à partir d'une session pour commencer."
+  },
+  "noTemplatesSaved": {
+    "message": "Aucune routine sauvegardée.<br>Créez une routine à partir d'une session pour commencer."
+  },
+  "noTemplatesSavedYet": {
+    "message": "Aucune routine sauvegardée"
+  },
+  "nonMatchingWarning": {
+    "message": "<strong>⚠️ Attention:</strong> $1 onglet(s) dans ce groupe ne correspondent plus aux motifs et seront déplacés vers une nouvelle session intitulée \"<strong>Retiré de $2</strong>\".",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "content": "$1"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$2",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "none": {
+    "message": "Aucun"
+  },
+  "ofTheFollowingConditions": {
+    "message": "des conditions suivantes sont remplies:"
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "oneclickSave": {
+    "message": "Enregistrement en un clic <span class=\"hint\"><strong class=\"caution\">Attention :</strong> cela supprime Accueil et Reporter; utilisez Shift+Command+H pour réafficher Accueil.</span>"
+  },
+  "oneclickSaveDesc": {
+    "message": "<span class=\"hint\"><strong class=\"caution\">Attention :</strong> Il s'agit d'une fonctionnalité expérimentale qui supprime les boutons Accueil / Reporter. Utilisez <strong>Maj+Cmd+H</strong> pour ouvrir l'accueil</span>"
+  },
+  "oneclickSaveLabel": {
+    "message": "Enregistrement en un clic"
+  },
+  "openLink": {
+    "message": "Ouvrir $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "pageTitle": {
+    "message": "Outils et réglages - Tabstract"
+  },
+  "pasteLinks": {
+    "message": "Coller les liens"
+  },
+  "performActions": {
+    "message": "Effectuer les actions suivantes:"
+  },
+  "pinToTop": {
+    "message": "Épingler en haut"
+  },
+  "pinnedTabsDesc": {
+    "message": "Les onglets épinglés ne seront ni fermés ni enregistrés dans Tabstract"
+  },
+  "pinnedTabsLabel": {
+    "message": "Ne pas enregistrer les onglets épinglés"
+  },
+  "pinnedTabsSetting": {
+    "message": "<strong>Ne pas enregistrer les onglets épinglés</strong> (les onglets épinglés ne sont ni fermés ni enregistrés dans Tabstract)"
+  },
+  "pleaseEnterDayBetween1And31": {
+    "message": "Veuillez entrer un jour entre 1 et 31."
+  },
+  "pleaseEnterPattern": {
+    "message": "Veuillez entrer une valeur de motif"
+  },
+  "pleaseSelectAtLeastOneDay": {
+    "message": "Veuillez sélectionner au moins un jour pour le planning hebdomadaire."
+  },
+  "pm": {
+    "message": "PM"
+  },
+  "refreshData": {
+    "message": "Rafraîchir les données de débogage"
+  },
+  "removeFromSession": {
+    "message": "Retirer $1 de la session",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "removedFrom": {
+    "message": "Supprimé de $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "resetGroupColors": {
+    "message": "Réinitialiser les couleurs"
+  },
+  "restoreAllTabs": {
+    "message": "Restaurer tous les onglets"
+  },
+  "restoreInBackground": {
+    "message": "Les onglets restaurés s'ouvrent en arrière-plan <span class=\"hint\"><strong class=\"info\">Option+Click</strong> lors de la restauration pour désactiver temporairement</span>"
+  },
+  "restoreInBackgroundDesc": {
+    "message": "Les onglets restaurés s’ouvrent derrière Tabstract au lieu de changer de focus <span class=\"hint\"><strong class=\"info\">Option+Clic</strong> pour désactiver temporairement</span>"
+  },
+  "restoreInBackgroundLabel": {
+    "message": "Restaurer les onglets en arrière-plan"
+  },
+  "restoreTabsMerge": {
+    "message": "Fusionner"
+  },
+  "restoreTabsReplace": {
+    "message": "Remplacer"
+  },
+  "restoreTabsToCurrentWindow": {
+    "message": "Fenêtre actuelle"
+  },
+  "restoreTabsToLabel": {
+    "message": "Restaurer les groupes d'onglets dans :"
+  },
+  "restoreTabsToNewWindow": {
+    "message": "Nouvelle fenêtre"
+  },
+  "restoredFromTrashSessionName": {
+    "message": "Restauré depuis la corbeille"
+  },
+  "restoredLinkSessionName": {
+    "message": "Lien restauré"
+  },
+  "reviewButton": {
+    "message": "Évaluez‑nous sur l’App Store ★★★★★"
+  },
+  "reviewLaterButton": {
+    "message": "Peut-être plus tard"
+  },
+  "reviewMessage": {
+    "message": "Tabstract est gratuit mais fonctionne grâce aux évaluations et avis, laissez-nous une note !"
+  },
+  "reviewModalText": {
+    "message": "Tabstract est gratuit mais fonctionne grâce aux évaluations et avis 🚀 Veuillez considérer nous donner une note de 5 étoiles !"
+  },
+  "reviewModalTitle": {
+    "message": "Vous appréciez Tabstract ?"
+  },
+  "runFiltersConfirm": {
+    "message": "Traiter {sessions} sessions avec {tabs} onglets. Continuer?"
+  },
+  "runFiltersMenuItem": {
+    "message": "Exécuter les filtres"
+  },
+  "runFiltersNoFilters": {
+    "message": "Aucun filtre défini. Créez d'abord des filtres."
+  },
+  "runFiltersNoSessions": {
+    "message": "Aucune session déverrouillée à traiter."
+  },
+  "runFiltersSuccess": {
+    "message": "{matched} onglets traités par les filtres"
+  },
+  "sampleSessionCreated": {
+    "message": "Exemple créé !"
+  },
+  "sampleSessionName": {
+    "message": "Démarrage avec Tabstract"
+  },
+  "sampleTab1Title": {
+    "message": "Site web de Tabstract"
+  },
+  "sampleTab2Title": {
+    "message": "Tabstract sur l'App Store"
+  },
+  "sampleTab3Title": {
+    "message": "Évaluer Tabstract sur l'App Store"
+  },
+  "sampleTab4Title": {
+    "message": "By The Farm"
+  },
+  "save": {
+    "message": "Enregistrer"
+  },
+  "saveAllWindowsDesc": {
+    "message": "Enregistre les onglets de toutes les fenêtres Safari ouvertes, au lieu de la fenêtre active uniquement"
+  },
+  "saveAllWindowsLabel": {
+    "message": "Enregistrer les onglets de toutes les fenêtres"
+  },
+  "saveAlsoCloses": {
+    "message": "<strong>Fermer les onglets</strong> lors de l'enregistrement"
+  },
+  "saveAlsoClosesDesc": {
+    "message": "Les onglets sont automatiquement fermés après leur enregistrement dans Tabstract"
+  },
+  "saveAlsoClosesLabel": {
+    "message": "Fermer les onglets lors de l’enregistrement"
+  },
+  "saveAsTemplate": {
+    "message": "Enregistrer comme routine"
+  },
+  "saveFilter": {
+    "message": "Enregistrer le filtre"
+  },
+  "saveSelected": {
+    "message": "Enregistrer la sélection"
+  },
+  "saveSelectedPlural": {
+    "message": "Enregistrer {count} onglets"
+  },
+  "saveSelectedSingular": {
+    "message": "Enregistrer 1 onglet"
+  },
+  "saveTab": {
+    "message": "Enregistrer l'onglet"
+  },
+  "saveTabs": {
+    "message": "Enregistrer les onglets"
+  },
+  "saveTabsOnStartupDesc": {
+    "message": "Enregistrer et fermer automatiquement tous les onglets ouverts au démarrage de Safari"
+  },
+  "saveTabsOnStartupLabel": {
+    "message": "Enregistrer et fermer les onglets ouverts au démarrage"
+  },
+  "savedOnLabel": {
+    "message": "Enregistré : $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "date": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "scheduleAddButton": {
+    "message": "+ Planifier"
+  },
+  "scheduleDaily": {
+    "message": "Quotidien"
+  },
+  "scheduleEditButton": {
+    "message": "Modifier"
+  },
+  "scheduleHourly": {
+    "message": "Toutes les heures"
+  },
+  "scheduleMonthly": {
+    "message": "Mensuel"
+  },
+  "scheduleNotifyLabel": {
+    "message": "Afficher une notification lorsque la routine est exécutée"
+  },
+  "scheduleWeekly": {
+    "message": "Hebdomadaire"
+  },
+  "searchFocusTitle": {
+    "message": "Focaliser la recherche (raccourci : /)"
+  },
+  "searchPlaceholder": {
+    "message": "Rechercher"
+  },
+  "searchResults": {
+    "message": "Résultats de recherche"
+  },
+  "sectionAppleIntelligence": {
+    "message": "Intelligence artificielle - Bêta"
+  },
+  "sectionAppleIntelligenceDesc": {
+    "message": "Fonctionnalités d’IA sur l’appareil propulsées par Apple Intelligence"
+  },
+  "sectionInterface": {
+    "message": "Général"
+  },
+  "sectionInterfaceDesc": {
+    "message": "Personnalisez votre expérience Tabstract"
+  },
+  "sectionTabRestoring": {
+    "message": "Restauration d’onglets"
+  },
+  "sectionTabRestoringDesc": {
+    "message": "Contrôle ce qui se passe lors de la restauration"
+  },
+  "sectionTabSaving": {
+    "message": "Enregistrement d’onglets"
+  },
+  "sectionTabSavingDesc": {
+    "message": "Contrôle ce qui se passe lors de l’enregistrement"
+  },
+  "selectAll": {
+    "message": "Tout sélectionner"
+  },
+  "selectFileToImport": {
+    "message": "Veuillez sélectionner un fichier à importer."
+  },
+  "selectNone": {
+    "message": "Tout désélectionner"
+  },
+  "selectTabsToSave": {
+    "message": "Sélectionner les onglets à enregistrer"
+  },
+  "sessionActions": {
+    "message": "Actions de session"
+  },
+  "sessionLocked": {
+    "message": "La session est verrouillée"
+  },
+  "settingsSubtitle": {
+    "message": "Les modifications prennent effet immédiatement"
+  },
+  "shortcutOpenTabstractLabel": {
+    "message": "Ouvrir Tabstract :"
+  },
+  "shortcutSaveCurrentTabLabel": {
+    "message": "Enregistrer l'onglet courant :"
+  },
+  "shortcutSaveTabsLabel": {
+    "message": "Enregistrer les onglets :"
+  },
+  "simpleMode": {
+    "message": "Mode simple"
+  },
+  "smartGroupCopyButton": {
+    "message": "Copier"
+  },
+  "smartGroupDeleteConfirm": {
+    "message": "Supprimer ce filtre? Les onglets de ce groupe seront convertis en session normale."
+  },
+  "smartGroupHelpDomain": {
+    "message": "Entrez un nom de domaine (ex: github.com). Correspond au domaine exact et à tous les sous-domaines."
+  },
+  "smartGroupHelpKeyword": {
+    "message": "Entrez un mot-clé pour rechercher dans les URLs et titres de pages (ex: \"react\"). Insensible à la casse."
+  },
+  "smartGroupHelpRegex": {
+    "message": "Entrez un motif d'expression régulière (ex: (github|gitlab)\\.com). Correspond à l'URL et au titre."
+  },
+  "smartGroupNameLabel": {
+    "message": "Nom du filtre"
+  },
+  "smartGroupNamePlaceholder": {
+    "message": "ex: Projets GitHub"
+  },
+  "smartGroupNameRequired": {
+    "message": "Nom du filtre requis"
+  },
+  "smartGroupPatternInvalidRegex": {
+    "message": "Expression régulière invalide"
+  },
+  "smartGroupPatternLabel": {
+    "message": "Motif"
+  },
+  "smartGroupPatternRequired": {
+    "message": "Motif requis"
+  },
+  "smartGroupPatternTypeKeyword": {
+    "message": "Mot-clé"
+  },
+  "smartGroupPatternTypeLabel": {
+    "message": "Type de motif"
+  },
+  "smartGroupPatternTypeRegex": {
+    "message": "Expression régulière"
+  },
+  "smartGroupPinButton": {
+    "message": "Épingler"
+  },
+  "smartGroupPreviewText": {
+    "message": "correspondent actuellement à ce motif"
+  },
+  "smartGroupUnpinButton": {
+    "message": "Désépingler"
+  },
+  "smartGroupsCreateButton": {
+    "message": "+ Créer un filtre"
+  },
+  "smartGroupsEmptyMessage": {
+    "message": "Aucun filtre créé."
+  },
+  "smartGroupsModalTitle": {
+    "message": "Gérer les filtres"
+  },
+  "snoozeLabel": {
+    "message": "<strong>Reporter</strong> cache le badge pendant"
+  },
+  "snoozeSuffix": {
+    "message": "heure(s)"
+  },
+  "snoozeToolbarBadge": {
+    "message": "Reporter le badge de la barre d'outils"
+  },
+  "sortBy": {
+    "message": "Trier par"
+  },
+  "sortNewest": {
+    "message": "Plus récent d'abord"
+  },
+  "sortNewestToOldest": {
+    "message": "Trier le plus récent d'abord"
+  },
+  "sortOldest": {
+    "message": "Plus ancien d'abord"
+  },
+  "sortOldestToNewest": {
+    "message": "Trier le plus ancien d'abord"
+  },
+  "sortRainbow": {
+    "message": "Arc-en-ciel"
+  },
+  "splitGroup": {
+    "message": "Diviser le groupe"
+  },
+  "supportedFormatsHeading": {
+    "message": "Formats pris en charge :"
+  },
+  "tabCount": {
+    "message": "$1 onglet",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabCountOfTotal": {
+    "message": "$1 sur $2 $3",
+    "placeholders": {
+      "filtered": {
+        "content": "$1"
+      },
+      "tabWord": {
+        "content": "$3"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "tabCountPlural": {
+    "message": "$1 onglets",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabGroupLetter": {
+    "message": "Fenêtre {letter}"
+  },
+  "tabPlural": {
+    "message": "onglets"
+  },
+  "tabSingular": {
+    "message": "onglet"
+  },
+  "templateScheduleNotification": {
+    "message": "La routine \"%s\" a été ajoutée à vos sessions."
+  },
+  "templates": {
+    "message": "Routines"
+  },
+  "time": {
+    "message": "Heure:"
+  },
+  "tipsOppensession": {
+    "message": "Maj+Clic pour développer ou réduire toutes les sessions"
+  },
+  "tipsReminders": {
+    "message": "Le badge de notification garde les sessions enregistrées en tête"
+  },
+  "tipsRename": {
+    "message": "Étiquetez les sessions pour rester organisé"
+  },
+  "tipsSingletab": {
+    "message": "Maintenez Maj enfoncée pour enregistrer uniquement l’onglet actuel"
+  },
+  "tipsTitle": {
+    "message": "Conseils"
+  },
+  "tipsToolbar": {
+    "message": "Glissez Tabstract vers votre barre d'outils Safari pour commencer."
+  },
+  "todayAt": {
+    "message": "Aujourd'hui, $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "toggleAllTabsInWindow": {
+    "message": "Basculer tous les onglets dans $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "window": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "toolbar": {
+    "message": "Barre d'outils"
+  },
+  "trashAutoDeletesHint": {
+    "message": "Suppression automatique après $1 jours",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "days": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "trashCleanupLog": {
+    "message": "Nettoyage de la corbeille : éléments expirés/en excès supprimés"
+  },
+  "trashDuplicates": {
+    "message": "Supprimer les doublons"
+  },
+  "trashEmpty": {
+    "message": "La corbeille est vide"
+  },
+  "trashEmptyDesc": {
+    "message": "Les liens supprimés apparaîtront ici et seront automatiquement supprimés après 30 jours."
+  },
+  "trashExpiringSoon": {
+    "message": "Expire bientôt"
+  },
+  "trashExpiringThisWeek": {
+    "message": "Expire cette semaine"
+  },
+  "trashExpiringToday": {
+    "message": "Expire aujourd'hui"
+  },
+  "trashExpiringTomorrow": {
+    "message": "Expire demain"
+  },
+  "trashLimitHint": {
+    "message": "La corbeille est limitée à $1 liens",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "max": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "undo": {
+    "message": "Annuler"
+  },
+  "undoDeleteLink": {
+    "message": "Lien supprimé. Annuler ?"
+  },
+  "undoDeleteSession": {
+    "message": "Session supprimée. Annuler ?"
+  },
+  "undoMergeSession": {
+    "message": "Sessions fusionnées. Annuler ?"
+  },
+  "undoTimeoutDescPost": {
+    "message": "après la suppression"
+  },
+  "undoTimeoutDescPre": {
+    "message": "Afficher le bouton Annuler pendant"
+  },
+  "undoTimeoutLabel": {
+    "message": "Afficher le bouton <em>Annuler</em> pendant "
+  },
+  "undoTimeoutSuffix": {
+    "message": "secondes"
+  },
+  "unlockAll": {
+    "message": "Tout déverrouiller"
+  },
+  "unlockSession": {
+    "message": "Déverrouiller"
+  },
+  "unlocked": {
+    "message": "Déverrouillé"
+  },
+  "unpinFromTop": {
+    "message": "Désépingler du haut"
+  },
+  "unrecognizedFileFormat": {
+    "message": "Format de fichier non reconnu. Pris en charge : Markdown, OneTab, OPML, signets HTML, Texte brut, Tab Space, Tabs Saver, Tabstract JSON, TSV."
+  },
+  "unsnooze": {
+    "message": "Annuler"
+  },
+  "untitledFilter": {
+    "message": "Décrivez ce filtre..."
+  },
+  "upgradeToPro": {
+    "message": "Passer à Pro"
+  },
+  "userGuideTitle": {
+    "message": "Comment utiliser Tabstract"
+  },
+  "viewTrash": {
+    "message": "Afficher la corbeille"
+  },
+  "weekdayFormat": {
+    "message": "long"
+  },
+  "weekdaysAt": {
+    "message": "Jours de semaine à {time}"
+  },
+  "weekendsAt": {
+    "message": "Week-ends à {time}"
+  },
+  "weeklyAt": {
+    "message": "Hebdomadaire à {time}"
+  },
+  "welcomeActionHelp": {
+    "message": "En savoir plus"
+  },
+  "welcomeActionSave": {
+    "message": "Essayer une session exemple"
+  },
+  "welcomeBackSubtitle": {
+    "message": "Voici quelques conseils pour tirer le meilleur parti de Tabstract :"
+  },
+  "welcomeBackTitle1": {
+    "message": "Regardez-vous, aucun onglet ! 💅"
+  },
+  "welcomeBackTitle2": {
+    "message": "Zéro onglet. Le rêve !"
+  },
+  "welcomeBackTitle3": {
+    "message": "Pas d'onglets ? Vous êtes une légende. 😎"
+  },
+  "welcomeBackTitle4": {
+    "message": "Tout à jour ? Impressionnant !"
+  },
+  "welcomeDescription": {
+    "message": "Tabstract vous aide à sauvegarder et organiser vos onglets Safari pour que vous puissiez simplifier votre vie."
+  },
+  "welcomeStep0Description": {
+    "message": "Glissez l'icône Tabstract vers votre barre d'outils Safari pour un accès rapide à l'enregistrement et à la restauration des onglets."
+  },
+  "welcomeStep0Title": {
+    "message": "Ajouter à la barre d'outils"
+  },
+  "welcomeStep1Description": {
+    "message": "Cliquez sur l'icône Tabstract dans votre barre d'outils ou utilisez Cmd+Maj+S pour enregistrer tous vos onglets ouverts."
+  },
+  "welcomeStep1Title": {
+    "message": "Sauvegardez vos onglets"
+  },
+  "welcomeStep2Description": {
+    "message": "Donnez des noms personnalisés à vos sessions, verrouillez les importantes et restez organisé."
+  },
+  "welcomeStep2Title": {
+    "message": "Organisez les sessions"
+  },
+  "welcomeStep3Description": {
+    "message": "Cliquez sur n'importe quelle session pour restaurer instantanément tous ses onglets, ou restaurez des onglets individuels selon vos besoins."
+  },
+  "welcomeStep3Title": {
+    "message": "Restaurez à tout moment"
+  },
+  "welcomeTip": {
+    "message": "☆ Astuce : Maintenez Shift enfoncé en cliquant sur le bouton de sauvegarde pour ne sauvegarder que l'onglet actuel ☆"
+  },
+  "welcomeTitle": {
+    "message": "Commencer avec Tabstract"
+  },
+  "windowLabel": {
+    "message": "Fenêtre"
+  },
+  "yes": {
+    "message": "Oui"
+  },
+  "yesterdayAt": {
+    "message": "Hier, $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "zeroTabs": {
+    "message": "0 onglet"
+  },
+  "backupAutomatic": {
+    "message": "Automatique"
+  },
+  "backupComplete": {
+    "message": "Sauvegarde terminée !"
+  },
+  "backupExplainer": {
+    "message": "Tabstract sauvegarde automatiquement vos données à chaque enregistrement d'onglets et une fois par heure. Les sauvegardes de plus de 24 heures sont réduites à une par jour, puis une par semaine, et supprimées après 30 jours. Les sauvegardes manuelles sont conservées indéfiniment."
+  },
+  "backupFailed": {
+    "message": "Échec de la sauvegarde"
+  },
+  "backupLoadError": {
+    "message": "Impossible de charger les sauvegardes."
+  },
+  "backupManual": {
+    "message": "Manuelle"
+  },
+  "backupManualBadge": {
+    "message": "Manuelle"
+  },
+  "backupMenuRestoreMerge": {
+    "message": "Restaurer les onglets (Fusionner)"
+  },
+  "backupMenuRestoreReplace": {
+    "message": "Restaurer les onglets (Remplacer)"
+  },
+  "backupMenuRestoreSystem": {
+    "message": "Restauration système (Réinitialisation complète)"
+  },
+  "backupNow": {
+    "message": "Sauvegarder maintenant"
+  },
+  "backupPreRestoreBadge": {
+    "message": "Point de restauration"
+  },
+  "backupActionsLabel": {
+    "message": "Actions de sauvegarde"
+  },
+  "backupTabCount": {
+    "message": "$1 onglets",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupsTitle": {
+    "message": "Sauvegarde et restauration"
+  },
+  "confirmDeleteBackup": {
+    "message": "Êtes-vous sûr de vouloir supprimer cette sauvegarde ? Cette action est irréversible."
+  },
+  "confirmRestoreEverything": {
+    "message": "Cela remplacera TOUTES vos données Tabstract actuelles (onglets, paramètres, routines, filtres, etc.) par les données de cette sauvegarde.\n\nUne sauvegarde de pré-restauration sera d'abord créée, par précaution.\n\nContinuer ?"
+  },
+  "confirmRestoreTabsMerge": {
+    "message": "Cela fusionnera les onglets de la sauvegarde avec vos onglets existants, en préservant les deux.\n\nUne sauvegarde de pré-restauration sera également créée par précaution.\n\nContinuer ?"
+  },
+  "confirmRestoreTabsOnly": {
+    "message": "Cela remplacera uniquement vos onglets enregistrés par les onglets de cette sauvegarde. Les paramètres, routines et filtres ne seront pas modifiés.\n\nUne sauvegarde de pré-restauration sera d'abord créée, par précaution.\n\nContinuer ?"
+  },
+  "lastBackup": {
+    "message": "Dernière sauvegarde :"
+  },
+  "loadingBackups": {
+    "message": "Chargement des sauvegardes..."
+  },
+  "noBackupsYet": {
+    "message": "Aucune sauvegarde pour le moment"
+  },
+  "restoreError": {
+    "message": "Échec de la restauration depuis la sauvegarde. Veuillez réessayer."
+  },
+  "restoreTabsDialogDetail": {
+    "message": "La fusion ajoutera les onglets de la sauvegarde à côté de vos onglets existants. Une sauvegarde de pré-restauration sera d'abord créée."
+  },
+  "restoreTabsDialogMessage": {
+    "message": "Voulez-vous remplacer vos onglets actuels ou les fusionner avec la sauvegarde ?"
+  },
+  "exportBackupShowInFinder": {
+    "message": "Afficher dans le Finder"
+  }
+}

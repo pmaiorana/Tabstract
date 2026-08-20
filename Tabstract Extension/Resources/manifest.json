@@ -1,0 +1,72 @@
+{
+  "manifest_version": 3,
+  "default_locale": "en",
+  "name": "Tabstract",
+  "description": "Save open tabs, and bring them back later. Designed natively for Safari.",
+  "version": "3.1",
+  "icons": {
+    "48": "images/icon-48.png",
+    "64": "images/icon-64.png",
+    "96": "images/icon-96.png",
+    "512": "images/icon-512.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/toolbar-icon.svg"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "unlimitedStorage",
+    "windows",
+    "clipboardWrite",
+    "nativeMessaging",
+    "alarms",
+    "notifications"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; img-src * data:; media-src 'self' https://tabstract.app;"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "images/default_favicon.png",
+        "images/*.svg"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "commands": {
+    "save-tabs": {
+      "suggested_key": {
+        "mac": "Shift+Command+S"
+      },
+      "description": "Save all open tabs"
+    },
+    "open-list": {
+      "suggested_key": {
+        "mac": "Shift+Command+H"
+      },
+      "description": "Open Tabstract"
+    },
+    "save-active-tab": {
+      "suggested_key": {
+        "mac": "Shift+Command+D"
+      },
+      "description": "Save only the active tab"
+    }
+  }
+}
