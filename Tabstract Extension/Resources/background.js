@@ -15,7 +15,7 @@ const DEFAULT_SETTINGS = {
   avoidDuplicates: true,           // "Don't save duplicate tabs in the same session"
   saveAllWindows: false,           // If true, save tabs from all windows instead of current window only
   opentabsBackground: true,        // If true, newly opened/restored tabs open in background
-  launchOnStartup: true,           // If true, open Tabstract when Safari starts
+  launchOnStartup: false,          // If true, open Tabstract when Safari starts
   saveTabsOnStartup: false,        // If true, save all open tabs as a session on Safari launch
   totalSessionsSaved: 0,           // Cumulative count of sessions saved
   installDate: 0,                  // Install date timestamp (set on first run)
