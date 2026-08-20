@@ -1,0 +1,10 @@
+# Xcode per-user state — window layout, breakpoints, scheme ordering.
+# Changes on every build and every time the project is opened.
+**/xcuserdata/
+
+# Xcode build output
+build/
+DerivedData/
+
+# macOS
+.DS_Store
