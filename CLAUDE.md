@@ -110,7 +110,59 @@ The target page polls every 3 seconds (debug mode only), runs `getComputedStyle(
 #### Localization
 - Messages defined in `_locales/[lang]/messages.json` files
 - JavaScript accesses via `chrome.i18n.getMessage(key)`
-- Supports 17 locales: en, ar, de, es, es-419, fr, fr-CA, it, ja, ko, nl, pt-BR, pt-PT, ru, sv, zh-CN, zh-TW
+- Supports 21 locales: en, ar, da, de, es, es-419, fr, fr-CA, it, ja, ko, nb, nl, pt-BR, pt-PT, ru, sv, tr, vi, zh-CN, zh-TW
+
+## Releasing a New Version
+
+Version numbers live in five places. Miss one and the app ships inconsistent
+version strings, or the release banner silently never appears.
+
+Bumping 3.1 → 3.2 as the example:
+
+| # | File | Change |
+|---|------|--------|
+| 1 | `Tabstract.xcodeproj/project.pbxproj` | `MARKETING_VERSION = 3.2` — **4 occurrences** (Debug/Release × app/extension) |
+| 2 | `Tabstract.xcodeproj/project.pbxproj` | `CURRENT_PROJECT_VERSION` — increment, **4 occurrences**. Must strictly increase for App Store submission; it does not have to track the marketing version |
+| 3 | `Tabstract Extension/Resources/manifest.json` | `"version": "3.2"` |
+| 4 | `Tabstract Extension/Resources/_locales/*/messages.json` | `bannerTitle` → `"Tabstract 3.2"` in **every** locale. The string is identical across all of them, so a single find/replace is safe — it's a version number, not a translation |
+| 5 | `Tabstract Extension/Resources/list.js` | the `getMessage('bannerTitle') \|\| 'Tabstract 3.1'` fallback |
+
+### The banner ID — easy to miss
+
+`list.html` has `<a class="banner" id="banner v3-1">`. **That `id` is the
+dismissal key**: `list.js` does `localStorage.getItem(banner.id)`. Bump it to
+`banner v3-2` with each release, or everyone who dismissed the previous banner
+never sees the new one.
+
+### Why the banner may not appear while testing
+
+Two gates in `list.js`, independent of the version bump:
+
+- **3-day age gate** — only shows when `installDate` is 3+ days ago
+- **Empty state** — hidden entirely when there are no saved sessions
+
+To force it during testing, from the list page console:
+
+```js
+chrome.storage.local.set({installDate: Date.now() - 5 * 86400000})
+localStorage.removeItem('banner v3-1')  // the OLD id, if it was dismissed
+```
+
+Release copy (`bannerText`, `bannerNewFeatures`) is separate from the version
+bump and is English-only per the localization rule.
+
+### Verifying the bump
+
+Build, then confirm the version reached both bundles — the extension has its own
+Info.plist and is the one that actually silently drifts:
+
+```
+plutil -p ".../Debug/Tabstract.app/Contents/Info.plist" | grep CFBundle
+plutil -p ".../Debug/Tabstract.app/Contents/PlugIns/Tabstract Extension.appex/Contents/Info.plist" | grep CFBundle
+```
+
+Also re-parse every locale file if `sed` was used on them — a malformed
+`messages.json` fails silently at runtime and falls back to English.
 
 ## Common Development Issues
 
