@@ -1,0 +1,2837 @@
+{
+  "SnoozeInfo": {
+    "message": "Araç çubuğu rozeti kayıtlı oturumları unutulmaması için takip eder. Erteleme rozeti geçici olarak gizler."
+  },
+  "accentColorLabel": {
+    "message": "Renk"
+  },
+  "actionLockTabGroup": {
+    "message": "Sekme Grubunu Kilitle"
+  },
+  "actionSendToTabGroup": {
+    "message": "Sekmeleri Sekme Grubuna Gönder"
+  },
+  "actionSendToTrash": {
+    "message": "Sekmeleri Çöp Kutusuna Gönder"
+  },
+  "actionSessionName": {
+    "message": "Ad"
+  },
+  "actionSetColor": {
+    "message": "Sekme Grubunun Rengini Ayarla"
+  },
+  "actionSetLockStatus": {
+    "message": "Kilit Durumunu Ayarla"
+  },
+  "actionsMenu": {
+    "message": "Eylemler"
+  },
+  "advancedMode": {
+    "message": "Gelişmiş Mod"
+  },
+  "aiDisabledNotice": {
+    "message": "<strong>Apple Intelligence şu anda kapalı veya kullanılamıyor.</strong> Sistem Ayarları'ndaki Apple Intelligence menüsünü kontrol edin"
+  },
+  "aiEnabledButInaccessible": {
+    "message": "<strong>Apple Intelligence sisteminizde etkin görünüyor ancak Tabstract ona erişemiyor.</strong><br><br>Yaygın nedenler:<ul><li>macOS diliniz ve Siri diliniz eşleşmiyor. Apple her ikisinin de aynı dile ayarlanmasını gerektiriyor.</li><li>Apple Intelligence hâlâ başlatılıyor; birkaç dakika bekleyin ve Tabstract → Ayarlar'ı yeniden yükleyin.</li><li>Desteklenmeyen bir ülkedesiniz. Apple Intelligence, Çin anakarasında satın alınan cihazlarda veya ülke ya da bölgesi Çin anakarası olarak ayarlanmış bir Apple Kimliği ile Çin anakarasında kullanılan cihazlarda kullanılamaz.</li></ul>"
+  },
+  "aiExperimentalNotice": {
+    "message": "<strong>Bu yeni ve deneysel bir özelliktir</strong>, sonuçlar zamanla iyileşmeye devam edecektir"
+  },
+  "aiLanguageNotSupported": {
+    "message": "Apple Intelligence henüz bu dili desteklemediği için yapay zeka özellikleri bu dilde kullanılamıyor. Yapay zeka özelliklerini kullanmak için lütfen İngilizce, İspanyolca, Fransızca, Almanca, İtalyanca, Japonca, Korece, Portekizce (Brezilya), Çince (Basitleştirilmiş) veya Çince (Geleneksel) diline geçin."
+  },
+  "aiNotAvailable": {
+    "message": "<strong>Apple Intelligence kullanılamıyor.</strong> Etkin ve hazır olduğundan emin olmak için sistem ayarlarınızı kontrol edin"
+  },
+  "aiRegenerateTitle": {
+    "message": "Başlığı yeniden oluştur"
+  },
+  "aiSmartCategorizationDesc": {
+    "message": "<strong>6 veya daha fazla</strong> sekme içeren grupları otomatik olarak konulara göre düzenle <span class=\"hint\"><strong class=\"info\"></strong><em>Oturum başlıkları oluştur</em> özelliğinin etkin olması gerekir</span>"
+  },
+  "aiSmartCategorizationLabel": {
+    "message": "Akıllı kategorilendirme"
+  },
+  "aiTitleSuggestionsDesc": {
+    "message": "Sekmeleri kaydederken oturum başlıkları önermek için Apple Intelligence'ı—gizli, cihaz üzerinde yapay zeka—kullanın"
+  },
+  "aiTitleSuggestionsLabel": {
+    "message": "Oturum başlıkları oluştur"
+  },
+  "aiUnsupportedNotice": {
+    "message": "Yapay zeka özellikleri, Apple Intelligence desteğine sahip bir Mac ve macOS 26.0 veya üstünü gerektirir"
+  },
+  "all": {
+    "message": "tümü"
+  },
+  "am": {
+    "message": "ÖÖ"
+  },
+  "any": {
+    "message": "herhangi biri"
+  },
+  "appName": {
+    "message": "Tabstract"
+  },
+  "appleIntelligenceUnavailable": {
+    "message": "Apple Intelligence Kullanılamıyor"
+  },
+  "atLeastOnePatternRequired": {
+    "message": "En az bir desen gereklidir"
+  },
+  "avoidDuplicatesDesc": {
+    "message": "Aynı URL'nin bir oturumda birden fazla kez kaydedilmesini engeller"
+  },
+  "avoidDuplicatesLabel": {
+    "message": "Yinelenen sekmeleri kaydetme"
+  },
+  "avoidDuplicatesSetting": {
+    "message": "<strong>Aynı oturumda yinelenen sekmeleri kaydetme</strong>"
+  },
+  "bannerNewFeatures": {
+    "message": "<strong>Yeni özellikler!</strong> Eylemler menüsü, Geleneksel Çince desteği, Zengin Metin olarak kopyalama, yinelenen temizleme!"
+  },
+  "bannerText": {
+    "message": "Yeni otomatik yedekleme sistemiyle artık hiçbir sekmeyi kaybetmeyin! Beta test kullanıcıları aranıyor!"
+  },
+  "bannerTitle": {
+    "message": "Tabstract 3.1"
+  },
+  "bulkActionCreateGroup": {
+    "message": "Birleştir"
+  },
+  "bulkActionDeselect": {
+    "message": "Seçimi Kaldır"
+  },
+  "bulkActionDuplicate": {
+    "message": "Çoğalt"
+  },
+  "bulkActionLockUnlock": {
+    "message": "Seçilileri Kilitle/Kilidi Aç"
+  },
+  "bulkActionRestore": {
+    "message": "Geri Yükle"
+  },
+  "bulkActionTrash": {
+    "message": "Çöp Kutusu"
+  },
+  "cancel": {
+    "message": "İptal"
+  },
+  "clearData": {
+    "message": "Verileri Sil ve Tabstract'ı Sıfırla"
+  },
+  "clearFilters": {
+    "message": "Sıfırla"
+  },
+  "clearSchedule": {
+    "message": "Zamanlamayı Temizle"
+  },
+  "clearSearch": {
+    "message": "Aramayı temizle"
+  },
+  "clearSnooze": {
+    "message": "Ertelemeyi Temizle"
+  },
+  "clickNewToGetStarted": {
+    "message": "Başlamak için \"Yeni\"ye tıklayın."
+  },
+  "clipboardError": {
+    "message": "Panoya kopyalama başarısız"
+  },
+  "close": {
+    "message": "Kapat"
+  },
+  "closeFiltersModal": {
+    "message": "Filtreler penceresini kapat"
+  },
+  "closeHomeTabOnOpen": {
+    "message": "Oturumları geri yükledikten sonra Tabstract'ı kapat"
+  },
+  "closeHomeTabOnOpenDesc": {
+    "message": "Sekme gruplarını açarken Tabstract'ı kapat"
+  },
+  "closeHomeTabOnOpenLabel": {
+    "message": "Geri yükledikten sonra Tabstract'ı kapat"
+  },
+  "collapseAll": {
+    "message": "Tümünü Daralt"
+  },
+  "collapseExpandAll": {
+    "message": "Tümünü Daralt/Genişlet"
+  },
+  "collapseSession": {
+    "message": "Oturumu daralt"
+  },
+  "collapseTemplate": {
+    "message": "Rutini daralt"
+  },
+  "colorBlue": {
+    "message": "Mavi"
+  },
+  "colorDefault": {
+    "message": "Varsayılan"
+  },
+  "colorGreen": {
+    "message": "Yeşil"
+  },
+  "colorOrange": {
+    "message": "Turuncu"
+  },
+  "colorPink": {
+    "message": "Pembe"
+  },
+  "colorPurple": {
+    "message": "Mor"
+  },
+  "colorRed": {
+    "message": "Kırmızı"
+  },
+  "colorYellow": {
+    "message": "Sarı"
+  },
+  "columnColor": {
+    "message": "Renk"
+  },
+  "columnDateCreated": {
+    "message": "Oluşturulma Tarihi"
+  },
+  "columnDomain": {
+    "message": "Alan Adı"
+  },
+  "columnGroup": {
+    "message": "Sekme Grubu"
+  },
+  "columnLock": {
+    "message": "Kilitli"
+  },
+  "columnPinned": {
+    "message": "Sabitlenmiş"
+  },
+  "columnTitle": {
+    "message": "Başlık"
+  },
+  "confirmClearSchedule": {
+    "message": "Bu zamanlama temizlensin mi?"
+  },
+  "confirmDeleteFromTrash": {
+    "message": "Bu bağlantıyı kalıcı olarak silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+  },
+  "confirmDeleteTemplate": {
+    "message": "Bu rutin silinsin mi? Bu işlem geri alınamaz."
+  },
+  "confirmEmptyTrash": {
+    "message": "Çöp kutusundaki tüm öğeleri kalıcı olarak silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+  },
+  "confirmImport": {
+    "message": "UYARI: Bu işlem mevcut tüm Tabstract verilerinizi (ayarlar, kayıtlı oturumlar, çöp kutusu vb.) içe aktarılan verilerle tamamen değiştirecektir.\n\nBu işlem geri alınamaz.\n\nDevam etmek istediğinizden emin misiniz?"
+  },
+  "confirmReset": {
+    "message": "Tabstract'ı sıfırlamak istediğinizden emin misiniz?\n\nKilitli oturumlardaki sekmeler dahil tüm sekmeler silinecek.\n\nBu işlem geri alınamaz."
+  },
+  "contactSupport": {
+    "message": "İletişim"
+  },
+  "copiedToClipboard": {
+    "message": "Kopyalandı!"
+  },
+  "copyAllToClipboard": {
+    "message": "Markdown Olarak Kopyala"
+  },
+  "copyFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "copyFormatPlain": {
+    "message": "Düz Metin"
+  },
+  "copyFormatRich": {
+    "message": "Zengin Metin"
+  },
+  "copyMenu": {
+    "message": "Farklı Kopyala..."
+  },
+  "createFilter": {
+    "message": "Filtre Oluştur"
+  },
+  "createNewFilter": {
+    "message": "Yeni filtre oluştur"
+  },
+  "customColor": {
+    "message": "Özel renk"
+  },
+  "dailyAt": {
+    "message": "Her gün {time}"
+  },
+  "darkAuto": {
+    "message": "Otomatik"
+  },
+  "darkDark": {
+    "message": "Koyu"
+  },
+  "darkLight": {
+    "message": "Açık"
+  },
+  "darkModeDesc": {
+    "message": "Renk şemanızı seçin"
+  },
+  "darkModeLabel": {
+    "message": "Karanlık Mod"
+  },
+  "darkOff": {
+    "message": "Kapalı"
+  },
+  "darkSystem": {
+    "message": "Sistem"
+  },
+  "dayFormat": {
+    "message": "numeric"
+  },
+  "dayOfMonth": {
+    "message": "Ayın günü:"
+  },
+  "days": {
+    "message": "Günler:"
+  },
+  "debugConsole": {
+    "message": "Hata Ayıklama Konsolu"
+  },
+  "deleteAfterRestore": {
+    "message": "Sekmeleri geri yüklemek onları Tabstract'tan kaldırır <span class=\"hint\"><strong class=\"info\">Shift+Tıkla</strong> geçici olarak devre dışı bırakmak için</span>"
+  },
+  "deleteAfterRestoreDesc": {
+    "message": "Sekmeler geri yüklendiğinde Tabstract'tan silinir <span class=\"hint\"><strong class=\"info\">Shift+Tıkla</strong> geçici olarak devre dışı bırakmak için</span>"
+  },
+  "deleteAfterRestoreLabel": {
+    "message": "Geri yükledikten sonra sekmeleri kaldır"
+  },
+  "deleteBackup": {
+    "message": "Yedeği Sil"
+  },
+  "deleteSmartGroup": {
+    "message": "Filtreyi Sil"
+  },
+  "deleteTab": {
+    "message": "Bu sekmeyi sil"
+  },
+  "dismissAIUnavailableMessage": {
+    "message": "Apple Intelligence kullanılamıyor mesajını kapat"
+  },
+  "downloadData": {
+    "message": "Verileri İndir"
+  },
+  "downloadReport": {
+    "message": "Sistem Raporunu İndir"
+  },
+  "draftDelete": {
+    "message": "Sil"
+  },
+  "dragToReorder": {
+    "message": "Yeniden sıralamak için sürükle"
+  },
+  "duplicateGroup": {
+    "message": "Grubu Çoğalt"
+  },
+  "duplicatesRemoved": {
+    "message": "{count} yinelenen kaldırıldı"
+  },
+  "editFilter": {
+    "message": "Filtreyi Düzenle"
+  },
+  "editSchedule": {
+    "message": "Zamanlamayı düzenle"
+  },
+  "emailBodyTemplate": {
+    "message": "Merhaba,\n\nTabstract ile ilgili bir sorun yaşıyorum.\n\nSorunu yeniden oluşturmak için şu adımları izleyin:\n1.\n2.\n3.\n\n\nSorun giderme için yerel depolama verilerim:\n\n$1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "data": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "emailSupport": {
+    "message": "E-posta Desteği"
+  },
+  "emptySessionHint": {
+    "message": "Bu oturuma eklemek için bağlantıları buraya sürükleyin"
+  },
+  "emptyTrash": {
+    "message": "Çöp Kutusunu Boşalt"
+  },
+  "emptyTrashWithCount": {
+    "message": "Çöp Kutusunu Boşalt ($1 öğe)",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "enableBadge": {
+    "message": "Araç çubuğunda hatırlatma rozeti göster"
+  },
+  "enableKeyboardShortcuts": {
+    "message": "Klavye kısayollarını etkinleştir"
+  },
+  "errorMaxLength": {
+    "message": "Maksimum uzunluk aşıldı"
+  },
+  "errorParsingJson": {
+    "message": "JSON ayrıştırma hatası: $1"
+  },
+  "expandAll": {
+    "message": "Tümünü Genişlet"
+  },
+  "expandSession": {
+    "message": "Oturumu genişlet"
+  },
+  "expandTemplate": {
+    "message": "Rutini genişlet"
+  },
+  "expiredLabel": {
+    "message": "Süresi Doldu"
+  },
+  "expiresInDays": {
+    "message": "$1 gün içinde sona eriyor",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInHours": {
+    "message": "$1 saat içinde sona eriyor",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInLessThanHour": {
+    "message": "1 saatten az sürede sona eriyor"
+  },
+  "export": {
+    "message": "Dışa Aktar"
+  },
+  "exportFormatHTML": {
+    "message": "HTML"
+  },
+  "exportFormatJSON": {
+    "message": "JSON"
+  },
+  "exportFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "exportFormatOPML": {
+    "message": "OPML"
+  },
+  "exportFormatPlain": {
+    "message": "Düz Metin"
+  },
+  "exportMenu": {
+    "message": "Dışa Aktar..."
+  },
+  "exportSavedLinks": {
+    "message": "Kayıtlı bağlantıları dışa aktar"
+  },
+  "exportSuccess": {
+    "message": "Dışa aktarma başarılı!"
+  },
+  "filterAll": {
+    "message": "Tümü"
+  },
+  "filterColor": {
+    "message": "Renk:"
+  },
+  "filterDate": {
+    "message": "Tarih:"
+  },
+  "filterDateLastMonth": {
+    "message": "Geçen Ay"
+  },
+  "filterDateLastWeek": {
+    "message": "Geçen Hafta"
+  },
+  "filterDateMonth": {
+    "message": "Bu Ay"
+  },
+  "filterDateToday": {
+    "message": "Bugün"
+  },
+  "filterDateWeek": {
+    "message": "Bu Hafta"
+  },
+  "filterDateYesterday": {
+    "message": "Dün"
+  },
+  "filterDomain": {
+    "message": "Alan Adı:"
+  },
+  "filterLock": {
+    "message": "Kilit:"
+  },
+  "filterName": {
+    "message": "Açıklama"
+  },
+  "filters": {
+    "message": "Filtreler"
+  },
+  "filtersDescription": {
+    "message": "Filtreler, sekmelerinizi alan adı, anahtar kelime veya diğer desenlere göre otomatik olarak sıralayabilir ve düzenleyebilir. <strong>Filtreler öncelik sırasına göre işlenir</strong>, yukarıdan aşağıya; yeniden sıralamak için sürükleyin."
+  },
+  "formatOneTab": {
+    "message": "OneTab Dışa Aktarma"
+  },
+  "formatTSV": {
+    "message": "TSV"
+  },
+  "formatTabSpace": {
+    "message": "Tab Space Yedekleme"
+  },
+  "formatTabsSaver": {
+    "message": "Tabs Saver Yedekleme"
+  },
+  "formatTabstractJSON": {
+    "message": "Tabstract JSON Dışa Aktarma"
+  },
+  "frequency": {
+    "message": "Sıklık:"
+  },
+  "fullScreenMode": {
+    "message": "Tam Ekran Modu (F)"
+  },
+  "groupNameRequired": {
+    "message": "Grup adı gereklidir"
+  },
+  "guideAIFeaturesBody": {
+    "message": "Bilgisayarınız Apple Intelligence'ı destekliyorsa, Tabstract kayıtlı sekmelerinizi otomatik olarak farklı konu tabanlı gruplara ayırabilir. Yeni bir başlık oluşturmak için herhangi bir oturum başlığının yanındaki <strong>✨ parıltı simgesine</strong> tıklayın. Apple Intelligence'ı desteklemeyen bilgisayarlar bunun yerine tarih ve saati kullanır."
+  },
+  "guideAIFeaturesTitle": {
+    "message": "Yapay Zeka ile Sekme Organizasyonu"
+  },
+  "guideBadgeNotificationsBody": {
+    "message": "Araç çubuğu rozeti, kayıtlı oturumların sayısını görüntüler, böylece görünmeseler bile unutulmazlar. Erteleme, araç çubuğu rozetini 24 saate kadar gizler veya ayarlardan tamamen devre dışı bırakabilirsiniz."
+  },
+  "guideBadgeNotificationsTitle": {
+    "message": "Araç Çubuğu Rozeti"
+  },
+  "guideDragToReorderBody": {
+    "message": "Kayıtlı sekmelerinizi istediğiniz sıraya göre düzenlemek için tek tek bağlantıları ve oturumları tıklayıp sürükleyin."
+  },
+  "guideDragToReorderTitle": {
+    "message": "Sürükle-Bırak Organizasyonu"
+  },
+  "guideGettingStartedBody": {
+    "message": "Tabstract, Safari sekmelerinizi kaydetmenize ve düzenlemenize yardımcı olur. Başlamak için Safari araç çubuğuna sağ tıklayın, Özelleştir'i seçin ve Tabstract simgesini araç çubuğunuza sürükleyin. Araç çubuğunuza yüklendikten sonra Tabstract'a tıklayın, ardından mevcut penceredeki tüm açık sekmeleri yakalamak için <strong>Sekmeleri Kaydet</strong>'e tıklayın."
+  },
+  "guideGettingStartedTitle": {
+    "message": "Başlarken"
+  },
+  "guideKeyboardShortcutsBody": {
+    "message": "Tabstract, ileri düzey kullanıcılar için klavye kısayolları ve değiştirici tuş kombinasyonları içerir. Kısayollar Ayarlar'dan devre dışı bırakılabilir.<br><br><strong>Ana kısayollar:</strong><br><br>Tüm sekmeleri kaydet: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd><br>Sadece mevcut sekmeyi kaydet: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd><br>Kayıtlı oturumlar listesini aç: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd><br><br><strong>Hızlı eylemler:</strong><br><br>Arama kutusuna odaklan: <kbd>/</kbd><br>Yeni oturum oluştur: <kbd>N</kbd><br><br><strong>Değiştirici tuş kombinasyonları:</strong><br><br>Sadece mevcut sekmeyi kaydet: <kbd>Shift</kbd> + <em>Sekmeleri Kaydet</em>'e Tıkla<br>Tüm oturumları genişlet/daralt: <kbd>Shift</kbd> + <em>oturum daraltma düğmesine</em> Tıkla<br>\"Geri yükledikten sonra sekmeleri kaldır\" ayarını geçici olarak tersine çevir: <kbd>Shift</kbd> + <em>Geri Yükle</em>'ye Tıkla<br>\"Sekmeleri arka planda geri yükle\" ayarını geçici olarak tersine çevir: <kbd>Option</kbd> + <em>Geri Yükle</em>'ye Tıkla"
+  },
+  "guideKeyboardShortcutsTitle": {
+    "message": "Klavye Kısayolları"
+  },
+  "guidePasteLinksBody": {
+    "message": "Diğer uygulamalardan bağlantıları kopyalayıp bu URL'leri doğrudan Tabstract'a yapıştırabilirsiniz! Tabstract sayfa başlıklarını otomatik olarak alır ve koleksiyonunuza ekler."
+  },
+  "guidePasteLinksTitle": {
+    "message": "Bağlantıları Tabstract'a Kopyala-Yapıştır"
+  },
+  "guideShiftClickBody": {
+    "message": "Tüm oturumları aynı anda genişletmek veya daraltmak için herhangi bir oturumun daraltma düğmesine tıklarken <kbd>Shift</kbd> tuşunu basılı tutun."
+  },
+  "guideShiftClickTitle": {
+    "message": "Tümünü Genişletmek/Daraltmak için Shift+Tıkla"
+  },
+  "guideTrashUndoBody": {
+    "message": "Silinen bağlantılar otomatik olarak silinmeden önce 30 gün boyunca çöp kutusuna taşınır. Tabstract'ın hızlı kalmasına yardımcı olmak için çöp kutusu 1.000 öğeyle sınırlıdır."
+  },
+  "guideTrashUndoTitle": {
+    "message": "Çöp Kutusu"
+  },
+  "helpPageTitle": {
+    "message": "Destek ve Sorun Giderme - Tabstract"
+  },
+  "helpSupportInstructions": {
+    "message": "Sorularınız, özellik istekleriniz veya yardıma mı ihtiyacınız var? <em>E-posta Desteği</em>'ne ve ardından <em>İzin Ver</em>'e tıklayın veya Sistem Raporunuzu sorununuzla ilgili ayrıntılarla birlikte <em>help@tabstract.app</em> adresine e-posta ile gönderin.<br /><br />Özellik istekleri, hata raporları, çeviri iyileştirmeleri vb. için de bize e-posta göndermekten çekinmeyin."
+  },
+  "helpTitle": {
+    "message": "Destek"
+  },
+  "hourFormat": {
+    "message": "numeric"
+  },
+  "hourAgo": {
+    "message": "$1 saat önce",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hoursAgo": {
+    "message": "$1 saat önce",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "import": {
+    "message": "İçe Aktar"
+  },
+  "importData": {
+    "message": "Verileri İçe Aktar"
+  },
+  "importError": {
+    "message": "Verileri içe aktarma başarısız. Lütfen dosyanın geçerli bir Tabstract veri dışa aktarması olduğundan emin olun."
+  },
+  "importFailedPrefix": {
+    "message": "İçe aktarma başarısız: "
+  },
+  "importLinksLabel": {
+    "message": "Bağlantıları içe aktar"
+  },
+  "importMenu": {
+    "message": "İçe Aktar..."
+  },
+  "importSuccess": {
+    "message": "Veriler başarıyla içe aktarıldı! Tabstract şimdi yeniden yüklenecek."
+  },
+  "importSuccessMessage": {
+    "message": "$1 geçerli bağlantı ($2 oturum) içe aktarıldı.\n$3 geçersiz bağlantı atlandı.\n\nSayfa başlıkları arka planda alınacak.",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "errors": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$3",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "links": {
+        "content": "$1"
+      },
+      "sessions": {
+        "content": "$2"
+      }
+    }
+  },
+  "importSystemBackup": {
+    "message": "Sistem Yedeğini İçe Aktar"
+  },
+  "invalidJsonFormat": {
+    "message": "Geçersiz JSON formatı."
+  },
+  "invalidRegexPrefix": {
+    "message": "Geçersiz düzenli ifade: "
+  },
+  "justNow": {
+    "message": "Az önce"
+  },
+  "langNameArabic": {
+    "message": "Arapça"
+  },
+  "langNameChineseCN": {
+    "message": "Basitleştirilmiş Çince"
+  },
+  "langNameChineseTW": {
+    "message": "Geleneksel Çince"
+  },
+  "langNameDanish": {
+    "message": "Danca"
+  },
+  "langNameDutch": {
+    "message": "Felemenkçe"
+  },
+  "langNameEnglish": {
+    "message": "İngilizce"
+  },
+  "langNameFrench": {
+    "message": "Fransızca"
+  },
+  "langNameFrenchCA": {
+    "message": "Kanada Fransızcası"
+  },
+  "langNameGerman": {
+    "message": "Almanca"
+  },
+  "langNameItalian": {
+    "message": "İtalyanca"
+  },
+  "langNameJapanese": {
+    "message": "Japonca"
+  },
+  "langNameKorean": {
+    "message": "Korece"
+  },
+  "langNameNorwegian": {
+    "message": "Norveççe"
+  },
+  "langNamePortugueseBR": {
+    "message": "Brezilya Portekizcesi"
+  },
+  "langNamePortuguesePT": {
+    "message": "Portekizce"
+  },
+  "langNameRussian": {
+    "message": "Rusça"
+  },
+  "langNameSpanish": {
+    "message": "İspanyolca"
+  },
+  "langNameSpanishLA": {
+    "message": "Latin Amerika İspanyolcası"
+  },
+  "langNameSwedish": {
+    "message": "İsveççe"
+  },
+  "langNameTurkish": {
+    "message": "Türkçe"
+  },
+  "langNameVietnamese": {
+    "message": "Vietnamca"
+  },
+  "languageAuto": {
+    "message": "Sistem Varsayılanı"
+  },
+  "languageDesc": {
+    "message": "Görüntüleme dilini seçin"
+  },
+  "languageLabel": {
+    "message": "Dil"
+  },
+  "lastRun": {
+    "message": "Son çalışma: {time}"
+  },
+  "launchOnStartup": {
+    "message": "Web tarayıcınızı başlattığınızda Tabstract'ı görüntüle"
+  },
+  "launchOnStartupDesc": {
+    "message": "Safari'yi başlattığınızda Tabstract'ı aç"
+  },
+  "launchOnStartupLabel": {
+    "message": "Başlangıçta aç"
+  },
+  "learnMore": {
+    "message": "Daha fazla bilgi"
+  },
+  "learnMoreAboutFeatures": {
+    "message": "Yeni özellikler hakkında daha fazla bilgi edinin"
+  },
+  "linkRestored": {
+    "message": "Bağlantı yeni oturuma geri yüklendi"
+  },
+  "lockAll": {
+    "message": "Tümünü Kilitle"
+  },
+  "lockSession": {
+    "message": "Kilitle"
+  },
+  "lockSessionTitle": {
+    "message": "Oturumu Kilitle"
+  },
+  "lockUnlockAll": {
+    "message": "Tümünü Kilitle/Kilidini Aç"
+  },
+  "manageFiltersMenuItem": {
+    "message": "Filtreleri Yönet..."
+  },
+  "manageTemplates": {
+    "message": "Rutinleri Yönet"
+  },
+  "manageTemplatesMenuItem": {
+    "message": "Rutinleri Yönet..."
+  },
+  "match": {
+    "message": "Eğer"
+  },
+  "matches": {
+    "message": "Eşleşmeler:"
+  },
+  "mergeIntoSessionBelow": {
+    "message": "Aşağıdaki Oturumla Birleştir"
+  },
+  "minuteFormat": {
+    "message": "numeric"
+  },
+  "minuteAgo": {
+    "message": "$1 dakika önce",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "minutesAgo": {
+    "message": "$1 dakika önce",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "monthFormat": {
+    "message": "long"
+  },
+  "monthlyOn": {
+    "message": "Her ay {day} günü {time}"
+  },
+  "moreActions": {
+    "message": "Daha fazla eylem"
+  },
+  "moreShort": {
+    "message": "More"
+  },
+  "moveToTop": {
+    "message": "En Üste Gönder"
+  },
+  "navHelp": {
+    "message": "Yardım + İpuçları"
+  },
+  "navHome": {
+    "message": "Ana Sayfa"
+  },
+  "navSelect": {
+    "message": "Seç"
+  },
+  "navSettings": {
+    "message": "Ayarlar"
+  },
+  "navSnooze": {
+    "message": "Ertele"
+  },
+  "needHelpWithTabstract": {
+    "message": "Tabstract ile Yardıma İhtiyacınız mı Var"
+  },
+  "never": {
+    "message": "Hiçbir zaman"
+  },
+  "newButton": {
+    "message": "Yeni"
+  },
+  "newTabGroup": {
+    "message": "Yeni Sekme Grubu"
+  },
+  "no": {
+    "message": "Hayır"
+  },
+  "noAvailableTabs": {
+    "message": "Kullanılabilir Sekme Yok"
+  },
+  "noColor": {
+    "message": "Renk yok"
+  },
+  "noResultsFound": {
+    "message": "Sonuç bulunamadı:"
+  },
+  "noSavedLinksToExport": {
+    "message": "Dışa aktarılacak kayıtlı oturum yok."
+  },
+  "noTabsAvailableToSave": {
+    "message": "Kaydedilecek sekme yok"
+  },
+  "noTabsSaved": {
+    "message": "Kaydedilmiş sekme yok."
+  },
+  "noTemplatesInstructions": {
+    "message": "Henüz kaydedilmiş rutin yok.<br>Başlamak için bir oturumdan rutin oluşturun."
+  },
+  "noTemplatesSaved": {
+    "message": "Henüz kaydedilmiş rutin yok.<br>Başlamak için bir oturumdan rutin oluşturun."
+  },
+  "noTemplatesSavedYet": {
+    "message": "Henüz kaydedilmiş rutin yok"
+  },
+  "nonMatchingWarning": {
+    "message": "<strong>⚠️ Uyarı:</strong> Bu gruptaki $1 sekme artık desenlerle eşleşmiyor ve \"<strong>$2 grubundan kaldırıldı</strong>\" başlıklı yeni bir oturuma taşınacak.",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "content": "$1"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$2",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "none": {
+    "message": "Yok"
+  },
+  "ofTheFollowingConditions": {
+    "message": "aşağıdaki koşullar karşılanıyorsa:"
+  },
+  "ok": {
+    "message": "Tamam"
+  },
+  "oneclickSave": {
+    "actionsMenu": {
+      "message": "Actions"
+    },
+    "bulkActionDuplicate": {
+      "message": "Duplicate"
+    },
+    "bulkActionLockUnlock": {
+      "message": "Lock/Unlock Selected"
+    },
+    "colorBlue": {
+      "message": "Blue"
+    },
+    "colorDefault": {
+      "message": "Default"
+    },
+    "colorGreen": {
+      "message": "Green"
+    },
+    "colorOrange": {
+      "message": "Orange"
+    },
+    "colorPink": {
+      "message": "Pink"
+    },
+    "colorPurple": {
+      "message": "Purple"
+    },
+    "colorRed": {
+      "message": "Red"
+    },
+    "colorYellow": {
+      "message": "Yellow"
+    },
+    "filterAll": {
+      "message": "All"
+    },
+    "message": "Tek tıkla kaydet <span class=\"hint\"><strong class=\"caution\">Uyarı:</strong> Bu, Ana Sayfa ve Ertele'yi kaldırır; Ana Sayfa'yı göstermek için Shift+Command+H kullanın.</span>"
+  },
+  "oneclickSaveDesc": {
+    "message": "<span class=\"hint\"><strong class=\"caution\">Dikkat:</strong> Bu deneysel bir özelliktir ve Ana Sayfa / Ertele düğmelerini kaldırır. Ana Sayfayı açmak için <strong>Shift+Command+H</strong> kullanın</span>"
+  },
+  "oneclickSaveLabel": {
+    "message": "Tek Tıkla Kaydet"
+  },
+  "openLink": {
+    "message": "$1 aç",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "pageTitle": {
+    "message": "Araçlar ve Ayarlar - Tabstract"
+  },
+  "pasteLinks": {
+    "message": "URL'leri Yapıştır"
+  },
+  "performActions": {
+    "message": "Aşağıdaki eylemleri gerçekleştir:"
+  },
+  "pinToTop": {
+    "message": "En Üste Sabitle"
+  },
+  "pinnedTabsDesc": {
+    "message": "Sabitlenmiş sekmeler kapatılmaz veya Tabstract'a kaydedilmez"
+  },
+  "pinnedTabsLabel": {
+    "message": "Sabitlenmiş sekmeleri kaydetme"
+  },
+  "pinnedTabsSetting": {
+    "message": "<strong>Sabitlenmiş sekmeleri kaydetme</strong> (sabitlenmiş sekmeler kapatılmaz veya Tabstract'a kaydedilmez)"
+  },
+  "pleaseEnterDayBetween1And31": {
+    "message": "Lütfen 1 ile 31 arasında bir gün girin."
+  },
+  "pleaseEnterPattern": {
+    "message": "Lütfen bir desen değeri girin"
+  },
+  "pleaseSelectAtLeastOneDay": {
+    "message": "Lütfen haftalık zamanlama için en az bir gün seçin."
+  },
+  "pm": {
+    "message": "ÖS"
+  },
+  "refreshData": {
+    "message": "Hata Ayıklama Verilerini Yenile"
+  },
+  "removeFromSession": {
+    "message": "$1 oturumdan kaldır",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "removedFrom": {
+    "message": "$1 grubundan kaldırıldı",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "resetGroupColors": {
+    "message": "Renkleri Sıfırla"
+  },
+  "restoreAllTabs": {
+    "message": "Tüm Sekmeleri Geri Yükle"
+  },
+  "restoreInBackground": {
+    "message": "Geri yüklenen sekmeler arka planda açılır <span class=\"hint\"><strong class=\"info\">Option+Tıkla</strong> geçici olarak devre dışı bırakmak için</span>"
+  },
+  "restoreInBackgroundDesc": {
+    "message": "Geri yüklenen sekmeler odak değiştirmek yerine Tabstract'ın arkasında açılır <span class=\"hint\"><strong class=\"info\">Option+Tıkla</strong> geçici olarak devre dışı bırakmak için</span>"
+  },
+  "restoreInBackgroundLabel": {
+    "message": "Sekmeleri arka planda geri yükle"
+  },
+  "restoreTabsMerge": {
+    "message": "Birleştir"
+  },
+  "restoreTabsReplace": {
+    "message": "Değiştir"
+  },
+  "restoreTabsToCurrentWindow": {
+    "message": "Mevcut Pencere"
+  },
+  "restoreTabsToLabel": {
+    "message": "Sekme gruplarını geri yükle:"
+  },
+  "restoreTabsToNewWindow": {
+    "message": "Yeni Pencere"
+  },
+  "restoredFromTrashSessionName": {
+    "message": "Çöp Kutusundan Geri Yüklendi"
+  },
+  "restoredLinkSessionName": {
+    "message": "Geri Yüklenen Bağlantı"
+  },
+  "reviewButton": {
+    "message": "App Store'da bizi değerlendirin ★★★★★"
+  },
+  "reviewLaterButton": {
+    "message": "Belki Daha Sonra"
+  },
+  "reviewMessage": {
+    "message": "Tabstract ücretsizdir ancak puanlar ve yorumlarla çalışır, lütfen bizi değerlendirin!"
+  },
+  "reviewModalText": {
+    "message": "Tabstract ücretsizdir ancak puanlar ve yorumlarla beslenir 🚀 Lütfen bize 5 yıldız vererek destek olun!"
+  },
+  "reviewModalTitle": {
+    "message": "Tabstract'ı beğeniyor musunuz?"
+  },
+  "runFiltersConfirm": {
+    "message": "{sessions} oturum ve {tabs} sekme işlenecek. Devam edilsin mi?"
+  },
+  "runFiltersMenuItem": {
+    "message": "Filtreleri Çalıştır"
+  },
+  "runFiltersNoFilters": {
+    "message": "Tanımlı filtre yok. Önce filtre oluşturun."
+  },
+  "runFiltersNoSessions": {
+    "message": "İşlenecek kilitsiz oturum yok."
+  },
+  "runFiltersSuccess": {
+    "message": "{matched} sekme filtreler tarafından işlendi"
+  },
+  "sampleSessionCreated": {
+    "message": "Örnek Oluşturuldu!"
+  },
+  "sampleSessionName": {
+    "message": "Tabstract'a Başlarken"
+  },
+  "sampleTab1Title": {
+    "message": "Tabstract Web Sitesi"
+  },
+  "sampleTab2Title": {
+    "message": "App Store'da Tabstract"
+  },
+  "sampleTab3Title": {
+    "message": "App Store'da Tabstract'ı Değerlendir"
+  },
+  "sampleTab4Title": {
+    "message": "By The Farm"
+  },
+  "save": {
+    "message": "Kaydet"
+  },
+  "saveAllWindowsDesc": {
+    "message": "Sadece o an odaklanılan pencere yerine tüm açık Safari pencerelerinden sekmeleri kaydeder"
+  },
+  "saveAllWindowsLabel": {
+    "message": "Tüm pencerelerden sekmeleri kaydet"
+  },
+  "saveAlsoCloses": {
+    "message": "Kaydederken <strong>sekmeleri kapat</strong>"
+  },
+  "saveAlsoClosesDesc": {
+    "message": "Sekmeler Tabstract'a kaydedildikten sonra otomatik olarak kapatılır"
+  },
+  "saveAlsoClosesLabel": {
+    "message": "Kaydederken sekmeleri kapat"
+  },
+  "saveAsTemplate": {
+    "message": "Rutin Olarak Kaydet"
+  },
+  "saveFilter": {
+    "message": "Filtreyi Kaydet"
+  },
+  "saveSelected": {
+    "message": "Seçilenleri Kaydet"
+  },
+  "saveSelectedPlural": {
+    "message": "{count} Sekme Kaydet"
+  },
+  "saveSelectedSingular": {
+    "message": "1 Sekme Kaydet"
+  },
+  "saveTab": {
+    "message": "Sekmeyi Kaydet"
+  },
+  "saveTabs": {
+    "message": "Sekmeleri Kaydet"
+  },
+  "saveTabsOnStartupDesc": {
+    "message": "Safari'yi başlattığınızda tüm açık sekmeleri otomatik olarak kaydet ve kapat"
+  },
+  "saveTabsOnStartupLabel": {
+    "message": "Başlangıçta açık sekmeleri kaydet ve kapat"
+  },
+  "savedOnLabel": {
+    "message": "Kaydedildi: $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "date": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "scheduleAddButton": {
+    "message": "+ Zamanlama"
+  },
+  "scheduleDaily": {
+    "message": "Günlük"
+  },
+  "scheduleEditButton": {
+    "message": "Düzenle"
+  },
+  "scheduleHourly": {
+    "message": "Her saat"
+  },
+  "scheduleMonthly": {
+    "message": "Aylık"
+  },
+  "scheduleNotifyLabel": {
+    "message": "Rutin çalıştığında bildirim göster"
+  },
+  "scheduleWeekly": {
+    "message": "Haftalık"
+  },
+  "searchFocusTitle": {
+    "message": "Aramaya odaklan (kısayol: /)"
+  },
+  "searchPlaceholder": {
+    "message": "Ara"
+  },
+  "searchResults": {
+    "message": "Arama Sonuçları"
+  },
+  "sectionAppleIntelligence": {
+    "message": "Apple Intelligence ile AI"
+  },
+  "sectionAppleIntelligenceDesc": {
+    "message": "Apple Intelligence tarafından desteklenen cihaz üzerinde yapay zeka özellikleri"
+  },
+  "sectionInterface": {
+    "message": "Genel"
+  },
+  "sectionInterfaceDesc": {
+    "message": "Tabstract deneyiminizi özelleştirin"
+  },
+  "sectionTabRestoring": {
+    "message": "Sekme Geri Yükleme"
+  },
+  "sectionTabRestoringDesc": {
+    "message": "Sekmeleri geri yüklediğinizde ne olacağını kontrol eder"
+  },
+  "sectionTabSaving": {
+    "message": "Sekme Kaydetme"
+  },
+  "sectionTabSavingDesc": {
+    "message": "Sekmeleri kaydettiğinizde ne olacağını kontrol eder"
+  },
+  "selectAll": {
+    "message": "Tümünü Seç"
+  },
+  "selectFileToImport": {
+    "message": "Lütfen içe aktarılacak bir dosya seçin."
+  },
+  "selectNone": {
+    "message": "Seçimi Kaldır"
+  },
+  "selectTabsToSave": {
+    "message": "Kaydedilecek sekmeleri seçin"
+  },
+  "sessionActions": {
+    "message": "Oturum eylemleri"
+  },
+  "sessionLocked": {
+    "message": "Oturum kilitli"
+  },
+  "settingsSubtitle": {
+    "message": "Değişiklikler hemen geçerli olur"
+  },
+  "shortcutOpenTabstractLabel": {
+    "message": "Tabstract'ı Aç:"
+  },
+  "shortcutSaveCurrentTabLabel": {
+    "message": "Mevcut Sekmeyi Kaydet:"
+  },
+  "shortcutSaveTabsLabel": {
+    "message": "Sekmeleri Kaydet:"
+  },
+  "simpleMode": {
+    "message": "Basit Mod"
+  },
+  "smartGroupCopyButton": {
+    "message": "Kopyala"
+  },
+  "smartGroupDeleteConfirm": {
+    "message": "Bu Filtre silinsin mi? Bu gruptaki sekmeler normal bir oturuma dönüştürülecek."
+  },
+  "smartGroupHelpDomain": {
+    "message": "Bir alan adı girin (örn. github.com). Tam alan adı ve tüm alt alan adlarıyla eşleşir."
+  },
+  "smartGroupHelpKeyword": {
+    "message": "URL'lerde ve sayfa başlıklarında aranacak bir anahtar kelime girin (örn. \"react\"). Büyük/küçük harf duyarsız."
+  },
+  "smartGroupHelpRegex": {
+    "message": "Bir düzenli ifade deseni girin (örn. (github|gitlab)\\.com). URL ve başlıkla eşleşir."
+  },
+  "smartGroupNameLabel": {
+    "message": "Filtre Adı"
+  },
+  "smartGroupNamePlaceholder": {
+    "message": "örn. GitHub Projeleri"
+  },
+  "smartGroupNameRequired": {
+    "message": "Filtre adı gereklidir"
+  },
+  "smartGroupPatternInvalidRegex": {
+    "message": "Geçersiz düzenli ifade"
+  },
+  "smartGroupPatternLabel": {
+    "message": "Desen"
+  },
+  "smartGroupPatternRequired": {
+    "message": "Desen gereklidir"
+  },
+  "smartGroupPatternTypeKeyword": {
+    "message": "Anahtar Kelime"
+  },
+  "smartGroupPatternTypeLabel": {
+    "message": "Desen Türü"
+  },
+  "smartGroupPatternTypeRegex": {
+    "message": "Düzenli İfade"
+  },
+  "smartGroupPinButton": {
+    "message": "Sabitle"
+  },
+  "smartGroupPreviewText": {
+    "message": "şu anda bu desenle eşleşiyor"
+  },
+  "smartGroupUnpinButton": {
+    "message": "Sabitlemeden Çıkar"
+  },
+  "smartGroupsCreateButton": {
+    "message": "+ Filtre Oluştur"
+  },
+  "smartGroupsEmptyMessage": {
+    "message": "Henüz Filtre oluşturulmadı."
+  },
+  "smartGroupsModalTitle": {
+    "message": "Filtreleri Yönet"
+  },
+  "snoozeLabel": {
+    "message": "<strong>Ertele</strong> rozeti şu süre gizler:"
+  },
+  "snoozeSuffix": {
+    "message": "saat"
+  },
+  "snoozeToolbarBadge": {
+    "message": "Araç çubuğu rozetini ertele"
+  },
+  "sortBy": {
+    "message": "Sırala"
+  },
+  "sortNewest": {
+    "message": "Önce En Yeni"
+  },
+  "sortNewestToOldest": {
+    "message": "En Yeniden En Eskiye Sırala"
+  },
+  "sortOldest": {
+    "message": "Önce En Eski"
+  },
+  "sortOldestToNewest": {
+    "message": "En Eskiden En Yeniye Sırala"
+  },
+  "sortRainbow": {
+    "message": "Gökkuşağı"
+  },
+  "splitGroup": {
+    "message": "Grubu Böl"
+  },
+  "supportedFormatsHeading": {
+    "message": "Desteklenen formatlar:"
+  },
+  "tabCount": {
+    "message": "$1 sekme",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabCountOfTotal": {
+    "message": "$2 $3 içinden $1",
+    "placeholders": {
+      "filtered": {
+        "content": "$1"
+      },
+      "tabWord": {
+        "content": "$3"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "tabCountPlural": {
+    "message": "$1 sekme",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabGroupLetter": {
+    "message": "Pencere {letter}"
+  },
+  "tabPlural": {
+    "message": "sekme"
+  },
+  "tabSingular": {
+    "message": "sekme"
+  },
+  "templateScheduleNotification": {
+    "message": "\"%s\" rutini oturumlarınıza eklendi."
+  },
+  "templates": {
+    "message": "Rutinler"
+  },
+  "time": {
+    "message": "Saat:"
+  },
+  "tipsOppensession": {
+    "message": "Tüm oturumları genişletmek veya daraltmak için Shift tuşuna basarak tıklayın"
+  },
+  "tipsReminders": {
+    "message": "Bildirim rozeti kayıtlı oturumları akılda tutar"
+  },
+  "tipsRename": {
+    "message": "Düzenli kalmak için oturumları etiketleyin"
+  },
+  "tipsSingletab": {
+    "message": "Sadece mevcut sekmeyi kaydetmek için Shift tuşunu basılı tutun"
+  },
+  "tipsTitle": {
+    "message": "İpuçları"
+  },
+  "tipsToolbar": {
+    "message": "Başlamak için Tabstract'ı Safari araç çubuğunuza sürükleyin."
+  },
+  "todayAt": {
+    "message": "Bugün, $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "toggleAllTabsInWindow": {
+    "message": "$1 içindeki tüm sekmeleri değiştir",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "window": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "toolbar": {
+    "message": "Araç Çubuğu"
+  },
+  "trashAutoDeletesHint": {
+    "message": "$1 gün sonra otomatik silinir",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "days": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "trashCleanupLog": {
+    "message": "Çöp kutusu temizliği: süresi dolmuş/fazla öğeler kaldırıldı"
+  },
+  "trashDuplicates": {
+    "message": "Yinelenenleri Sil"
+  },
+  "trashEmpty": {
+    "message": "Çöp kutusu boş"
+  },
+  "trashEmptyDesc": {
+    "message": "Silinen bağlantılar burada görünecek ve 30 gün sonra otomatik olarak kaldırılacak."
+  },
+  "trashExpiringSoon": {
+    "message": "Yakında Sona Eriyor"
+  },
+  "trashExpiringThisWeek": {
+    "message": "Bu Hafta Sona Eriyor"
+  },
+  "trashExpiringToday": {
+    "message": "Bugün Sona Eriyor"
+  },
+  "trashExpiringTomorrow": {
+    "message": "Yarın Sona Eriyor"
+  },
+  "trashLimitHint": {
+    "message": "Çöp kutusu $1 bağlantıyla sınırlıdır",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "max": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "undo": {
+    "message": "Geri Al"
+  },
+  "undoDeleteLink": {
+    "message": "Bağlantı silindi. Geri al?"
+  },
+  "undoDeleteSession": {
+    "message": "Oturum silindi. Geri al?"
+  },
+  "undoMergeSession": {
+    "message": "Oturumlar birleştirildi. Geri al?"
+  },
+  "undoTimeoutDescPost": {
+    "message": "sildikten sonra göster"
+  },
+  "undoTimeoutDescPre": {
+    "message": "Geri Al düğmesini"
+  },
+  "undoTimeoutLabel": {
+    "message": "Geri Al düğmesi zaman aşımı"
+  },
+  "undoTimeoutSuffix": {
+    "message": "saniye"
+  },
+  "unlockAll": {
+    "message": "Tümünün Kilidini Aç"
+  },
+  "unlockSession": {
+    "message": "Kilidi Aç"
+  },
+  "unlocked": {
+    "message": "Kilitsiz"
+  },
+  "unpinFromTop": {
+    "message": "Sabitlemeden Çıkar"
+  },
+  "unrecognizedFileFormat": {
+    "message": "Tanınmayan dosya formatı. Desteklenen formatlar: JSON, OPML, Markdown, TSV ve Tab Space, Tabs Saver ve OneTab dışa aktarmaları."
+  },
+  "unsnooze": {
+    "message": "Ertelemeyi Kaldır"
+  },
+  "untitledFilter": {
+    "message": "Bu filtreyi açıklayın..."
+  },
+  "upgradeToPro": {
+    "message": "Pro'ya Yükselt"
+  },
+  "userGuideTitle": {
+    "message": "Tabstract nasıl kullanılır"
+  },
+  "viewTrash": {
+    "message": "Çöp kutusunu görüntüle"
+  },
+  "weekdayFormat": {
+    "message": "long"
+  },
+  "weekdaysAt": {
+    "message": "Hafta içi {time}"
+  },
+  "weekendsAt": {
+    "message": "Hafta sonu {time}"
+  },
+  "weeklyAt": {
+    "message": "Her hafta {time}"
+  },
+  "welcomeActionHelp": {
+    "message": "Daha Fazla Bilgi"
+  },
+  "welcomeActionSave": {
+    "message": "Örnek Oturum Dene"
+  },
+  "welcomeBackSubtitle": {
+    "message": "Tabstract'tan en iyi şekilde yararlanmanıza yardımcı olacak bazı ipuçları:"
+  },
+  "welcomeBackTitle1": {
+    "message": "Şuna bak, hiç sekme yok! 💅"
+  },
+  "welcomeBackTitle2": {
+    "message": "Sıfır sekme. Hayalin tadını çıkar!"
+  },
+  "welcomeBackTitle3": {
+    "message": "Sekme yok mu? Efsanesin. 😎"
+  },
+  "welcomeBackTitle4": {
+    "message": "Hepsini bitirdin mi? Etkileyici!"
+  },
+  "welcomeDescription": {
+    "message": "Tabstract, Safari sekmelerinizi kaydeder ve düzenler, böylece hayatınızı düzenleyebilirsiniz."
+  },
+  "welcomeStep0Description": {
+    "message": "Sekmeleri hızlıca kaydetmek ve geri yüklemek için Tabstract simgesini Safari araç çubuğunuza sürükleyin."
+  },
+  "welcomeStep0Title": {
+    "message": "Araç Çubuğuna Ekle"
+  },
+  "welcomeStep1Description": {
+    "message": "Tüm açık sekmelerinizi kaydetmek için araç çubuğundaki Tabstract simgesine tıklayın veya Cmd+Shift+S kullanın."
+  },
+  "welcomeStep1Title": {
+    "message": "Sekmelerinizi Kaydedin"
+  },
+  "welcomeStep2Description": {
+    "message": "Oturumlarınıza özel adlar verin, önemli olanları kilitleyin ve dağınıklıktan uzak durun."
+  },
+  "welcomeStep2Title": {
+    "message": "Oturumları Düzenle"
+  },
+  "welcomeStep3Description": {
+    "message": "Tüm sekmelerini anında geri yüklemek için herhangi bir oturuma tıklayın veya gerektiğinde tek tek sekmeleri geri yükleyin."
+  },
+  "welcomeStep3Title": {
+    "message": "İstediğiniz Zaman Geri Yükle"
+  },
+  "welcomeTip": {
+    "message": "☆ Pro ipucu: Sadece mevcut sekmeyi kaydetmek için kaydet düğmesine tıklarken Shift tuşunu basılı tutun ☆"
+  },
+  "welcomeTitle": {
+    "message": "Tabstract'a Başlayın"
+  },
+  "windowLabel": {
+    "message": "Pencere"
+  },
+  "yes": {
+    "message": "Evet"
+  },
+  "yesterdayAt": {
+    "message": "Dün, $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "zeroTabs": {
+    "message": "0 sekme"
+  },
+  "backupAutomatic": {
+    "message": "Otomatik"
+  },
+  "backupComplete": {
+    "message": "Yedekleme tamamlandı!"
+  },
+  "backupExplainer": {
+    "message": "Tabstract, sekmeleri her kaydettiğinizde ve saatte bir otomatik olarak verilerinizi yedekler. 24 saatten eski yedekler günde bire, ardından haftada bire indirilir ve 30 gün sonra silinir. Manuel yedekler süresiz olarak saklanır."
+  },
+  "backupFailed": {
+    "message": "Yedekleme başarısız"
+  },
+  "backupLoadError": {
+    "message": "Yedekler yüklenemedi."
+  },
+  "backupManual": {
+    "message": "Manuel"
+  },
+  "backupManualBadge": {
+    "message": "Manuel"
+  },
+  "backupMenuRestoreMerge": {
+    "message": "Sekmeleri Geri Yükle (Birleştir)"
+  },
+  "backupMenuRestoreReplace": {
+    "message": "Sekmeleri Geri Yükle (Değiştir)"
+  },
+  "backupMenuRestoreSystem": {
+    "message": "Sistemi Geri Yükle (Tam Sıfırlama)"
+  },
+  "backupNow": {
+    "message": "Şimdi yedekle"
+  },
+  "backupPreRestoreBadge": {
+    "message": "Geri yükleme noktası"
+  },
+  "backupActionsLabel": {
+    "message": "Yedekleme işlemleri"
+  },
+  "backupTabCount": {
+    "message": "$1 sekme",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupsTitle": {
+    "message": "Yedekleme ve geri yükleme"
+  },
+  "confirmDeleteBackup": {
+    "message": "Bu yedeği silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+  },
+  "confirmRestoreEverything": {
+    "message": "Bu, tüm mevcut Tabstract verilerinizi (sekmeler, ayarlar, rutinler, filtreler vb.) bu yedekteki verilerle değiştirecektir.\n\nHer ihtimale karşı önce bir geri yükleme öncesi yedek oluşturulacaktır.\n\nDevam edilsin mi?"
+  },
+  "confirmRestoreTabsMerge": {
+    "message": "Bu, yedekteki sekmeleri mevcut sekmelerinizle birleştirerek her ikisini de koruyacaktır.\n\nHer ihtimale karşı bir geri yükleme öncesi yedek de oluşturulacaktır.\n\nDevam edilsin mi?"
+  },
+  "confirmRestoreTabsOnly": {
+    "message": "Bu, yalnızca kayıtlı sekmelerinizi bu yedekteki sekmelerle değiştirecektir. Ayarlar, rutinler ve filtreler değişmeyecektir.\n\nHer ihtimale karşı önce bir geri yükleme öncesi yedek oluşturulacaktır.\n\nDevam edilsin mi?"
+  },
+  "lastBackup": {
+    "message": "Son yedek:"
+  },
+  "loadingBackups": {
+    "message": "Yedekler yükleniyor..."
+  },
+  "noBackupsYet": {
+    "message": "Henüz yedek yok"
+  },
+  "restoreError": {
+    "message": "Yedekten geri yükleme başarısız. Lütfen tekrar deneyin."
+  },
+  "restoreTabsDialogDetail": {
+    "message": "Birleştirme, yedekteki sekmeleri mevcut sekmelerinizin yanına ekleyecektir. Önce bir geri yükleme öncesi yedek oluşturulacaktır."
+  },
+  "restoreTabsDialogMessage": {
+    "message": "Mevcut sekmelerinizi değiştirmek mi yoksa yedekle birleştirmek mi istiyorsunuz?"
+  },
+  "exportBackupShowInFinder": {
+    "message": "Finder'da göster"
+  },
+  "back": {
+    "message": "Geri"
+  },
+  "icloudSyncDesc": {
+    "message": "Kayıtlı sekmelerinizi iPhone, iPad ve Mac arasında senkronize tutun."
+  },
+  "icloudSyncLabel": {
+    "message": "iCloud ile Senkronize Et"
+  },
+  "lastSynced": {
+    "message": "Son senkronizasyon"
+  },
+  "neverSynced": {
+    "message": "Hiç senkronize edilmedi"
+  },
+  "sectionICloudSync": {
+    "message": "iCloud Senkronizasyonu - Beta"
+  },
+  "syncErrorGeneric": {
+    "message": "Senkronizasyon hatası, otomatik olarak tekrar denenecek"
+  },
+  "syncErrorNetwork": {
+    "message": "Ağ bağlantısı yok"
+  },
+  "syncErrorNotAuthenticated": {
+    "message": "Senkronize etmek için iCloud'a giriş yapın"
+  },
+  "syncErrorQuota": {
+    "message": "iCloud depolama alanı dolu"
+  },
+  "syncErrorRateLimited": {
+    "message": "Çok fazla istek, daha sonra tekrar deneyin"
+  },
+  "syncErrorZoneBusy": {
+    "message": "iCloud meşgul, daha sonra tekrar deneyin"
+  },
+  "syncNoAccount": {
+    "message": "Senkronize etmek için iCloud'a giriş yapın"
+  },
+  "syncNow": {
+    "message": "Şimdi Senkronize Et"
+  },
+  "syncing": {
+    "message": "Senkronize ediliyor..."
+  },
+  "synced": {
+    "message": "Senkronize edildi!"
+  },
+  "saveActiveTabAndClose": {
+    "message": "Bu Sekmeyi Kaydet ve Kapat"
+  },
+  "saveActiveTabNoClose": {
+    "message": "Bu Sekmeyi Kaydet ve Kapatma"
+  },
+  "saveAllAndClose": {
+    "message": "Tümünü Kaydet ve Kapat"
+  },
+  "saveAllNoClose": {
+    "message": "Tümünü Kaydet ve Kapatma"
+  },
+  "moreSaveOptions": {
+    "message": "Daha fazla kaydetme seçeneği"
+  },
+  "rename": {
+    "message": "Yeniden Adlandır"
+  },
+  "share": {
+    "message": "Paylaş"
+  },
+  "sessionDeleted": {
+    "message": "Oturum silindi"
+  },
+  "tabDeleted": {
+    "message": "Sekme silindi"
+  },
+  "tabsSaved": {
+    "message": "Sekmeler kaydedildi"
+  },
+  "linksCopied": {
+    "message": "Bağlantılar kopyalandı"
+  },
+  "connecting": {
+    "message": "Bağlanıyor..."
+  },
+  "justSynced": {
+    "message": "Az önce senkronize edildi"
+  },
+  "syncFailed": {
+    "message": "Senkronizasyon başarısız"
+  },
+  "confirmPermanentDelete": {
+    "message": "Bu oturum kalıcı olarak silinsin mi?"
+  },
+  "noSavedSessions": {
+    "message": "Henüz kayıtlı oturum yok"
+  },
+  "dayAgo": {
+    "message": "$1 gün önce",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "daysAgo": {
+    "message": "$1 gün önce",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "weekAgo": {
+    "message": "$1 hafta önce",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "weeksAgo": {
+    "message": "$1 hafta önce",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  }
+}

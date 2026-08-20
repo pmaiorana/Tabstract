@@ -1,0 +1,1757 @@
+{
+  "SnoozeInfo": {
+    "message": "Das Symbolleisten-Badge verfolgt gespeicherte Sitzungen, damit sie nicht vergessen werden. Schlummern blendet das Badge vorübergehend aus."
+  },
+  "accentColorLabel": {
+    "message": "Farbe"
+  },
+  "actionLockTabGroup": {
+    "message": "Tab-Gruppe sperren"
+  },
+  "actionSendToTabGroup": {
+    "message": "Tabs an Tab-Gruppe senden"
+  },
+  "actionSendToTrash": {
+    "message": "Tabs wegschmeißen"
+  },
+  "actionSessionName": {
+    "message": "Name"
+  },
+  "actionSetColor": {
+    "message": "Farbe der Tab-Gruppe auswählen"
+  },
+  "actionSetLockStatus": {
+    "message": "Sperrstatus festlegen"
+  },
+  "actionsMenu": {
+    "message": "Aktionen"
+  },
+  "advancedMode": {
+    "message": "Experten-Modus"
+  },
+  "aiDisabledNotice": {
+    "message": "<strong>Apple Intelligence ist momentan deaktiviert oder nicht verfügbar.</strong> Überprüfe das Apple Intelligence-Menü in den Systemeinstellungen"
+  },
+  "aiEnabledButInaccessible": {
+    "message": "<strong>Apple Intelligence scheint auf Ihrem System aktiviert zu sein, aber Tabstract hat keinen Zugriff.</strong><br><br>Häufige Ursachen:<ul><li>Ihre macOS-Sprache und Siri-Sprache stimmen nicht überein. Apple verlangt, dass beide auf derselben Sprache eingestellt sind.</li><li>Apple Intelligence wird noch initialisiert; warte einige Minuten und lade Tabstract → Einstellungen neu.</li><li>Du befindest dich in einem nicht unterstützten Land. Apple Intelligence ist auf Geräten, die in Festland-China gekauft wurden oder auf Geräten, die in Festland-China mit einer Apple-ID verwendet werden, deren Land oder Region auf Festland-China gesetzt ist, nicht verfügbar.</li></ul>"
+  },
+  "aiExperimentalNotice": {
+    "message": "<strong>Dies ist eine neue und experimentelle Funktion</strong>, die Ergebnisse werden sich im Laufe der Zeit noch verbessern"
+  },
+  "aiLanguageNotSupported": {
+    "message": "KI-Funktionen sind in dieser Sprache nicht verfügbar, da Apple Intelligence sie noch nicht unterstützt. Bitte wechsle zu Englisch, Spanisch, Französisch, Deutsch, Italienisch, Japanisch, Koreanisch, Portugiesisch (Brasilien), Chinesisch (vereinfacht) oder Chinesisch (traditionell), um KI-Funktionen zu verwenden."
+  },
+  "aiNotAvailable": {
+    "message": "<strong>Apple Intelligence ist nicht verfügbar.</strong> Überprüfe deine Systemeinstellungen, um sicherzustellen, dass es aktiviert und bereit ist."
+  },
+  "aiRegenerateTitle": {
+    "message": "Titel neu erstellen"
+  },
+  "aiSmartCategorizationDesc": {
+    "message": "Organisiert automatisch Tab-Gruppen von <strong>6 oder mehr</strong> nach Themen <span class=\"hint\"><strong class=\"info\"></strong>Erfordert Aktivierung von <em>Sitzungstitel erstellen</em></span>"
+  },
+  "aiSmartCategorizationLabel": {
+    "message": "Sinnvolle Kategorisierung"
+  },
+  "aiTitleSuggestionsDesc": {
+    "message": "Verwenden Sie Apple Intelligence – die private, gerätebasierte KI – um Sitzungstitel beim Speichern von Tabs vorzuschlagen"
+  },
+  "aiTitleSuggestionsLabel": {
+    "message": "Sitzungstitel erstellen"
+  },
+  "aiUnsupportedNotice": {
+    "message": "KI-Funktionen erfordern einen Mac mit Apple Intelligence-Unterstützung und macOS 26.0 oder neuer"
+  },
+  "all": {
+    "message": "alle"
+  },
+  "am": {
+    "message": "AM"
+  },
+  "any": {
+    "message": "beliebig"
+  },
+  "appName": {
+    "message": "Tabstract"
+  },
+  "appleIntelligenceUnavailable": {
+    "message": "Apple Intelligence ist nicht verfügbar"
+  },
+  "atLeastOnePatternRequired": {
+    "message": "Mindestens ein Muster ist erforderlich"
+  },
+  "avoidDuplicatesDesc": {
+    "message": "Verhindert das mehrfache Speichern derselben URL in einer Sitzung"
+  },
+  "avoidDuplicatesLabel": {
+    "message": "Keine doppelten Tabs speichern"
+  },
+  "avoidDuplicatesSetting": {
+    "message": "<strong>Keine doppelten Tabs speichern</strong> in derselben Sitzung"
+  },
+  "backupAutomatic": {
+    "message": "Automatisch"
+  },
+  "backupComplete": {
+    "message": "Sicherung abgeschlossen!"
+  },
+  "backupExplainer": {
+    "message": "Tabstract sichert Ihre Daten automatisch jedes Mal, wenn Sie Tabs speichern, und einmal pro Stunde. Sicherungen, die älter als 24 Stunden sind, werden auf eine pro Tag reduziert, dann auf eine pro Woche und nach 30 Tagen entfernt. Manuelle Sicherungen werden unbegrenzt aufbewahrt."
+  },
+  "backupFailed": {
+    "message": "Sicherung fehlgeschlagen"
+  },
+  "backupLoadError": {
+    "message": "Sicherungen konnten nicht geladen werden."
+  },
+  "backupManual": {
+    "message": "Manuell"
+  },
+  "backupManualBadge": {
+    "message": "Manuell"
+  },
+  "backupMenuRestoreMerge": {
+    "message": "Tabs wiederherstellen (zusammenführen)"
+  },
+  "backupMenuRestoreReplace": {
+    "message": "Tabs wiederherstellen (ersetzen)"
+  },
+  "backupMenuRestoreSystem": {
+    "message": "System wiederherstellen (vollständiger Reset)"
+  },
+  "backupNow": {
+    "message": "Jetzt sichern"
+  },
+  "backupPreRestoreBadge": {
+    "message": "Wiederherstellungspunkt"
+  },
+  "backupActionsLabel": {
+    "message": "Backup-Aktionen"
+  },
+  "backupTabCount": {
+    "message": "$1 Tabs",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupsTitle": {
+    "message": "Sicherung und Wiederherstellung"
+  },
+  "bannerNewFeatures": {
+    "message": "<strong>Neue Funktionen!</strong> Aktionsmenü, Unterstützung für traditionelles Chinesisch, Als Rich Text kopieren, Duplikat-Bereinigung!"
+  },
+  "bannerText": {
+    "message": "Nie wieder einen Tab verlieren – dank unserem neuen automatischen Backup-System! Außerdem: Betatester gesucht!"
+  },
+  "bannerTitle": {
+    "message": "Tabstract 3.1"
+  },
+  "bulkActionCreateGroup": {
+    "message": "Zusammenführen"
+  },
+  "bulkActionDeselect": {
+    "message": "Alle abwählen"
+  },
+  "bulkActionDuplicate": {
+    "message": "Duplizieren"
+  },
+  "bulkActionLockUnlock": {
+    "message": "Ausgewählte sperren/entsperren"
+  },
+  "bulkActionRestore": {
+    "message": "Wiederherstellen"
+  },
+  "bulkActionTrash": {
+    "message": "Papierkorb"
+  },
+  "cancel": {
+    "message": "Abbrechen"
+  },
+  "clearData": {
+    "message": "Daten löschen und Tabstract zurücksetzen"
+  },
+  "clearFilters": {
+    "message": "Zurücksetzen"
+  },
+  "clearSchedule": {
+    "message": "Zeitplan löschen"
+  },
+  "clearSearch": {
+    "message": "Suche löschen"
+  },
+  "clearSnooze": {
+    "message": "Schlummern beenden"
+  },
+  "clickNewToGetStarted": {
+    "message": "Click \"New\" to get started."
+  },
+  "clipboardError": {
+    "message": "Kopieren in die Zwischenablage fehlgeschlagen"
+  },
+  "close": {
+    "message": "Schließen"
+  },
+  "closeFiltersModal": {
+    "message": "Filter-Modal schließen"
+  },
+  "closeHomeTabOnOpen": {
+    "message": "Tabstract nach dem Wiederherstellen von Sitzungen schließen"
+  },
+  "closeHomeTabOnOpenDesc": {
+    "message": "Tabstract beim Öffnen von Tab-Gruppen schließen"
+  },
+  "closeHomeTabOnOpenLabel": {
+    "message": "Tabstract nach dem Wiederherstellen schließen"
+  },
+  "collapseAll": {
+    "message": "Alle einklappen"
+  },
+  "collapseExpandAll": {
+    "message": "Alle ein-/ausklappen"
+  },
+  "collapseSession": {
+    "message": "Sitzung einklappen"
+  },
+  "collapseTemplate": {
+    "message": "Routine einklappen"
+  },
+  "colorBlue": {
+    "message": "Blau"
+  },
+  "colorDefault": {
+    "message": "Standard"
+  },
+  "colorGreen": {
+    "message": "Grün"
+  },
+  "colorOrange": {
+    "message": "Orange"
+  },
+  "colorPink": {
+    "message": "Rosa"
+  },
+  "colorPurple": {
+    "message": "Lila"
+  },
+  "colorRed": {
+    "message": "Rot"
+  },
+  "colorYellow": {
+    "message": "Gelb"
+  },
+  "columnColor": {
+    "message": "Farbe"
+  },
+  "columnDateCreated": {
+    "message": "Erstellungsdatum"
+  },
+  "columnDomain": {
+    "message": "Domain"
+  },
+  "columnGroup": {
+    "message": "Tab-Gruppe"
+  },
+  "columnLock": {
+    "message": "Gesperrt"
+  },
+  "columnPinned": {
+    "message": "Angeheftet"
+  },
+  "columnTitle": {
+    "message": "Titel"
+  },
+  "confirmClearSchedule": {
+    "message": "Diesen Zeitplan löschen?"
+  },
+  "confirmDeleteBackup": {
+    "message": "Sind Sie sicher, dass Sie diese Sicherung löschen möchten? Dies kann nicht rückgängig gemacht werden."
+  },
+  "confirmDeleteFromTrash": {
+    "message": "Sind Sie sicher, dass Sie diesen Link dauerhaft löschen möchten? Dies kann nicht rückgängig gemacht werden."
+  },
+  "confirmDeleteTemplate": {
+    "message": "Diese Routine löschen? Dies kann nicht rückgängig gemacht werden."
+  },
+  "confirmEmptyTrash": {
+    "message": "Sind Sie sicher, dass Sie alle Elemente aus dem Papierkorb dauerhaft löschen möchten? Dies kann nicht rückgängig gemacht werden."
+  },
+  "confirmImport": {
+    "message": "WARNUNG: Dies ersetzt alle Ihre aktuellen Tabstract-Daten (Einstellungen, gespeicherte Sitzungen, Papierkorb usw.) vollständig durch die importierten Daten.\n\nDiese Aktion kann nicht rückgängig gemacht werden.\n\nMöchten Sie wirklich fortfahren?"
+  },
+  "confirmReset": {
+    "message": "Sind Sie sicher, dass Sie Tabstract zurücksetzen möchten?\n\nAlle Tabs werden gelöscht, einschließlich der Tabs in gesperrten Sitzungen.\n\nDies kann nicht rückgängig gemacht werden."
+  },
+  "confirmRestoreEverything": {
+    "message": "Dies ersetzt ALLE Ihre aktuellen Tabstract-Daten (Tabs, Einstellungen, Routinen, Filter usw.) durch Daten aus dieser Sicherung.\n\nZuvor wird sicherheitshalber eine Sicherung erstellt.\n\nFortfahren?"
+  },
+  "confirmRestoreTabsMerge": {
+    "message": "Dies führt Ihre gesicherten Tabs mit Ihren bestehenden Tabs zusammen und behält beide bei.\n\nZuvor wird sicherheitshalber ebenfalls eine Sicherung erstellt.\n\nFortfahren?"
+  },
+  "confirmRestoreTabsOnly": {
+    "message": "Dies ersetzt nur Ihre gespeicherten Tabs durch Tabs aus dieser Sicherung. Einstellungen, Routinen und Filter werden nicht geändert.\n\nZuvor wird sicherheitshalber eine Sicherung erstellt.\n\nFortfahren?"
+  },
+  "contactSupport": {
+    "message": "Kontakt"
+  },
+  "copiedToClipboard": {
+    "message": "Kopiert!"
+  },
+  "copyAllToClipboard": {
+    "message": "Als Markdown kopieren"
+  },
+  "copyFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "copyFormatPlain": {
+    "message": "Nur Text"
+  },
+  "copyFormatRich": {
+    "message": "Rich Text"
+  },
+  "copyMenu": {
+    "message": "Kopieren..."
+  },
+  "createFilter": {
+    "message": "Filter erstellen"
+  },
+  "createNewFilter": {
+    "message": "Neuen Filter erstellen"
+  },
+  "customColor": {
+    "message": "Benutzerdefinierte Farbe"
+  },
+  "dailyAt": {
+    "message": "Täglich um {time}"
+  },
+  "darkAuto": {
+    "message": "Auto"
+  },
+  "darkDark": {
+    "message": "Dunkel"
+  },
+  "darkLight": {
+    "message": "Hell"
+  },
+  "darkModeDesc": {
+    "message": "Wählen Sie Ihr Farbschema"
+  },
+  "darkModeLabel": {
+    "message": "Dunkelmodus"
+  },
+  "darkOff": {
+    "message": "Aus"
+  },
+  "darkSystem": {
+    "message": "System"
+  },
+  "dayFormat": {
+    "message": "numeric"
+  },
+  "dayOfMonth": {
+    "message": "Tag des Monats:"
+  },
+  "days": {
+    "message": "Tage:"
+  },
+  "debugConsole": {
+    "message": "Debug-Konsole"
+  },
+  "deleteAfterRestore": {
+    "message": "Das Wiederherstellen von Tabs entfernt sie aus Tabstract <span class=\"hint\"><strong class=\"info\">Umschalt+Klick</strong> beim Wiederherstellen zum vorübergehenden Deaktivieren</span>"
+  },
+  "deleteAfterRestoreDesc": {
+    "message": "Tabs werden beim Wiederherstellen aus Tabstract gelöscht <span class=\"hint\"><strong class=\"info\">Umschalt+Klick</strong> zum vorübergehenden Deaktivieren</span>"
+  },
+  "deleteAfterRestoreLabel": {
+    "message": "Tabs nach dem Wiederherstellen entfernen"
+  },
+  "deleteBackup": {
+    "message": "Backup löschen"
+  },
+  "deleteSmartGroup": {
+    "message": "Filter löschen"
+  },
+  "deleteTab": {
+    "message": "Diesen Tab löschen"
+  },
+  "dismissAIUnavailableMessage": {
+    "message": "Meldung über nicht verfügbare Apple Intelligence schließen"
+  },
+  "downloadData": {
+    "message": "Daten herunterladen"
+  },
+  "downloadReport": {
+    "message": "Systembericht herunterladen"
+  },
+  "draftDelete": {
+    "message": "Löschen"
+  },
+  "dragToReorder": {
+    "message": "Zum Neuanordnen ziehen"
+  },
+  "duplicateGroup": {
+    "message": "Gruppe duplizieren"
+  },
+  "duplicatesRemoved": {
+    "message": "{count} Duplikat(e) entfernt"
+  },
+  "editFilter": {
+    "message": "Filter bearbeiten"
+  },
+  "editSchedule": {
+    "message": "Zeitplan bearbeiten"
+  },
+  "emailBodyTemplate": {
+    "message": "Hi there,\n\nI'm having an issue with Tabstract.\n\nFollow these steps to reproduce my problem:\n1.\n2.\n3.\n\n\nHere is my local storage data for troubleshooting:\n\n$1",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "emailSupport": {
+    "message": "E-Mail-Support"
+  },
+  "emptySessionHint": {
+    "message": "Ziehen Sie Links hierher, um sie dieser Sitzung hinzuzufügen"
+  },
+  "emptyTrash": {
+    "message": "Papierkorb leeren"
+  },
+  "emptyTrashWithCount": {
+    "message": "Empty Trash ($1 items)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "enableBadge": {
+    "message": "Erinnerungs-Badge in der Symbolleiste anzeigen"
+  },
+  "enableKeyboardShortcuts": {
+    "message": "Tastenkombinationen aktivieren"
+  },
+  "errorMaxLength": {
+    "message": "Maximale Länge überschritten"
+  },
+  "errorParsingJson": {
+    "message": "Fehler beim Parsen von JSON: $1"
+  },
+  "expandAll": {
+    "message": "Alle ausklappen"
+  },
+  "expandSession": {
+    "message": "Sitzung ausklappen"
+  },
+  "expandTemplate": {
+    "message": "Routine erweitern"
+  },
+  "expiredLabel": {
+    "message": "Abgelaufen"
+  },
+  "expiresInDays": {
+    "message": "Expires in $1 days",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiresInHours": {
+    "message": "Expires in $1 hours",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiresInLessThanHour": {
+    "message": "Läuft in < 1 Stunde ab"
+  },
+  "export": {
+    "message": "Exportieren"
+  },
+  "exportBackupShowInFinder": {
+    "message": "Im Finder anzeigen"
+  },
+  "exportFormatHTML": {
+    "message": "HTML"
+  },
+  "exportFormatJSON": {
+    "message": "JSON"
+  },
+  "exportFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "exportFormatOPML": {
+    "message": "OPML"
+  },
+  "exportFormatPlain": {
+    "message": "Nur Text"
+  },
+  "exportMenu": {
+    "message": "Exportieren..."
+  },
+  "exportSavedLinks": {
+    "message": "Gespeicherte Links exportieren"
+  },
+  "exportSuccess": {
+    "message": "Export erfolgreich!"
+  },
+  "filterAll": {
+    "message": "Alle"
+  },
+  "filterColor": {
+    "message": "Farbe:"
+  },
+  "filterDate": {
+    "message": "Datum:"
+  },
+  "filterDateLastMonth": {
+    "message": "Letzter Monat"
+  },
+  "filterDateLastWeek": {
+    "message": "Letzte Woche"
+  },
+  "filterDateMonth": {
+    "message": "Diesen Monat"
+  },
+  "filterDateToday": {
+    "message": "Heute"
+  },
+  "filterDateWeek": {
+    "message": "Diese Woche"
+  },
+  "filterDateYesterday": {
+    "message": "Gestern"
+  },
+  "filterDomain": {
+    "message": "Domain:"
+  },
+  "filterLock": {
+    "message": "Sperre:"
+  },
+  "filterName": {
+    "message": "Beschreibung"
+  },
+  "filters": {
+    "message": "Filter"
+  },
+  "filtersDescription": {
+    "message": "Filter können Ihre Tabs automatisch basierend auf einer Domain, einem Stichwort oder anderen Mustern sortieren und organisieren. <strong>Filter werden in Prioritätsreihenfolge verarbeitet</strong>, von oben nach unten; zum Neuordnen ziehen."
+  },
+  "formatOneTab": {
+    "message": "OneTab-Export"
+  },
+  "formatTSV": {
+    "message": "TSV"
+  },
+  "formatTabSpace": {
+    "message": "Tab Space-Backup"
+  },
+  "formatTabsSaver": {
+    "message": "Tabs Saver-Backup"
+  },
+  "formatTabstractJSON": {
+    "message": "Tabstract JSON-Export"
+  },
+  "frequency": {
+    "message": "Häufigkeit:"
+  },
+  "fullScreenMode": {
+    "message": "Vollbildmodus (F)"
+  },
+  "groupNameRequired": {
+    "message": "Gruppenname ist erforderlich"
+  },
+  "guideAIFeaturesBody": {
+    "message": "Wenn Ihr Computer Apple Intelligence unterstützt, kann Tabstract Ihre gespeicherten Tabs automatisch in verschiedene themenbasierte Gruppen kategorisieren. Klicken Sie auf das <strong>✨ Glitzersymbol</strong> neben einem beliebigen Sitzungstitel, um einen neuen Titel zu generieren. Computer, die Apple Intelligence nicht unterstützen, verwenden stattdessen Datum und Uhrzeit."
+  },
+  "guideAIFeaturesTitle": {
+    "message": "Tab-Organisation mit KI"
+  },
+  "guideBadgeNotificationsBody": {
+    "message": "Das Symbolleisten-Badge zeigt die Anzahl der gespeicherten Sitzungen an, sodass sie nicht vergessen werden, auch wenn sie nicht sichtbar sind. Schlummern blendet das Symbolleisten-Badge bis zu 24 Stunden aus, oder Sie können es in den Einstellungen vollständig deaktivieren."
+  },
+  "guideBadgeNotificationsTitle": {
+    "message": "Symbolleisten-Badge"
+  },
+  "guideDragToReorderBody": {
+    "message": "Klicken und ziehen Sie einzelne Links und Sitzungen, um Ihre gespeicherten Tabs in beliebiger Reihenfolge neu anzuordnen."
+  },
+  "guideDragToReorderTitle": {
+    "message": "Drag-and-Drop-Organisation"
+  },
+  "guideGettingStartedBody": {
+    "message": "Tabstract hilft Ihnen, Ihre Safari-Tabs zu speichern und zu organisieren. Um zu beginnen, klicken Sie mit der rechten Maustaste auf die Safari-Symbolleiste, wählen Sie \"Anpassen\" und ziehen Sie das Tabstract-Symbol in Ihre Symbolleiste. Sobald es in Ihrer Symbolleiste installiert ist, klicken Sie auf Tabstract und dann auf <strong>Tabs speichern</strong>, um alle geöffneten Tabs im aktuellen Fenster zu erfassen. "
+  },
+  "guideGettingStartedTitle": {
+    "message": "Erste Schritte"
+  },
+  "guideKeyboardShortcutsBody": {
+    "message": "Tabstract enthält Tastenkombinationen und Modifikatortastenkombinationen für Power-User. Tastenkombinationen können in den Einstellungen deaktiviert werden.<br><br><strong>Haupttastenkombinationen:</strong><br><br>Alle Tabs speichern: <kbd>Befehl</kbd> + <kbd>Umschalt</kbd> + <kbd>S</kbd><br>Nur aktuellen Tab speichern: <kbd>Befehl</kbd> + <kbd>Umschalt</kbd> + <kbd>D</kbd><br>Liste der gespeicherten Sitzungen öffnen: <kbd>Befehl</kbd> + <kbd>Umschalt</kbd> + <kbd>H</kbd><br><br><strong>Schnellaktionen:</strong><br><br>Suchfeld fokussieren: <kbd>/</kbd><br>Neue Sitzung erstellen: <kbd>N</kbd><br><br><strong>Modifikatortastenkombinationen:</strong><br><br>Nur aktuellen Tab speichern: <kbd>Umschalt</kbd> + Klick auf <em>Tabs speichern</em><br>Alle Sitzungen aus-/einklappen: <kbd>Umschalt</kbd> + Klick auf <em>Sitzungs-Einklapp-Schaltfläche</em><br>Einstellung \"Tabs nach dem Wiederherstellen entfernen\" vorübergehend umkehren: <kbd>Umschalt</kbd> + Klick auf <em>Wiederherstellen</em><br>Einstellung \"Tabs im Hintergrund wiederherstellen\" vorübergehend umkehren: <kbd>Wahltaste</kbd> + Klick auf <em>Wiederherstellen</em>"
+  },
+  "guideKeyboardShortcutsTitle": {
+    "message": "Tastenkombinationen"
+  },
+  "guidePasteLinksBody": {
+    "message": "Sie können Links aus anderen Anwendungen kopieren und diese URLs direkt in Tabstract einfügen! Tabstract ruft automatisch die Seitentitel ab und fügt sie Ihrer Sammlung hinzu. "
+  },
+  "guidePasteLinksTitle": {
+    "message": "Links in Tabstract kopieren und einfügen"
+  },
+  "guideShiftClickBody": {
+    "message": "Halten Sie <kbd>Umschalt</kbd> gedrückt, während Sie auf die Einklapp-Schaltfläche einer Sitzung klicken, um alle Sitzungen gleichzeitig aus- oder einzuklappen."
+  },
+  "guideShiftClickTitle": {
+    "message": "Umschalt+Klick zum Aus-/Einklappen aller"
+  },
+  "guideTrashUndoBody": {
+    "message": "Gelöschte Links werden 30 Tage lang in den Papierkorb verschoben und dann automatisch gelöscht. Der Papierkorb ist auf 1.000 Elemente begrenzt, um Tabstract schnell zu halten."
+  },
+  "guideTrashUndoTitle": {
+    "message": "Papierkorb"
+  },
+  "helpPageTitle": {
+    "message": "Support und Fehlerbehebung - Tabstract"
+  },
+  "helpSupportInstructions": {
+    "message": "Haben Sie Fragen, Funktionswünsche oder benötigen Hilfe? Klicken Sie auf <em>E-Mail-Support</em> und dann auf <em>Erlauben</em>, oder senden Sie Ihren Systembericht an <em>help@tabstract.app</em> zusammen mit Details zu Ihrem Problem.<br /><br />Bitte zögern Sie nicht, uns auch mit Funktionswünschen, Fehlerberichten, Übersetzungsverbesserungen usw. zu kontaktieren."
+  },
+  "helpTitle": {
+    "message": "Support"
+  },
+  "hourFormat": {
+    "message": "numeric"
+  },
+  "hourAgo": {
+    "message": "Vor $1 Stunde",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hoursAgo": {
+    "message": "Vor $1 Stunden",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "import": {
+    "message": "Importieren"
+  },
+  "importData": {
+    "message": "Daten importieren"
+  },
+  "importError": {
+    "message": "Datenimport fehlgeschlagen. Bitte stellen Sie sicher, dass die Datei ein gültiger Tabstract-Datenexport ist."
+  },
+  "importFailedPrefix": {
+    "message": "Import fehlgeschlagen: "
+  },
+  "importLinksLabel": {
+    "message": "Links importieren"
+  },
+  "importMenu": {
+    "message": "Importieren..."
+  },
+  "importSuccess": {
+    "message": "Daten erfolgreich importiert! Tabstract wird jetzt neu geladen."
+  },
+  "importSuccessMessage": {
+    "message": "Imported $1 valid link(s) (across $2 session(s)).\nSkipped $3 invalid link(s).\n\nPage titles will be fetched in the background.",
+    "placeholders": {
+      "errors": {
+        "content": "$3"
+      },
+      "links": {
+        "content": "$1"
+      },
+      "sessions": {
+        "content": "$2"
+      }
+    }
+  },
+  "importSystemBackup": {
+    "message": "System-Backup importieren"
+  },
+  "invalidJsonFormat": {
+    "message": "Ungültiges JSON-Format."
+  },
+  "invalidRegexPrefix": {
+    "message": "Ungültiger regulärer Ausdruck: "
+  },
+  "justNow": {
+    "message": "Gerade eben"
+  },
+  "langNameArabic": {
+    "message": "Arabisch"
+  },
+  "langNameChineseCN": {
+    "message": "Vereinfachtes Chinesisch"
+  },
+  "langNameChineseTW": {
+    "message": "Traditionelles Chinesisch"
+  },
+  "langNameDanish": {
+    "message": "Dänisch"
+  },
+  "langNameDutch": {
+    "message": "Niederländisch"
+  },
+  "langNameEnglish": {
+    "message": "Englisch"
+  },
+  "langNameFrench": {
+    "message": "Französisch"
+  },
+  "langNameFrenchCA": {
+    "message": "Kanadisches Französisch"
+  },
+  "langNameGerman": {
+    "message": "Deutsch"
+  },
+  "langNameItalian": {
+    "message": "Italienisch"
+  },
+  "langNameJapanese": {
+    "message": "Japanisch"
+  },
+  "langNameKorean": {
+    "message": "Koreanisch"
+  },
+  "langNameNorwegian": {
+    "message": "Norwegisch"
+  },
+  "langNamePortugueseBR": {
+    "message": "Brasilianisches Portugiesisch"
+  },
+  "langNamePortuguesePT": {
+    "message": "Portugiesisch"
+  },
+  "langNameRussian": {
+    "message": "Russisch"
+  },
+  "langNameSpanish": {
+    "message": "Spanisch"
+  },
+  "langNameSpanishLA": {
+    "message": "Lateinamerikanisches Spanisch"
+  },
+  "langNameSwedish": {
+    "message": "Schwedisch"
+  },
+  "langNameTurkish": {
+    "message": "Türkisch"
+  },
+  "langNameVietnamese": {
+    "message": "Vietnamesisch"
+  },
+  "languageAuto": {
+    "message": "Systemstandard"
+  },
+  "languageDesc": {
+    "message": "Anzeigesprache wählen"
+  },
+  "languageLabel": {
+    "message": "Sprache"
+  },
+  "lastBackup": {
+    "message": "Letzte Sicherung:"
+  },
+  "lastRun": {
+    "message": "Letzte Ausführung: {time}"
+  },
+  "launchOnStartup": {
+    "message": "Tabstract beim Start Ihres Webbrowsers anzeigen"
+  },
+  "launchOnStartupDesc": {
+    "message": "Tabstract beim Starten von Safari öffnen"
+  },
+  "launchOnStartupLabel": {
+    "message": "Beim Start starten"
+  },
+  "learnMore": {
+    "message": "Mehr erfahren"
+  },
+  "learnMoreAboutFeatures": {
+    "message": "Mehr über neue Funktionen erfahren"
+  },
+  "linkRestored": {
+    "message": "Link zu neuer Sitzung wiederhergestellt"
+  },
+  "loadingBackups": {
+    "message": "Sicherungen werden geladen..."
+  },
+  "lockAll": {
+    "message": "Alle sperren"
+  },
+  "lockSession": {
+    "message": "Sperren"
+  },
+  "lockSessionTitle": {
+    "message": "Sitzung sperren"
+  },
+  "lockUnlockAll": {
+    "message": "Alle sperren/entsperren"
+  },
+  "manageFiltersMenuItem": {
+    "message": "Filter verwalten..."
+  },
+  "manageTemplates": {
+    "message": "Routinen verwalten"
+  },
+  "manageTemplatesMenuItem": {
+    "message": "Routinen verwalten..."
+  },
+  "match": {
+    "message": "Wenn"
+  },
+  "matches": {
+    "message": "Übereinstimmungen:"
+  },
+  "mergeIntoSessionBelow": {
+    "message": "Mit untenstehender Sitzung zusammenführen"
+  },
+  "minuteFormat": {
+    "message": "numeric"
+  },
+  "minuteAgo": {
+    "message": "Vor $1 Minute",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "minutesAgo": {
+    "message": "Vor $1 Minuten",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "monthFormat": {
+    "message": "long"
+  },
+  "monthlyOn": {
+    "message": "Monatlich am {day} um {time}"
+  },
+  "moreActions": {
+    "message": "Weitere Aktionen"
+  },
+  "moreShort": {
+    "message": "More"
+  },
+  "moveToTop": {
+    "message": "Nach oben verschieben"
+  },
+  "navHelp": {
+    "message": "Hilfe + Tipps"
+  },
+  "navHome": {
+    "message": "Home"
+  },
+  "navSelect": {
+    "message": "Auswählen"
+  },
+  "navSettings": {
+    "message": "Einstellungen"
+  },
+  "navSnooze": {
+    "message": "Schlummern"
+  },
+  "needHelpWithTabstract": {
+    "message": "Hilfe mit Tabstract benötigt"
+  },
+  "never": {
+    "message": "Nie"
+  },
+  "newButton": {
+    "message": "Neu"
+  },
+  "newTabGroup": {
+    "message": "Neue Tab-Gruppe"
+  },
+  "no": {
+    "message": "Nein"
+  },
+  "noAvailableTabs": {
+    "message": "Keine verfügbaren Tabs"
+  },
+  "noBackupsYet": {
+    "message": "Noch keine Sicherungen"
+  },
+  "noColor": {
+    "message": "Keine Farbe"
+  },
+  "noResultsFound": {
+    "message": "Keine Ergebnisse gefunden für"
+  },
+  "noSavedLinksToExport": {
+    "message": "Keine gespeicherten Sitzungen zum Exportieren."
+  },
+  "noTabsAvailableToSave": {
+    "message": "Keine Tabs zum Speichern verfügbar"
+  },
+  "noTabsSaved": {
+    "message": "Keine Tabs gespeichert."
+  },
+  "noTemplatesInstructions": {
+    "message": "Noch keine Routinen gespeichert.<br>Erstellen Sie eine Routine aus einer Sitzung, um zu beginnen."
+  },
+  "noTemplatesSaved": {
+    "message": "Noch keine Routinen gespeichert.<br>Erstellen Sie eine Routine aus einer Sitzung, um zu beginnen."
+  },
+  "noTemplatesSavedYet": {
+    "message": "Noch keine Routinen gespeichert"
+  },
+  "nonMatchingWarning": {
+    "message": "<strong>⚠️ Warning:</strong> $1 tab(s) in this group no longer match the patterns and will be moved to a new session titled \"<strong>Removed from $2</strong>\".",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  },
+  "none": {
+    "message": "Keine"
+  },
+  "ofTheFollowingConditions": {
+    "message": "der folgenden Bedingungen erfüllt sind:"
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "oneclickSave": {
+    "actionsMenu": {
+      "message": "Actions"
+    },
+    "bulkActionDuplicate": {
+      "message": "Duplicate"
+    },
+    "bulkActionLockUnlock": {
+      "message": "Lock/Unlock Selected"
+    },
+    "colorBlue": {
+      "message": "Blue"
+    },
+    "colorDefault": {
+      "message": "Default"
+    },
+    "colorGreen": {
+      "message": "Green"
+    },
+    "colorOrange": {
+      "message": "Orange"
+    },
+    "colorPink": {
+      "message": "Pink"
+    },
+    "colorPurple": {
+      "message": "Purple"
+    },
+    "colorRed": {
+      "message": "Red"
+    },
+    "colorYellow": {
+      "message": "Yellow"
+    },
+    "filterAll": {
+      "message": "All"
+    },
+    "message": "Ein-Klick-Speichern <span class=\"hint\"><strong class=\"caution\">Achtung:</strong> Dies entfernt Start und Schlummern; verwenden Sie Shift+Command+H um Start zu öffnen.</span>"
+  },
+  "oneclickSaveDesc": {
+    "message": "<span class=\"hint\"><strong class=\"caution\">Achtung:</strong> Dies ist eine experimentelle Funktion und entfernt die Home-/Schlummer-Schaltflächen. Verwenden Sie <strong>Umschalt+Befehl+H</strong>, um Home zu öffnen</span>"
+  },
+  "oneclickSaveLabel": {
+    "message": "Ein-Klick-Speichern"
+  },
+  "openLink": {
+    "message": "Open $1",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "pageTitle": {
+    "message": "Werkzeuge und Einstellungen - Tabstract"
+  },
+  "pasteLinks": {
+    "message": "URLs einfügen"
+  },
+  "performActions": {
+    "message": "Folgende Aktionen ausführen:"
+  },
+  "pinToTop": {
+    "message": "Oben anheften"
+  },
+  "pinnedTabsDesc": {
+    "message": "Angeheftete Tabs werden nicht geschlossen oder in Tabstract gespeichert"
+  },
+  "pinnedTabsLabel": {
+    "message": "Angeheftete Tabs nicht speichern"
+  },
+  "pinnedTabsSetting": {
+    "message": "<strong>Angeheftete Tabs nicht speichern</strong> (angeheftete Tabs werden nicht geschlossen oder in Tabstract gespeichert)"
+  },
+  "pleaseEnterDayBetween1And31": {
+    "message": "Bitte geben Sie einen Tag zwischen 1 und 31 ein."
+  },
+  "pleaseEnterPattern": {
+    "message": "Bitte geben Sie einen Musterwert ein"
+  },
+  "pleaseSelectAtLeastOneDay": {
+    "message": "Bitte wählen Sie mindestens einen Tag für den wöchentlichen Zeitplan aus."
+  },
+  "pm": {
+    "message": "PM"
+  },
+  "refreshData": {
+    "message": "Debug-Daten aktualisieren"
+  },
+  "removeFromSession": {
+    "message": "Remove $1 from session",
+    "placeholders": {
+      "title": {
+        "content": "$1"
+      }
+    }
+  },
+  "removedFrom": {
+    "message": "Removed from $1",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "resetGroupColors": {
+    "message": "Farben zurücksetzen"
+  },
+  "restoreAllTabs": {
+    "message": "Alle Tabs wiederherstellen"
+  },
+  "restoreError": {
+    "message": "Wiederherstellung aus Sicherung fehlgeschlagen. Bitte versuchen Sie es erneut."
+  },
+  "restoreInBackground": {
+    "message": "Wiederhergestellte Tabs werden im Hintergrund geöffnet <span class=\"hint\"><strong class=\"info\">Wahltaste+Klick</strong> beim Wiederherstellen zum vorübergehenden Deaktivieren</span>"
+  },
+  "restoreInBackgroundDesc": {
+    "message": "Wiederhergestellte Tabs werden hinter Tabstract geöffnet, ohne den Fokus zu wechseln <span class=\"hint\"><strong class=\"info\">Wahltaste+Klick</strong> zum vorübergehenden Deaktivieren</span>"
+  },
+  "restoreInBackgroundLabel": {
+    "message": "Tabs im Hintergrund wiederherstellen"
+  },
+  "restoreTabsDialogDetail": {
+    "message": "Zusammenführen fügt die gesicherten Tabs neben Ihren bestehenden Tabs hinzu. Zuvor wird eine Sicherung erstellt."
+  },
+  "restoreTabsDialogMessage": {
+    "message": "Möchten Sie Ihre aktuellen Tabs ersetzen oder mit der Sicherung zusammenführen?"
+  },
+  "restoreTabsMerge": {
+    "message": "Zusammenführen"
+  },
+  "restoreTabsReplace": {
+    "message": "Ersetzen"
+  },
+  "restoreTabsToCurrentWindow": {
+    "message": "Aktuellem Fenster"
+  },
+  "restoreTabsToLabel": {
+    "message": "Tab-Gruppen wiederherstellen in:"
+  },
+  "restoreTabsToNewWindow": {
+    "message": "Neuem Fenster"
+  },
+  "restoredFromTrashSessionName": {
+    "message": "Aus Papierkorb wiederhergestellt"
+  },
+  "restoredLinkSessionName": {
+    "message": "Wiederhergestellter Link"
+  },
+  "reviewButton": {
+    "message": "Im App Store bewerten ★★★★★"
+  },
+  "reviewLaterButton": {
+    "message": "Vielleicht später"
+  },
+  "reviewMessage": {
+    "message": "Tabstract ist kostenlos, aber lebt von Bewertungen. Bitte hinterlassen Sie eine Bewertung!"
+  },
+  "reviewModalText": {
+    "message": "Tabstract ist kostenlos und lebt von Bewertungen 🚀 Bitte geben Sie uns eine 5-Sterne-Bewertung!"
+  },
+  "reviewModalTitle": {
+    "message": "Gefällt Ihnen Tabstract?"
+  },
+  "runFiltersConfirm": {
+    "message": "{sessions} Sitzungen mit {tabs} Tabs werden verarbeitet. Fortfahren?"
+  },
+  "runFiltersMenuItem": {
+    "message": "Filter ausführen"
+  },
+  "runFiltersNoFilters": {
+    "message": "Keine Filter definiert. Erstellen Sie zuerst Filter."
+  },
+  "runFiltersNoSessions": {
+    "message": "Keine entsperrten Sitzungen zum Verarbeiten."
+  },
+  "runFiltersSuccess": {
+    "message": "{matched} Tabs durch Filter verarbeitet"
+  },
+  "sampleSessionCreated": {
+    "message": "Beispiel erstellt!"
+  },
+  "sampleSessionName": {
+    "message": "Erste Schritte mit Tabstract"
+  },
+  "sampleTab1Title": {
+    "message": "Tabstract-Website"
+  },
+  "sampleTab2Title": {
+    "message": "Tabstract im App Store"
+  },
+  "sampleTab3Title": {
+    "message": "Tabstract im App Store bewerten"
+  },
+  "sampleTab4Title": {
+    "message": "By The Farm"
+  },
+  "save": {
+    "message": "Speichern"
+  },
+  "saveAllWindowsDesc": {
+    "message": "Speichert Tabs aus allen geöffneten Safari-Fenstern, nicht nur aus dem aktuell fokussierten Fenster"
+  },
+  "saveAllWindowsLabel": {
+    "message": "Tabs aus allen Fenstern speichern"
+  },
+  "saveAlsoCloses": {
+    "message": "<strong>Tabs schließen</strong> beim Speichern"
+  },
+  "saveAlsoClosesDesc": {
+    "message": "Tabs werden nach dem Speichern in Tabstract automatisch geschlossen"
+  },
+  "saveAlsoClosesLabel": {
+    "message": "Tabs beim Speichern schließen"
+  },
+  "saveAsTemplate": {
+    "message": "Als Routine speichern"
+  },
+  "saveFilter": {
+    "message": "Filter speichern"
+  },
+  "saveSelected": {
+    "message": "Ausgewählte speichern"
+  },
+  "saveSelectedPlural": {
+    "message": "{count} Tabs speichern"
+  },
+  "saveSelectedSingular": {
+    "message": "1 Tab speichern"
+  },
+  "saveTab": {
+    "message": "Tab speichern"
+  },
+  "saveTabs": {
+    "message": "Tabs speichern"
+  },
+  "saveTabsOnStartupDesc": {
+    "message": "Alle offenen Tabs automatisch speichern und schließen, wenn Sie Safari starten"
+  },
+  "saveTabsOnStartupLabel": {
+    "message": "Offene Tabs beim Start speichern und schließen"
+  },
+  "savedOnLabel": {
+    "message": "Saved: $1",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "scheduleAddButton": {
+    "message": "+ Zeitplan"
+  },
+  "scheduleDaily": {
+    "message": "Täglich"
+  },
+  "scheduleEditButton": {
+    "message": "Bearbeiten"
+  },
+  "scheduleHourly": {
+    "message": "Jede Stunde"
+  },
+  "scheduleMonthly": {
+    "message": "Monatlich"
+  },
+  "scheduleNotifyLabel": {
+    "message": "Benachrichtigung anzeigen, wenn Routine ausgeführt wird"
+  },
+  "scheduleWeekly": {
+    "message": "Wöchentlich"
+  },
+  "searchFocusTitle": {
+    "message": "Suche fokussieren (Tastenkombination: /)"
+  },
+  "searchPlaceholder": {
+    "message": "Suchen"
+  },
+  "searchResults": {
+    "message": "Suchergebnisse"
+  },
+  "sectionAppleIntelligence": {
+    "message": "AI powered by Apple Intelligence"
+  },
+  "sectionAppleIntelligenceDesc": {
+    "message": "KI-Funktionen auf dem Gerät, unterstützt von Apple Intelligence"
+  },
+  "sectionInterface": {
+    "message": "Allgemein"
+  },
+  "sectionInterfaceDesc": {
+    "message": "Passen Sie Ihre Tabstract-Erfahrung an"
+  },
+  "sectionTabRestoring": {
+    "message": "Tabs wiederherstellen"
+  },
+  "sectionTabRestoringDesc": {
+    "message": "Steuert, was beim Wiederherstellen von Tabs passiert"
+  },
+  "sectionTabSaving": {
+    "message": "Tabs speichern"
+  },
+  "sectionTabSavingDesc": {
+    "message": "Steuert, was beim Speichern von Tabs passiert"
+  },
+  "selectAll": {
+    "message": "Alle auswählen"
+  },
+  "selectFileToImport": {
+    "message": "Bitte wählen Sie eine Datei zum Importieren aus."
+  },
+  "selectNone": {
+    "message": "Keine auswählen"
+  },
+  "selectTabsToSave": {
+    "message": "Zu speichernde Tabs auswählen"
+  },
+  "sessionActions": {
+    "message": "Sitzungsaktionen"
+  },
+  "sessionLocked": {
+    "message": "Sitzung ist gesperrt"
+  },
+  "settingsSubtitle": {
+    "message": "Änderungen werden sofort wirksam"
+  },
+  "shortcutOpenTabstractLabel": {
+    "message": "Tabstract öffnen:"
+  },
+  "shortcutSaveCurrentTabLabel": {
+    "message": "Aktuellen Tab speichern:"
+  },
+  "shortcutSaveTabsLabel": {
+    "message": "Tabs speichern:"
+  },
+  "simpleMode": {
+    "message": "Einfacher Modus"
+  },
+  "smartGroupCopyButton": {
+    "message": "Kopieren"
+  },
+  "smartGroupDeleteConfirm": {
+    "message": "Diesen Filter löschen? Tabs in dieser Gruppe werden in eine reguläre Sitzung umgewandelt."
+  },
+  "smartGroupHelpDomain": {
+    "message": "Geben Sie einen Domainnamen ein (z.B. github.com). Stimmt mit der exakten Domain und allen Subdomains überein."
+  },
+  "smartGroupHelpKeyword": {
+    "message": "Geben Sie ein Stichwort ein, das in URLs und Seitentiteln gesucht werden soll (z.B. \"react\"). Groß-/Kleinschreibung wird nicht beachtet."
+  },
+  "smartGroupHelpRegex": {
+    "message": "Geben Sie ein reguläres Ausdrucksmuster ein (z.B. (github|gitlab)\\.com). Stimmt mit URL und Titel überein."
+  },
+  "smartGroupNameLabel": {
+    "message": "Filtername"
+  },
+  "smartGroupNamePlaceholder": {
+    "message": "z.B. GitHub-Projekte"
+  },
+  "smartGroupNameRequired": {
+    "message": "Filtername ist erforderlich"
+  },
+  "smartGroupPatternInvalidRegex": {
+    "message": "Ungültiger regulärer Ausdruck"
+  },
+  "smartGroupPatternLabel": {
+    "message": "Muster"
+  },
+  "smartGroupPatternRequired": {
+    "message": "Muster ist erforderlich"
+  },
+  "smartGroupPatternTypeKeyword": {
+    "message": "Stichwort"
+  },
+  "smartGroupPatternTypeLabel": {
+    "message": "Mustertyp"
+  },
+  "smartGroupPatternTypeRegex": {
+    "message": "Regulärer Ausdruck"
+  },
+  "smartGroupPinButton": {
+    "message": "Anheften"
+  },
+  "smartGroupPreviewText": {
+    "message": "stimmen derzeit mit diesem Muster überein"
+  },
+  "smartGroupUnpinButton": {
+    "message": "Lösen"
+  },
+  "smartGroupsCreateButton": {
+    "message": "+ Filter erstellen"
+  },
+  "smartGroupsEmptyMessage": {
+    "message": "Noch keine Filter erstellt."
+  },
+  "smartGroupsModalTitle": {
+    "message": "Filter verwalten"
+  },
+  "snoozeLabel": {
+    "message": "<strong>Schlummern</strong> blendet Badge aus für"
+  },
+  "snoozeSuffix": {
+    "message": "Stunde(n)"
+  },
+  "snoozeToolbarBadge": {
+    "message": "Symbolleisten-Badge schlummern"
+  },
+  "sortBy": {
+    "message": "Sortieren nach"
+  },
+  "sortNewest": {
+    "message": "Neueste zuerst"
+  },
+  "sortNewestToOldest": {
+    "message": "Neueste zuerst sortieren"
+  },
+  "sortOldest": {
+    "message": "Älteste zuerst"
+  },
+  "sortOldestToNewest": {
+    "message": "Älteste zuerst sortieren"
+  },
+  "sortRainbow": {
+    "message": "Regenbogen"
+  },
+  "splitGroup": {
+    "message": "Gruppe teilen"
+  },
+  "supportedFormatsHeading": {
+    "message": "Unterstützte Formate:"
+  },
+  "tabCount": {
+    "message": "$1 tab",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "tabCountOfTotal": {
+    "message": "$1 von $2 $3",
+    "placeholders": {
+      "filtered": {
+        "content": "$1"
+      },
+      "tabWord": {
+        "content": "$3"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "tabCountPlural": {
+    "message": "$1 tabs",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "tabGroupLetter": {
+    "message": "Fenster {letter}"
+  },
+  "tabPlural": {
+    "message": "Tabs"
+  },
+  "tabSingular": {
+    "message": "Tab"
+  },
+  "templateScheduleNotification": {
+    "message": "Routine \"%s\" wurde zu Ihren Sitzungen hinzugefügt."
+  },
+  "templates": {
+    "message": "Routinen"
+  },
+  "time": {
+    "message": "Uhrzeit:"
+  },
+  "tipsOppensession": {
+    "message": "Umschalt+Klick zum Aus- oder Einklappen aller Sitzungen"
+  },
+  "tipsReminders": {
+    "message": "Das Benachrichtigungs-Badge hält gespeicherte Sitzungen präsent"
+  },
+  "tipsRename": {
+    "message": "Benennen Sie Sitzungen, um organisiert zu bleiben"
+  },
+  "tipsSingletab": {
+    "message": "Halten Sie die Umschalttaste gedrückt, um nur den aktuellen Tab zu speichern"
+  },
+  "tipsTitle": {
+    "message": "Tipps"
+  },
+  "tipsToolbar": {
+    "message": "Ziehen Sie Tabstract in Ihre Safari-Symbolleiste, um zu beginnen."
+  },
+  "todayAt": {
+    "message": "Heute, $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "toggleAllTabsInWindow": {
+    "message": "Toggle all tabs in $1",
+    "placeholders": {
+      "window": {
+        "content": "$1"
+      }
+    }
+  },
+  "toolbar": {
+    "message": "Symbolleiste"
+  },
+  "trashAutoDeletesHint": {
+    "message": "Auto-deletes after $1 days",
+    "placeholders": {
+      "days": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashCleanupLog": {
+    "message": "Papierkorb-Bereinigung: abgelaufene/überschüssige Elemente entfernt"
+  },
+  "trashDuplicates": {
+    "message": "Duplikate löschen"
+  },
+  "trashEmpty": {
+    "message": "Papierkorb ist leer"
+  },
+  "trashEmptyDesc": {
+    "message": "Gelöschte Links werden hier angezeigt und nach 30 Tagen automatisch entfernt."
+  },
+  "trashExpiringSoon": {
+    "message": "Läuft bald ab"
+  },
+  "trashExpiringThisWeek": {
+    "message": "Läuft diese Woche ab"
+  },
+  "trashExpiringToday": {
+    "message": "Läuft heute ab"
+  },
+  "trashExpiringTomorrow": {
+    "message": "Läuft morgen ab"
+  },
+  "trashLimitHint": {
+    "message": "Trash is limited to $1 links",
+    "placeholders": {
+      "max": {
+        "content": "$1"
+      }
+    }
+  },
+  "undo": {
+    "message": "Rückgängig"
+  },
+  "undoDeleteLink": {
+    "message": "Link gelöscht. Rückgängig machen?"
+  },
+  "undoDeleteSession": {
+    "message": "Sitzung gelöscht. Rückgängig machen?"
+  },
+  "undoMergeSession": {
+    "message": "Sitzungen zusammengeführt. Rückgängig machen?"
+  },
+  "undoTimeoutDescPost": {
+    "message": "nach dem Löschen"
+  },
+  "undoTimeoutDescPre": {
+    "message": "Rückgängig-Schaltfläche anzeigen für"
+  },
+  "undoTimeoutLabel": {
+    "message": "Zeitüberschreitung der Rückgängig-Schaltfläche"
+  },
+  "undoTimeoutSuffix": {
+    "message": "Sekunden"
+  },
+  "unlockAll": {
+    "message": "Alle entsperren"
+  },
+  "unlockSession": {
+    "message": "Entsperren"
+  },
+  "unlocked": {
+    "message": "Entsperrt"
+  },
+  "unpinFromTop": {
+    "message": "Von oben lösen"
+  },
+  "unrecognizedFileFormat": {
+    "message": "Nicht erkanntes Dateiformat. Unterstützte Formate: JSON, OPML, Markdown, TSV und Exporte von Tab Space, Tabs Saver und OneTab."
+  },
+  "unsnooze": {
+    "message": "Schlummern beenden"
+  },
+  "untitledFilter": {
+    "message": "Beschreiben Sie diesen Filter..."
+  },
+  "upgradeToPro": {
+    "message": "Upgrade auf Pro"
+  },
+  "userGuideTitle": {
+    "message": "So verwenden Sie Tabstract"
+  },
+  "viewTrash": {
+    "message": "Papierkorb anzeigen"
+  },
+  "weekdayFormat": {
+    "message": "long"
+  },
+  "weekdaysAt": {
+    "message": "Wochentags um {time}"
+  },
+  "weekendsAt": {
+    "message": "Wochenenden um {time}"
+  },
+  "weeklyAt": {
+    "message": "Wöchentlich um {time}"
+  },
+  "welcomeActionHelp": {
+    "message": "Mehr erfahren"
+  },
+  "welcomeActionSave": {
+    "message": "Beispielsitzung ausprobieren"
+  },
+  "welcomeBackSubtitle": {
+    "message": "Hier sind einige Tipps, um das Beste aus Tabstract herauszuholen:"
+  },
+  "welcomeBackTitle1": {
+    "message": "Sieh mal an, keine Tabs! 💅"
+  },
+  "welcomeBackTitle2": {
+    "message": "Tab-Null. Ein Traum!"
+  },
+  "welcomeBackTitle3": {
+    "message": "Keine Tabs? Sie sind eine Legende. 😎"
+  },
+  "welcomeBackTitle4": {
+    "message": "Alles erledigt? Beeindruckend!"
+  },
+  "welcomeDescription": {
+    "message": "Tabstract speichert und organisiert Ihre Safari-Tabs, damit Sie Ihr Leben entrümpeln können. "
+  },
+  "welcomeStep0Description": {
+    "message": "Ziehen Sie das Tabstract-Symbol in Ihre Safari-Symbolleiste für schnellen Zugriff zum Speichern und Wiederherstellen von Tabs."
+  },
+  "welcomeStep0Title": {
+    "message": "Zur Symbolleiste hinzufügen"
+  },
+  "welcomeStep1Description": {
+    "message": "Klicken Sie auf das Tabstract-Symbol in Ihrer Symbolleiste oder verwenden Sie Befehl+Umschalt+S, um alle Ihre geöffneten Tabs zu speichern."
+  },
+  "welcomeStep1Title": {
+    "message": "Tabs speichern"
+  },
+  "welcomeStep2Description": {
+    "message": "Geben Sie Ihren Sitzungen benutzerdefinierte Namen, sperren Sie die wichtigen und bleiben Sie übersichtlich."
+  },
+  "welcomeStep2Title": {
+    "message": "Sitzungen organisieren"
+  },
+  "welcomeStep3Description": {
+    "message": "Klicken Sie auf eine beliebige Sitzung, um alle ihre Tabs sofort wiederherzustellen, oder stellen Sie einzelne Tabs nach Bedarf wieder her."
+  },
+  "welcomeStep3Title": {
+    "message": "Jederzeit wiederherstellen"
+  },
+  "welcomeTip": {
+    "message": "☆ Profi-Tipp: Halten Sie die Umschalttaste gedrückt, während Sie auf die Speichern-Schaltfläche klicken, um nur den aktuellen Tab zu speichern ☆"
+  },
+  "welcomeTitle": {
+    "message": "Erste Schritte mit Tabstract"
+  },
+  "windowLabel": {
+    "message": "Fenster"
+  },
+  "yes": {
+    "message": "Ja"
+  },
+  "yesterdayAt": {
+    "message": "Gestern, $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "zeroTabs": {
+    "message": "0 Tabs"
+  },
+  "back": {
+    "message": "Zurück"
+  },
+  "icloudSyncDesc": {
+    "message": "Halte deine gespeicherten Tabs auf iPhone, iPad und Mac synchron."
+  },
+  "icloudSyncLabel": {
+    "message": "Mit iCloud synchronisieren"
+  },
+  "lastSynced": {
+    "message": "Zuletzt synchronisiert"
+  },
+  "neverSynced": {
+    "message": "Noch nie synchronisiert"
+  },
+  "sectionICloudSync": {
+    "message": "iCloud-Synchronisierung - Beta"
+  },
+  "syncErrorGeneric": {
+    "message": "Synchronisierungsfehler, wird automatisch erneut versucht"
+  },
+  "syncErrorNetwork": {
+    "message": "Keine Netzwerkverbindung"
+  },
+  "syncErrorNotAuthenticated": {
+    "message": "Melde dich bei iCloud an, um zu synchronisieren"
+  },
+  "syncErrorQuota": {
+    "message": "iCloud-Speicher ist voll"
+  },
+  "syncErrorRateLimited": {
+    "message": "Zu viele Anfragen, versuche es später erneut"
+  },
+  "syncErrorZoneBusy": {
+    "message": "iCloud ist beschäftigt, versuche es später erneut"
+  },
+  "syncNoAccount": {
+    "message": "Melde dich bei iCloud an, um zu synchronisieren"
+  },
+  "syncNow": {
+    "message": "Jetzt synchronisieren"
+  },
+  "syncing": {
+    "message": "Synchronisierung läuft..."
+  },
+  "synced": {
+    "message": "Synchronisiert!"
+  },
+  "saveActiveTabAndClose": {
+    "message": "Diesen Tab speichern und schließen"
+  },
+  "saveActiveTabNoClose": {
+    "message": "Diesen Tab speichern, nicht schließen"
+  },
+  "saveAllAndClose": {
+    "message": "Alle speichern und schließen"
+  },
+  "saveAllNoClose": {
+    "message": "Alle speichern, nicht schließen"
+  },
+  "moreSaveOptions": {
+    "message": "Weitere Speicheroptionen"
+  },
+  "rename": {
+    "message": "Umbenennen"
+  },
+  "share": {
+    "message": "Teilen"
+  },
+  "sessionDeleted": {
+    "message": "Sitzung gelöscht"
+  },
+  "tabDeleted": {
+    "message": "Tab gelöscht"
+  },
+  "tabsSaved": {
+    "message": "Tabs gespeichert"
+  },
+  "linksCopied": {
+    "message": "Links kopiert"
+  },
+  "connecting": {
+    "message": "Verbindung wird hergestellt..."
+  },
+  "justSynced": {
+    "message": "Gerade synchronisiert"
+  },
+  "syncFailed": {
+    "message": "Synchronisierung fehlgeschlagen"
+  },
+  "confirmPermanentDelete": {
+    "message": "Diese Sitzung endgültig löschen?"
+  },
+  "noSavedSessions": {
+    "message": "Noch keine gespeicherten Sitzungen"
+  },
+  "dayAgo": {
+    "message": "vor $1 Tag",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "daysAgo": {
+    "message": "vor $1 Tagen",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "weekAgo": {
+    "message": "vor $1 Woche",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "weeksAgo": {
+    "message": "vor $1 Wochen",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  }
+}

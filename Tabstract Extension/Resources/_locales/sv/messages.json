@@ -1,0 +1,2837 @@
+{
+  "SnoozeInfo": {
+    "message": "Verktygsfältets märke håller reda på sparade sessioner så att de inte glöms bort. Snooze döljer märket tillfälligt."
+  },
+  "accentColorLabel": {
+    "message": "Färg"
+  },
+  "actionLockTabGroup": {
+    "message": "Lås flikgrupp"
+  },
+  "actionSendToTabGroup": {
+    "message": "Skicka flikar till flikgrupp"
+  },
+  "actionSendToTrash": {
+    "message": "Skicka flikar till papperskorgen"
+  },
+  "actionSessionName": {
+    "message": "Namn"
+  },
+  "actionSetColor": {
+    "message": "Ställ in färg för flikgrupp"
+  },
+  "actionSetLockStatus": {
+    "message": "Ställ in låsstatus"
+  },
+  "actionsMenu": {
+    "message": "Åtgärder"
+  },
+  "advancedMode": {
+    "message": "Avancerat läge"
+  },
+  "aiDisabledNotice": {
+    "message": "<strong>Apple Intelligence är för närvarande avstängd eller otillgänglig.</strong> Kontrollera Apple Intelligence-menyn i Systeminställningar"
+  },
+  "aiEnabledButInaccessible": {
+    "message": "<strong>Apple Intelligence verkar vara aktiverad på ditt system, men Tabstract kan inte komma åt den.</strong><br><br>Vanliga orsaker:<ul><li>Ditt macOS-språk och Siri-språk matchar inte. Apple kräver att båda är inställda på samma språk.</li><li>Apple Intelligence initialiseras fortfarande; vänta några minuter och ladda om Tabstract → Inställningar.</li><li>Du befinner dig i ett land som inte stöds. Apple Intelligence är inte tillgänglig på enheter köpta i Kina, eller på enheter som används i Kina med ett Apple-ID vars land eller region är inställt på Kina.</li></ul>"
+  },
+  "aiExperimentalNotice": {
+    "message": "<strong>Detta är en ny och experimentell funktion</strong>, resultaten kommer att fortsätta förbättras över tid"
+  },
+  "aiLanguageNotSupported": {
+    "message": "AI-funktioner är inte tillgängliga på detta språk eftersom Apple Intelligence inte stöder det ännu. Byt till engelska, spanska, franska, tyska, italienska, japanska, koreanska, portugisiska (Brasilien), kinesiska (förenklad) eller kinesiska (traditionell) för att använda AI-funktioner."
+  },
+  "aiNotAvailable": {
+    "message": "<strong>Apple Intelligence är inte tillgänglig.</strong> Kontrollera dina systeminställningar för att säkerställa att den är aktiverad och redo"
+  },
+  "aiRegenerateTitle": {
+    "message": "Återskapa titel"
+  },
+  "aiSmartCategorizationDesc": {
+    "message": "Organisera automatiskt flikgrupper om <strong>6 eller fler</strong> i ämnen <span class=\"hint\"><strong class=\"info\"></strong>Kräver att <em>Generera sessionstitlar</em> är aktiverat</span>"
+  },
+  "aiSmartCategorizationLabel": {
+    "message": "Smart kategorisering"
+  },
+  "aiTitleSuggestionsDesc": {
+    "message": "Använd Apple Intelligence—privat AI på enheten—för att föreslå sessionstitlar när du sparar flikar"
+  },
+  "aiTitleSuggestionsLabel": {
+    "message": "Generera sessionstitlar"
+  },
+  "aiUnsupportedNotice": {
+    "message": "AI-funktioner kräver en Mac med Apple Intelligence-stöd och macOS 26.0 eller senare"
+  },
+  "all": {
+    "message": "alla"
+  },
+  "am": {
+    "message": "FM"
+  },
+  "any": {
+    "message": "någon"
+  },
+  "appName": {
+    "message": "Tabstract"
+  },
+  "appleIntelligenceUnavailable": {
+    "message": "Apple Intelligence otillgänglig"
+  },
+  "atLeastOnePatternRequired": {
+    "message": "Minst ett mönster krävs"
+  },
+  "avoidDuplicatesDesc": {
+    "message": "Förhindrar att samma URL sparas flera gånger i en session"
+  },
+  "avoidDuplicatesLabel": {
+    "message": "Spara inte dubblettflikar"
+  },
+  "avoidDuplicatesSetting": {
+    "message": "<strong>Spara inte dubblettflikar</strong> i samma session"
+  },
+  "bannerNewFeatures": {
+    "message": "<strong>Nyheter!</strong> Åtgärdsmeny, stöd för traditionell kinesiska, kopiera som formaterad text, rensning av dubbletter!"
+  },
+  "bannerText": {
+    "message": "Tappa aldrig en flik med vårt nya automatiska säkerhetskopieringssystem! Vi söker betatestare!"
+  },
+  "bannerTitle": {
+    "message": "Tabstract 3.1"
+  },
+  "bulkActionCreateGroup": {
+    "message": "Slå samman"
+  },
+  "bulkActionDeselect": {
+    "message": "Avmarkera alla"
+  },
+  "bulkActionDuplicate": {
+    "message": "Duplicera"
+  },
+  "bulkActionLockUnlock": {
+    "message": "Lås/Lås upp valda"
+  },
+  "bulkActionRestore": {
+    "message": "Återställ"
+  },
+  "bulkActionTrash": {
+    "message": "Papperskorg"
+  },
+  "cancel": {
+    "message": "Avbryt"
+  },
+  "clearData": {
+    "message": "Ta bort data och återställ Tabstract"
+  },
+  "clearFilters": {
+    "message": "Återställ"
+  },
+  "clearSchedule": {
+    "message": "Rensa schema"
+  },
+  "clearSearch": {
+    "message": "Rensa sökning"
+  },
+  "clearSnooze": {
+    "message": "Rensa snooze"
+  },
+  "clickNewToGetStarted": {
+    "message": "Klicka på \"Ny\" för att komma igång."
+  },
+  "clipboardError": {
+    "message": "Kunde inte kopiera till urklipp"
+  },
+  "close": {
+    "message": "Stäng"
+  },
+  "closeFiltersModal": {
+    "message": "Stäng filterfönster"
+  },
+  "closeHomeTabOnOpen": {
+    "message": "Stäng Tabstract efter att ha återställt sessioner"
+  },
+  "closeHomeTabOnOpenDesc": {
+    "message": "Stäng Tabstract när du öppnar grupper av flikar"
+  },
+  "closeHomeTabOnOpenLabel": {
+    "message": "Stäng Tabstract efter återställning"
+  },
+  "collapseAll": {
+    "message": "Komprimera alla"
+  },
+  "collapseExpandAll": {
+    "message": "Komprimera/Expandera alla"
+  },
+  "collapseSession": {
+    "message": "Fäll ihop session"
+  },
+  "collapseTemplate": {
+    "message": "Fäll ihop rutin"
+  },
+  "colorBlue": {
+    "message": "Blå"
+  },
+  "colorDefault": {
+    "message": "Standard"
+  },
+  "colorGreen": {
+    "message": "Grön"
+  },
+  "colorOrange": {
+    "message": "Orange"
+  },
+  "colorPink": {
+    "message": "Rosa"
+  },
+  "colorPurple": {
+    "message": "Lila"
+  },
+  "colorRed": {
+    "message": "Röd"
+  },
+  "colorYellow": {
+    "message": "Gul"
+  },
+  "columnColor": {
+    "message": "Färg"
+  },
+  "columnDateCreated": {
+    "message": "Skapad"
+  },
+  "columnDomain": {
+    "message": "Domän"
+  },
+  "columnGroup": {
+    "message": "Flikgrupp"
+  },
+  "columnLock": {
+    "message": "Låst"
+  },
+  "columnPinned": {
+    "message": "Fäst"
+  },
+  "columnTitle": {
+    "message": "Titel"
+  },
+  "confirmClearSchedule": {
+    "message": "Rensa detta schema?"
+  },
+  "confirmDeleteFromTrash": {
+    "message": "Är du säker på att du vill ta bort denna länk permanent? Detta kan inte ångras."
+  },
+  "confirmDeleteTemplate": {
+    "message": "Ta bort denna rutin? Detta kan inte ångras."
+  },
+  "confirmEmptyTrash": {
+    "message": "Är du säker på att du vill ta bort alla objekt från papperskorgen permanent? Detta kan inte ångras."
+  },
+  "confirmImport": {
+    "message": "VARNING: Detta kommer att helt ersätta all din nuvarande Tabstract-data (inställningar, sparade sessioner, papperskorg, etc.) med importerad data.\n\nDenna åtgärd kan inte ångras.\n\nÄr du säker på att du vill fortsätta?"
+  },
+  "confirmReset": {
+    "message": "Är du säker på att du vill återställa Tabstract?\n\nAlla flikar kommer att raderas, inklusive flikar i låsta sessioner.\n\nDetta kan inte ångras."
+  },
+  "contactSupport": {
+    "message": "Kontakta"
+  },
+  "copiedToClipboard": {
+    "message": "Kopierat!"
+  },
+  "copyAllToClipboard": {
+    "message": "Kopiera som Markdown"
+  },
+  "copyFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "copyFormatPlain": {
+    "message": "Ren text"
+  },
+  "copyFormatRich": {
+    "message": "Formaterad text"
+  },
+  "copyMenu": {
+    "message": "Kopiera..."
+  },
+  "createFilter": {
+    "message": "Skapa filter"
+  },
+  "createNewFilter": {
+    "message": "Skapa nytt filter"
+  },
+  "customColor": {
+    "message": "Anpassad färg"
+  },
+  "dailyAt": {
+    "message": "Dagligen kl {time}"
+  },
+  "darkAuto": {
+    "message": "Auto"
+  },
+  "darkDark": {
+    "message": "Mörkt"
+  },
+  "darkLight": {
+    "message": "Ljust"
+  },
+  "darkModeDesc": {
+    "message": "Välj ditt färgschema"
+  },
+  "darkModeLabel": {
+    "message": "Mörkt läge"
+  },
+  "darkOff": {
+    "message": "Av"
+  },
+  "darkSystem": {
+    "message": "System"
+  },
+  "dayFormat": {
+    "message": "numeric"
+  },
+  "dayOfMonth": {
+    "message": "Dag i månad:"
+  },
+  "days": {
+    "message": "Dagar:"
+  },
+  "debugConsole": {
+    "message": "Felsökningskonsol"
+  },
+  "deleteAfterRestore": {
+    "message": "Återställning av flikar tar bort dem från Tabstract <span class=\"hint\"><strong class=\"info\">Shift+Klick</strong> vid återställning för att tillfälligt inaktivera</span>"
+  },
+  "deleteAfterRestoreDesc": {
+    "message": "Flikar raderas från Tabstract när de återställs <span class=\"hint\"><strong class=\"info\">Shift+Klick</strong> för att tillfälligt inaktivera</span>"
+  },
+  "deleteAfterRestoreLabel": {
+    "message": "Ta bort flikar efter återställning"
+  },
+  "deleteBackup": {
+    "message": "Ta bort säkerhetskopia"
+  },
+  "deleteSmartGroup": {
+    "message": "Ta bort filter"
+  },
+  "deleteTab": {
+    "message": "Ta bort denna flik"
+  },
+  "dismissAIUnavailableMessage": {
+    "message": "Stäng meddelande om otillgänglig Apple Intelligence"
+  },
+  "downloadData": {
+    "message": "Ladda ner data"
+  },
+  "downloadReport": {
+    "message": "Ladda ner systemrapport"
+  },
+  "draftDelete": {
+    "message": "Ta bort"
+  },
+  "dragToReorder": {
+    "message": "Dra för att ordna om"
+  },
+  "duplicateGroup": {
+    "message": "Duplicera grupp"
+  },
+  "duplicatesRemoved": {
+    "message": "{count} dubblett(er) borttagen(a)"
+  },
+  "editFilter": {
+    "message": "Redigera filter"
+  },
+  "editSchedule": {
+    "message": "Redigera schema"
+  },
+  "emailBodyTemplate": {
+    "message": "Hej,\n\nJag har ett problem med Tabstract.\n\nFölj dessa steg för att återskapa mitt problem:\n1.\n2.\n3.\n\n\nHär är min lokala lagringsdata för felsökning:\n\n$1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "data": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "emailSupport": {
+    "message": "E-postsupport"
+  },
+  "emptySessionHint": {
+    "message": "Dra länkar hit för att lägga till dem i denna session"
+  },
+  "emptyTrash": {
+    "message": "Töm papperskorg"
+  },
+  "emptyTrashWithCount": {
+    "message": "Töm papperskorg ($1 objekt)",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "enableBadge": {
+    "message": "Visa påminnelsemärke i verktygsfältet"
+  },
+  "enableKeyboardShortcuts": {
+    "message": "Aktivera kortkommandon"
+  },
+  "errorMaxLength": {
+    "message": "Maximal längd överskriden"
+  },
+  "errorParsingJson": {
+    "message": "Fel vid tolkning av JSON: $1"
+  },
+  "expandAll": {
+    "message": "Expandera alla"
+  },
+  "expandSession": {
+    "message": "Expandera session"
+  },
+  "expandTemplate": {
+    "message": "Expandera rutin"
+  },
+  "expiredLabel": {
+    "message": "Utgången"
+  },
+  "expiresInDays": {
+    "message": "Går ut om $1 dagar",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInHours": {
+    "message": "Går ut om $1 timmar",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInLessThanHour": {
+    "message": "Går ut om < 1 timme"
+  },
+  "export": {
+    "message": "Exportera"
+  },
+  "exportFormatHTML": {
+    "message": "HTML"
+  },
+  "exportFormatJSON": {
+    "message": "JSON"
+  },
+  "exportFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "exportFormatOPML": {
+    "message": "OPML"
+  },
+  "exportFormatPlain": {
+    "message": "Ren text"
+  },
+  "exportMenu": {
+    "message": "Exportera..."
+  },
+  "exportSavedLinks": {
+    "message": "Exportera sparade länkar"
+  },
+  "exportSuccess": {
+    "message": "Export lyckades!"
+  },
+  "filterAll": {
+    "message": "Alla"
+  },
+  "filterColor": {
+    "message": "Färg:"
+  },
+  "filterDate": {
+    "message": "Datum:"
+  },
+  "filterDateLastMonth": {
+    "message": "Förra månaden"
+  },
+  "filterDateLastWeek": {
+    "message": "Förra veckan"
+  },
+  "filterDateMonth": {
+    "message": "Denna månad"
+  },
+  "filterDateToday": {
+    "message": "Idag"
+  },
+  "filterDateWeek": {
+    "message": "Denna vecka"
+  },
+  "filterDateYesterday": {
+    "message": "Igår"
+  },
+  "filterDomain": {
+    "message": "Domän:"
+  },
+  "filterLock": {
+    "message": "Lås:"
+  },
+  "filterName": {
+    "message": "Beskrivning"
+  },
+  "filters": {
+    "message": "Filter"
+  },
+  "filtersDescription": {
+    "message": "Filter kan automatiskt sortera och organisera dina flikar baserat på domän, nyckelord eller andra mönster. <strong>Filter bearbetas i prioritetsordning</strong>, från topp till botten; dra för att ordna om."
+  },
+  "formatOneTab": {
+    "message": "OneTab-export"
+  },
+  "formatTSV": {
+    "message": "TSV"
+  },
+  "formatTabSpace": {
+    "message": "Tab Space-backup"
+  },
+  "formatTabsSaver": {
+    "message": "Tabs Saver-backup"
+  },
+  "formatTabstractJSON": {
+    "message": "Tabstract JSON-export"
+  },
+  "frequency": {
+    "message": "Frekvens:"
+  },
+  "fullScreenMode": {
+    "message": "Helskärmsläge (F)"
+  },
+  "groupNameRequired": {
+    "message": "Gruppnamn krävs"
+  },
+  "guideAIFeaturesBody": {
+    "message": "Om din dator stöder Apple Intelligence kan Tabstract automatiskt kategorisera dina sparade flikar i olika ämnesbaserade grupper. Klicka på <strong>gnistikonen ✨</strong> bredvid valfri sessionstitel för att generera en ny titel. Datorer som inte stöder Apple Intelligence använder datum och tid istället."
+  },
+  "guideAIFeaturesTitle": {
+    "message": "Flikorganisering med AI"
+  },
+  "guideBadgeNotificationsBody": {
+    "message": "Verktygsfältets märke visar antalet sparade sessioner, så de inte glöms bort även om de är utom synhåll. Snooze döljer verktygsfältets märke i upp till 24 timmar, eller så kan du inaktivera det helt i inställningarna."
+  },
+  "guideBadgeNotificationsTitle": {
+    "message": "Verktygsfältets märke"
+  },
+  "guideDragToReorderBody": {
+    "message": "Klicka och dra enskilda länkar och sessioner för att ordna om dina sparade flikar i valfri ordning."
+  },
+  "guideDragToReorderTitle": {
+    "message": "Organisation genom dra-och-släpp"
+  },
+  "guideGettingStartedBody": {
+    "message": "Tabstract hjälper dig att spara och organisera dina Safari-flikar. För att komma igång, högerklicka på Safari-verktygsfältet, välj Anpassa och dra Tabstract-ikonen till verktygsfältet. När den är installerad i verktygsfältet, klicka på Tabstract och sedan <strong>Spara flikar</strong> för att fånga alla öppna flikar i det aktuella fönstret. "
+  },
+  "guideGettingStartedTitle": {
+    "message": "Komma igång"
+  },
+  "guideKeyboardShortcutsBody": {
+    "message": "Tabstract inkluderar kortkommandon och modifierartangent-kombinationer för avancerade användare. Genvägar kan inaktiveras i Inställningar.<br><br><strong>Huvudgenvägar:</strong><br><br>Spara alla flikar: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd><br>Spara endast aktuell flik: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd><br>Öppna lista över sparade sessioner: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd><br><br><strong>Snabbåtgärder:</strong><br><br>Fokusera sökruta: <kbd>/</kbd><br>Skapa ny session: <kbd>N</kbd><br><br><strong>Modifierartangent-kombinationer:</strong><br><br>Spara endast aktuell flik: <kbd>Shift</kbd> + Klick på <em>Spara flikar</em><br>Expandera/komprimera alla sessioner: <kbd>Shift</kbd> + Klick på <em>sessions komprimeringsknapp</em><br>Tillfälligt omvänd \"Ta bort flikar efter återställning\"-inställning: <kbd>Shift</kbd> + Klick på <em>Återställ</em><br>Tillfälligt omvänd \"Återställ flikar i bakgrunden\"-inställning: <kbd>Option</kbd> + Klick på <em>Återställ</em>"
+  },
+  "guideKeyboardShortcutsTitle": {
+    "message": "Kortkommandon"
+  },
+  "guidePasteLinksBody": {
+    "message": "Du kan kopiera länkar från andra applikationer och klistra in dessa URL:er direkt i Tabstract! Tabstract kommer automatiskt att hämta sidtitlarna och lägga till dem i din samling. "
+  },
+  "guidePasteLinksTitle": {
+    "message": "Kopiera och klistra in länkar i Tabstract"
+  },
+  "guideShiftClickBody": {
+    "message": "Håll ned <kbd>Shift</kbd> medan du klickar på en sessions komprimeringsknapp för att expandera eller komprimera alla sessioner på en gång."
+  },
+  "guideShiftClickTitle": {
+    "message": "Shift-klick för att expandera/komprimera alla"
+  },
+  "guideTrashUndoBody": {
+    "message": "Raderade länkar flyttas till papperskorgen i 30 dagar innan de automatiskt raderas. Papperskorgen är begränsad till 1 000 objekt för att hålla Tabstract snabbt."
+  },
+  "guideTrashUndoTitle": {
+    "message": "Papperskorg"
+  },
+  "helpPageTitle": {
+    "message": "Support och felsökning - Tabstract"
+  },
+  "helpSupportInstructions": {
+    "message": "Har du frågor, funktionsförslag eller behöver hjälp? Klicka på <em>E-postsupport</em> och sedan <em>Tillåt</em>, eller mejla din systemrapport till <em>help@tabstract.app</em> tillsammans med detaljer om ditt problem.<br /><br />Tveka inte att mejla oss med funktionsförslag, buggrapporter, översättningsförbättringar, etc."
+  },
+  "helpTitle": {
+    "message": "Support"
+  },
+  "hourFormat": {
+    "message": "numeric"
+  },
+  "hourAgo": {
+    "message": "$1 timme sedan",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hoursAgo": {
+    "message": "$1 timmar sedan",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "import": {
+    "message": "Importera"
+  },
+  "importData": {
+    "message": "Importera data"
+  },
+  "importError": {
+    "message": "Kunde inte importera data. Se till att filen är en giltig Tabstract-dataexport."
+  },
+  "importFailedPrefix": {
+    "message": "Import misslyckades: "
+  },
+  "importLinksLabel": {
+    "message": "Importera länkar"
+  },
+  "importMenu": {
+    "message": "Importera..."
+  },
+  "importSuccess": {
+    "message": "Data importerad! Tabstract kommer nu att läsas om."
+  },
+  "importSuccessMessage": {
+    "message": "Importerade $1 giltiga länkar (över $2 sessioner).\nHoppade över $3 ogiltiga länkar.\n\nSidtitlar kommer att hämtas i bakgrunden.",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "errors": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$3",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "links": {
+        "content": "$1"
+      },
+      "sessions": {
+        "content": "$2"
+      }
+    }
+  },
+  "importSystemBackup": {
+    "message": "Importera systemsäkerhetskopia"
+  },
+  "invalidJsonFormat": {
+    "message": "Ogiltigt JSON-format."
+  },
+  "invalidRegexPrefix": {
+    "message": "Ogiltigt reguljärt uttryck: "
+  },
+  "justNow": {
+    "message": "Just nu"
+  },
+  "langNameArabic": {
+    "message": "Arabiska"
+  },
+  "langNameChineseCN": {
+    "message": "Förenklad kinesiska"
+  },
+  "langNameChineseTW": {
+    "message": "Traditionell kinesiska"
+  },
+  "langNameDanish": {
+    "message": "Danska"
+  },
+  "langNameDutch": {
+    "message": "Nederländska"
+  },
+  "langNameEnglish": {
+    "message": "Engelska"
+  },
+  "langNameFrench": {
+    "message": "Franska"
+  },
+  "langNameFrenchCA": {
+    "message": "Kanadensisk franska"
+  },
+  "langNameGerman": {
+    "message": "Tyska"
+  },
+  "langNameItalian": {
+    "message": "Italienska"
+  },
+  "langNameJapanese": {
+    "message": "Japanska"
+  },
+  "langNameKorean": {
+    "message": "Koreanska"
+  },
+  "langNameNorwegian": {
+    "message": "Norska"
+  },
+  "langNamePortugueseBR": {
+    "message": "Brasiliansk portugisiska"
+  },
+  "langNamePortuguesePT": {
+    "message": "Portugisiska"
+  },
+  "langNameRussian": {
+    "message": "Ryska"
+  },
+  "langNameSpanish": {
+    "message": "Spanska"
+  },
+  "langNameSpanishLA": {
+    "message": "Latinamerikansk spanska"
+  },
+  "langNameSwedish": {
+    "message": "Svenska"
+  },
+  "langNameTurkish": {
+    "message": "Turkiska"
+  },
+  "langNameVietnamese": {
+    "message": "Vietnamesiska"
+  },
+  "languageAuto": {
+    "message": "Systemstandard"
+  },
+  "languageDesc": {
+    "message": "Välj visningsspråk"
+  },
+  "languageLabel": {
+    "message": "Språk"
+  },
+  "lastRun": {
+    "message": "Senast körning: {time}"
+  },
+  "launchOnStartup": {
+    "message": "Visa Tabstract när du startar webbläsaren"
+  },
+  "launchOnStartupDesc": {
+    "message": "Öppna Tabstract när du startar Safari"
+  },
+  "launchOnStartupLabel": {
+    "message": "Starta vid uppstart"
+  },
+  "learnMore": {
+    "message": "Läs mer"
+  },
+  "learnMoreAboutFeatures": {
+    "message": "Läs mer om nya funktioner"
+  },
+  "linkRestored": {
+    "message": "Länk återställd till ny session"
+  },
+  "lockAll": {
+    "message": "Lås alla"
+  },
+  "lockSession": {
+    "message": "Lås"
+  },
+  "lockSessionTitle": {
+    "message": "Lås session"
+  },
+  "lockUnlockAll": {
+    "message": "Lås/Lås upp alla"
+  },
+  "manageFiltersMenuItem": {
+    "message": "Hantera filter..."
+  },
+  "manageTemplates": {
+    "message": "Hantera rutin"
+  },
+  "manageTemplatesMenuItem": {
+    "message": "Hantera rutin..."
+  },
+  "match": {
+    "message": "Om"
+  },
+  "matches": {
+    "message": "Matchar:"
+  },
+  "mergeIntoSessionBelow": {
+    "message": "Slå samman med sessionen nedan"
+  },
+  "minuteFormat": {
+    "message": "numeric"
+  },
+  "minuteAgo": {
+    "message": "$1 minut sedan",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "minutesAgo": {
+    "message": "$1 minuter sedan",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "monthFormat": {
+    "message": "long"
+  },
+  "monthlyOn": {
+    "message": "Månadsvis den {day} kl {time}"
+  },
+  "moreActions": {
+    "message": "Fler åtgärder"
+  },
+  "moreShort": {
+    "message": "More"
+  },
+  "moveToTop": {
+    "message": "Skicka till toppen"
+  },
+  "navHelp": {
+    "message": "Hjälp + Tips"
+  },
+  "navHome": {
+    "message": "Hem"
+  },
+  "navSelect": {
+    "message": "Välj"
+  },
+  "navSettings": {
+    "message": "Inställningar"
+  },
+  "navSnooze": {
+    "message": "Snooze"
+  },
+  "needHelpWithTabstract": {
+    "message": "Behöver hjälp med Tabstract"
+  },
+  "never": {
+    "message": "Aldrig"
+  },
+  "newButton": {
+    "message": "Ny"
+  },
+  "newTabGroup": {
+    "message": "Ny flikgrupp"
+  },
+  "no": {
+    "message": "Nej"
+  },
+  "noAvailableTabs": {
+    "message": "Inga tillgängliga flikar"
+  },
+  "noColor": {
+    "message": "Ingen färg"
+  },
+  "noResultsFound": {
+    "message": "Inga resultat hittades för"
+  },
+  "noSavedLinksToExport": {
+    "message": "Inga sparade sessioner att exportera."
+  },
+  "noTabsAvailableToSave": {
+    "message": "Inga tillgängliga flikar att spara"
+  },
+  "noTabsSaved": {
+    "message": "Inga flikar sparade."
+  },
+  "noTemplatesInstructions": {
+    "message": "Inga rutiner sparade ännu.<br>Skapa en rutin från en session för att komma igång."
+  },
+  "noTemplatesSaved": {
+    "message": "Inga rutiner sparade ännu.<br>Skapa en rutin från en session för att komma igång."
+  },
+  "noTemplatesSavedYet": {
+    "message": "Inga rutin sparade ännu"
+  },
+  "nonMatchingWarning": {
+    "message": "<strong>⚠️ Varning:</strong> $1 flik(ar) i denna grupp matchar inte längre mönstren och kommer att flyttas till en ny session med titeln \"<strong>Borttagen från $2</strong>\".",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "content": "$1"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$2",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "none": {
+    "message": "Ingen"
+  },
+  "ofTheFollowingConditions": {
+    "message": "av följande villkor är uppfyllda:"
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "oneclickSave": {
+    "actionsMenu": {
+      "message": "Actions"
+    },
+    "bulkActionDuplicate": {
+      "message": "Duplicate"
+    },
+    "bulkActionLockUnlock": {
+      "message": "Lock/Unlock Selected"
+    },
+    "colorBlue": {
+      "message": "Blue"
+    },
+    "colorDefault": {
+      "message": "Default"
+    },
+    "colorGreen": {
+      "message": "Green"
+    },
+    "colorOrange": {
+      "message": "Orange"
+    },
+    "colorPink": {
+      "message": "Pink"
+    },
+    "colorPurple": {
+      "message": "Purple"
+    },
+    "colorRed": {
+      "message": "Red"
+    },
+    "colorYellow": {
+      "message": "Yellow"
+    },
+    "filterAll": {
+      "message": "All"
+    },
+    "message": "Spara med ett klick <span class=\"hint\"><strong class=\"caution\">Varning:</strong> Detta tar bort Hem och Snooze; använd Shift+Command+H för att visa Hem.</span>"
+  },
+  "oneclickSaveDesc": {
+    "message": "<span class=\"hint\"><strong class=\"caution\">Varning:</strong> Detta är en experimentell funktion och tar bort knapparna Hem / Snooze. Använd <strong>Shift+Kommando+H</strong> för att öppna Hem</span>"
+  },
+  "oneclickSaveLabel": {
+    "message": "Spara med ett klick"
+  },
+  "openLink": {
+    "message": "Öppna $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "pageTitle": {
+    "message": "Verktyg och inställningar - Tabstract"
+  },
+  "pasteLinks": {
+    "message": "Klistra in URL:er"
+  },
+  "performActions": {
+    "message": "Utför följande åtgärder:"
+  },
+  "pinToTop": {
+    "message": "Fäst högst upp"
+  },
+  "pinnedTabsDesc": {
+    "message": "Fästa flikar kommer inte att stängas eller sparas i Tabstract"
+  },
+  "pinnedTabsLabel": {
+    "message": "Spara inte fästa flikar"
+  },
+  "pinnedTabsSetting": {
+    "message": "<strong>Spara inte fästa flikar</strong> (fästa flikar stängs inte eller sparas i Tabstract)"
+  },
+  "pleaseEnterDayBetween1And31": {
+    "message": "Ange en dag mellan 1 och 31."
+  },
+  "pleaseEnterPattern": {
+    "message": "Ange ett mönstervärde"
+  },
+  "pleaseSelectAtLeastOneDay": {
+    "message": "Välj minst en dag för veckoschema."
+  },
+  "pm": {
+    "message": "EM"
+  },
+  "refreshData": {
+    "message": "Uppdatera felsökningsdata"
+  },
+  "removeFromSession": {
+    "message": "Ta bort $1 från session",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "removedFrom": {
+    "message": "Borttagen från $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "resetGroupColors": {
+    "message": "Återställ färger"
+  },
+  "restoreAllTabs": {
+    "message": "Återställ alla flikar"
+  },
+  "restoreInBackground": {
+    "message": "Återställda flikar öppnas i bakgrunden <span class=\"hint\"><strong class=\"info\">Option+Klick</strong> vid återställning för att tillfälligt inaktivera</span>"
+  },
+  "restoreInBackgroundDesc": {
+    "message": "Återställda flikar öppnas bakom Tabstract istället för att byta fokus <span class=\"hint\"><strong class=\"info\">Option+Klick</strong> för att tillfälligt inaktivera</span>"
+  },
+  "restoreInBackgroundLabel": {
+    "message": "Återställ flikar i bakgrunden"
+  },
+  "restoreTabsMerge": {
+    "message": "Sammanfoga"
+  },
+  "restoreTabsReplace": {
+    "message": "Ersätt"
+  },
+  "restoreTabsToCurrentWindow": {
+    "message": "Aktuellt fönster"
+  },
+  "restoreTabsToLabel": {
+    "message": "Återställ flikgrupper i:"
+  },
+  "restoreTabsToNewWindow": {
+    "message": "Nytt fönster"
+  },
+  "restoredFromTrashSessionName": {
+    "message": "Återställd från papperskorgen"
+  },
+  "restoredLinkSessionName": {
+    "message": "Återställd länk"
+  },
+  "reviewButton": {
+    "message": "Betygsätt oss i App Store ★★★★★"
+  },
+  "reviewLaterButton": {
+    "message": "Kanske senare"
+  },
+  "reviewMessage": {
+    "message": "Tabstract är gratis men drivs av betyg och recensioner, lämna gärna ett betyg!"
+  },
+  "reviewModalText": {
+    "message": "Tabstract är gratis men drivs av betyg och recensioner 🚀 Överväg gärna att ge oss ett 5-stjärnigt betyg!"
+  },
+  "reviewModalTitle": {
+    "message": "Gillar du Tabstract?"
+  },
+  "runFiltersConfirm": {
+    "message": "Kommer att bearbeta {sessions} sessioner med {tabs} flikar. Fortsätt?"
+  },
+  "runFiltersMenuItem": {
+    "message": "Kör filter"
+  },
+  "runFiltersNoFilters": {
+    "message": "Inga filter definierade. Skapa filter först."
+  },
+  "runFiltersNoSessions": {
+    "message": "Inga olåsta sessioner att bearbeta."
+  },
+  "runFiltersSuccess": {
+    "message": "{matched} flikar bearbetade av filter"
+  },
+  "sampleSessionCreated": {
+    "message": "Exempel skapat!"
+  },
+  "sampleSessionName": {
+    "message": "Komma igång med Tabstract"
+  },
+  "sampleTab1Title": {
+    "message": "Tabstract-webbplats"
+  },
+  "sampleTab2Title": {
+    "message": "Tabstract i App Store"
+  },
+  "sampleTab3Title": {
+    "message": "Betygsätt Tabstract i App Store"
+  },
+  "sampleTab4Title": {
+    "message": "By The Farm"
+  },
+  "save": {
+    "message": "Spara"
+  },
+  "saveAllWindowsDesc": {
+    "message": "Sparar flikar från alla öppna Safari-fönster, istället för bara det fokuserade fönstret"
+  },
+  "saveAllWindowsLabel": {
+    "message": "Spara flikar från alla fönster"
+  },
+  "saveAlsoCloses": {
+    "message": "<strong>Stäng flikar</strong> vid sparning"
+  },
+  "saveAlsoClosesDesc": {
+    "message": "Flikar stängs automatiskt efter sparning i Tabstract"
+  },
+  "saveAlsoClosesLabel": {
+    "message": "Stäng flikar vid sparning"
+  },
+  "saveAsTemplate": {
+    "message": "Spara som rutin"
+  },
+  "saveFilter": {
+    "message": "Spara filter"
+  },
+  "saveSelected": {
+    "message": "Spara valda"
+  },
+  "saveSelectedPlural": {
+    "message": "Spara {count} flikar"
+  },
+  "saveSelectedSingular": {
+    "message": "Spara 1 flik"
+  },
+  "saveTab": {
+    "message": "Spara flik"
+  },
+  "saveTabs": {
+    "message": "Spara flikar"
+  },
+  "saveTabsOnStartupDesc": {
+    "message": "Spara och stäng automatiskt alla öppna flikar när du startar Safari"
+  },
+  "saveTabsOnStartupLabel": {
+    "message": "Spara och stäng öppna flikar vid uppstart"
+  },
+  "savedOnLabel": {
+    "message": "Sparad: $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "date": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "scheduleAddButton": {
+    "message": "+ Schemalägg"
+  },
+  "scheduleDaily": {
+    "message": "Dagligen"
+  },
+  "scheduleEditButton": {
+    "message": "Redigera"
+  },
+  "scheduleHourly": {
+    "message": "Varje timme"
+  },
+  "scheduleMonthly": {
+    "message": "Månadsvis"
+  },
+  "scheduleNotifyLabel": {
+    "message": "Visa avisering när rutin körs"
+  },
+  "scheduleWeekly": {
+    "message": "Veckovis"
+  },
+  "searchFocusTitle": {
+    "message": "Fokusera sökning (genväg: /)"
+  },
+  "searchPlaceholder": {
+    "message": "Sök"
+  },
+  "searchResults": {
+    "message": "Sökresultat"
+  },
+  "sectionAppleIntelligence": {
+    "message": "AI med Apple Intelligence"
+  },
+  "sectionAppleIntelligenceDesc": {
+    "message": "AI-funktioner på enheten som drivs av Apple Intelligence"
+  },
+  "sectionInterface": {
+    "message": "Allmänt"
+  },
+  "sectionInterfaceDesc": {
+    "message": "Anpassa din Tabstract-upplevelse"
+  },
+  "sectionTabRestoring": {
+    "message": "Flikåterställning"
+  },
+  "sectionTabRestoringDesc": {
+    "message": "Styr vad som händer när du återställer flikar"
+  },
+  "sectionTabSaving": {
+    "message": "Fliksparning"
+  },
+  "sectionTabSavingDesc": {
+    "message": "Styr vad som händer när du sparar flikar"
+  },
+  "selectAll": {
+    "message": "Välj alla"
+  },
+  "selectFileToImport": {
+    "message": "Välj en fil att importera."
+  },
+  "selectNone": {
+    "message": "Avmarkera alla"
+  },
+  "selectTabsToSave": {
+    "message": "Välj flikar att spara"
+  },
+  "sessionActions": {
+    "message": "Sessionsåtgärder"
+  },
+  "sessionLocked": {
+    "message": "Sessionen är låst"
+  },
+  "settingsSubtitle": {
+    "message": "Ändringar träder i kraft omedelbart"
+  },
+  "shortcutOpenTabstractLabel": {
+    "message": "Öppna Tabstract:"
+  },
+  "shortcutSaveCurrentTabLabel": {
+    "message": "Spara aktuell flik:"
+  },
+  "shortcutSaveTabsLabel": {
+    "message": "Spara flikar:"
+  },
+  "simpleMode": {
+    "message": "Enkelt läge"
+  },
+  "smartGroupCopyButton": {
+    "message": "Kopiera"
+  },
+  "smartGroupDeleteConfirm": {
+    "message": "Ta bort detta filter? Flikar i denna grupp kommer att konverteras till en vanlig session."
+  },
+  "smartGroupHelpDomain": {
+    "message": "Ange ett domännamn (t.ex., github.com). Matchar exakt domän och alla underdomäner."
+  },
+  "smartGroupHelpKeyword": {
+    "message": "Ange ett nyckelord att söka i URL:er och sidtitlar (t.ex., \"react\"). Skiftlägesokänsligt."
+  },
+  "smartGroupHelpRegex": {
+    "message": "Ange ett reguljärt uttrycksmönster (t.ex., (github|gitlab)\\.com). Matchar mot URL och titel."
+  },
+  "smartGroupNameLabel": {
+    "message": "Filternamn"
+  },
+  "smartGroupNamePlaceholder": {
+    "message": "t.ex., GitHub-projekt"
+  },
+  "smartGroupNameRequired": {
+    "message": "Filternamn krävs"
+  },
+  "smartGroupPatternInvalidRegex": {
+    "message": "Ogiltigt reguljärt uttryck"
+  },
+  "smartGroupPatternLabel": {
+    "message": "Mönster"
+  },
+  "smartGroupPatternRequired": {
+    "message": "Mönster krävs"
+  },
+  "smartGroupPatternTypeKeyword": {
+    "message": "Nyckelord"
+  },
+  "smartGroupPatternTypeLabel": {
+    "message": "Mönstertyp"
+  },
+  "smartGroupPatternTypeRegex": {
+    "message": "Reguljärt uttryck"
+  },
+  "smartGroupPinButton": {
+    "message": "Fäst"
+  },
+  "smartGroupPreviewText": {
+    "message": "matchar för närvarande detta mönster"
+  },
+  "smartGroupUnpinButton": {
+    "message": "Ta bort fästning"
+  },
+  "smartGroupsCreateButton": {
+    "message": "+ Skapa filter"
+  },
+  "smartGroupsEmptyMessage": {
+    "message": "Inga filter skapade ännu."
+  },
+  "smartGroupsModalTitle": {
+    "message": "Hantera filter"
+  },
+  "snoozeLabel": {
+    "message": "<strong>Snooze</strong> döljer märket i"
+  },
+  "snoozeSuffix": {
+    "message": "timme/timmar"
+  },
+  "snoozeToolbarBadge": {
+    "message": "Snooze verktygsfältets märke"
+  },
+  "sortBy": {
+    "message": "Sortera efter"
+  },
+  "sortNewest": {
+    "message": "Nyaste först"
+  },
+  "sortNewestToOldest": {
+    "message": "Sortera nyaste först"
+  },
+  "sortOldest": {
+    "message": "Äldsta först"
+  },
+  "sortOldestToNewest": {
+    "message": "Sortera äldsta först"
+  },
+  "sortRainbow": {
+    "message": "Regnbåge"
+  },
+  "splitGroup": {
+    "message": "Dela grupp"
+  },
+  "supportedFormatsHeading": {
+    "message": "Format som stöds:"
+  },
+  "tabCount": {
+    "message": "$1 flik",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabCountOfTotal": {
+    "message": "$1 av $2 $3",
+    "placeholders": {
+      "filtered": {
+        "content": "$1"
+      },
+      "tabWord": {
+        "content": "$3"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "tabCountPlural": {
+    "message": "$1 flikar",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabGroupLetter": {
+    "message": "Fönster {letter}"
+  },
+  "tabPlural": {
+    "message": "flikar"
+  },
+  "tabSingular": {
+    "message": "flik"
+  },
+  "templateScheduleNotification": {
+    "message": "Rutin \"%s\" har lagts till i dina sessioner."
+  },
+  "templates": {
+    "message": "Rutiner"
+  },
+  "time": {
+    "message": "Tid:"
+  },
+  "tipsOppensession": {
+    "message": "Shift-klick för att expandera eller komprimera alla sessioner"
+  },
+  "tipsReminders": {
+    "message": "Aviseringsmärket håller sparade sessioner i åtanke"
+  },
+  "tipsRename": {
+    "message": "Märk sessioner för att hålla ordning"
+  },
+  "tipsSingletab": {
+    "message": "Håll ned Shift för att endast spara den aktuella fliken"
+  },
+  "tipsTitle": {
+    "message": "Tips"
+  },
+  "tipsToolbar": {
+    "message": "Dra Tabstract till ditt Safari-verktygsfält för att komma igång."
+  },
+  "todayAt": {
+    "message": "Idag, $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "toggleAllTabsInWindow": {
+    "message": "Växla alla flikar i $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "window": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "toolbar": {
+    "message": "Verktygsfält"
+  },
+  "trashAutoDeletesHint": {
+    "message": "Raderas automatiskt efter $1 dagar",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "days": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "trashCleanupLog": {
+    "message": "Papperskorgsstädning: tog bort utgångna/överskjutande objekt"
+  },
+  "trashDuplicates": {
+    "message": "Ta bort dubbletter"
+  },
+  "trashEmpty": {
+    "message": "Papperskorgen är tom"
+  },
+  "trashEmptyDesc": {
+    "message": "Raderade länkar kommer att visas här och tas bort automatiskt efter 30 dagar."
+  },
+  "trashExpiringSoon": {
+    "message": "Går ut snart"
+  },
+  "trashExpiringThisWeek": {
+    "message": "Går ut denna vecka"
+  },
+  "trashExpiringToday": {
+    "message": "Går ut idag"
+  },
+  "trashExpiringTomorrow": {
+    "message": "Går ut imorgon"
+  },
+  "trashLimitHint": {
+    "message": "Papperskorgen är begränsad till $1 länkar",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "max": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "undo": {
+    "message": "Ångra"
+  },
+  "undoDeleteLink": {
+    "message": "Länk raderad. Ångra?"
+  },
+  "undoDeleteSession": {
+    "message": "Session raderad. Ångra?"
+  },
+  "undoMergeSession": {
+    "message": "Sessioner sammanslagna. Ångra?"
+  },
+  "undoTimeoutDescPost": {
+    "message": "efter radering"
+  },
+  "undoTimeoutDescPre": {
+    "message": "Visa ångra-knapp i"
+  },
+  "undoTimeoutLabel": {
+    "message": "Timeout för ångra-knapp"
+  },
+  "undoTimeoutSuffix": {
+    "message": "sekunder"
+  },
+  "unlockAll": {
+    "message": "Lås upp alla"
+  },
+  "unlockSession": {
+    "message": "Lås upp"
+  },
+  "unlocked": {
+    "message": "Olåst"
+  },
+  "unpinFromTop": {
+    "message": "Ta bort från toppen"
+  },
+  "unrecognizedFileFormat": {
+    "message": "Okänt filformat. Format som stöds: JSON, OPML, Markdown, TSV och exporter från Tab Space, Tabs Saver och OneTab."
+  },
+  "unsnooze": {
+    "message": "Avsnooze"
+  },
+  "untitledFilter": {
+    "message": "Beskriv detta filter..."
+  },
+  "upgradeToPro": {
+    "message": "Uppgradera till Pro"
+  },
+  "userGuideTitle": {
+    "message": "Hur man använder Tabstract"
+  },
+  "viewTrash": {
+    "message": "Visa papperskorg"
+  },
+  "weekdayFormat": {
+    "message": "long"
+  },
+  "weekdaysAt": {
+    "message": "Vardagar kl {time}"
+  },
+  "weekendsAt": {
+    "message": "Helger kl {time}"
+  },
+  "weeklyAt": {
+    "message": "Veckovis kl {time}"
+  },
+  "welcomeActionHelp": {
+    "message": "Läs mer"
+  },
+  "welcomeActionSave": {
+    "message": "Prova en exempelsession"
+  },
+  "welcomeBackSubtitle": {
+    "message": "Här är några tips för att hjälpa dig få ut det mesta av Tabstract:"
+  },
+  "welcomeBackTitle1": {
+    "message": "Titta på dig, inga flikar! 💅"
+  },
+  "welcomeBackTitle2": {
+    "message": "Noll flikar. Lever drömmen!"
+  },
+  "welcomeBackTitle3": {
+    "message": "Inga flikar? Du är en legend. 😎"
+  },
+  "welcomeBackTitle4": {
+    "message": "Allt i kapp? Imponerande!"
+  },
+  "welcomeDescription": {
+    "message": "Tabstract sparar och organiserar dina Safari-flikar så att du kan städa upp ditt liv. "
+  },
+  "welcomeStep0Description": {
+    "message": "Dra Tabstract-ikonen till ditt Safari-verktygsfält för snabb åtkomst till att spara och återställa flikar."
+  },
+  "welcomeStep0Title": {
+    "message": "Lägg till i verktygsfältet"
+  },
+  "welcomeStep1Description": {
+    "message": "Klicka på Tabstract-ikonen i verktygsfältet eller använd Cmd+Shift+S för att spara alla dina öppna flikar."
+  },
+  "welcomeStep1Title": {
+    "message": "Spara dina flikar"
+  },
+  "welcomeStep2Description": {
+    "message": "Ge dina sessioner anpassade namn, lås de viktiga och håll dig röjfri."
+  },
+  "welcomeStep2Title": {
+    "message": "Organisera sessioner"
+  },
+  "welcomeStep3Description": {
+    "message": "Klicka på vilken session som helst för att återställa alla dess flikar direkt, eller återställ enskilda flikar efter behov."
+  },
+  "welcomeStep3Title": {
+    "message": "Återställ när som helst"
+  },
+  "welcomeTip": {
+    "message": "☆ Proffstips: Håll ned Shift medan du klickar på sparaknappen för att endast spara den aktuella fliken ☆"
+  },
+  "welcomeTitle": {
+    "message": "Kom igång med Tabstract"
+  },
+  "windowLabel": {
+    "message": "Fönster"
+  },
+  "yes": {
+    "message": "Ja"
+  },
+  "yesterdayAt": {
+    "message": "Igår, $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "zeroTabs": {
+    "message": "0 flikar"
+  },
+  "backupAutomatic": {
+    "message": "Automatisk"
+  },
+  "backupComplete": {
+    "message": "Säkerhetskopiering klar!"
+  },
+  "backupExplainer": {
+    "message": "Tabstract säkerhetskopierar dina data automatiskt varje gång du sparar flikar och en gång i timmen. Säkerhetskopior äldre än 24 timmar minskas till en per dag, sedan en per vecka och tas bort efter 30 dagar. Manuella säkerhetskopior sparas på obestämd tid."
+  },
+  "backupFailed": {
+    "message": "Säkerhetskopiering misslyckades"
+  },
+  "backupLoadError": {
+    "message": "Kunde inte läsa in säkerhetskopior."
+  },
+  "backupManual": {
+    "message": "Manuell"
+  },
+  "backupManualBadge": {
+    "message": "Manuell"
+  },
+  "backupMenuRestoreMerge": {
+    "message": "Återställ flikar (sammanfoga)"
+  },
+  "backupMenuRestoreReplace": {
+    "message": "Återställ flikar (ersätt)"
+  },
+  "backupMenuRestoreSystem": {
+    "message": "Återställ system (fullständig återställning)"
+  },
+  "backupNow": {
+    "message": "Säkerhetskopiera nu"
+  },
+  "backupPreRestoreBadge": {
+    "message": "Återställningspunkt"
+  },
+  "backupActionsLabel": {
+    "message": "Säkerhetskopieringsåtgärder"
+  },
+  "backupTabCount": {
+    "message": "$1 flikar",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupsTitle": {
+    "message": "Säkerhetskopiering och återställning"
+  },
+  "confirmDeleteBackup": {
+    "message": "Är du säker på att du vill ta bort denna säkerhetskopia? Detta kan inte ångras."
+  },
+  "confirmRestoreEverything": {
+    "message": "Detta ersätter ALLA dina nuvarande Tabstract-data (flikar, inställningar, rutiner, filter osv.) med data från denna säkerhetskopia.\n\nEn säkerhetskopia skapas först innan återställningen, för säkerhets skull.\n\nFortsätta?"
+  },
+  "confirmRestoreTabsMerge": {
+    "message": "Detta slår samman säkerhetskopians flikar med dina befintliga flikar och bevarar båda.\n\nEn säkerhetskopia skapas också innan återställningen, för säkerhets skull.\n\nFortsätta?"
+  },
+  "confirmRestoreTabsOnly": {
+    "message": "Detta ersätter bara dina sparade flikar med flikar från denna säkerhetskopia. Inställningar, rutiner och filter ändras inte.\n\nEn säkerhetskopia skapas först innan återställningen, för säkerhets skull.\n\nFortsätta?"
+  },
+  "lastBackup": {
+    "message": "Senaste säkerhetskopia:"
+  },
+  "loadingBackups": {
+    "message": "Läser in säkerhetskopior..."
+  },
+  "noBackupsYet": {
+    "message": "Inga säkerhetskopior ännu"
+  },
+  "restoreError": {
+    "message": "Kunde inte återställa från säkerhetskopia. Försök igen."
+  },
+  "restoreTabsDialogDetail": {
+    "message": "Sammanfogning lägger till säkerhetskopians flikar bredvid dina befintliga flikar. En säkerhetskopia skapas först innan återställningen."
+  },
+  "restoreTabsDialogMessage": {
+    "message": "Vill du ersätta dina nuvarande flikar eller slå ihop dem med säkerhetskopian?"
+  },
+  "exportBackupShowInFinder": {
+    "message": "Visa i Finder"
+  },
+  "back": {
+    "message": "Tillbaka"
+  },
+  "icloudSyncDesc": {
+    "message": "Håll dina sparade flikar synkroniserade på iPhone, iPad och Mac."
+  },
+  "icloudSyncLabel": {
+    "message": "Synkronisera med iCloud"
+  },
+  "lastSynced": {
+    "message": "Senast synkroniserad"
+  },
+  "neverSynced": {
+    "message": "Aldrig synkroniserad"
+  },
+  "sectionICloudSync": {
+    "message": "iCloud-synkronisering - Beta"
+  },
+  "syncErrorGeneric": {
+    "message": "Synkroniseringsfel, försöker igen automatiskt"
+  },
+  "syncErrorNetwork": {
+    "message": "Ingen nätverksanslutning"
+  },
+  "syncErrorNotAuthenticated": {
+    "message": "Logga in på iCloud för att synkronisera"
+  },
+  "syncErrorQuota": {
+    "message": "iCloud-lagringen är full"
+  },
+  "syncErrorRateLimited": {
+    "message": "För många förfrågningar, försök igen senare"
+  },
+  "syncErrorZoneBusy": {
+    "message": "iCloud är upptaget, försök igen senare"
+  },
+  "syncNoAccount": {
+    "message": "Logga in på iCloud för att synkronisera"
+  },
+  "syncNow": {
+    "message": "Synkronisera nu"
+  },
+  "syncing": {
+    "message": "Synkroniserar..."
+  },
+  "synced": {
+    "message": "Synkroniserat!"
+  },
+  "saveActiveTabAndClose": {
+    "message": "Spara denna flik och stäng"
+  },
+  "saveActiveTabNoClose": {
+    "message": "Spara denna flik utan att stänga"
+  },
+  "saveAllAndClose": {
+    "message": "Spara alla och stäng"
+  },
+  "saveAllNoClose": {
+    "message": "Spara alla utan att stänga"
+  },
+  "moreSaveOptions": {
+    "message": "Fler sparalternativ"
+  },
+  "rename": {
+    "message": "Byt namn"
+  },
+  "share": {
+    "message": "Dela"
+  },
+  "sessionDeleted": {
+    "message": "Session raderad"
+  },
+  "tabDeleted": {
+    "message": "Flik raderad"
+  },
+  "tabsSaved": {
+    "message": "Flikar sparade"
+  },
+  "linksCopied": {
+    "message": "Länkar kopierade"
+  },
+  "connecting": {
+    "message": "Ansluter..."
+  },
+  "justSynced": {
+    "message": "Nyss synkroniserad"
+  },
+  "syncFailed": {
+    "message": "Synkronisering misslyckades"
+  },
+  "confirmPermanentDelete": {
+    "message": "Ta bort denna session permanent?"
+  },
+  "noSavedSessions": {
+    "message": "Inga sparade sessioner ännu"
+  },
+  "dayAgo": {
+    "message": "$1 dag sedan",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "daysAgo": {
+    "message": "$1 dagar sedan",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "weekAgo": {
+    "message": "$1 vecka sedan",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "weeksAgo": {
+    "message": "$1 veckor sedan",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  }
+}

@@ -1,0 +1,2837 @@
+{
+  "SnoozeInfo": {
+    "message": "Значок на панели инструментов отслеживает сохранённые сеансы, чтобы они не были забыты. Snooze временно скрывает значок."
+  },
+  "accentColorLabel": {
+    "message": "Цвет"
+  },
+  "actionLockTabGroup": {
+    "message": "Заблокировать группу вкладок"
+  },
+  "actionSendToTabGroup": {
+    "message": "Отправить вкладки в группу вкладок"
+  },
+  "actionSendToTrash": {
+    "message": "Отправить вкладки в корзину"
+  },
+  "actionSessionName": {
+    "message": "Название"
+  },
+  "actionSetColor": {
+    "message": "Установить цвет группы вкладок"
+  },
+  "actionSetLockStatus": {
+    "message": "Установить статус блокировки"
+  },
+  "actionsMenu": {
+    "message": "Действия"
+  },
+  "advancedMode": {
+    "message": "Расширенный режим"
+  },
+  "aiDisabledNotice": {
+    "message": "<strong>Apple Intelligence в настоящее время отключен или недоступен.</strong> Проверьте меню Apple Intelligence в Системных настройках"
+  },
+  "aiEnabledButInaccessible": {
+    "message": "<strong>Apple Intelligence, похоже, включен в вашей системе, но Tabstract не может получить к нему доступ.</strong><br><br>Распространенные причины:<ul><li>Язык macOS и язык Siri не совпадают. Apple требует, чтобы оба были установлены на один и тот же язык.</li><li>Apple Intelligence все еще инициализируется; подождите несколько минут и перезагрузите Tabstract → Настройки.</li><li>Вы находитесь в неподдерживаемой стране. Apple Intelligence недоступен на устройствах, приобретенных в материковом Китае, или на устройствах, используемых в материковом Китае с Apple ID, страна или регион которого установлен на материковый Китай.</li></ul>"
+  },
+  "aiExperimentalNotice": {
+    "message": "<strong>Это новая и экспериментальная функция</strong>, результаты будут улучшаться со временем"
+  },
+  "aiLanguageNotSupported": {
+    "message": "Функции ИИ недоступны на этом языке, поскольку Apple Intelligence пока не поддерживает его. Переключитесь на английский, испанский, французский, немецкий, итальянский, японский, корейский, португальский (Бразилия) или китайский (упрощенный), чтобы использовать функции ИИ."
+  },
+  "aiNotAvailable": {
+    "message": "<strong>Apple Intelligence недоступен.</strong> Проверьте настройки системы, чтобы убедиться, что он включен и готов к работе"
+  },
+  "aiRegenerateTitle": {
+    "message": "Обновить название"
+  },
+  "aiSmartCategorizationDesc": {
+    "message": "Автоматически организуйте группы вкладок из <strong>6 или более</strong> по темам <span class=\"hint\"><strong class=\"info\"></strong>Требуется включение <em>Генерировать названия сессий</em></span>"
+  },
+  "aiSmartCategorizationLabel": {
+    "message": "Умная категоризация"
+  },
+  "aiTitleSuggestionsDesc": {
+    "message": "Используйте Apple Intelligence—частный ИИ на устройстве—для предложения названий сессий при сохранении вкладок"
+  },
+  "aiTitleSuggestionsLabel": {
+    "message": "Генерировать названия сессий"
+  },
+  "aiUnsupportedNotice": {
+    "message": "Функции ИИ требуют Mac с поддержкой Apple Intelligence и macOS 26.0 или новее"
+  },
+  "all": {
+    "message": "все"
+  },
+  "am": {
+    "message": "AM"
+  },
+  "any": {
+    "message": "любой"
+  },
+  "appName": {
+    "message": "Tabstract"
+  },
+  "appleIntelligenceUnavailable": {
+    "message": "Apple Intelligence недоступен"
+  },
+  "atLeastOnePatternRequired": {
+    "message": "Требуется хотя бы один шаблон"
+  },
+  "avoidDuplicatesDesc": {
+    "message": "Предотвращает сохранение одного и того же URL несколько раз в одной сессии"
+  },
+  "avoidDuplicatesLabel": {
+    "message": "Не сохранять дубликаты вкладок"
+  },
+  "avoidDuplicatesSetting": {
+    "message": "<strong>Не сохранять дублирующие вкладки</strong> в одной сессии"
+  },
+  "bannerNewFeatures": {
+    "message": "<strong>Новые функции!</strong> Меню действий, поддержка традиционного китайского, копирование как форматированный текст, очистка дубликатов!"
+  },
+  "bannerText": {
+    "message": "Больше никаких потерянных вкладок — новая система автоматического резервного копирования! Ищем бета-тестеров!"
+  },
+  "bannerTitle": {
+    "message": "Tabstract 3.1"
+  },
+  "bulkActionCreateGroup": {
+    "message": "Объединить"
+  },
+  "bulkActionDeselect": {
+    "message": "Снять выделение"
+  },
+  "bulkActionDuplicate": {
+    "message": "Дублировать"
+  },
+  "bulkActionLockUnlock": {
+    "message": "Заблокировать/Разблокировать выбранные"
+  },
+  "bulkActionRestore": {
+    "message": "Восстановить"
+  },
+  "bulkActionTrash": {
+    "message": "Корзина"
+  },
+  "cancel": {
+    "message": "Отмена"
+  },
+  "clearData": {
+    "message": "Сбросить Tabstract"
+  },
+  "clearFilters": {
+    "message": "Сбросить"
+  },
+  "clearSchedule": {
+    "message": "Очистить расписание"
+  },
+  "clearSearch": {
+    "message": "Очистить поиск"
+  },
+  "clearSnooze": {
+    "message": "Сбросить Snooze"
+  },
+  "clickNewToGetStarted": {
+    "message": "Нажмите «Создать», чтобы начать."
+  },
+  "clipboardError": {
+    "message": "Ошибка копирования в буфер обмена"
+  },
+  "close": {
+    "message": "Закрыть"
+  },
+  "closeFiltersModal": {
+    "message": "Закрыть окно фильтров"
+  },
+  "closeHomeTabOnOpen": {
+    "message": "Закрывать Tabstract после восстановления сессий"
+  },
+  "closeHomeTabOnOpenDesc": {
+    "message": "Закрывать Tabstract при открытии групп вкладок"
+  },
+  "closeHomeTabOnOpenLabel": {
+    "message": "Закрывать Tabstract после восстановления"
+  },
+  "collapseAll": {
+    "message": "Свернуть все"
+  },
+  "collapseExpandAll": {
+    "message": "Свернуть/развернуть все"
+  },
+  "collapseSession": {
+    "message": "Свернуть сессию"
+  },
+  "collapseTemplate": {
+    "message": "Свернуть шаблон"
+  },
+  "colorBlue": {
+    "message": "Синий"
+  },
+  "colorDefault": {
+    "message": "По умолчанию"
+  },
+  "colorGreen": {
+    "message": "Зелёный"
+  },
+  "colorOrange": {
+    "message": "Оранжевый"
+  },
+  "colorPink": {
+    "message": "Розовый"
+  },
+  "colorPurple": {
+    "message": "Фиолетовый"
+  },
+  "colorRed": {
+    "message": "Красный"
+  },
+  "colorYellow": {
+    "message": "Жёлтый"
+  },
+  "columnColor": {
+    "message": "Цвет"
+  },
+  "columnDateCreated": {
+    "message": "Дата создания"
+  },
+  "columnDomain": {
+    "message": "Домен"
+  },
+  "columnGroup": {
+    "message": "Группа вкладок"
+  },
+  "columnLock": {
+    "message": "Заблокировано"
+  },
+  "columnPinned": {
+    "message": "Закреплено"
+  },
+  "columnTitle": {
+    "message": "Название"
+  },
+  "confirmClearSchedule": {
+    "message": "Очистить это расписание?"
+  },
+  "confirmDeleteFromTrash": {
+    "message": "Вы уверены, что хотите окончательно удалить эту ссылку? Это действие нельзя отменить."
+  },
+  "confirmDeleteTemplate": {
+    "message": "Удалить эту рутину? Это действие нельзя отменить."
+  },
+  "confirmEmptyTrash": {
+    "message": "Вы уверены, что хотите окончательно удалить все элементы из корзины? Это действие нельзя отменить."
+  },
+  "confirmImport": {
+    "message": "ВНИМАНИЕ: Это полностью заменит все ваши текущие данные Tabstract (настройки, сохраненные сессии, корзину и т.д.) на импортированные данные.\n\nЭто действие нельзя отменить.\n\nВы уверены, что хотите продолжить?"
+  },
+  "confirmReset": {
+    "message": "Вы уверены, что хотите сбросить Tabstract?\n\nВсе вкладки будут удалены, включая вкладки в заблокированных сессиях.\n\nЭто действие нельзя отменить."
+  },
+  "contactSupport": {
+    "message": "Связаться с поддержкой"
+  },
+  "copiedToClipboard": {
+    "message": "Скопировано!"
+  },
+  "copyAllToClipboard": {
+    "message": "Скопировать как Markdown"
+  },
+  "copyFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "copyFormatPlain": {
+    "message": "Простой текст"
+  },
+  "copyFormatRich": {
+    "message": "Форматированный текст"
+  },
+  "copyMenu": {
+    "message": "Копировать..."
+  },
+  "createFilter": {
+    "message": "Создать фильтр"
+  },
+  "createNewFilter": {
+    "message": "Создать новый фильтр"
+  },
+  "customColor": {
+    "message": "Пользовательский цвет"
+  },
+  "dailyAt": {
+    "message": "Ежедневно в {time}"
+  },
+  "darkAuto": {
+    "message": "Авто"
+  },
+  "darkDark": {
+    "message": "Тёмная"
+  },
+  "darkLight": {
+    "message": "Светлая"
+  },
+  "darkModeDesc": {
+    "message": "Выберите цветовую схему"
+  },
+  "darkModeLabel": {
+    "message": "Тёмная тема"
+  },
+  "darkOff": {
+    "message": "Выкл"
+  },
+  "darkSystem": {
+    "message": "Система"
+  },
+  "dayFormat": {
+    "message": "numeric"
+  },
+  "dayOfMonth": {
+    "message": "День месяца:"
+  },
+  "days": {
+    "message": "Дни:"
+  },
+  "debugConsole": {
+    "message": "Консоль отладки"
+  },
+  "deleteAfterRestore": {
+    "message": "Восстановление вкладок удаляет их из Tabstract <span class=\"hint\"><strong class=\"info\">Shift+Click</strong> при восстановлении для временного отключения</span>"
+  },
+  "deleteAfterRestoreDesc": {
+    "message": "Восстановленные вкладки удаляются из Tabstract <span class=\"hint\"><strong class=\"info\">Shift+Click</strong> для временного отключения</span>"
+  },
+  "deleteAfterRestoreLabel": {
+    "message": "Удалять вкладки после восстановления"
+  },
+  "deleteBackup": {
+    "message": "Удалить резервную копию"
+  },
+  "deleteSmartGroup": {
+    "message": "Удалить фильтр"
+  },
+  "deleteTab": {
+    "message": "Удалить эту вкладку"
+  },
+  "dismissAIUnavailableMessage": {
+    "message": "Скрыть сообщение о недоступности Apple Intelligence"
+  },
+  "downloadData": {
+    "message": "Скачать данные"
+  },
+  "downloadReport": {
+    "message": "Скачать отчёт"
+  },
+  "draftDelete": {
+    "message": "Удалить"
+  },
+  "dragToReorder": {
+    "message": "Перетащите для изменения порядка"
+  },
+  "duplicateGroup": {
+    "message": "Дублировать группу"
+  },
+  "duplicatesRemoved": {
+    "message": "Удалено дубликатов: {count}"
+  },
+  "editFilter": {
+    "message": "Редактировать фильтр"
+  },
+  "editSchedule": {
+    "message": "Редактировать расписание"
+  },
+  "emailBodyTemplate": {
+    "message": "Здравствуйте,\n\nУ меня проблема с Tabstract.\n\nВыполните эти шаги, чтобы воспроизвести мою проблему:\n1.\n2.\n3.\n\n\nВот мои данные локального хранилища для устранения неполадок:\n\n$1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "data": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "emailSupport": {
+    "message": "Поддержка по email"
+  },
+  "emptySessionHint": {
+    "message": "Перетащите ссылки сюда, чтобы добавить их в эту сессию"
+  },
+  "emptyTrash": {
+    "message": "Очистить корзину"
+  },
+  "emptyTrashWithCount": {
+    "message": "Очистить корзину ($1 элементов)",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "enableBadge": {
+    "message": "Отображать значок напоминания на панели инструментов"
+  },
+  "enableKeyboardShortcuts": {
+    "message": "Включить сочетания клавиш"
+  },
+  "errorMaxLength": {
+    "message": "Превышена максимальная длина"
+  },
+  "errorParsingJson": {
+    "message": "Ошибка разбора JSON: $1"
+  },
+  "expandAll": {
+    "message": "Развернуть все"
+  },
+  "expandSession": {
+    "message": "Развернуть сессию"
+  },
+  "expandTemplate": {
+    "message": "Развернуть рутину"
+  },
+  "expiredLabel": {
+    "message": "Срок истёк"
+  },
+  "expiresInDays": {
+    "message": "Истекает через $1 дн.",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInHours": {
+    "message": "Истекает через $1 ч.",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInLessThanHour": {
+    "message": "Истекает менее чем через 1 час"
+  },
+  "export": {
+    "message": "Экспорт"
+  },
+  "exportFormatHTML": {
+    "message": "HTML"
+  },
+  "exportFormatJSON": {
+    "message": "JSON"
+  },
+  "exportFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "exportFormatOPML": {
+    "message": "OPML"
+  },
+  "exportFormatPlain": {
+    "message": "Простой текст"
+  },
+  "exportMenu": {
+    "message": "Экспорт..."
+  },
+  "exportSavedLinks": {
+    "message": "Экспортировать сохранённые ссылки"
+  },
+  "exportSuccess": {
+    "message": "Экспорт выполнен успешно!"
+  },
+  "filterAll": {
+    "message": "Все"
+  },
+  "filterColor": {
+    "message": "Цвет:"
+  },
+  "filterDate": {
+    "message": "Дата:"
+  },
+  "filterDateLastMonth": {
+    "message": "В прошлом месяце"
+  },
+  "filterDateLastWeek": {
+    "message": "На прошлой неделе"
+  },
+  "filterDateMonth": {
+    "message": "В этом месяце"
+  },
+  "filterDateToday": {
+    "message": "Сегодня"
+  },
+  "filterDateWeek": {
+    "message": "На этой неделе"
+  },
+  "filterDateYesterday": {
+    "message": "Вчера"
+  },
+  "filterDomain": {
+    "message": "Домен:"
+  },
+  "filterLock": {
+    "message": "Блокировка:"
+  },
+  "filterName": {
+    "message": "Описание"
+  },
+  "filters": {
+    "message": "Фильтры"
+  },
+  "filtersDescription": {
+    "message": "Фильтры могут автоматически сортировать и организовывать ваши вкладки на основе домена, ключевого слова или других шаблонов. <strong>Фильтры обрабатываются в порядке приоритета</strong>, сверху вниз; перетащите для изменения порядка."
+  },
+  "formatOneTab": {
+    "message": "Экспорт OneTab"
+  },
+  "formatTSV": {
+    "message": "TSV"
+  },
+  "formatTabSpace": {
+    "message": "Резервная копия Tab Space"
+  },
+  "formatTabsSaver": {
+    "message": "Резервная копия Tabs Saver"
+  },
+  "formatTabstractJSON": {
+    "message": "Экспорт JSON Tabstract"
+  },
+  "frequency": {
+    "message": "Частота:"
+  },
+  "fullScreenMode": {
+    "message": "Полноэкранный режим (F)"
+  },
+  "groupNameRequired": {
+    "message": "Требуется название группы"
+  },
+  "guideAIFeaturesBody": {
+    "message": "Если ваш компьютер поддерживает Apple Intelligence, Tabstract сможет автоматически распределять сохранённые вкладки по тематическим группам. Нажмите на <strong>значок сияния ✨</strong> рядом с названием сеанса, чтобы сгенерировать новое название. На компьютерах без Apple Intelligence будут использоваться дата и время."
+  },
+  "guideAIFeaturesTitle": {
+    "message": "Организация вкладок с помощью ИИ"
+  },
+  "guideBadgeNotificationsBody": {
+    "message": "Значок на панели инструментов показывает количество сохранённых сеансов, чтобы о них не забывали, даже когда они вне поля зрения. Snooze скрывает значок до 24 часов, либо вы можете полностью отключить его в настройках."
+  },
+  "guideBadgeNotificationsTitle": {
+    "message": "Значок на панели"
+  },
+  "guideDragToReorderBody": {
+    "message": "Щёлкните и перетащите отдельные ссылки и сеансы, чтобы расположить сохранённые вкладки в любом порядке."
+  },
+  "guideDragToReorderTitle": {
+    "message": "Упорядочивание перетаскиванием"
+  },
+  "guideGettingStartedBody": {
+    "message": "Tabstract помогает сохранять и организовывать вкладки Safari. Чтобы начать, щёлкните правой кнопкой мыши по панели инструментов Safari, выберите \"Настроить\" и перетащите значок Tabstract на панель. После добавления нажмите Tabstract, затем <strong>Сохранить вкладки</strong>, чтобы сохранить все открытые вкладки текущего окна. "
+  },
+  "guideGettingStartedTitle": {
+    "message": "Начало работы"
+  },
+  "guideKeyboardShortcutsBody": {
+    "message": "В Tabstract есть сочетания клавиш и комбинации с модификаторами для опытных пользователей. В Настройках их можно отключить.<br><br>\n                <strong>Основные сочетания:</strong><br><br>\n                Сохранить все вкладки: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd><br>\n                Сохранить только текущую вкладку: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd><br>\n                Открыть список сохранённых сеансов: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd><br><br>\n                <strong>Быстрые действия:</strong><br><br>\n                Установить фокус в поле поиска: <kbd>/</kbd><br>\n                Создать новый сеанс: <kbd>N</kbd><br><br>\n                <strong>Комбинации с модификаторами:</strong><br><br>\n                Сохранить только текущую вкладку: <kbd>Shift</kbd> + щелчок по <em>Сохранить вкладки</em><br>\n                Развернуть/свернуть все сеансы: <kbd>Shift</kbd> + щелчок по <em>кнопке свёртывания сеанса</em><br>\n                Временно отключить настройку \"Удалять вкладки после восстановления\": <kbd>Shift</kbd> + щелчок по <em>Восстановить</em><br>\n                Временно отключить настройку \"Восстанавливать вкладки в фоне\": <kbd>Option</kbd> + щелчок по <em>Восстановить</em>"
+  },
+  "guideKeyboardShortcutsTitle": {
+    "message": "Сочетания клавиш"
+  },
+  "guidePasteLinksBody": {
+    "message": "Вы можете скопировать ссылки из других приложений и вставить эти URL напрямую в Tabstract. Tabstract автоматически получит заголовки страниц и добавит их в вашу коллекцию. "
+  },
+  "guidePasteLinksTitle": {
+    "message": "Копирование ссылок в Tabstract"
+  },
+  "guideShiftClickBody": {
+    "message": "Удерживайте <kbd>Shift</kbd> и нажмите кнопку свёртывания сеанса, чтобы развернуть или свернуть все сеансы сразу."
+  },
+  "guideShiftClickTitle": {
+    "message": "Shift+клик для развёртывания/свёртывания всех"
+  },
+  "guideTrashUndoBody": {
+    "message": "Удалённые ссылки перемещаются в корзину на 30 дней, после чего удаляются автоматически. Корзина ограничена 1 000 элементами, чтобы Tabstract оставался быстрым."
+  },
+  "guideTrashUndoTitle": {
+    "message": "Корзина"
+  },
+  "helpPageTitle": {
+    "message": "Поддержка и устранение проблем - Tabstract"
+  },
+  "helpSupportInstructions": {
+    "message": "Есть вопросы, хотите предложить функциональность или нужна помощь? Нажмите <em>Email Support</em>, затем <em>Разрешить</em>, либо отправьте системный отчёт на <em>help@tabstract.app</em>, подробно описав проблему.<br /><br />Также будем рады письмам с идеями функций, сообщениями об ошибках, предложениями по улучшению перевода и т.д."
+  },
+  "helpTitle": {
+    "message": "Поддержка и устранение проблем"
+  },
+  "hourFormat": {
+    "message": "numeric"
+  },
+  "hourAgo": {
+    "message": "$1 ч. назад",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hoursAgo": {
+    "message": "$1 ч. назад",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "import": {
+    "message": "Импорт"
+  },
+  "importData": {
+    "message": "Импортировать данные"
+  },
+  "importSystemBackup": {
+    "message": "Импортировать системную резервную копию"
+  },
+  "importError": {
+    "message": "Не удалось импортировать данные. Убедитесь, что файл является действительным экспортом данных Tabstract."
+  },
+  "importFailedPrefix": {
+    "message": "Ошибка импорта: "
+  },
+  "importLinksLabel": {
+    "message": "Импортировать ссылки из других менеджеров вкладок"
+  },
+  "importMenu": {
+    "message": "Импорт..."
+  },
+  "importSuccess": {
+    "message": "Данные успешно импортированы! Tabstract сейчас перезагрузится."
+  },
+  "importSuccessMessage": {
+    "message": "Импортировано $1 действительных ссылок (в $2 сессиях).\nПропущено $3 недействительных ссылок.\n\nЗаголовки страниц будут получены в фоновом режиме.",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "errors": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$3",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "links": {
+        "content": "$1"
+      },
+      "sessions": {
+        "content": "$2"
+      }
+    }
+  },
+  "invalidJsonFormat": {
+    "message": "Неверный формат JSON: ожидается массив сессий."
+  },
+  "invalidRegexPrefix": {
+    "message": "Недопустимое регулярное выражение: "
+  },
+  "justNow": {
+    "message": "Только что"
+  },
+  "langNameArabic": {
+    "message": "Арабский"
+  },
+  "langNameChineseCN": {
+    "message": "Упрощенный китайский"
+  },
+  "langNameChineseTW": {
+    "message": "Традиционный китайский"
+  },
+  "langNameDanish": {
+    "message": "Датский"
+  },
+  "langNameDutch": {
+    "message": "Голландский"
+  },
+  "langNameEnglish": {
+    "message": "Английский"
+  },
+  "langNameFrench": {
+    "message": "Французский"
+  },
+  "langNameFrenchCA": {
+    "message": "Канадский французский"
+  },
+  "langNameGerman": {
+    "message": "Немецкий"
+  },
+  "langNameItalian": {
+    "message": "Итальянский"
+  },
+  "langNameJapanese": {
+    "message": "Японский"
+  },
+  "langNameKorean": {
+    "message": "Корейский"
+  },
+  "langNameNorwegian": {
+    "message": "Норвежский"
+  },
+  "langNamePortugueseBR": {
+    "message": "Бразильский португальский"
+  },
+  "langNamePortuguesePT": {
+    "message": "Португальский"
+  },
+  "langNameRussian": {
+    "message": "Русский"
+  },
+  "langNameSpanish": {
+    "message": "Испанский"
+  },
+  "langNameSpanishLA": {
+    "message": "Латиноамериканский испанский"
+  },
+  "langNameSwedish": {
+    "message": "Шведский"
+  },
+  "langNameTurkish": {
+    "message": "Турецкий"
+  },
+  "langNameVietnamese": {
+    "message": "Вьетнамский"
+  },
+  "languageAuto": {
+    "message": "Системное значение по умолчанию"
+  },
+  "languageDesc": {
+    "message": "Выбрать язык интерфейса"
+  },
+  "languageLabel": {
+    "message": "Язык"
+  },
+  "lastRun": {
+    "message": "Последний запуск: {time}"
+  },
+  "launchOnStartup": {
+    "message": "Показывать Tabstract при запуске браузера"
+  },
+  "launchOnStartupDesc": {
+    "message": "Открывать Tabstract при запуске Safari"
+  },
+  "launchOnStartupLabel": {
+    "message": "Запускать при старте"
+  },
+  "learnMore": {
+    "message": "Узнать больше"
+  },
+  "learnMoreAboutFeatures": {
+    "message": "Узнать больше о новых функциях"
+  },
+  "linkRestored": {
+    "message": "Ссылка восстановлена в новую сессию"
+  },
+  "lockAll": {
+    "message": "Заблокировать все"
+  },
+  "lockSession": {
+    "message": "Заблокировать"
+  },
+  "lockSessionTitle": {
+    "message": "Заблокировать сессию"
+  },
+  "lockUnlockAll": {
+    "message": "Заблокировать/разблокировать все"
+  },
+  "manageFiltersMenuItem": {
+    "message": "Управление фильтрами..."
+  },
+  "manageTemplates": {
+    "message": "Управление рутинами"
+  },
+  "manageTemplatesMenuItem": {
+    "message": "Управление рутинами..."
+  },
+  "match": {
+    "message": "Если"
+  },
+  "matches": {
+    "message": "Совпадения:"
+  },
+  "mergeIntoSessionBelow": {
+    "message": "Объединить с сессией ниже"
+  },
+  "minuteFormat": {
+    "message": "numeric"
+  },
+  "minuteAgo": {
+    "message": "$1 мин. назад",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "minutesAgo": {
+    "message": "$1 мин. назад",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "monthFormat": {
+    "message": "long"
+  },
+  "monthlyOn": {
+    "message": "Ежемесячно {day} числа в {time}"
+  },
+  "moreActions": {
+    "message": "Дополнительные действия"
+  },
+  "moreShort": {
+    "message": "More"
+  },
+  "moveToTop": {
+    "message": "Отправить наверх"
+  },
+  "navHelp": {
+    "message": "Помощь + Советы"
+  },
+  "navHome": {
+    "message": "Главная"
+  },
+  "navSelect": {
+    "message": "Выбрать"
+  },
+  "navSettings": {
+    "message": "Настройки"
+  },
+  "navSnooze": {
+    "message": "Отложить"
+  },
+  "needHelpWithTabstract": {
+    "message": "Нужна помощь с Tabstract"
+  },
+  "never": {
+    "message": "Никогда"
+  },
+  "newButton": {
+    "message": "Новый"
+  },
+  "newTabGroup": {
+    "message": "Новая группа вкладок"
+  },
+  "no": {
+    "message": "Нет"
+  },
+  "noAvailableTabs": {
+    "message": "Нет доступных вкладок"
+  },
+  "noColor": {
+    "message": "Без цвета"
+  },
+  "noResultsFound": {
+    "message": "Ничего не найдено для"
+  },
+  "noSavedLinksToExport": {
+    "message": "Нет сохранённых ссылок для экспорта."
+  },
+  "noTabsAvailableToSave": {
+    "message": "Нет доступных вкладок для сохранения"
+  },
+  "noTabsSaved": {
+    "message": "Нет сохранённых вкладок."
+  },
+  "noTemplatesInstructions": {
+    "message": "Рутины еще не сохранены.<br>Создайте рутину из сессии, чтобы начать."
+  },
+  "noTemplatesSaved": {
+    "message": "Рутины еще не сохранены.<br>Создайте рутину из сессии, чтобы начать."
+  },
+  "noTemplatesSavedYet": {
+    "message": "Рутина еще не сохранены"
+  },
+  "nonMatchingWarning": {
+    "message": "<strong>⚠️ Предупреждение:</strong> $1 вкладка(и) в этой группе больше не соответствуют шаблонам и будут перемещены в новую сессию с названием \"<strong>Удалено из $2</strong>\".",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "content": "$1"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$2",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "none": {
+    "message": "Нет"
+  },
+  "ofTheFollowingConditions": {
+    "message": "из следующих условий выполнены:"
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "oneclickSave": {
+    "actionsMenu": {
+      "message": "Actions"
+    },
+    "bulkActionDuplicate": {
+      "message": "Duplicate"
+    },
+    "bulkActionLockUnlock": {
+      "message": "Lock/Unlock Selected"
+    },
+    "colorBlue": {
+      "message": "Blue"
+    },
+    "colorDefault": {
+      "message": "Default"
+    },
+    "colorGreen": {
+      "message": "Green"
+    },
+    "colorOrange": {
+      "message": "Orange"
+    },
+    "colorPink": {
+      "message": "Pink"
+    },
+    "colorPurple": {
+      "message": "Purple"
+    },
+    "colorRed": {
+      "message": "Red"
+    },
+    "colorYellow": {
+      "message": "Yellow"
+    },
+    "filterAll": {
+      "message": "All"
+    },
+    "message": "Сохранение в один клик <span class=\"hint\"><strong class=\"caution\">Внимание:</strong> Это удаляет Главную и Отложить; используйте Shift+Command+H для показа Главной.</span>"
+  },
+  "oneclickSaveDesc": {
+    "message": "<span class=\"hint\"><strong class=\"caution\">Внимание:</strong> Эта экспериментальная функция удаляет кнопки Домой и Отложить. Используйте <strong>Shift+Command+H</strong>, чтобы открыть Домой.</span>"
+  },
+  "oneclickSaveLabel": {
+    "message": "Сохранение в один клик"
+  },
+  "openLink": {
+    "message": "Открыть $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "pageTitle": {
+    "message": "Инструменты и настройки - Tabstract"
+  },
+  "pasteLinks": {
+    "message": "Вставить ссылки"
+  },
+  "performActions": {
+    "message": "Выполнить следующие действия:"
+  },
+  "pinToTop": {
+    "message": "Закрепить вверху"
+  },
+  "pinnedTabsDesc": {
+    "message": "Закреплённые вкладки не закрываются и не сохраняются в Tabstract"
+  },
+  "pinnedTabsLabel": {
+    "message": "Не сохранять закреплённые вкладки"
+  },
+  "pinnedTabsSetting": {
+    "message": "<strong>Не сохранять закреплённые вкладки</strong> (закреплённые вкладки не закрываются и не сохраняются в Tabstract)"
+  },
+  "pleaseEnterDayBetween1And31": {
+    "message": "Пожалуйста, введите день от 1 до 31."
+  },
+  "pleaseEnterPattern": {
+    "message": "Пожалуйста, введите значение шаблона"
+  },
+  "pleaseSelectAtLeastOneDay": {
+    "message": "Пожалуйста, выберите хотя бы один день для еженедельного расписания."
+  },
+  "pm": {
+    "message": "PM"
+  },
+  "refreshData": {
+    "message": "Обновить отладочные данные"
+  },
+  "removeFromSession": {
+    "message": "Удалить $1 из сессии",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "removedFrom": {
+    "message": "Удалено из $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "resetGroupColors": {
+    "message": "Сбросить цвета"
+  },
+  "restoreAllTabs": {
+    "message": "Восстановить все вкладки"
+  },
+  "restoreInBackground": {
+    "message": "Восстановленные вкладки открываются в фоне <span class=\"hint\"><strong class=\"info\">Option+Click</strong> при восстановлении для временного отключения</span>"
+  },
+  "restoreInBackgroundDesc": {
+    "message": "Восстановленные вкладки открываются позади Tabstract вместо переключения фокуса <span class=\"hint\"><strong class=\"info\">Option+Click</strong> для временного отключения</span>"
+  },
+  "restoreInBackgroundLabel": {
+    "message": "Восстанавливать вкладки в фоновом режиме"
+  },
+  "restoreTabsMerge": {
+    "message": "Объединить"
+  },
+  "restoreTabsReplace": {
+    "message": "Заменить"
+  },
+  "restoreTabsToCurrentWindow": {
+    "message": "Текущее окно"
+  },
+  "restoreTabsToLabel": {
+    "message": "Восстановить группы вкладок в:"
+  },
+  "restoreTabsToNewWindow": {
+    "message": "Новое окно"
+  },
+  "restoredFromTrashSessionName": {
+    "message": "Восстановлено из корзины"
+  },
+  "restoredLinkSessionName": {
+    "message": "Восстановленная ссылка"
+  },
+  "reviewButton": {
+    "message": "Оцените нас в App Store ★★★★★"
+  },
+  "reviewLaterButton": {
+    "message": "Может быть, позже"
+  },
+  "reviewMessage": {
+    "message": "Tabstract бесплатен, но работает на оценках и отзывах, пожалуйста, оставьте нам оценку!"
+  },
+  "reviewModalText": {
+    "message": "Tabstract бесплатен, но работает на оценках и отзывах 🚀 Пожалуйста, рассмотрите возможность дать нам 5-звёздочную оценку!"
+  },
+  "reviewModalTitle": {
+    "message": "Нравится Tabstract?"
+  },
+  "runFiltersConfirm": {
+    "message": "Будет обработано {sessions} сессий с {tabs} вкладками. Продолжить?"
+  },
+  "runFiltersMenuItem": {
+    "message": "Запустить фильтры"
+  },
+  "runFiltersNoFilters": {
+    "message": "Фильтры не определены. Сначала создайте фильтры."
+  },
+  "runFiltersNoSessions": {
+    "message": "Нет разблокированных сессий для обработки."
+  },
+  "runFiltersSuccess": {
+    "message": "Обработано вкладок фильтрами: {matched}"
+  },
+  "sampleSessionCreated": {
+    "message": "Образец создан!"
+  },
+  "sampleSessionName": {
+    "message": "Начало работы с Tabstract"
+  },
+  "sampleTab1Title": {
+    "message": "Веб-сайт Tabstract"
+  },
+  "sampleTab2Title": {
+    "message": "Tabstract в App Store"
+  },
+  "sampleTab3Title": {
+    "message": "Оценить Tabstract в App Store"
+  },
+  "sampleTab4Title": {
+    "message": "By The Farm"
+  },
+  "save": {
+    "message": "Сохранить"
+  },
+  "saveAllWindowsDesc": {
+    "message": "Сохраняет вкладки из всех открытых окон Safari, а не только из текущего окна"
+  },
+  "saveAllWindowsLabel": {
+    "message": "Сохранять вкладки из всех окон"
+  },
+  "saveAlsoCloses": {
+    "message": "<strong>Закрывать вкладки</strong> при сохранении"
+  },
+  "saveAlsoClosesDesc": {
+    "message": "Вкладки автоматически закрываются после сохранения в Tabstract"
+  },
+  "saveAlsoClosesLabel": {
+    "message": "Закрывать вкладки при сохранении"
+  },
+  "saveAsTemplate": {
+    "message": "Сохранить как рутину"
+  },
+  "saveFilter": {
+    "message": "Сохранить фильтр"
+  },
+  "saveSelected": {
+    "message": "Сохранить выбранные"
+  },
+  "saveSelectedPlural": {
+    "message": "Сохранить {count} вкладок"
+  },
+  "saveSelectedSingular": {
+    "message": "Сохранить 1 вкладку"
+  },
+  "saveTab": {
+    "message": "Сохранить вкладку"
+  },
+  "saveTabs": {
+    "message": "Сохранить вкладки"
+  },
+  "saveTabsOnStartupDesc": {
+    "message": "Автоматически сохранять и закрывать все открытые вкладки при запуске Safari"
+  },
+  "saveTabsOnStartupLabel": {
+    "message": "Сохранять и закрывать вкладки при запуске"
+  },
+  "savedOnLabel": {
+    "message": "Сохранено: $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "date": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "scheduleAddButton": {
+    "message": "+ Расписание"
+  },
+  "scheduleDaily": {
+    "message": "Ежедневно"
+  },
+  "scheduleEditButton": {
+    "message": "Редактировать"
+  },
+  "scheduleHourly": {
+    "message": "Каждый час"
+  },
+  "scheduleMonthly": {
+    "message": "Ежемесячно"
+  },
+  "scheduleNotifyLabel": {
+    "message": "Показывать уведомление при выполнении рутины"
+  },
+  "scheduleWeekly": {
+    "message": "Еженедельно"
+  },
+  "searchFocusTitle": {
+    "message": "Фокус на поиск (горячая клавиша: /)"
+  },
+  "searchPlaceholder": {
+    "message": "Поиск"
+  },
+  "searchResults": {
+    "message": "Результаты поиска"
+  },
+  "sectionAppleIntelligence": {
+    "message": "ИИ на базе Apple Intelligence"
+  },
+  "sectionAppleIntelligenceDesc": {
+    "message": "Функции ИИ на устройстве на базе Apple Intelligence"
+  },
+  "sectionInterface": {
+    "message": "Общие"
+  },
+  "sectionInterfaceDesc": {
+    "message": "Настройте Tabstract под себя"
+  },
+  "sectionTabRestoring": {
+    "message": "Восстановление вкладок"
+  },
+  "sectionTabRestoringDesc": {
+    "message": "Определяет поведение при восстановлении вкладок"
+  },
+  "sectionTabSaving": {
+    "message": "Сохранение вкладок"
+  },
+  "sectionTabSavingDesc": {
+    "message": "Определяет поведение при сохранении вкладок"
+  },
+  "selectAll": {
+    "message": "Выбрать все"
+  },
+  "selectFileToImport": {
+    "message": "Пожалуйста, выберите файл для импорта."
+  },
+  "selectNone": {
+    "message": "Снять выделение"
+  },
+  "selectTabsToSave": {
+    "message": "Выберите вкладки для сохранения"
+  },
+  "sessionActions": {
+    "message": "Действия сессии"
+  },
+  "sessionLocked": {
+    "message": "Сессия заблокирована"
+  },
+  "settingsSubtitle": {
+    "message": "Изменения сохраняются немедленно."
+  },
+  "shortcutOpenTabstractLabel": {
+    "message": "Открыть Tabstract:"
+  },
+  "shortcutSaveCurrentTabLabel": {
+    "message": "Сохранить текущую вкладку:"
+  },
+  "shortcutSaveTabsLabel": {
+    "message": "Сохранить вкладки:"
+  },
+  "simpleMode": {
+    "message": "Простой режим"
+  },
+  "smartGroupCopyButton": {
+    "message": "Копировать"
+  },
+  "smartGroupDeleteConfirm": {
+    "message": "Удалить этот фильтр? Вкладки в этой группе будут преобразованы в обычную сессию."
+  },
+  "smartGroupHelpDomain": {
+    "message": "Введите доменное имя (например, github.com). Соответствует точному домену и всем поддоменам."
+  },
+  "smartGroupHelpKeyword": {
+    "message": "Введите ключевое слово для поиска в URL и заголовках страниц (например, \"react\"). Без учета регистра."
+  },
+  "smartGroupHelpRegex": {
+    "message": "Введите шаблон регулярного выражения (например, (github|gitlab)\\.com). Соответствует URL и заголовку."
+  },
+  "smartGroupNameLabel": {
+    "message": "Название фильтра"
+  },
+  "smartGroupNamePlaceholder": {
+    "message": "например, Проекты GitHub"
+  },
+  "smartGroupNameRequired": {
+    "message": "Требуется название фильтра"
+  },
+  "smartGroupPatternInvalidRegex": {
+    "message": "Недопустимое регулярное выражение"
+  },
+  "smartGroupPatternLabel": {
+    "message": "Шаблон"
+  },
+  "smartGroupPatternRequired": {
+    "message": "Требуется шаблон"
+  },
+  "smartGroupPatternTypeKeyword": {
+    "message": "Ключевое слово"
+  },
+  "smartGroupPatternTypeLabel": {
+    "message": "Тип шаблона"
+  },
+  "smartGroupPatternTypeRegex": {
+    "message": "Регулярное выражение"
+  },
+  "smartGroupPinButton": {
+    "message": "Закрепить"
+  },
+  "smartGroupPreviewText": {
+    "message": "в настоящее время соответствуют этому шаблону"
+  },
+  "smartGroupUnpinButton": {
+    "message": "Открепить"
+  },
+  "smartGroupsCreateButton": {
+    "message": "+ Создать фильтр"
+  },
+  "smartGroupsEmptyMessage": {
+    "message": "Фильтры еще не созданы."
+  },
+  "smartGroupsModalTitle": {
+    "message": "Управление фильтрами"
+  },
+  "snoozeLabel": {
+    "message": "Snooze скрывает значок на"
+  },
+  "snoozeSuffix": {
+    "message": "час(ов)"
+  },
+  "snoozeToolbarBadge": {
+    "message": "Скрыть значок панели инструментов"
+  },
+  "sortBy": {
+    "message": "Сортировать по"
+  },
+  "sortNewest": {
+    "message": "Сначала новые"
+  },
+  "sortNewestToOldest": {
+    "message": "Сортировать сначала новые"
+  },
+  "sortOldest": {
+    "message": "Сначала старые"
+  },
+  "sortOldestToNewest": {
+    "message": "Сортировать сначала старые"
+  },
+  "sortRainbow": {
+    "message": "Радуга"
+  },
+  "splitGroup": {
+    "message": "Разделить группу"
+  },
+  "supportedFormatsHeading": {
+    "message": "Поддерживаемые форматы:"
+  },
+  "tabCount": {
+    "message": "$1 вкладка",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabCountOfTotal": {
+    "message": "$1 из $2 $3",
+    "placeholders": {
+      "filtered": {
+        "content": "$1"
+      },
+      "tabWord": {
+        "content": "$3"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "tabCountPlural": {
+    "message": "$1 вкладок",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabGroupLetter": {
+    "message": "Окно {letter}"
+  },
+  "tabPlural": {
+    "message": "вкладок"
+  },
+  "tabSingular": {
+    "message": "вкладка"
+  },
+  "templateScheduleNotification": {
+    "message": "Рутина \"%s\" была добавлена в ваши сессии."
+  },
+  "templates": {
+    "message": "Рутины"
+  },
+  "time": {
+    "message": "Время:"
+  },
+  "tipsOppensession": {
+    "message": "Shift+клик, чтобы развернуть или свернуть все сеансы"
+  },
+  "tipsReminders": {
+    "message": "Значок уведомления держит сохранённые сеансы на виду"
+  },
+  "tipsRename": {
+    "message": "Помечайте сеансы, чтобы оставаться организованным"
+  },
+  "tipsSingletab": {
+    "message": "Удерживайте Shift, чтобы сохранить только текущую вкладку"
+  },
+  "tipsTitle": {
+    "message": "Советы"
+  },
+  "tipsToolbar": {
+    "message": "Перетащите Tabstract в панель инструментов Safari, чтобы начать."
+  },
+  "todayAt": {
+    "message": "Сегодня, $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "toggleAllTabsInWindow": {
+    "message": "Переключить все вкладки в $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "window": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "toolbar": {
+    "message": "Панель инструментов"
+  },
+  "trashAutoDeletesHint": {
+    "message": "Автоудаление через $1 дн.",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "days": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "trashCleanupLog": {
+    "message": "Очистка корзины: удалены просроченные/лишние элементы"
+  },
+  "trashDuplicates": {
+    "message": "Удалить дубликаты"
+  },
+  "trashEmpty": {
+    "message": "Корзина пуста"
+  },
+  "trashEmptyDesc": {
+    "message": "Удалённые ссылки появятся здесь и будут автоматически удалены через 30 дней."
+  },
+  "trashExpiringSoon": {
+    "message": "Скоро истекает"
+  },
+  "trashExpiringThisWeek": {
+    "message": "Истекает на этой неделе"
+  },
+  "trashExpiringToday": {
+    "message": "Истекает сегодня"
+  },
+  "trashExpiringTomorrow": {
+    "message": "Истекает завтра"
+  },
+  "trashLimitHint": {
+    "message": "Корзина ограничена $1 ссылками",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "max": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "undo": {
+    "message": "Отменить"
+  },
+  "undoDeleteLink": {
+    "message": "Ссылка удалена. Отменить?"
+  },
+  "undoDeleteSession": {
+    "message": "Сессия удалена. Отменить?"
+  },
+  "undoMergeSession": {
+    "message": "Сессии объединены. Отменить?"
+  },
+  "undoTimeoutDescPost": {
+    "message": "после удаления"
+  },
+  "undoTimeoutDescPre": {
+    "message": "Показывать кнопку Отменить в течение"
+  },
+  "undoTimeoutLabel": {
+    "message": "Показывать кнопку <em>Отменить</em> в течение "
+  },
+  "undoTimeoutSuffix": {
+    "message": "секунд"
+  },
+  "unlockAll": {
+    "message": "Разблокировать все"
+  },
+  "unlockSession": {
+    "message": "Разблокировать"
+  },
+  "unlocked": {
+    "message": "Разблокировано"
+  },
+  "unpinFromTop": {
+    "message": "Открепить сверху"
+  },
+  "unrecognizedFileFormat": {
+    "message": "Нераспознаваемый формат файла. Поддерживаются: Markdown, OneTab, OPML, Обычный текст, Tab Space, Tabs Saver, Tabstract JSON, TSV."
+  },
+  "unsnooze": {
+    "message": "Вернуть"
+  },
+  "untitledFilter": {
+    "message": "Опишите этот фильтр..."
+  },
+  "upgradeToPro": {
+    "message": "Перейти на Pro"
+  },
+  "userGuideTitle": {
+    "message": "Как пользоваться Tabstract"
+  },
+  "viewTrash": {
+    "message": "Открыть корзину"
+  },
+  "weekdayFormat": {
+    "message": "long"
+  },
+  "weekdaysAt": {
+    "message": "По будням в {time}"
+  },
+  "weekendsAt": {
+    "message": "По выходным в {time}"
+  },
+  "weeklyAt": {
+    "message": "Еженедельно в {time}"
+  },
+  "welcomeActionHelp": {
+    "message": "Узнать больше"
+  },
+  "welcomeActionSave": {
+    "message": "Попробовать образец сессии"
+  },
+  "welcomeBackSubtitle": {
+    "message": "Вот несколько советов, как максимально использовать Tabstract:"
+  },
+  "welcomeBackTitle1": {
+    "message": "Посмотри на себя, никаких вкладок! 💅"
+  },
+  "welcomeBackTitle2": {
+    "message": "Ноль вкладок. Мечта!"
+  },
+  "welcomeBackTitle3": {
+    "message": "Без вкладок? Ты легенда. 😎"
+  },
+  "welcomeBackTitle4": {
+    "message": "Всё сделано? Впечатляет!"
+  },
+  "welcomeDescription": {
+    "message": "Tabstract помогает сохранять и организовывать ваши вкладки Safari, чтобы вы могли упростить свою жизнь."
+  },
+  "welcomeStep0Description": {
+    "message": "Перетащите иконку Tabstract в панель инструментов Safari для быстрого доступа к сохранению и восстановлению вкладок."
+  },
+  "welcomeStep0Title": {
+    "message": "Добавить в панель"
+  },
+  "welcomeStep1Description": {
+    "message": "Нажмите на иконку Tabstract на панели инструментов или используйте Cmd+Shift+S, чтобы сохранить все открытые вкладки."
+  },
+  "welcomeStep1Title": {
+    "message": "Сохраните ваши вкладки"
+  },
+  "welcomeStep2Description": {
+    "message": "Дайте своим сессиям пользовательские имена, заблокируйте важные и поддерживайте порядок."
+  },
+  "welcomeStep2Title": {
+    "message": "Организуйте сессии"
+  },
+  "welcomeStep3Description": {
+    "message": "Кликните на любую сессию, чтобы мгновенно восстановить все её вкладки, или восстанавливайте отдельные вкладки по необходимости."
+  },
+  "welcomeStep3Title": {
+    "message": "Восстанавливайте в любое время"
+  },
+  "welcomeTip": {
+    "message": "☆ Совет: удерживайте Shift при нажатии на кнопку сохранения, чтобы сохранить только текущую вкладку ☆"
+  },
+  "welcomeTitle": {
+    "message": "Начало работы с Tabstract"
+  },
+  "windowLabel": {
+    "message": "Окно"
+  },
+  "yes": {
+    "message": "Да"
+  },
+  "yesterdayAt": {
+    "message": "Вчера, $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "zeroTabs": {
+    "message": "0 вкладок"
+  },
+  "backupAutomatic": {
+    "message": "Автоматическая"
+  },
+  "backupComplete": {
+    "message": "Резервное копирование завершено!"
+  },
+  "backupExplainer": {
+    "message": "Tabstract автоматически создаёт резервные копии ваших данных при каждом сохранении вкладок и раз в час. Копии старше 24 часов сокращаются до одной в день, затем до одной в неделю и удаляются через 30 дней. Ручные резервные копии хранятся бессрочно."
+  },
+  "backupFailed": {
+    "message": "Ошибка резервного копирования"
+  },
+  "backupLoadError": {
+    "message": "Не удалось загрузить резервные копии."
+  },
+  "backupManual": {
+    "message": "Ручная"
+  },
+  "backupManualBadge": {
+    "message": "Ручная"
+  },
+  "backupMenuRestoreMerge": {
+    "message": "Восстановить вкладки (объединить)"
+  },
+  "backupMenuRestoreReplace": {
+    "message": "Восстановить вкладки (заменить)"
+  },
+  "backupMenuRestoreSystem": {
+    "message": "Восстановить систему (полный сброс)"
+  },
+  "backupNow": {
+    "message": "Создать копию сейчас"
+  },
+  "backupPreRestoreBadge": {
+    "message": "Точка восстановления"
+  },
+  "backupActionsLabel": {
+    "message": "Действия с резервной копией"
+  },
+  "backupTabCount": {
+    "message": "$1 вкладок",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupsTitle": {
+    "message": "Резервное копирование и восстановление"
+  },
+  "confirmDeleteBackup": {
+    "message": "Вы уверены, что хотите удалить эту резервную копию? Это действие нельзя отменить."
+  },
+  "confirmRestoreEverything": {
+    "message": "Это заменит ВСЕ ваши текущие данные Tabstract (вкладки, настройки, шаблоны, фильтры и т.д.) данными из этой резервной копии.\n\nСначала будет создана резервная копия перед восстановлением, на всякий случай.\n\nПродолжить?"
+  },
+  "confirmRestoreTabsMerge": {
+    "message": "Это объединит вкладки из резервной копии с вашими существующими вкладками, сохранив обе.\n\nТакже будет создана резервная копия перед восстановлением, на всякий случай.\n\nПродолжить?"
+  },
+  "confirmRestoreTabsOnly": {
+    "message": "Это заменит только ваши сохранённые вкладки вкладками из этой резервной копии. Настройки, шаблоны и фильтры не изменятся.\n\nСначала будет создана резервная копия перед восстановлением, на всякий случай.\n\nПродолжить?"
+  },
+  "lastBackup": {
+    "message": "Последняя копия:"
+  },
+  "loadingBackups": {
+    "message": "Загрузка резервных копий..."
+  },
+  "noBackupsYet": {
+    "message": "Резервных копий пока нет"
+  },
+  "restoreError": {
+    "message": "Не удалось восстановить из резервной копии. Пожалуйста, попробуйте снова."
+  },
+  "restoreTabsDialogDetail": {
+    "message": "Объединение добавит вкладки из резервной копии рядом с вашими существующими вкладками. Сначала будет создана резервная копия перед восстановлением."
+  },
+  "restoreTabsDialogMessage": {
+    "message": "Хотите заменить текущие вкладки или объединить их с резервной копией?"
+  },
+  "exportBackupShowInFinder": {
+    "message": "Показать в Finder"
+  },
+  "back": {
+    "message": "Назад"
+  },
+  "icloudSyncDesc": {
+    "message": "Синхронизируйте сохранённые вкладки на iPhone, iPad и Mac."
+  },
+  "icloudSyncLabel": {
+    "message": "Синхронизация с iCloud"
+  },
+  "lastSynced": {
+    "message": "Последняя синхронизация"
+  },
+  "neverSynced": {
+    "message": "Не синхронизировано"
+  },
+  "sectionICloudSync": {
+    "message": "Синхронизация iCloud — бета"
+  },
+  "syncErrorGeneric": {
+    "message": "Ошибка синхронизации, повтор будет выполнен автоматически"
+  },
+  "syncErrorNetwork": {
+    "message": "Нет подключения к сети"
+  },
+  "syncErrorNotAuthenticated": {
+    "message": "Войдите в iCloud для синхронизации"
+  },
+  "syncErrorQuota": {
+    "message": "Хранилище iCloud заполнено"
+  },
+  "syncErrorRateLimited": {
+    "message": "Слишком много запросов, попробуйте позже"
+  },
+  "syncErrorZoneBusy": {
+    "message": "iCloud занят, попробуйте позже"
+  },
+  "syncNoAccount": {
+    "message": "Войдите в iCloud для синхронизации"
+  },
+  "syncNow": {
+    "message": "Синхронизировать"
+  },
+  "syncing": {
+    "message": "Синхронизация..."
+  },
+  "synced": {
+    "message": "Синхронизировано!"
+  },
+  "saveActiveTabAndClose": {
+    "message": "Сохранить эту вкладку и закрыть"
+  },
+  "saveActiveTabNoClose": {
+    "message": "Сохранить эту вкладку без закрытия"
+  },
+  "saveAllAndClose": {
+    "message": "Сохранить все и закрыть"
+  },
+  "saveAllNoClose": {
+    "message": "Сохранить все без закрытия"
+  },
+  "moreSaveOptions": {
+    "message": "Ещё варианты сохранения"
+  },
+  "rename": {
+    "message": "Переименовать"
+  },
+  "share": {
+    "message": "Поделиться"
+  },
+  "sessionDeleted": {
+    "message": "Сессия удалена"
+  },
+  "tabDeleted": {
+    "message": "Вкладка удалена"
+  },
+  "tabsSaved": {
+    "message": "Вкладки сохранены"
+  },
+  "linksCopied": {
+    "message": "Ссылки скопированы"
+  },
+  "connecting": {
+    "message": "Подключение..."
+  },
+  "justSynced": {
+    "message": "Только что синхронизировано"
+  },
+  "syncFailed": {
+    "message": "Ошибка синхронизации"
+  },
+  "confirmPermanentDelete": {
+    "message": "Удалить эту сессию навсегда?"
+  },
+  "noSavedSessions": {
+    "message": "Нет сохранённых сессий"
+  },
+  "dayAgo": {
+    "message": "$1 день назад",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "daysAgo": {
+    "message": "$1 дней назад",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "weekAgo": {
+    "message": "$1 неделю назад",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "weeksAgo": {
+    "message": "$1 недель назад",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  }
+}

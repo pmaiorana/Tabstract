@@ -1,0 +1,2837 @@
+{
+  "SnoozeInfo": {
+    "message": "도구 모음 배지는 저장된 세션을 추적하여 잊히지 않도록 합니다. Snooze는 배지를 일시적으로 숨깁니다."
+  },
+  "accentColorLabel": {
+    "message": "색상"
+  },
+  "actionLockTabGroup": {
+    "message": "탭 그룹 잠그기"
+  },
+  "actionSendToTabGroup": {
+    "message": "탭을 탭 그룹으로 보내기"
+  },
+  "actionSendToTrash": {
+    "message": "탭을 휴지통으로 보내기"
+  },
+  "actionSessionName": {
+    "message": "이름"
+  },
+  "actionSetColor": {
+    "message": "탭 그룹의 색상 설정"
+  },
+  "actionSetLockStatus": {
+    "message": "잠금 상태 설정"
+  },
+  "actionsMenu": {
+    "message": "작업"
+  },
+  "advancedMode": {
+    "message": "고급 모드"
+  },
+  "aiDisabledNotice": {
+    "message": "<strong>Apple Intelligence가 현재 꺼져 있거나 사용할 수 없습니다.</strong> 시스템 설정에서 Apple Intelligence 메뉴를 확인하세요"
+  },
+  "aiEnabledButInaccessible": {
+    "message": "<strong>Apple Intelligence가 시스템에서 활성화된 것으로 보이지만 Tabstract가 액세스할 수 없습니다.</strong><br><br>일반적인 원인:<ul><li>macOS 언어와 Siri 언어가 일치하지 않습니다. Apple은 둘 다 동일한 언어로 설정할 것을 요구합니다.</li><li>Apple Intelligence가 아직 초기화 중입니다. 몇 분 기다린 후 Tabstract → 설정을 다시 로드하세요.</li><li>지원되지 않는 국가에 있습니다. Apple Intelligence는 중국 본토에서 구매한 기기 또는 국가나 지역이 중국 본토로 설정된 Apple ID로 중국 본토에서 사용하는 기기에서는 사용할 수 없습니다.</li></ul>"
+  },
+  "aiExperimentalNotice": {
+    "message": "<strong>이것은 새로운 실험적 기능입니다</strong>, 결과는 시간이 지남에 따라 계속 개선될 것입니다"
+  },
+  "aiLanguageNotSupported": {
+    "message": "Apple Intelligence가 아직 이 언어를 지원하지 않기 때문에 AI 기능을 사용할 수 없습니다. AI 기능을 사용하려면 영어, 스페인어, 프랑스어, 독일어, 이탈리아어, 일본어, 한국어, 포르투갈어(브라질) 또는 중국어(간체)로 전환하세요."
+  },
+  "aiNotAvailable": {
+    "message": "<strong>Apple Intelligence를 사용할 수 없습니다.</strong> 시스템 설정에서 활성화되어 사용할 준비가 되었는지 확인하세요"
+  },
+  "aiRegenerateTitle": {
+    "message": "제목 다시 생성"
+  },
+  "aiSmartCategorizationDesc": {
+    "message": "<strong>6개 이상</strong>의 탭 그룹을 자동으로 주제별로 정리합니다 <span class=\"hint\"><strong class=\"info\"></strong><em>세션 제목 생성</em>을 활성화해야 합니다</span>"
+  },
+  "aiSmartCategorizationLabel": {
+    "message": "스마트 분류"
+  },
+  "aiTitleSuggestionsDesc": {
+    "message": "Apple Intelligence(기기 내 개인 AI)를 사용하여 탭 저장 시 세션 제목을 제안합니다"
+  },
+  "aiTitleSuggestionsLabel": {
+    "message": "세션 제목 생성"
+  },
+  "aiUnsupportedNotice": {
+    "message": "AI 기능을 사용하려면 Apple Intelligence를 지원하는 Mac과 macOS 26.0 이상이 필요합니다"
+  },
+  "all": {
+    "message": "모두"
+  },
+  "am": {
+    "message": "오전"
+  },
+  "any": {
+    "message": "임의"
+  },
+  "appName": {
+    "message": "Tabstract"
+  },
+  "appleIntelligenceUnavailable": {
+    "message": "Apple Intelligence를 사용할 수 없습니다"
+  },
+  "atLeastOnePatternRequired": {
+    "message": "패턴을 최소 한 개 이상 추가해야 합니다"
+  },
+  "avoidDuplicatesDesc": {
+    "message": "하나의 세션에서 동일한 URL이 여러 번 저장되는 것을 방지"
+  },
+  "avoidDuplicatesLabel": {
+    "message": "중복 탭 저장 안 함"
+  },
+  "avoidDuplicatesSetting": {
+    "message": "<strong>중복 탭 저장 안함</strong> 같은 세션 내에서"
+  },
+  "bannerNewFeatures": {
+    "message": "<strong>새로운 기능!</strong> 작업 메뉴, 번체 중국어 지원, 리치 텍스트 복사, 중복 정리!"
+  },
+  "bannerText": {
+    "message": "새로운 자동 백업 시스템으로 탭을 잃어버릴 걱정 끝! 베타 테스터도 모집 중!"
+  },
+  "bannerTitle": {
+    "message": "Tabstract 3.1"
+  },
+  "bulkActionCreateGroup": {
+    "message": "병합"
+  },
+  "bulkActionDeselect": {
+    "message": "모두 선택 해제"
+  },
+  "bulkActionDuplicate": {
+    "message": "복제"
+  },
+  "bulkActionLockUnlock": {
+    "message": "선택 항목 잠금/잠금 해제"
+  },
+  "bulkActionRestore": {
+    "message": "복원"
+  },
+  "bulkActionTrash": {
+    "message": "휴지통"
+  },
+  "cancel": {
+    "message": "취소"
+  },
+  "clearData": {
+    "message": "Tabstract 리셋"
+  },
+  "clearFilters": {
+    "message": "초기화"
+  },
+  "clearSchedule": {
+    "message": "일정 지우기"
+  },
+  "clearSearch": {
+    "message": "검색 지우기"
+  },
+  "clearSnooze": {
+    "message": "스누즈 취소"
+  },
+  "clickNewToGetStarted": {
+    "message": "\"새로 만들기\"를 클릭하여 시작하세요."
+  },
+  "clipboardError": {
+    "message": "클립보드에 복사하지 못했습니다"
+  },
+  "close": {
+    "message": "닫기"
+  },
+  "closeFiltersModal": {
+    "message": "필터 모달 닫기"
+  },
+  "closeHomeTabOnOpen": {
+    "message": "세션 복원 후 Tabstract 닫기"
+  },
+  "closeHomeTabOnOpenDesc": {
+    "message": "탭 그룹을 열 때 Tabstract를 닫습니다"
+  },
+  "closeHomeTabOnOpenLabel": {
+    "message": "복원 후 Tabstract 닫기"
+  },
+  "collapseAll": {
+    "message": "모두 접기"
+  },
+  "collapseExpandAll": {
+    "message": "모두 접기/펼치기"
+  },
+  "collapseSession": {
+    "message": "세션 접기"
+  },
+  "collapseTemplate": {
+    "message": "루틴 접기"
+  },
+  "colorBlue": {
+    "message": "파랑"
+  },
+  "colorDefault": {
+    "message": "기본값"
+  },
+  "colorGreen": {
+    "message": "초록"
+  },
+  "colorOrange": {
+    "message": "주황"
+  },
+  "colorPink": {
+    "message": "분홍"
+  },
+  "colorPurple": {
+    "message": "보라"
+  },
+  "colorRed": {
+    "message": "빨강"
+  },
+  "colorYellow": {
+    "message": "노랑"
+  },
+  "columnColor": {
+    "message": "색상"
+  },
+  "columnDateCreated": {
+    "message": "생성일"
+  },
+  "columnDomain": {
+    "message": "도메인"
+  },
+  "columnGroup": {
+    "message": "탭 그룹"
+  },
+  "columnLock": {
+    "message": "잠김"
+  },
+  "columnPinned": {
+    "message": "고정됨"
+  },
+  "columnTitle": {
+    "message": "제목"
+  },
+  "confirmClearSchedule": {
+    "message": "이 일정을 지우시겠습니까？"
+  },
+  "confirmDeleteFromTrash": {
+    "message": "이 링크를 영구적으로 삭제하시겠습니까? 이 작업은 취소할 수 없습니다."
+  },
+  "confirmDeleteTemplate": {
+    "message": "이 루틴을 삭제하시겠습니까？이 작업은 취소할 수 없습니다。"
+  },
+  "confirmEmptyTrash": {
+    "message": "휴지통의 모든 항목을 영구적으로 삭제하시겠습니까? 이 작업은 취소할 수 없습니다."
+  },
+  "confirmImport": {
+    "message": "경고: 현재 Tabstract 데이터(세션, 설정, 루틴)가 모두 교체됩니다. 이 작업은 되돌릴 수 없습니다. 계속하시겠습니까?"
+  },
+  "confirmReset": {
+    "message": "정말로 Tabstract를 초기화하시겠습니까?\n\n잠긴 세션의 탭을 포함한 모든 탭이 삭제됩니다.\n\n이 작업은 취소할 수 없습니다."
+  },
+  "contactSupport": {
+    "message": "문의하기"
+  },
+  "copiedToClipboard": {
+    "message": "복사됨!"
+  },
+  "copyAllToClipboard": {
+    "message": "Markdown으로 복사"
+  },
+  "copyFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "copyFormatPlain": {
+    "message": "일반 텍스트"
+  },
+  "copyFormatRich": {
+    "message": "서식 있는 텍스트"
+  },
+  "copyMenu": {
+    "message": "복사..."
+  },
+  "createFilter": {
+    "message": "필터 생성"
+  },
+  "createNewFilter": {
+    "message": "새 필터 만들기"
+  },
+  "customColor": {
+    "message": "사용자 지정 색상"
+  },
+  "dailyAt": {
+    "message": "매일 {time}"
+  },
+  "darkAuto": {
+    "message": "자동"
+  },
+  "darkDark": {
+    "message": "다크"
+  },
+  "darkLight": {
+    "message": "라이트"
+  },
+  "darkModeDesc": {
+    "message": "색 구성표 선택"
+  },
+  "darkModeLabel": {
+    "message": "다크 모드"
+  },
+  "darkOff": {
+    "message": "끔"
+  },
+  "darkSystem": {
+    "message": "시스템"
+  },
+  "dayFormat": {
+    "message": "numeric"
+  },
+  "dayOfMonth": {
+    "message": "날짜："
+  },
+  "days": {
+    "message": "요일："
+  },
+  "debugConsole": {
+    "message": "디버그 콘솔"
+  },
+  "deleteAfterRestore": {
+    "message": "탭 복원 시 Tabstract에서 제거됨 <span class=\"hint\"><strong class=\"info\">Shift+클릭</strong>하면 일시적으로 비활성화</span>"
+  },
+  "deleteAfterRestoreDesc": {
+    "message": "복원된 탭은 Tabstract에서 삭제됩니다 <span class=\"hint\"><strong class=\"info\">Shift+클릭</strong> 으로 일시적으로 비활성화</span>"
+  },
+  "deleteAfterRestoreLabel": {
+    "message": "복원 후 탭 제거"
+  },
+  "deleteBackup": {
+    "message": "백업 삭제"
+  },
+  "deleteSmartGroup": {
+    "message": "필터 삭제"
+  },
+  "deleteTab": {
+    "message": "이 탭 삭제"
+  },
+  "dismissAIUnavailableMessage": {
+    "message": "Apple Intelligence 사용 불가 메시지 닫기"
+  },
+  "downloadData": {
+    "message": "데이터 다운로드"
+  },
+  "downloadReport": {
+    "message": "보고서 다운로드"
+  },
+  "draftDelete": {
+    "message": "삭제"
+  },
+  "dragToReorder": {
+    "message": "순서 변경을 위해 드래그"
+  },
+  "duplicateGroup": {
+    "message": "그룹 복제"
+  },
+  "duplicatesRemoved": {
+    "message": "{count}개의 중복 항목이 제거됨"
+  },
+  "editFilter": {
+    "message": "필터 편집"
+  },
+  "editSchedule": {
+    "message": "일정 편집"
+  },
+  "emailBodyTemplate": {
+    "message": "안녕하세요,\n\nTabstract에 문제가 발생했습니다。\n\n문제 재현 단계：\n1.\n2.\n3.\n\n\n문제 해결을 위한 로컬 저장소 데이터：\n\n$1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "data": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "emailSupport": {
+    "message": "이메일 지원"
+  },
+  "emptySessionHint": {
+    "message": "링크를 여기로 끌어 이 세션에 추가"
+  },
+  "emptyTrash": {
+    "message": "휴지통 비우기"
+  },
+  "emptyTrashWithCount": {
+    "message": "휴지통 비우기 ($1개)",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "enableBadge": {
+    "message": "툴바에 알림 배지 표시"
+  },
+  "enableKeyboardShortcuts": {
+    "message": "단축키 활성화"
+  },
+  "errorMaxLength": {
+    "message": "최대 길이 초과"
+  },
+  "errorParsingJson": {
+    "message": "JSON 구문 분석 오류: $1"
+  },
+  "expandAll": {
+    "message": "모두 펼치기"
+  },
+  "expandSession": {
+    "message": "세션 펼치기"
+  },
+  "expandTemplate": {
+    "message": "루틴 펼치기"
+  },
+  "expiredLabel": {
+    "message": "만료됨"
+  },
+  "expiresInDays": {
+    "message": "$1일 후 만료",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInHours": {
+    "message": "$1시간 후 만료",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInLessThanHour": {
+    "message": "1시간 미만 후 만료"
+  },
+  "export": {
+    "message": "내보내기"
+  },
+  "exportFormatHTML": {
+    "message": "HTML"
+  },
+  "exportFormatJSON": {
+    "message": "JSON"
+  },
+  "exportFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "exportFormatOPML": {
+    "message": "OPML"
+  },
+  "exportFormatPlain": {
+    "message": "일반 텍스트"
+  },
+  "exportMenu": {
+    "message": "내보내기..."
+  },
+  "exportSavedLinks": {
+    "message": "저장된 링크 내보내기"
+  },
+  "exportSuccess": {
+    "message": "내보내기가 완료되었습니다!"
+  },
+  "filterAll": {
+    "message": "전체"
+  },
+  "filterColor": {
+    "message": "색상:"
+  },
+  "filterDate": {
+    "message": "날짜:"
+  },
+  "filterDateLastMonth": {
+    "message": "지난 달"
+  },
+  "filterDateLastWeek": {
+    "message": "지난 주"
+  },
+  "filterDateMonth": {
+    "message": "이번 달"
+  },
+  "filterDateToday": {
+    "message": "오늘"
+  },
+  "filterDateWeek": {
+    "message": "이번 주"
+  },
+  "filterDateYesterday": {
+    "message": "어제"
+  },
+  "filterDomain": {
+    "message": "도메인:"
+  },
+  "filterLock": {
+    "message": "잠금:"
+  },
+  "filterName": {
+    "message": "설명"
+  },
+  "filters": {
+    "message": "필터"
+  },
+  "filtersDescription": {
+    "message": "필터는 도메인, 키워드 또는 기타 패턴을 기반으로 탭을 자동으로 정렬하고 구성할 수 있습니다. <strong>필터는 우선 순위에 따라 처리됩니다</strong>, 위에서 아래로; 드래그하여 재정렬하세요."
+  },
+  "formatOneTab": {
+    "message": "OneTab 내보내기"
+  },
+  "formatTSV": {
+    "message": "TSV"
+  },
+  "formatTabSpace": {
+    "message": "Tab Space 백업"
+  },
+  "formatTabsSaver": {
+    "message": "Tabs Saver 백업"
+  },
+  "formatTabstractJSON": {
+    "message": "Tabstract JSON 내보내기"
+  },
+  "frequency": {
+    "message": "빈도："
+  },
+  "fullScreenMode": {
+    "message": "전체 화면 모드 (F)"
+  },
+  "groupNameRequired": {
+    "message": "그룹 이름은 필수입니다"
+  },
+  "guideAIFeaturesBody": {
+    "message": "컴퓨터가 Apple Intelligence를 지원한다면 Tabstract가 저장된 탭을 주제별 그룹으로 자동 정리합니다. 새 제목을 만들려면 세션 제목 옆의 <strong>✨ 반짝이 아이콘</strong>을 클릭하세요. Apple Intelligence를 지원하지 않는 컴퓨터에서는 대신 날짜와 시간이 사용됩니다."
+  },
+  "guideAIFeaturesTitle": {
+    "message": "AI로 탭 정리"
+  },
+  "guideBadgeNotificationsBody": {
+    "message": "툴바 배지는 저장된 세션 수를 표시하여 눈에 보이지 않아도 잊지 않도록 도와줍니다. Snooze 기능은 배지를 최대 24시간 숨기며, 설정에서 완전히 끌 수도 있습니다."
+  },
+  "guideBadgeNotificationsTitle": {
+    "message": "툴바 배지"
+  },
+  "guideDragToReorderBody": {
+    "message": "개별 링크와 세션을 클릭해 드래그하면 저장된 탭을 원하는 순서로 재배치할 수 있습니다."
+  },
+  "guideDragToReorderTitle": {
+    "message": "드래그 앤 드롭으로 정리"
+  },
+  "guideGettingStartedBody": {
+    "message": "Tabstract는 Safari 탭을 저장하고 정리하는 데 도움이 됩니다. 시작하려면 Safari 도구 모음을 마우스 오른쪽 버튼으로 클릭하고 \"사용자화\"를 선택한 다음 Tabstract 아이콘을 도구 모음으로 끌어다 놓으세요. 추가한 뒤 Tabstract를 클릭하고 <strong>탭 저장</strong>을 누르면 현재 창에 열린 모든 탭을 저장합니다. "
+  },
+  "guideGettingStartedTitle": {
+    "message": "시작하기"
+  },
+  "guideKeyboardShortcutsBody": {
+    "message": "Tabstract에는 파워 유저를 위한 키보드 단축키와 보조키 조합이 포함되어 있습니다. 단축키는 설정에서 비활성화할 수 있습니다.<br><br>\n                <strong>주요 단축키:</strong><br><br>\n                모든 탭 저장: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd><br>\n                현재 탭만 저장: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd><br>\n                저장된 세션 목록 열기: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd><br><br>\n                <strong>빠른 작업:</strong><br><br>\n                검색 상자에 포커스: <kbd>/</kbd><br>\n                새 세션 만들기: <kbd>N</kbd><br><br>\n                <strong>보조키 조합:</strong><br><br>\n                현재 탭만 저장: <kbd>Shift</kbd> + <em>탭 저장</em> 클릭<br>\n                모든 세션 펼치기/접기: <kbd>Shift</kbd> + <em>세션 접기 버튼</em> 클릭<br>\n                \"복원 후 탭 제거\" 설정을 일시적으로 해제: <kbd>Shift</kbd> + <em>복원</em> 클릭<br>\n                \"탭을 백그라운드에서 복원\" 설정을 일시적으로 해제: <kbd>Option</kbd> + <em>복원</em> 클릭"
+  },
+  "guideKeyboardShortcutsTitle": {
+    "message": "키보드 단축키"
+  },
+  "guidePasteLinksBody": {
+    "message": "다른 앱에서 링크를 복사해 Tabstract에 바로 붙여넣을 수 있습니다! Tabstract가 페이지 제목을 자동으로 가져와 컬렉션에 추가합니다. "
+  },
+  "guidePasteLinksTitle": {
+    "message": "Tabstract에 링크 복사 및 붙여넣기"
+  },
+  "guideShiftClickBody": {
+    "message": "아무 세션의 접기 버튼을 클릭할 때 <kbd>Shift</kbd> 키를 누르고 있으면 모든 세션을 한 번에 펼치거나 접을 수 있습니다."
+  },
+  "guideShiftClickTitle": {
+    "message": "Shift+클릭으로 전체 펼치기/접기"
+  },
+  "guideTrashUndoBody": {
+    "message": "삭제된 링크는 30일 동안 휴지통으로 이동한 뒤 자동으로 삭제됩니다. Tabstract의 속도를 유지하기 위해 휴지통은 최대 1,000개로 제한됩니다."
+  },
+  "guideTrashUndoTitle": {
+    "message": "휴지통"
+  },
+  "helpPageTitle": {
+    "message": "지원 및 문제 해결 - Tabstract"
+  },
+  "helpSupportInstructions": {
+    "message": "질문이 있거나 기능을 제안하고 싶거나 도움이 필요하신가요? <em>이메일 지원</em>을 클릭한 뒤 <em>허용</em>을 선택하거나, 시스템 리포트를 문제 설명과 함께 <em>help@tabstract.app</em>으로 보내주세요.<br /><br />기능 요청, 버그 제보, 번역 개선 제안도 언제든 환영합니다."
+  },
+  "helpTitle": {
+    "message": "지원 및 문제 해결"
+  },
+  "hourFormat": {
+    "message": "numeric"
+  },
+  "hourAgo": {
+    "message": "$1시간 전",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hoursAgo": {
+    "message": "$1시간 전",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "import": {
+    "message": "가져오기"
+  },
+  "importData": {
+    "message": "데이터 가져오기"
+  },
+  "importError": {
+    "message": "가져오기 오류: $ERROR$"
+  },
+  "importFailedPrefix": {
+    "message": "가져오기 실패："
+  },
+  "importLinksLabel": {
+    "message": "다른 탭 관리자에서 링크 가져오기"
+  },
+  "importMenu": {
+    "message": "가져오기..."
+  },
+  "importSuccess": {
+    "message": "가져오기 완료! $COUNT$개의 세션 및 설정이 복원되었습니다."
+  },
+  "importSuccessMessage": {
+    "message": "$1개의 유효한 링크（$2개 세션에 걸쳐）를 가져왔습니다。\n$3개의 잘못된 링크를 건너뛰었습니다。\n\n페이지 제목은 백그라운드에서 가져옵니다。",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "errors": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$3",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "links": {
+        "content": "$1"
+      },
+      "sessions": {
+        "content": "$2"
+      }
+    }
+  },
+  "importSystemBackup": {
+    "message": "시스템 백업 가져오기"
+  },
+  "invalidJsonFormat": {
+    "message": "유효하지 않은 JSON 형식: 세션 배열이 필요합니다."
+  },
+  "invalidRegexPrefix": {
+    "message": "잘못된 정규식: "
+  },
+  "justNow": {
+    "message": "방금"
+  },
+  "langNameArabic": {
+    "message": "아랍어"
+  },
+  "langNameChineseCN": {
+    "message": "중국어 간체"
+  },
+  "langNameChineseTW": {
+    "message": "중국어 번체"
+  },
+  "langNameDanish": {
+    "message": "덴마크어"
+  },
+  "langNameDutch": {
+    "message": "네덜란드어"
+  },
+  "langNameEnglish": {
+    "message": "영어"
+  },
+  "langNameFrench": {
+    "message": "프랑스어"
+  },
+  "langNameFrenchCA": {
+    "message": "캐나다 프랑스어"
+  },
+  "langNameGerman": {
+    "message": "독일어"
+  },
+  "langNameItalian": {
+    "message": "이탈리아어"
+  },
+  "langNameJapanese": {
+    "message": "일본어"
+  },
+  "langNameKorean": {
+    "message": "한국어"
+  },
+  "langNameNorwegian": {
+    "message": "노르웨이어"
+  },
+  "langNamePortugueseBR": {
+    "message": "브라질 포르투갈어"
+  },
+  "langNamePortuguesePT": {
+    "message": "포르투갈어"
+  },
+  "langNameRussian": {
+    "message": "러시아어"
+  },
+  "langNameSpanish": {
+    "message": "스페인어"
+  },
+  "langNameSpanishLA": {
+    "message": "라틴 아메리카 스페인어"
+  },
+  "langNameSwedish": {
+    "message": "스웨덴어"
+  },
+  "langNameTurkish": {
+    "message": "터키어"
+  },
+  "langNameVietnamese": {
+    "message": "베트남어"
+  },
+  "languageAuto": {
+    "message": "시스템 기본값"
+  },
+  "languageDesc": {
+    "message": "표시 언어 선택"
+  },
+  "languageLabel": {
+    "message": "언어"
+  },
+  "lastRun": {
+    "message": "마지막 실행：{time}"
+  },
+  "launchOnStartup": {
+    "message": "브라우저 시작 시 Tabstract 표시"
+  },
+  "launchOnStartupDesc": {
+    "message": "Safari를 실행하면 Tabstract를 엽니다"
+  },
+  "launchOnStartupLabel": {
+    "message": "시작 시 실행"
+  },
+  "learnMore": {
+    "message": "자세히 알아보기"
+  },
+  "learnMoreAboutFeatures": {
+    "message": "새 기능 자세히 보기"
+  },
+  "linkRestored": {
+    "message": "새 세션으로 링크를 복원했습니다"
+  },
+  "lockAll": {
+    "message": "모두 잠금"
+  },
+  "lockSession": {
+    "message": "잠금"
+  },
+  "lockSessionTitle": {
+    "message": "세션 잠금"
+  },
+  "lockUnlockAll": {
+    "message": "모두 잠금/잠금 해제"
+  },
+  "manageFiltersMenuItem": {
+    "message": "필터 관리..."
+  },
+  "manageTemplates": {
+    "message": "루틴 관리"
+  },
+  "manageTemplatesMenuItem": {
+    "message": "루틴 관리..."
+  },
+  "match": {
+    "message": "만약"
+  },
+  "matches": {
+    "message": "일치："
+  },
+  "mergeIntoSessionBelow": {
+    "message": "아래 세션과 병합"
+  },
+  "minuteFormat": {
+    "message": "numeric"
+  },
+  "minuteAgo": {
+    "message": "$1분 전",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "minutesAgo": {
+    "message": "$1분 전",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "monthFormat": {
+    "message": "long"
+  },
+  "monthlyOn": {
+    "message": "매월 {day}일 {time}"
+  },
+  "moreActions": {
+    "message": "더 많은 작업"
+  },
+  "moreShort": {
+    "message": "More"
+  },
+  "moveToTop": {
+    "message": "맨 위로 이동"
+  },
+  "navHelp": {
+    "message": "도움말 + 팁"
+  },
+  "navHome": {
+    "message": "홈"
+  },
+  "navSelect": {
+    "message": "선택"
+  },
+  "navSettings": {
+    "message": "설정"
+  },
+  "navSnooze": {
+    "message": "스누즈"
+  },
+  "needHelpWithTabstract": {
+    "message": "Tabstract 도움말 필요"
+  },
+  "never": {
+    "message": "실행 안 됨"
+  },
+  "newButton": {
+    "message": "새로 만들기"
+  },
+  "newTabGroup": {
+    "message": "새 탭 그룹"
+  },
+  "no": {
+    "message": "아니오"
+  },
+  "noAvailableTabs": {
+    "message": "사용 가능한 탭이 없습니다"
+  },
+  "noColor": {
+    "message": "색상 없음"
+  },
+  "noResultsFound": {
+    "message": "검색 결과가 없습니다:"
+  },
+  "noSavedLinksToExport": {
+    "message": "내보낼 저장된 링크가 없습니다."
+  },
+  "noTabsAvailableToSave": {
+    "message": "저장할 수 있는 탭이 없습니다"
+  },
+  "noTabsSaved": {
+    "message": "저장된 탭이 없습니다."
+  },
+  "noTemplatesInstructions": {
+    "message": "아직 저장된 루틴이 없습니다.<br>세션에서 루틴을 만들어 시작하세요."
+  },
+  "noTemplatesSaved": {
+    "message": "아직 저장된 루틴이 없습니다。<br>세션에서 루틴을 만들어 시작하세요。"
+  },
+  "noTemplatesSavedYet": {
+    "message": "아직 루틴이 없습니다"
+  },
+  "nonMatchingWarning": {
+    "message": "<strong>⚠️ 경고:</strong> 이 그룹의 $1개 탭이 더 이상 패턴과 일치하지 않아 새 세션 \"<strong>$2에서 제거됨</strong>\"으로 이동합니다.",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "content": "$1"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$2",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "none": {
+    "message": "없음"
+  },
+  "ofTheFollowingConditions": {
+    "message": "다음 조건이 충족되는 경우:"
+  },
+  "ok": {
+    "message": "확인"
+  },
+  "oneclickSave": {
+    "actionsMenu": {
+      "message": "Actions"
+    },
+    "bulkActionDuplicate": {
+      "message": "Duplicate"
+    },
+    "bulkActionLockUnlock": {
+      "message": "Lock/Unlock Selected"
+    },
+    "colorBlue": {
+      "message": "Blue"
+    },
+    "colorDefault": {
+      "message": "Default"
+    },
+    "colorGreen": {
+      "message": "Green"
+    },
+    "colorOrange": {
+      "message": "Orange"
+    },
+    "colorPink": {
+      "message": "Pink"
+    },
+    "colorPurple": {
+      "message": "Purple"
+    },
+    "colorRed": {
+      "message": "Red"
+    },
+    "colorYellow": {
+      "message": "Yellow"
+    },
+    "filterAll": {
+      "message": "All"
+    },
+    "message": "원클릭 저장 <span class=\"hint\"><strong class=\"caution\">주의:</strong> 홈과 다시 알림이 제거됩니다. Shift+Command+H로 홈을 표시할 수 있습니다.</span>"
+  },
+  "oneclickSaveDesc": {
+    "message": "<span class=\"hint\"><strong class=\"caution\">주의:</strong> 실험적 기능으로 홈/스누즈 버튼이 제거됩니다. <strong>Shift+Command+H</strong>로 홈을 여세요.</span>"
+  },
+  "oneclickSaveLabel": {
+    "message": "원클릭 저장"
+  },
+  "openLink": {
+    "message": "$1 열기",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "pageTitle": {
+    "message": "도구 및 설정 - Tabstract"
+  },
+  "pasteLinks": {
+    "message": "링크 붙여넣기"
+  },
+  "performActions": {
+    "message": "다음 작업 수행:"
+  },
+  "pinToTop": {
+    "message": "맨 위에 고정"
+  },
+  "pinnedTabsDesc": {
+    "message": "고정된 탭은 닫히거나 Tabstract에 저장되지 않습니다"
+  },
+  "pinnedTabsLabel": {
+    "message": "고정 탭 저장 안 함"
+  },
+  "pinnedTabsSetting": {
+    "message": "<strong>고정 탭은 저장하지 않음</strong> (고정 탭은 닫히거나 Tabstract에 저장되지 않습니다)"
+  },
+  "pleaseEnterDayBetween1And31": {
+    "message": "1에서 31 사이의 날짜를 입력하세요。"
+  },
+  "pleaseEnterPattern": {
+    "message": "패턴 값을 입력하세요"
+  },
+  "pleaseSelectAtLeastOneDay": {
+    "message": "주간 일정에는 최소 하루를 선택하세요。"
+  },
+  "pm": {
+    "message": "오후"
+  },
+  "refreshData": {
+    "message": "디버그 데이터 새로고침"
+  },
+  "removeFromSession": {
+    "message": "세션에서 $1 제거",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "removedFrom": {
+    "message": "$1에서 제거됨",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "resetGroupColors": {
+    "message": "색상 재설정"
+  },
+  "restoreAllTabs": {
+    "message": "모든 탭 복원"
+  },
+  "restoreInBackground": {
+    "message": "복원된 탭은 백그라운드에서 열림 <span class=\"hint\"><strong class=\"info\">Option+클릭</strong>하면 일시적으로 비활성화</span>"
+  },
+  "restoreInBackgroundDesc": {
+    "message": "복원된 탭은 Tabstract 뒤에서 열려 포커스를 전환하지 않습니다 <span class=\"hint\"><strong class=\"info\">Option+클릭</strong> 으로 일시적으로 비활성화</span>"
+  },
+  "restoreInBackgroundLabel": {
+    "message": "백그라운드에서 탭 복원"
+  },
+  "restoreTabsMerge": {
+    "message": "병합"
+  },
+  "restoreTabsReplace": {
+    "message": "교체"
+  },
+  "restoreTabsToCurrentWindow": {
+    "message": "현재 창"
+  },
+  "restoreTabsToLabel": {
+    "message": "탭 그룹 복원 위치:"
+  },
+  "restoreTabsToNewWindow": {
+    "message": "새 창"
+  },
+  "restoredFromTrashSessionName": {
+    "message": "휴지통에서 복원"
+  },
+  "restoredLinkSessionName": {
+    "message": "복원된 링크"
+  },
+  "reviewButton": {
+    "message": "App Store에서 평가해 주세요 ★★★★★"
+  },
+  "reviewLaterButton": {
+    "message": "나중에"
+  },
+  "reviewMessage": {
+    "message": "Tabstract는 무료이지만 평점과 리뷰로 운영됩니다. 평점을 남겨주세요!"
+  },
+  "reviewModalText": {
+    "message": "Tabstract는 무료이지만 평점과 리뷰로 운영됩니다 🚀 5성 평점을 남겨주세요!"
+  },
+  "reviewModalTitle": {
+    "message": "Tabstract가 마음에 드시나요?"
+  },
+  "runFiltersConfirm": {
+    "message": "{sessions}개의 세션에서 {tabs}개의 탭을 처리합니다. 계속하시겠습니까?"
+  },
+  "runFiltersMenuItem": {
+    "message": "필터 실행"
+  },
+  "runFiltersNoFilters": {
+    "message": "정의된 필터가 없습니다. 먼저 필터를 만드세요."
+  },
+  "runFiltersNoSessions": {
+    "message": "처리할 잠금 해제된 세션이 없습니다."
+  },
+  "runFiltersSuccess": {
+    "message": "필터로 {matched}개의 탭을 처리했습니다"
+  },
+  "sampleSessionCreated": {
+    "message": "샘플이 생성되었습니다!"
+  },
+  "sampleSessionName": {
+    "message": "Tabstract 시작하기"
+  },
+  "sampleTab1Title": {
+    "message": "Tabstract 웹사이트"
+  },
+  "sampleTab2Title": {
+    "message": "App Store의 Tabstract"
+  },
+  "sampleTab3Title": {
+    "message": "App Store에서 Tabstract 평가하기"
+  },
+  "sampleTab4Title": {
+    "message": "By The Farm"
+  },
+  "save": {
+    "message": "저장"
+  },
+  "saveAllWindowsDesc": {
+    "message": "현재 포커스된 창뿐만 아니라 열려 있는 모든 Safari 창에서 탭을 저장합니다"
+  },
+  "saveAllWindowsLabel": {
+    "message": "모든 창에서 탭 저장"
+  },
+  "saveAlsoCloses": {
+    "message": "<strong>저장 시 탭 닫기</strong>"
+  },
+  "saveAlsoClosesDesc": {
+    "message": "Tabstract에 저장 후 탭을 자동으로 닫습니다"
+  },
+  "saveAlsoClosesLabel": {
+    "message": "저장 시 탭 닫기"
+  },
+  "saveAsTemplate": {
+    "message": "루틴으로 저장"
+  },
+  "saveFilter": {
+    "message": "필터 저장"
+  },
+  "saveSelected": {
+    "message": "선택한 탭 저장"
+  },
+  "saveSelectedPlural": {
+    "message": "{count}개 탭 저장"
+  },
+  "saveSelectedSingular": {
+    "message": "1개 탭 저장"
+  },
+  "saveTab": {
+    "message": "탭 저장"
+  },
+  "saveTabs": {
+    "message": "탭 저장"
+  },
+  "saveTabsOnStartupDesc": {
+    "message": "Safari를 시작할 때 열려 있는 모든 탭을 자동으로 저장하고 닫습니다"
+  },
+  "saveTabsOnStartupLabel": {
+    "message": "시작 시 열린 탭 저장 및 닫기"
+  },
+  "savedOnLabel": {
+    "message": "저장 날짜: $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "date": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "scheduleAddButton": {
+    "message": "+ 일정"
+  },
+  "scheduleDaily": {
+    "message": "매일"
+  },
+  "scheduleEditButton": {
+    "message": "편집"
+  },
+  "scheduleHourly": {
+    "message": "매시간"
+  },
+  "scheduleMonthly": {
+    "message": "매월"
+  },
+  "scheduleNotifyLabel": {
+    "message": "루틴 실행됩니다 시 알림 표시"
+  },
+  "scheduleWeekly": {
+    "message": "매주"
+  },
+  "searchFocusTitle": {
+    "message": "검색에 포커스 (단축키: /)"
+  },
+  "searchPlaceholder": {
+    "message": "검색"
+  },
+  "searchResults": {
+    "message": "검색 결과"
+  },
+  "sectionAppleIntelligence": {
+    "message": "Apple Intelligence 기반 AI"
+  },
+  "sectionAppleIntelligenceDesc": {
+    "message": "Apple Intelligence가 제공하는 온디바이스 AI 기능"
+  },
+  "sectionInterface": {
+    "message": "일반"
+  },
+  "sectionInterfaceDesc": {
+    "message": "Tabstract 환경 맞춤 설정"
+  },
+  "sectionTabRestoring": {
+    "message": "탭 복원"
+  },
+  "sectionTabRestoringDesc": {
+    "message": "탭을 복원할 때의 동작 제어"
+  },
+  "sectionTabSaving": {
+    "message": "탭 저장"
+  },
+  "sectionTabSavingDesc": {
+    "message": "탭을 저장할 때의 동작 제어"
+  },
+  "selectAll": {
+    "message": "모두 선택"
+  },
+  "selectFileToImport": {
+    "message": "가져올 파일을 선택하세요."
+  },
+  "selectNone": {
+    "message": "선택 해제"
+  },
+  "selectTabsToSave": {
+    "message": "저장할 탭 선택"
+  },
+  "sessionActions": {
+    "message": "세션 작업"
+  },
+  "sessionLocked": {
+    "message": "세션이 잠겨 있습니다"
+  },
+  "settingsSubtitle": {
+    "message": "변경 사항이 즉시 저장됩니다."
+  },
+  "shortcutOpenTabstractLabel": {
+    "message": "Tabstract 열기:"
+  },
+  "shortcutSaveCurrentTabLabel": {
+    "message": "현재 탭 저장:"
+  },
+  "shortcutSaveTabsLabel": {
+    "message": "탭 저장:"
+  },
+  "simpleMode": {
+    "message": "간단 모드"
+  },
+  "smartGroupCopyButton": {
+    "message": "복사"
+  },
+  "smartGroupDeleteConfirm": {
+    "message": "이 필터를 삭제할까요? 이 그룹의 탭은 일반 세션으로 전환됩니다."
+  },
+  "smartGroupHelpDomain": {
+    "message": "도메인 이름(예: github.com)을 입력하세요. 정확한 도메인과 모든 하위 도메인이 일치합니다."
+  },
+  "smartGroupHelpKeyword": {
+    "message": "URL과 페이지 제목에서 검색할 키워드를 입력하세요(예: \"react\"). 대소문자를 구분하지 않습니다."
+  },
+  "smartGroupHelpRegex": {
+    "message": "정규식 패턴을 입력하세요(예: (github|gitlab)\\.com). URL과 제목을 기준으로 일치합니다."
+  },
+  "smartGroupNameLabel": {
+    "message": "필터 이름"
+  },
+  "smartGroupNamePlaceholder": {
+    "message": "예: GitHub 프로젝트"
+  },
+  "smartGroupNameRequired": {
+    "message": "필터 이름은 필수입니다"
+  },
+  "smartGroupPatternInvalidRegex": {
+    "message": "잘못된 정규식입니다"
+  },
+  "smartGroupPatternLabel": {
+    "message": "패턴"
+  },
+  "smartGroupPatternRequired": {
+    "message": "패턴은 필수입니다"
+  },
+  "smartGroupPatternTypeKeyword": {
+    "message": "키워드"
+  },
+  "smartGroupPatternTypeLabel": {
+    "message": "패턴 유형"
+  },
+  "smartGroupPatternTypeRegex": {
+    "message": "정규식"
+  },
+  "smartGroupPinButton": {
+    "message": "고정"
+  },
+  "smartGroupPreviewText": {
+    "message": "현재 이 패턴과 일치합니다"
+  },
+  "smartGroupUnpinButton": {
+    "message": "고정 해제"
+  },
+  "smartGroupsCreateButton": {
+    "message": "+ 필터 만들기"
+  },
+  "smartGroupsEmptyMessage": {
+    "message": "아직 필터가 없습니다."
+  },
+  "smartGroupsModalTitle": {
+    "message": "필터 관리"
+  },
+  "snoozeLabel": {
+    "message": "스누즈가 배지를 숨김:"
+  },
+  "snoozeSuffix": {
+    "message": "시간"
+  },
+  "snoozeToolbarBadge": {
+    "message": "툴바 배지 스누즈"
+  },
+  "sortBy": {
+    "message": "정렬 기준"
+  },
+  "sortNewest": {
+    "message": "최신순"
+  },
+  "sortNewestToOldest": {
+    "message": "최신 순으로 정렬"
+  },
+  "sortOldest": {
+    "message": "과거순"
+  },
+  "sortOldestToNewest": {
+    "message": "오래된 순으로 정렬"
+  },
+  "sortRainbow": {
+    "message": "무지개 순서"
+  },
+  "splitGroup": {
+    "message": "그룹 분할"
+  },
+  "supportedFormatsHeading": {
+    "message": "지원 형식:"
+  },
+  "tabCount": {
+    "message": "$1개 탭",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabCountOfTotal": {
+    "message": "$2개 중 $1개 $3",
+    "placeholders": {
+      "filtered": {
+        "content": "$1"
+      },
+      "tabWord": {
+        "content": "$3"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "tabCountPlural": {
+    "message": "$1개 탭",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabGroupLetter": {
+    "message": "창 {letter}"
+  },
+  "tabPlural": {
+    "message": "탭"
+  },
+  "tabSingular": {
+    "message": "탭"
+  },
+  "templateScheduleNotification": {
+    "message": "루틴 \"%s\" 이(가) 세션에 추가되었습니다."
+  },
+  "templates": {
+    "message": "루틴"
+  },
+  "time": {
+    "message": "시간："
+  },
+  "tipsOppensession": {
+    "message": "Shift 키+클릭으로 모든 세션을 펼치거나 접을 수 있습니다"
+  },
+  "tipsReminders": {
+    "message": "알림 배지가 저장된 세션을 놓치지 않도록 합니다"
+  },
+  "tipsRename": {
+    "message": "세션에 레이블을 지정하여 정리 상태를 유지"
+  },
+  "tipsSingletab": {
+    "message": "Shift 키를 누른 상태로 현재 탭만 저장"
+  },
+  "tipsTitle": {
+    "message": "팁"
+  },
+  "tipsToolbar": {
+    "message": "시작하려면 Tabstract를 Safari 도구 모음으로 드래그하세요."
+  },
+  "todayAt": {
+    "message": "오늘, $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "toggleAllTabsInWindow": {
+    "message": "$1 의 모든 탭 전환",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "window": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "toolbar": {
+    "message": "툴바"
+  },
+  "trashAutoDeletesHint": {
+    "message": "$1일 후 자동 삭제",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "days": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "trashCleanupLog": {
+    "message": "휴지통 정리: 만료/초과 항목 제거됨"
+  },
+  "trashDuplicates": {
+    "message": "중복 항목 삭제"
+  },
+  "trashEmpty": {
+    "message": "휴지통이 비어 있습니다"
+  },
+  "trashEmptyDesc": {
+    "message": "삭제된 링크가 여기에 표시되며 30일 후 자동으로 삭제됩니다."
+  },
+  "trashExpiringSoon": {
+    "message": "곧 만료"
+  },
+  "trashExpiringThisWeek": {
+    "message": "이번 주 만료"
+  },
+  "trashExpiringToday": {
+    "message": "오늘 만료"
+  },
+  "trashExpiringTomorrow": {
+    "message": "내일 만료"
+  },
+  "trashLimitHint": {
+    "message": "휴지통은 최대 $1개 링크로 제한됨",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "max": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "undo": {
+    "message": "실행 취소"
+  },
+  "undoDeleteLink": {
+    "message": "링크가 삭제되었습니다. 실행 취소?"
+  },
+  "undoDeleteSession": {
+    "message": "세션이 삭제되었습니다. 실행 취소?"
+  },
+  "undoMergeSession": {
+    "message": "세션이 병합되었습니다. 실행 취소?"
+  },
+  "undoTimeoutDescPost": {
+    "message": "삭제 후"
+  },
+  "undoTimeoutDescPre": {
+    "message": "실행 취소 버튼 표시 시간:"
+  },
+  "undoTimeoutLabel": {
+    "message": "<em>실행 취소</em> 버튼 표시 시간: "
+  },
+  "undoTimeoutSuffix": {
+    "message": "초"
+  },
+  "unlockAll": {
+    "message": "모두 잠금 해제"
+  },
+  "unlockSession": {
+    "message": "잠금 해제"
+  },
+  "unlocked": {
+    "message": "잠금 해제"
+  },
+  "unpinFromTop": {
+    "message": "상단 고정 해제"
+  },
+  "unrecognizedFileFormat": {
+    "message": "인식할 수 없는 파일 형식입니다. 지원: Markdown, OneTab, OPML, 일반 텍스트, Tab Space, Tabs Saver, Tabstract JSON, TSV."
+  },
+  "unsnooze": {
+    "message": "해제"
+  },
+  "untitledFilter": {
+    "message": "이 필터를 설명하세요..."
+  },
+  "upgradeToPro": {
+    "message": "Pro로 업그레이드"
+  },
+  "userGuideTitle": {
+    "message": "Tabstract 사용 방법"
+  },
+  "viewTrash": {
+    "message": "휴지통 보기"
+  },
+  "weekdayFormat": {
+    "message": "long"
+  },
+  "weekdaysAt": {
+    "message": "평일 {time}"
+  },
+  "weekendsAt": {
+    "message": "주말 {time}"
+  },
+  "weeklyAt": {
+    "message": "매주 {time}"
+  },
+  "welcomeActionHelp": {
+    "message": "더 알아보기"
+  },
+  "welcomeActionSave": {
+    "message": "샘플 세션 체험"
+  },
+  "welcomeBackSubtitle": {
+    "message": "Tabstract를 최대한 활용하기 위한 팁입니다:"
+  },
+  "welcomeBackTitle1": {
+    "message": "와, 탭이 하나도 없어요! 💅"
+  },
+  "welcomeBackTitle2": {
+    "message": "탭 제로. 꿈같아요!"
+  },
+  "welcomeBackTitle3": {
+    "message": "탭 없음? 당신은 전설이에요. 😎"
+  },
+  "welcomeBackTitle4": {
+    "message": "다 정리했나요? 대단해요!"
+  },
+  "welcomeDescription": {
+    "message": "Tabstract는 Safari 탭을 저장하고 정리하여 당신의 삶을 단순화하는 데 도움이 됩니다."
+  },
+  "welcomeStep0Description": {
+    "message": "Tabstract 아이콘을 Safari 도구 모음으로 드래그하여 탭 저장 및 복원에 빠르게 액세스하세요."
+  },
+  "welcomeStep0Title": {
+    "message": "도구 모음에 추가"
+  },
+  "welcomeStep1Description": {
+    "message": "툴바의 Tabstract 아이콘을 클릭하거나 Cmd+Shift+S를 사용하여 열린 모든 탭을 저장합니다."
+  },
+  "welcomeStep1Title": {
+    "message": "탭 저장하기"
+  },
+  "welcomeStep2Description": {
+    "message": "세션에 사용자 정의 이름을 지정하고, 중요한 것들을 잠그고, 깔끔하게 유지하세요."
+  },
+  "welcomeStep2Title": {
+    "message": "세션 정리하기"
+  },
+  "welcomeStep3Description": {
+    "message": "세션을 클릭하여 모든 탭을 즉시 복원하거나, 필요에 따라 개별 탭을 복원합니다."
+  },
+  "welcomeStep3Title": {
+    "message": "언제든지 복원"
+  },
+  "welcomeTip": {
+    "message": "☆ 팁: 저장 버튼을 클릭할 때 Shift를 누르고 있으면 현재 탭만 저장됩니다 ☆"
+  },
+  "welcomeTitle": {
+    "message": "Tabstract 시작하기"
+  },
+  "windowLabel": {
+    "message": "창"
+  },
+  "yes": {
+    "message": "예"
+  },
+  "yesterdayAt": {
+    "message": "어제, $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "zeroTabs": {
+    "message": "탭 0개"
+  },
+  "backupAutomatic": {
+    "message": "자동"
+  },
+  "backupComplete": {
+    "message": "백업 완료!"
+  },
+  "backupExplainer": {
+    "message": "Tabstract는 탭을 저장할 때마다, 그리고 매시간 자동으로 데이터를 백업합니다. 24시간이 지난 백업은 하루에 하나로 줄어들고, 이후 일주일에 하나로 줄어들며, 30일 후에 삭제됩니다. 수동 백업은 무기한 보관됩니다."
+  },
+  "backupFailed": {
+    "message": "백업 실패"
+  },
+  "backupLoadError": {
+    "message": "백업을 불러오지 못했습니다."
+  },
+  "backupManual": {
+    "message": "수동"
+  },
+  "backupManualBadge": {
+    "message": "수동"
+  },
+  "backupMenuRestoreMerge": {
+    "message": "탭 복원 (병합)"
+  },
+  "backupMenuRestoreReplace": {
+    "message": "탭 복원 (교체)"
+  },
+  "backupMenuRestoreSystem": {
+    "message": "시스템 복원 (전체 초기화)"
+  },
+  "backupNow": {
+    "message": "지금 백업"
+  },
+  "backupPreRestoreBadge": {
+    "message": "복원 지점"
+  },
+  "backupActionsLabel": {
+    "message": "백업 작업"
+  },
+  "backupTabCount": {
+    "message": "$1개 탭",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupsTitle": {
+    "message": "백업 및 복원"
+  },
+  "confirmDeleteBackup": {
+    "message": "이 백업을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다."
+  },
+  "confirmRestoreEverything": {
+    "message": "현재 Tabstract 데이터(탭, 설정, 루틴, 필터 등)가 모두 이 백업의 데이터로 교체됩니다.\n\n만약을 위해 복원 전 백업이 먼저 생성됩니다.\n\n계속하시겠습니까?"
+  },
+  "confirmRestoreTabsMerge": {
+    "message": "백업 탭이 기존 탭과 병합되어 둘 다 보존됩니다.\n\n만약을 위해 복원 전 백업도 생성됩니다.\n\n계속하시겠습니까?"
+  },
+  "confirmRestoreTabsOnly": {
+    "message": "저장된 탭만 이 백업의 탭으로 교체됩니다. 설정, 루틴, 필터는 변경되지 않습니다.\n\n만약을 위해 복원 전 백업이 먼저 생성됩니다.\n\n계속하시겠습니까?"
+  },
+  "lastBackup": {
+    "message": "마지막 백업:"
+  },
+  "loadingBackups": {
+    "message": "백업 불러오는 중..."
+  },
+  "noBackupsYet": {
+    "message": "아직 백업이 없습니다"
+  },
+  "restoreError": {
+    "message": "백업에서 복원하지 못했습니다. 다시 시도해 주세요."
+  },
+  "restoreTabsDialogDetail": {
+    "message": "병합하면 백업 탭이 기존 탭과 함께 추가됩니다. 복원 전 백업이 먼저 생성됩니다."
+  },
+  "restoreTabsDialogMessage": {
+    "message": "현재 탭을 교체하시겠습니까, 아니면 백업과 병합하시겠습니까?"
+  },
+  "exportBackupShowInFinder": {
+    "message": "Finder에서 보기"
+  },
+  "back": {
+    "message": "뒤로"
+  },
+  "icloudSyncDesc": {
+    "message": "iPhone, iPad 및 Mac에서 저장된 탭을 동기화합니다."
+  },
+  "icloudSyncLabel": {
+    "message": "iCloud와 동기화"
+  },
+  "lastSynced": {
+    "message": "마지막 동기화"
+  },
+  "neverSynced": {
+    "message": "동기화한 적 없음"
+  },
+  "sectionICloudSync": {
+    "message": "iCloud 동기화 - 베타"
+  },
+  "syncErrorGeneric": {
+    "message": "동기화 오류, 자동으로 재시도합니다"
+  },
+  "syncErrorNetwork": {
+    "message": "네트워크 연결 없음"
+  },
+  "syncErrorNotAuthenticated": {
+    "message": "동기화하려면 iCloud에 로그인하세요"
+  },
+  "syncErrorQuota": {
+    "message": "iCloud 저장 공간이 가득 찼습니다"
+  },
+  "syncErrorRateLimited": {
+    "message": "요청이 너무 많습니다. 나중에 다시 시도하세요"
+  },
+  "syncErrorZoneBusy": {
+    "message": "iCloud가 사용 중입니다. 나중에 다시 시도하세요"
+  },
+  "syncNoAccount": {
+    "message": "동기화하려면 iCloud에 로그인하세요"
+  },
+  "syncNow": {
+    "message": "지금 동기화"
+  },
+  "syncing": {
+    "message": "동기화 중..."
+  },
+  "synced": {
+    "message": "동기화 완료!"
+  },
+  "saveActiveTabAndClose": {
+    "message": "이 탭 저장 후 닫기"
+  },
+  "saveActiveTabNoClose": {
+    "message": "이 탭 저장 (닫지 않기)"
+  },
+  "saveAllAndClose": {
+    "message": "모두 저장 후 닫기"
+  },
+  "saveAllNoClose": {
+    "message": "모두 저장 (닫지 않기)"
+  },
+  "moreSaveOptions": {
+    "message": "추가 저장 옵션"
+  },
+  "rename": {
+    "message": "이름 변경"
+  },
+  "share": {
+    "message": "공유"
+  },
+  "sessionDeleted": {
+    "message": "세션이 삭제되었습니다"
+  },
+  "tabDeleted": {
+    "message": "탭이 삭제되었습니다"
+  },
+  "tabsSaved": {
+    "message": "탭이 저장되었습니다"
+  },
+  "linksCopied": {
+    "message": "링크가 복사되었습니다"
+  },
+  "connecting": {
+    "message": "연결 중..."
+  },
+  "justSynced": {
+    "message": "방금 동기화됨"
+  },
+  "syncFailed": {
+    "message": "동기화 실패"
+  },
+  "confirmPermanentDelete": {
+    "message": "이 세션을 영구적으로 삭제하시겠습니까?"
+  },
+  "noSavedSessions": {
+    "message": "저장된 세션이 아직 없습니다"
+  },
+  "dayAgo": {
+    "message": "$1일 전",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "daysAgo": {
+    "message": "$1일 전",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "weekAgo": {
+    "message": "$1주 전",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "weeksAgo": {
+    "message": "$1주 전",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  }
+}

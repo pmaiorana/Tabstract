@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabstract</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body {
+            height: 100%;
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
+            background: #F2F2F7;
+            color: #000;
+            -webkit-text-size-adjust: 100%;
+        }
+        @media (prefers-color-scheme: dark) {
+            html, body { background: #1C1C1E; color: #FFF; }
+            .subtitle { color: #8E8E93; }
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            padding: 24px;
+            text-align: center;
+        }
+        .checkmark {
+            width: 48px;
+            height: 48px;
+            margin-bottom: 16px;
+            color: #34C759;
+        }
+        .title {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+        .subtitle {
+            font-size: 15px;
+            color: #8E8E93;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <svg class="checkmark" viewBox="0 0 48 48" fill="none">
+            <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="3" fill="none"/>
+            <polyline points="14,24 21,32 34,17" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        </svg>
+        <div class="title">Tabs Saved</div>
+        <div class="subtitle">Open Tabstract to restore your tabs</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,2837 @@
+{
+  "SnoozeInfo": {
+    "message": "تُبقي شارة شريط الأدوات الجلسات المحفوظة في الواجهة كي لا تُنسى. يخفي وضع التأجيل الشارة مؤقتاً."
+  },
+  "accentColorLabel": {
+    "message": "اللون"
+  },
+  "actionLockTabGroup": {
+    "message": "قفل مجموعة علامات التبويب"
+  },
+  "actionSendToTabGroup": {
+    "message": "إرسال علامات التبويب إلى مجموعة علامات التبويب"
+  },
+  "actionSendToTrash": {
+    "message": "إرسال علامات التبويب إلى سلة المهملات"
+  },
+  "actionSessionName": {
+    "message": "الاسم"
+  },
+  "actionSetColor": {
+    "message": "تعيين لون مجموعة علامات التبويب"
+  },
+  "actionSetLockStatus": {
+    "message": "تعيين حالة القفل"
+  },
+  "actionsMenu": {
+    "message": "إجراءات"
+  },
+  "advancedMode": {
+    "message": "الوضع المتقدم"
+  },
+  "aiDisabledNotice": {
+    "message": "<strong>Apple Intelligence متوقف أو غير متاح حالياً.</strong> تحقق من قائمة Apple Intelligence ضمن إعدادات النظام"
+  },
+  "aiEnabledButInaccessible": {
+    "message": "<strong>يبدو أن Apple Intelligence مفعّل على جهازك، لكن Tabstract لا يستطيع الوصول إليه.</strong><br><br>أسباب شائعة:<ul><li>لغة macOS ولغة Siri غير متطابقتين. تشترط Apple أن تكونا اللغة نفسها.</li><li>Apple Intelligence ما يزال يبدأ؛ انتظر بضع دقائق ثم أعد تحميل Tabstract → الإعدادات.</li><li>أنت في دولة غير مدعومة. Apple Intelligence غير متاح للأجهزة المشتراة في الصين القارية أو المستخدمة فيها مع Apple ID مضبوط على الصين القارية.</li></ul>"
+  },
+  "aiExperimentalNotice": {
+    "message": "<strong>هذه ميزة جديدة وتجريبية</strong>، وستتحسن النتائج مع الوقت"
+  },
+  "aiLanguageNotSupported": {
+    "message": "ميزات الذكاء الاصطناعي غير متاحة بهذه اللغة لأن Apple Intelligence لا يدعمها بعد. الرجاء التبديل إلى الإنجليزية أو الإسبانية أو الفرنسية أو الألمانية أو الإيطالية أو اليابانية أو الكورية أو البرتغالية (البرازيل) أو الصينية المبسطة أو التقليدية لاستخدام ميزات الذكاء الاصطناعي."
+  },
+  "aiNotAvailable": {
+    "message": "<strong>Apple Intelligence غير متاح.</strong> تحقق من إعدادات النظام للتأكد من تفعيله وجاهزيته"
+  },
+  "aiRegenerateTitle": {
+    "message": "إعادة توليد العنوان"
+  },
+  "aiSmartCategorizationDesc": {
+    "message": "نظم مجموعات علامات التبويب <strong>المكونة من 6 أو أكثر</strong> تلقائياً حسب الموضوع <span class=\"hint\"><strong class=\"info\"></strong>يتطلب تفعيل <em>إنشاء عناوين الجلسات</em></span>"
+  },
+  "aiSmartCategorizationLabel": {
+    "message": "تصنيف ذكي"
+  },
+  "aiTitleSuggestionsDesc": {
+    "message": "استخدم Apple Intelligence—ذكاء اصطناعي خاص على الجهاز—لاقتراح عناوين للجلسات عند حفظ علامات التبويب"
+  },
+  "aiTitleSuggestionsLabel": {
+    "message": "إنشاء عناوين للجلسات"
+  },
+  "aiUnsupportedNotice": {
+    "message": "تتطلب ميزات الذكاء الاصطناعي جهاز Mac يدعم Apple Intelligence ونظام macOS 26.0 أو أحدث"
+  },
+  "all": {
+    "message": "الكل"
+  },
+  "am": {
+    "message": "صباحاً"
+  },
+  "any": {
+    "message": "أي"
+  },
+  "appName": {
+    "message": "Tabstract"
+  },
+  "appleIntelligenceUnavailable": {
+    "message": "Apple Intelligence غير متاح"
+  },
+  "atLeastOnePatternRequired": {
+    "message": "مطلوب نمط واحد على الأقل"
+  },
+  "avoidDuplicatesDesc": {
+    "message": "يمنع حفظ الرابط نفسه عدة مرات داخل جلسة واحدة"
+  },
+  "avoidDuplicatesLabel": {
+    "message": "لا تحفظ علامات تبويب مكررة"
+  },
+  "avoidDuplicatesSetting": {
+    "message": "<strong>لا تحفظ علامات تبويب مكررة</strong> في الجلسة نفسها"
+  },
+  "backupAutomatic": {
+    "message": "تلقائي"
+  },
+  "backupComplete": {
+    "message": "اكتملت النسخة الاحتياطية!"
+  },
+  "backupExplainer": {
+    "message": "يقوم Tabstract بنسخ بياناتك احتياطيًا تلقائيًا في كل مرة تحفظ فيها علامات التبويب ومرة كل ساعة. يتم تقليل النسخ الاحتياطية الأقدم من 24 ساعة إلى واحدة يوميًا، ثم واحدة أسبوعيًا، وتُحذف بعد 30 يومًا. تُحفظ النسخ الاحتياطية اليدوية إلى أجل غير مسمى."
+  },
+  "backupFailed": {
+    "message": "فشلت النسخة الاحتياطية"
+  },
+  "backupLoadError": {
+    "message": "فشل تحميل النسخ الاحتياطية."
+  },
+  "backupManual": {
+    "message": "يدوي"
+  },
+  "backupManualBadge": {
+    "message": "يدوي"
+  },
+  "backupMenuRestoreMerge": {
+    "message": "استعادة علامات التبويب (دمج)"
+  },
+  "backupMenuRestoreReplace": {
+    "message": "استعادة علامات التبويب (استبدال)"
+  },
+  "backupMenuRestoreSystem": {
+    "message": "استعادة النظام (إعادة تعيين كاملة)"
+  },
+  "backupNow": {
+    "message": "نسخ احتياطي الآن"
+  },
+  "backupPreRestoreBadge": {
+    "message": "نقطة استعادة"
+  },
+  "backupActionsLabel": {
+    "message": "إجراءات النسخ الاحتياطي"
+  },
+  "backupTabCount": {
+    "message": "$1 علامة تبويب",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupsTitle": {
+    "message": "النسخ الاحتياطي والاستعادة"
+  },
+  "bannerNewFeatures": {
+    "message": "<strong>أشياء جديدة!</strong> قائمة الإجراءات، دعم الصينية التقليدية، النسخ كنص منسق، تنظيف المكررات!"
+  },
+  "bannerText": {
+    "message": "لن تفقد أي علامة تبويب بعد الآن مع نظام النسخ الاحتياطي التلقائي الجديد! نبحث عن مختبرين تجريبيين!"
+  },
+  "bannerTitle": {
+    "message": "Tabstract 3.1"
+  },
+  "bulkActionCreateGroup": {
+    "message": "دمج"
+  },
+  "bulkActionDeselect": {
+    "message": "إلغاء تحديد الكل"
+  },
+  "bulkActionDuplicate": {
+    "message": "تكرار"
+  },
+  "bulkActionLockUnlock": {
+    "message": "قفل/إلغاء قفل المحدد"
+  },
+  "bulkActionRestore": {
+    "message": "استعادة"
+  },
+  "bulkActionTrash": {
+    "message": "سلة المهملات"
+  },
+  "cancel": {
+    "message": "إلغاء"
+  },
+  "clearData": {
+    "message": "حذف البيانات وإعادة تعيين Tabstract"
+  },
+  "clearFilters": {
+    "message": "إعادة تعيين"
+  },
+  "clearSchedule": {
+    "message": "مسح الجدول"
+  },
+  "clearSearch": {
+    "message": "مسح البحث"
+  },
+  "clearSnooze": {
+    "message": "مسح وضع التأجيل"
+  },
+  "clickNewToGetStarted": {
+    "message": "انقر على \"جديد\" للبدء."
+  },
+  "clipboardError": {
+    "message": "فشل النسخ إلى الحافظة"
+  },
+  "close": {
+    "message": "إغلاق"
+  },
+  "closeFiltersModal": {
+    "message": "إغلاق نافذة المرشحات"
+  },
+  "closeHomeTabOnOpen": {
+    "message": "أغلق Tabstract بعد استعادة الجلسات"
+  },
+  "closeHomeTabOnOpenDesc": {
+    "message": "أغلق Tabstract عند فتح مجموعات من علامات التبويب"
+  },
+  "closeHomeTabOnOpenLabel": {
+    "message": "أغلق Tabstract بعد الاستعادة"
+  },
+  "collapseAll": {
+    "message": "طي الكل"
+  },
+  "collapseExpandAll": {
+    "message": "طي/توسيع الكل"
+  },
+  "collapseSession": {
+    "message": "طي الجلسة"
+  },
+  "collapseTemplate": {
+    "message": "طي الروتين"
+  },
+  "colorBlue": {
+    "message": "أزرق"
+  },
+  "colorDefault": {
+    "message": "افتراضي"
+  },
+  "colorGreen": {
+    "message": "أخضر"
+  },
+  "colorOrange": {
+    "message": "برتقالي"
+  },
+  "colorPink": {
+    "message": "وردي"
+  },
+  "colorPurple": {
+    "message": "بنفسجي"
+  },
+  "colorRed": {
+    "message": "أحمر"
+  },
+  "colorYellow": {
+    "message": "أصفر"
+  },
+  "columnColor": {
+    "message": "اللون"
+  },
+  "columnDateCreated": {
+    "message": "تاريخ الإنشاء"
+  },
+  "columnDomain": {
+    "message": "النطاق"
+  },
+  "columnGroup": {
+    "message": "مجموعة علامات التبويب"
+  },
+  "columnLock": {
+    "message": "مقفل"
+  },
+  "columnPinned": {
+    "message": "مثبت"
+  },
+  "columnTitle": {
+    "message": "العنوان"
+  },
+  "confirmClearSchedule": {
+    "message": "مسح هذا الجدول؟"
+  },
+  "confirmDeleteBackup": {
+    "message": "هل أنت متأكد أنك تريد حذف هذه النسخة الاحتياطية؟ لا يمكن التراجع عن هذا."
+  },
+  "confirmDeleteFromTrash": {
+    "message": "هل أنت متأكد من حذف هذا الرابط نهائياً؟ لا يمكن التراجع عن ذلك."
+  },
+  "confirmDeleteTemplate": {
+    "message": "حذف هذا الروتين؟ لا يمكن التراجع عن ذلك."
+  },
+  "confirmEmptyTrash": {
+    "message": "هل أنت متأكد أنك تريد حذف كل العناصر من سلة المهملات نهائياً؟ لا يمكن التراجع عن ذلك."
+  },
+  "confirmImport": {
+    "message": "تحذير: سيؤدي هذا إلى استبدال كل بيانات Tabstract الحالية (الإعدادات، الجلسات المحفوظة، سلة المهملات، إلخ) بالبيانات المستوردة.\n\nلا يمكن التراجع عن هذا الإجراء.\n\nهل أنت متأكد من المتابعة؟"
+  },
+  "confirmReset": {
+    "message": "هل أنت متأكد من رغبتك في إعادة تعيين Tabstract؟\n\nسيتم حذف جميع علامات التبويب، بما في ذلك تلك الموجودة في الجلسات المقفلة.\n\nلا يمكن التراجع عن هذا الإجراء."
+  },
+  "confirmRestoreEverything": {
+    "message": "سيؤدي هذا إلى استبدال جميع بيانات Tabstract الحالية (علامات التبويب، الإعدادات، الروتينات، المرشحات، إلخ) ببيانات من هذه النسخة الاحتياطية.\n\nسيتم إنشاء نسخة احتياطية قبل الاستعادة أولاً، تحسبًا لأي طارئ.\n\nمتابعة؟"
+  },
+  "confirmRestoreTabsMerge": {
+    "message": "سيؤدي هذا إلى دمج علامات التبويب الاحتياطية مع علامات التبويب الحالية، مع الحفاظ على كليهما.\n\nسيتم أيضًا إنشاء نسخة احتياطية قبل الاستعادة تحسبًا لأي طارئ.\n\nمتابعة؟"
+  },
+  "confirmRestoreTabsOnly": {
+    "message": "سيؤدي هذا إلى استبدال علامات التبويب المحفوظة فقط بعلامات التبويب من هذه النسخة الاحتياطية. لن تتغير الإعدادات والروتينات والمرشحات.\n\nسيتم إنشاء نسخة احتياطية قبل الاستعادة أولاً، تحسبًا لأي طارئ.\n\nمتابعة؟"
+  },
+  "contactSupport": {
+    "message": "تواصل"
+  },
+  "copiedToClipboard": {
+    "message": "تم النسخ!"
+  },
+  "copyAllToClipboard": {
+    "message": "نسخ كـ Markdown"
+  },
+  "copyFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "copyFormatPlain": {
+    "message": "نص عادي"
+  },
+  "copyFormatRich": {
+    "message": "نص منسق"
+  },
+  "copyMenu": {
+    "message": "نسخ..."
+  },
+  "createFilter": {
+    "message": "إنشاء مرشح"
+  },
+  "createNewFilter": {
+    "message": "إنشاء مرشح جديد"
+  },
+  "customColor": {
+    "message": "لون مخصص"
+  },
+  "dailyAt": {
+    "message": "يوميًا عند {time}"
+  },
+  "darkAuto": {
+    "message": "تلقائي"
+  },
+  "darkDark": {
+    "message": "داكن"
+  },
+  "darkLight": {
+    "message": "فاتح"
+  },
+  "darkModeDesc": {
+    "message": "اختر نظام الألوان"
+  },
+  "darkModeLabel": {
+    "message": "الوضع الداكن"
+  },
+  "darkOff": {
+    "message": "إيقاف"
+  },
+  "darkSystem": {
+    "message": "النظام"
+  },
+  "dayFormat": {
+    "message": "numeric"
+  },
+  "dayOfMonth": {
+    "message": "اليوم من الشهر:"
+  },
+  "days": {
+    "message": "الأيام:"
+  },
+  "debugConsole": {
+    "message": "وحدة تصحيح الأخطاء"
+  },
+  "deleteAfterRestore": {
+    "message": "استعادة علامات التبويب تزيلها من Tabstract <span class=\"hint\"><strong class=\"info\">Shift+Click</strong> عند الاستعادة للتعطيل مؤقتاً</span>"
+  },
+  "deleteAfterRestoreDesc": {
+    "message": "يتم حذف علامات التبويب من Tabstract عند استعادتها <span class=\"hint\"><strong class=\"info\">Shift+Click</strong> للتعطيل المؤقت</span>"
+  },
+  "deleteAfterRestoreLabel": {
+    "message": "إزالة علامات التبويب بعد الاستعادة"
+  },
+  "deleteBackup": {
+    "message": "حذف النسخة الاحتياطية"
+  },
+  "deleteSmartGroup": {
+    "message": "حذف المرشح"
+  },
+  "deleteTab": {
+    "message": "احذف هذه العلامة"
+  },
+  "dismissAIUnavailableMessage": {
+    "message": "رفض رسالة عدم توفر Apple Intelligence"
+  },
+  "downloadData": {
+    "message": "تنزيل البيانات"
+  },
+  "downloadReport": {
+    "message": "تنزيل تقرير النظام"
+  },
+  "draftDelete": {
+    "message": "حذف"
+  },
+  "dragToReorder": {
+    "message": "اسحب لإعادة الترتيب"
+  },
+  "duplicateGroup": {
+    "message": "تكرار المجموعة"
+  },
+  "duplicatesRemoved": {
+    "message": "تمت إزالة {count} من العناصر المكررة"
+  },
+  "editFilter": {
+    "message": "تحرير المرشح"
+  },
+  "editSchedule": {
+    "message": "تحرير الجدول"
+  },
+  "emailBodyTemplate": {
+    "message": "مرحباً،\n\nأواجه مشكلة في Tabstract.\n\nاتبع هذه الخطوات لإعادة المشكلة:\n1.\n2.\n3.\n\n\nإليك بيانات Local Storage للمساعدة في التشخيص:\n\n$1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "data": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "emailSupport": {
+    "message": "بريد الدعم"
+  },
+  "emptySessionHint": {
+    "message": "اسحب الروابط هنا لإضافتها إلى هذه الجلسة"
+  },
+  "emptyTrash": {
+    "message": "تفريغ سلة المهملات"
+  },
+  "emptyTrashWithCount": {
+    "message": "تفريغ السلة ($1 عنصر)",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "enableBadge": {
+    "message": "عرض شارة التذكير في شريط الأدوات"
+  },
+  "enableKeyboardShortcuts": {
+    "message": "تفعيل اختصارات لوحة المفاتيح"
+  },
+  "errorMaxLength": {
+    "message": "تم تجاوز الحد الأقصى للطول"
+  },
+  "errorParsingJson": {
+    "message": "خطأ في تحليل JSON: $1"
+  },
+  "expandAll": {
+    "message": "توسيع الكل"
+  },
+  "expandSession": {
+    "message": "توسيع الجلسة"
+  },
+  "expandTemplate": {
+    "message": "توسيع الروتين"
+  },
+  "expiredLabel": {
+    "message": "منتهي الصلاحية"
+  },
+  "expiresInDays": {
+    "message": "ينتهي خلال $1 يوم",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInHours": {
+    "message": "ينتهي خلال $1 ساعة",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInLessThanHour": {
+    "message": "ينتهي خلال أقل من ساعة"
+  },
+  "export": {
+    "message": "تصدير"
+  },
+  "exportBackupShowInFinder": {
+    "message": "إظهار في Finder"
+  },
+  "exportFormatHTML": {
+    "message": "HTML"
+  },
+  "exportFormatJSON": {
+    "message": "JSON"
+  },
+  "exportFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "exportFormatOPML": {
+    "message": "OPML"
+  },
+  "exportFormatPlain": {
+    "message": "نص عادي"
+  },
+  "exportMenu": {
+    "message": "تصدير..."
+  },
+  "exportSavedLinks": {
+    "message": "تصدير الروابط المحفوظة"
+  },
+  "exportSuccess": {
+    "message": "تم التصدير بنجاح!"
+  },
+  "filterAll": {
+    "message": "الكل"
+  },
+  "filterColor": {
+    "message": "اللون:"
+  },
+  "filterDate": {
+    "message": "التاريخ:"
+  },
+  "filterDateLastMonth": {
+    "message": "الشهر الماضي"
+  },
+  "filterDateLastWeek": {
+    "message": "الأسبوع الماضي"
+  },
+  "filterDateMonth": {
+    "message": "هذا الشهر"
+  },
+  "filterDateToday": {
+    "message": "اليوم"
+  },
+  "filterDateWeek": {
+    "message": "هذا الأسبوع"
+  },
+  "filterDateYesterday": {
+    "message": "أمس"
+  },
+  "filterDomain": {
+    "message": "النطاق:"
+  },
+  "filterLock": {
+    "message": "القفل:"
+  },
+  "filterName": {
+    "message": "الوصف"
+  },
+  "filters": {
+    "message": "مرشحات"
+  },
+  "filtersDescription": {
+    "message": "يمكن للمرشحات فرز علامات التبويب وتنظيمها تلقائياً بناءً على النطاق أو الكلمة المفتاحية أو أنماط أخرى. <strong>تُطبق المرشحات حسب الأولوية</strong> من الأعلى إلى الأسفل؛ اسحب لإعادة الترتيب."
+  },
+  "formatOneTab": {
+    "message": "تصدير OneTab"
+  },
+  "formatTSV": {
+    "message": "TSV"
+  },
+  "formatTabSpace": {
+    "message": "نسخة احتياطية من Tab Space"
+  },
+  "formatTabsSaver": {
+    "message": "نسخة Tabs Saver الاحتياطية"
+  },
+  "formatTabstractJSON": {
+    "message": "تصدير Tabstract بصيغة JSON"
+  },
+  "frequency": {
+    "message": "التكرار:"
+  },
+  "fullScreenMode": {
+    "message": "وضع ملء الشاشة (F)"
+  },
+  "groupNameRequired": {
+    "message": "اسم المجموعة مطلوب"
+  },
+  "guideAIFeaturesBody": {
+    "message": "إذا كان حاسوبك يدعم Apple Intelligence، فيمكن لـ Tabstract تصنيف علامات التبويب المحفوظة تلقائياً في مجموعات موضوعية. انقر على <strong>أيقونة اللمعان ✨</strong> بجوار أي عنوان جلسة لإنشاء عنوان جديد. الأجهزة التي لا تدعم Apple Intelligence ستستخدم التاريخ والوقت بدلاً من ذلك."
+  },
+  "guideAIFeaturesTitle": {
+    "message": "تنظيم علامات التبويب بالذكاء الاصطناعي"
+  },
+  "guideBadgeNotificationsBody": {
+    "message": "تعرض شارة شريط الأدوات عدد الجلسات المحفوظة لتبقى في الواجهة حتى لو كانت مخفية. يخفي وضع التأجيل الشارة حتى 24 ساعة، أو يمكنك تعطيلها من الإعدادات."
+  },
+  "guideBadgeNotificationsTitle": {
+    "message": "شارة شريط الأدوات"
+  },
+  "guideDragToReorderBody": {
+    "message": "انقر واسحب الروابط والجلسات منفردة لإعادة ترتيب علامات التبويب المحفوظة بالطريقة التي تريدها."
+  },
+  "guideDragToReorderTitle": {
+    "message": "تنظيم بالسحب والإفلات"
+  },
+  "guideGettingStartedBody": {
+    "message": "يساعدك Tabstract على حفظ علامات تبويب Safari وتنظيمها. للبدء، انقر بزر الماوس الأيمن فوق شريط أدوات Safari، واختر \"تخصيص\"، واسحب أيقونة Tabstract إلى شريط الأدوات. بعد إضافته، انقر على Tabstract ثم <strong>حفظ علامات التبويب</strong> لالتقاط كل علامات التبويب المفتوحة في النافذة الحالية."
+  },
+  "guideGettingStartedTitle": {
+    "message": "البدء"
+  },
+  "guideKeyboardShortcutsBody": {
+    "message": "يتضمن Tabstract اختصارات لوحة مفاتيح ومفاتيح مساعدة للمستخدمين المتقدمين. يمكن تعطيل الاختصارات من الإعدادات.<br><br><strong>الاختصارات الرئيسية:</strong><br><br>حفظ كل علامات التبويب: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd><br>حفظ علامة التبويب الحالية فقط: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd><br>فتح قائمة الجلسات المحفوظة: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd><br><br><strong>الإجراءات السريعة:</strong><br><br>تركيز مربع البحث: <kbd>/</kbd><br>إنشاء جلسة جديدة: <kbd>N</kbd><br><br><strong>توليفات الأزرار:</strong><br><br>حفظ العلامة الحالية فقط: <kbd>Shift</kbd> + انقر <em>حفظ علامات التبويب</em><br>توسيع/طي جميع الجلسات: <kbd>Shift</kbd> + انقر <em>زر طي الجلسة</em><br>عكس إعداد \"إزالة علامات التبويب بعد الاستعادة\" مؤقتاً: <kbd>Shift</kbd> + انقر <em>استعادة</em><br>عكس إعداد \"الاستعادة في الخلفية\" مؤقتاً: <kbd>Option</kbd> + انقر <em>استعادة</em>"
+  },
+  "guideKeyboardShortcutsTitle": {
+    "message": "اختصارات لوحة المفاتيح"
+  },
+  "guidePasteLinksBody": {
+    "message": "يمكنك نسخ الروابط من تطبيقات أخرى ولصق عناوين URL مباشرة في Tabstract! سيجلب Tabstract عناوين الصفحات تلقائياً ويضيفها إلى مجموعتك."
+  },
+  "guidePasteLinksTitle": {
+    "message": "نسخ الروابط ولصقها في Tabstract"
+  },
+  "guideShiftClickBody": {
+    "message": "استمر بالضغط على <kbd>Shift</kbd> أثناء النقر فوق زر طي أي جلسة لتوسيع جميع الجلسات أو طيها دفعة واحدة."
+  },
+  "guideShiftClickTitle": {
+    "message": "Shift-Click للتوسيع أو الطي للجميع"
+  },
+  "guideTrashUndoBody": {
+    "message": "تنتقل الروابط المحذوفة إلى سلة المهملات لمدة 30 يوماً قبل حذفها نهائياً. سلة المهملات محدودة بـ 1,000 عنصر للحفاظ على سرعة Tabstract."
+  },
+  "guideTrashUndoTitle": {
+    "message": "سلة المهملات"
+  },
+  "helpPageTitle": {
+    "message": "الدعم واستكشاف الأخطاء - Tabstract"
+  },
+  "helpSupportInstructions": {
+    "message": "هل لديك أسئلة أو طلبات ميزات أو تحتاج إلى مساعدة؟ انقر على <em>بريد الدعم</em> ثم <em>سماح</em>، أو أرسل تقرير النظام إلى <em>help@tabstract.app</em> مع أي تفاصيل حول مشكلتك.<br /><br />لا تتردد أيضاً في مراسلتنا بطلبات الميزات أو تقارير الأخطاء أو تحسينات الترجمة وغير ذلك."
+  },
+  "helpTitle": {
+    "message": "دعم"
+  },
+  "hourFormat": {
+    "message": "numeric"
+  },
+  "hourAgo": {
+    "message": "قبل ساعة",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hoursAgo": {
+    "message": "قبل $1 ساعات",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "import": {
+    "message": "استيراد"
+  },
+  "importData": {
+    "message": "استيراد البيانات"
+  },
+  "importError": {
+    "message": "فشل استيراد البيانات. يرجى التأكد من أن الملف تصدير صالح لبيانات Tabstract."
+  },
+  "importFailedPrefix": {
+    "message": "فشل الاستيراد: "
+  },
+  "importLinksLabel": {
+    "message": "استيراد الروابط"
+  },
+  "importMenu": {
+    "message": "استيراد..."
+  },
+  "importSuccess": {
+    "message": "تم استيراد البيانات بنجاح! سيُعاد تحميل Tabstract الآن."
+  },
+  "importSuccessMessage": {
+    "message": "تم استيراد $1 رابطاً صالحاً (عبر $2 جلسة).\nتم تجاوز $3 رابطاً غير صالح.\n\nسيتم جلب عناوين الصفحات في الخلفية.",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "errors": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$3",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "links": {
+        "content": "$1"
+      },
+      "sessions": {
+        "content": "$2"
+      }
+    }
+  },
+  "importSystemBackup": {
+    "message": "استيراد نسخة احتياطية للنظام"
+  },
+  "invalidJsonFormat": {
+    "message": "تنسيق JSON غير صالح."
+  },
+  "invalidRegexPrefix": {
+    "message": "تعبير نمطي غير صالح: "
+  },
+  "justNow": {
+    "message": "الآن"
+  },
+  "langNameArabic": {
+    "message": "العربية"
+  },
+  "langNameChineseCN": {
+    "message": "الصينية المبسطة"
+  },
+  "langNameChineseTW": {
+    "message": "الصينية التقليدية"
+  },
+  "langNameDanish": {
+    "message": "الدانماركية"
+  },
+  "langNameDutch": {
+    "message": "الهولندية"
+  },
+  "langNameEnglish": {
+    "message": "الإنجليزية"
+  },
+  "langNameFrench": {
+    "message": "الفرنسية"
+  },
+  "langNameFrenchCA": {
+    "message": "الفرنسية (كندا)"
+  },
+  "langNameGerman": {
+    "message": "الألمانية"
+  },
+  "langNameItalian": {
+    "message": "الإيطالية"
+  },
+  "langNameJapanese": {
+    "message": "اليابانية"
+  },
+  "langNameKorean": {
+    "message": "الكورية"
+  },
+  "langNameNorwegian": {
+    "message": "النرويجية"
+  },
+  "langNamePortugueseBR": {
+    "message": "البرتغالية (البرازيل)"
+  },
+  "langNamePortuguesePT": {
+    "message": "البرتغالية"
+  },
+  "langNameRussian": {
+    "message": "الروسية"
+  },
+  "langNameSpanish": {
+    "message": "الإسبانية"
+  },
+  "langNameSpanishLA": {
+    "message": "الإسبانية لأمريكا اللاتينية"
+  },
+  "langNameSwedish": {
+    "message": "السويدية"
+  },
+  "langNameTurkish": {
+    "message": "التركية"
+  },
+  "langNameVietnamese": {
+    "message": "الفيتنامية"
+  },
+  "languageAuto": {
+    "message": "لغة النظام الافتراضية"
+  },
+  "languageDesc": {
+    "message": "اختر لغة العرض"
+  },
+  "languageLabel": {
+    "message": "اللغة"
+  },
+  "lastBackup": {
+    "message": "آخر نسخة احتياطية:"
+  },
+  "lastRun": {
+    "message": "آخر تشغيل: {time}"
+  },
+  "launchOnStartup": {
+    "message": "اعرض Tabstract عند بدء تشغيل متصفحك"
+  },
+  "launchOnStartupDesc": {
+    "message": "افتح Tabstract عند تشغيل Safari"
+  },
+  "launchOnStartupLabel": {
+    "message": "تشغيل عند بدء التشغيل"
+  },
+  "learnMore": {
+    "message": "معرفة المزيد"
+  },
+  "learnMoreAboutFeatures": {
+    "message": "تعرف على الميزات الجديدة"
+  },
+  "linkRestored": {
+    "message": "تمت إعادة الرابط إلى جلسة جديدة"
+  },
+  "loadingBackups": {
+    "message": "جارٍ تحميل النسخ الاحتياطية..."
+  },
+  "lockAll": {
+    "message": "قفل الكل"
+  },
+  "lockSession": {
+    "message": "قفل"
+  },
+  "lockSessionTitle": {
+    "message": "قفل الجلسة"
+  },
+  "lockUnlockAll": {
+    "message": "قفل/فك قفل الكل"
+  },
+  "manageFiltersMenuItem": {
+    "message": "إدارة المرشحات..."
+  },
+  "manageTemplates": {
+    "message": "إدارة روتين"
+  },
+  "manageTemplatesMenuItem": {
+    "message": "إدارة روتين..."
+  },
+  "match": {
+    "message": "إذا"
+  },
+  "matches": {
+    "message": "التطابقات:"
+  },
+  "mergeIntoSessionBelow": {
+    "message": "دمج في الجلسة التالية"
+  },
+  "minuteFormat": {
+    "message": "numeric"
+  },
+  "minuteAgo": {
+    "message": "قبل دقيقة",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "minutesAgo": {
+    "message": "قبل $1 دقائق",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "monthFormat": {
+    "message": "long"
+  },
+  "monthlyOn": {
+    "message": "شهريًا في {day} عند {time}"
+  },
+  "moreActions": {
+    "message": "إجراءات أخرى"
+  },
+  "moreShort": {
+    "message": "More"
+  },
+  "moveToTop": {
+    "message": "أرسل إلى الأعلى"
+  },
+  "navHelp": {
+    "message": "مساعدة + نصائح"
+  },
+  "navHome": {
+    "message": "الرئيسية"
+  },
+  "navSelect": {
+    "message": "تحديد"
+  },
+  "navSettings": {
+    "message": "الإعدادات"
+  },
+  "navSnooze": {
+    "message": "وضع التأجيل"
+  },
+  "needHelpWithTabstract": {
+    "message": "تحتاج مساعدة في Tabstract"
+  },
+  "never": {
+    "message": "أبدًا"
+  },
+  "newButton": {
+    "message": "جديد"
+  },
+  "newTabGroup": {
+    "message": "مجموعة علامات تبويب جديدة"
+  },
+  "no": {
+    "message": "لا"
+  },
+  "noAvailableTabs": {
+    "message": "لا توجد علامات تبويب متاحة"
+  },
+  "noBackupsYet": {
+    "message": "لا توجد نسخ احتياطية بعد"
+  },
+  "noColor": {
+    "message": "لا لون"
+  },
+  "noResultsFound": {
+    "message": "لا توجد نتائج لـ"
+  },
+  "noSavedLinksToExport": {
+    "message": "لا توجد جلسات محفوظة للتصدير."
+  },
+  "noTabsAvailableToSave": {
+    "message": "لا توجد علامات تبويب متاحة للحفظ"
+  },
+  "noTabsSaved": {
+    "message": "لا توجد علامات تبويب محفوظة."
+  },
+  "noTemplatesInstructions": {
+    "message": "لا توجد روتينات محفوظة بعد.<br>أنشئ روتيناً من جلسة للبدء."
+  },
+  "noTemplatesSaved": {
+    "message": "لا توجد روتينات محفوظة بعد.<br>أنشئ روتيناً من جلسة للبدء."
+  },
+  "noTemplatesSavedYet": {
+    "message": "لا توجد قوالب محفوظة بعد"
+  },
+  "nonMatchingWarning": {
+    "message": "<strong>⚠️ تحذير:</strong> $1 علامة تبويب في هذه المجموعة لم تعد تطابق الأنماط وسيتم نقلها إلى جلسة جديدة بعنوان \"<strong>تمت الإزالة من $2</strong>\".",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "content": "$1"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$2",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "none": {
+    "message": "لا شيء"
+  },
+  "ofTheFollowingConditions": {
+    "message": "من الشروط التالية محققة:"
+  },
+  "ok": {
+    "message": "موافق"
+  },
+  "oneclickSave": {
+    "actionsMenu": {
+      "message": "Actions"
+    },
+    "bulkActionDuplicate": {
+      "message": "Duplicate"
+    },
+    "bulkActionLockUnlock": {
+      "message": "Lock/Unlock Selected"
+    },
+    "colorBlue": {
+      "message": "Blue"
+    },
+    "colorDefault": {
+      "message": "Default"
+    },
+    "colorGreen": {
+      "message": "Green"
+    },
+    "colorOrange": {
+      "message": "Orange"
+    },
+    "colorPink": {
+      "message": "Pink"
+    },
+    "colorPurple": {
+      "message": "Purple"
+    },
+    "colorRed": {
+      "message": "Red"
+    },
+    "colorYellow": {
+      "message": "Yellow"
+    },
+    "filterAll": {
+      "message": "All"
+    },
+    "message": "حفظ بنقرة واحدة <span class=\"hint\"><strong class=\"caution\">تحذير:</strong> هذا يزيل الرئيسية والتأجيل؛ استخدم Shift+Command+H لعرض الرئيسية.</span>"
+  },
+  "oneclickSaveDesc": {
+    "message": "<span class=\"hint\"><strong class=\"caution\">تحذير:</strong> هذه ميزة تجريبية وتزيل أزرار الصفحة الرئيسية/التأجيل. استخدم <strong>Shift+Command+H</strong> لفتح الصفحة الرئيسية</span>"
+  },
+  "oneclickSaveLabel": {
+    "message": "حفظ بنقرة واحدة"
+  },
+  "openLink": {
+    "message": "افتح $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "pageTitle": {
+    "message": "الأدوات والإعدادات - Tabstract"
+  },
+  "pasteLinks": {
+    "message": "لصق عناوين URL"
+  },
+  "performActions": {
+    "message": "تنفيذ الإجراءات التالية:"
+  },
+  "pinToTop": {
+    "message": "تثبيت في الأعلى"
+  },
+  "pinnedTabsDesc": {
+    "message": "لن تُغلق العلامات المثبتة أو تُحفظ في Tabstract"
+  },
+  "pinnedTabsLabel": {
+    "message": "لا تحفظ علامات التبويب المثبتة"
+  },
+  "pinnedTabsSetting": {
+    "message": "<strong>لا تحفظ علامات التبويب المثبتة</strong> (لن تُغلق العلامات المثبتة ولن تُحفظ في Tabstract)"
+  },
+  "pleaseEnterDayBetween1And31": {
+    "message": "يرجى إدخال رقم بين 1 و31."
+  },
+  "pleaseEnterPattern": {
+    "message": "يرجى إدخال قيمة للنمط"
+  },
+  "pleaseSelectAtLeastOneDay": {
+    "message": "يرجى اختيار يوم واحد على الأقل للجدول الأسبوعي."
+  },
+  "pm": {
+    "message": "مساءً"
+  },
+  "refreshData": {
+    "message": "تحديث بيانات التصحيح"
+  },
+  "removeFromSession": {
+    "message": "إزالة $1 من الجلسة",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "removedFrom": {
+    "message": "تمت الإزالة من $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "resetGroupColors": {
+    "message": "إعادة تعيين الألوان"
+  },
+  "restoreAllTabs": {
+    "message": "استعادة كل علامات التبويب"
+  },
+  "restoreError": {
+    "message": "فشلت الاستعادة من النسخة الاحتياطية. يرجى المحاولة مرة أخرى."
+  },
+  "restoreInBackground": {
+    "message": "تُفتح علامات التبويب المستعادة في الخلفية <span class=\"hint\"><strong class=\"info\">Option+Click</strong> عند الاستعادة للتعطيل المؤقت</span>"
+  },
+  "restoreInBackgroundDesc": {
+    "message": "تُفتح علامات التبويب المستعادة خلف Tabstract بدلاً من تغيير التركيز <span class=\"hint\"><strong class=\"info\">Option+Click</strong> للتعطيل المؤقت</span>"
+  },
+  "restoreInBackgroundLabel": {
+    "message": "استعادة علامات التبويب في الخلفية"
+  },
+  "restoreTabsDialogDetail": {
+    "message": "سيضيف الدمج علامات التبويب الاحتياطية بجانب علامات التبويب الحالية. سيتم إنشاء نسخة احتياطية قبل الاستعادة أولاً."
+  },
+  "restoreTabsDialogMessage": {
+    "message": "هل تريد استبدال علامات التبويب الحالية أم دمجها مع النسخة الاحتياطية؟"
+  },
+  "restoreTabsMerge": {
+    "message": "دمج"
+  },
+  "restoreTabsReplace": {
+    "message": "استبدال"
+  },
+  "restoreTabsToCurrentWindow": {
+    "message": "النافذة الحالية"
+  },
+  "restoreTabsToLabel": {
+    "message": "استعادة مجموعات علامات التبويب في:"
+  },
+  "restoreTabsToNewWindow": {
+    "message": "نافذة جديدة"
+  },
+  "restoredFromTrashSessionName": {
+    "message": "مُستعاد من السلة"
+  },
+  "restoredLinkSessionName": {
+    "message": "رابط مُستعاد"
+  },
+  "reviewButton": {
+    "message": "قيّمنا على App Store ★★★★★"
+  },
+  "reviewLaterButton": {
+    "message": "ربما لاحقاً"
+  },
+  "reviewMessage": {
+    "message": "Tabstract مجاني لكنه يعتمد على التقييمات والمراجعات، رجاءً اترك لنا تقييماً!"
+  },
+  "reviewModalText": {
+    "message": "Tabstract مجاني لكنه يتغذى على التقييمات والمراجعات 🚀 نرجو أن تمنحنا تقييماً من 5 نجوم!"
+  },
+  "reviewModalTitle": {
+    "message": "هل تستمتع بـ Tabstract؟"
+  },
+  "runFiltersConfirm": {
+    "message": "سيتم معالجة {sessions} جلسة تحتوي على {tabs} علامة تبويب. المتابعة؟"
+  },
+  "runFiltersMenuItem": {
+    "message": "تشغيل المرشحات"
+  },
+  "runFiltersNoFilters": {
+    "message": "لا توجد مرشحات. أنشئ مرشحات أولاً."
+  },
+  "runFiltersNoSessions": {
+    "message": "لا توجد جلسات غير مقفلة للمعالجة."
+  },
+  "runFiltersSuccess": {
+    "message": "تمت معالجة {matched} علامة تبويب بواسطة المرشحات"
+  },
+  "sampleSessionCreated": {
+    "message": "تم إنشاء الجلسة النموذجية!"
+  },
+  "sampleSessionName": {
+    "message": "البدء مع Tabstract"
+  },
+  "sampleTab1Title": {
+    "message": "موقع Tabstract"
+  },
+  "sampleTab2Title": {
+    "message": "Tabstract على App Store"
+  },
+  "sampleTab3Title": {
+    "message": "قيّم Tabstract على App Store"
+  },
+  "sampleTab4Title": {
+    "message": "By The Farm"
+  },
+  "save": {
+    "message": "حفظ"
+  },
+  "saveAllWindowsDesc": {
+    "message": "يحفظ علامات التبويب من كل نوافذ Safari المفتوحة، وليس النافذة الحالية فقط"
+  },
+  "saveAllWindowsLabel": {
+    "message": "حفظ علامات التبويب من جميع النوافذ"
+  },
+  "saveAlsoCloses": {
+    "message": "<strong>أغلق علامات التبويب</strong> عند الحفظ"
+  },
+  "saveAlsoClosesDesc": {
+    "message": "تُغلق علامات التبويب تلقائياً بعد حفظها في Tabstract"
+  },
+  "saveAlsoClosesLabel": {
+    "message": "أغلق علامات التبويب عند الحفظ"
+  },
+  "saveAsTemplate": {
+    "message": "حفظ كروتين"
+  },
+  "saveFilter": {
+    "message": "حفظ المرشح"
+  },
+  "saveSelected": {
+    "message": "حفظ العناصر المحددة"
+  },
+  "saveSelectedPlural": {
+    "message": "حفظ {count} من علامات التبويب"
+  },
+  "saveSelectedSingular": {
+    "message": "حفظ علامة تبويب واحدة"
+  },
+  "saveTab": {
+    "message": "حفظ علامة التبويب"
+  },
+  "saveTabs": {
+    "message": "حفظ علامات التبويب"
+  },
+  "saveTabsOnStartupDesc": {
+    "message": "احفظ وأغلق كل علامات التبويب المفتوحة تلقائياً عند بدء Safari"
+  },
+  "saveTabsOnStartupLabel": {
+    "message": "احفظ وأغلق علامات التبويب المفتوحة عند بدء التشغيل"
+  },
+  "savedOnLabel": {
+    "message": "تم الحفظ: $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "date": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "scheduleAddButton": {
+    "message": "+ جدول"
+  },
+  "scheduleDaily": {
+    "message": "يومي"
+  },
+  "scheduleEditButton": {
+    "message": "تحرير"
+  },
+  "scheduleHourly": {
+    "message": "كل ساعة"
+  },
+  "scheduleMonthly": {
+    "message": "شهري"
+  },
+  "scheduleNotifyLabel": {
+    "message": "إظهار إشعار عند تنفيذ الروتين"
+  },
+  "scheduleWeekly": {
+    "message": "أسبوعي"
+  },
+  "searchFocusTitle": {
+    "message": "تركيز البحث (الاختصار: /)"
+  },
+  "searchPlaceholder": {
+    "message": "بحث"
+  },
+  "searchResults": {
+    "message": "نتائج البحث"
+  },
+  "sectionAppleIntelligence": {
+    "message": "AI مدعوم بواسطة Apple Intelligence"
+  },
+  "sectionAppleIntelligenceDesc": {
+    "message": "ميزات ذكاء اصطناعي على الجهاز من Apple Intelligence"
+  },
+  "sectionInterface": {
+    "message": "عام"
+  },
+  "sectionInterfaceDesc": {
+    "message": "خصّص تجربة Tabstract"
+  },
+  "sectionTabRestoring": {
+    "message": "استعادة علامات التبويب"
+  },
+  "sectionTabRestoringDesc": {
+    "message": "يتحكم بما يحدث عند استعادة علامات التبويب"
+  },
+  "sectionTabSaving": {
+    "message": "حفظ علامات التبويب"
+  },
+  "sectionTabSavingDesc": {
+    "message": "يتحكم بما يحدث عند حفظ علامات التبويب"
+  },
+  "selectAll": {
+    "message": "تحديد الكل"
+  },
+  "selectFileToImport": {
+    "message": "يرجى اختيار ملف لاستيراده."
+  },
+  "selectNone": {
+    "message": "إلغاء التحديد"
+  },
+  "selectTabsToSave": {
+    "message": "اختر علامات التبويب لحفظها"
+  },
+  "sessionActions": {
+    "message": "إجراءات الجلسة"
+  },
+  "sessionLocked": {
+    "message": "الجلسة مقفلة"
+  },
+  "settingsSubtitle": {
+    "message": "يُطبق التغيير فوراً"
+  },
+  "shortcutOpenTabstractLabel": {
+    "message": "فتح Tabstract:"
+  },
+  "shortcutSaveCurrentTabLabel": {
+    "message": "حفظ علامة التبويب الحالية:"
+  },
+  "shortcutSaveTabsLabel": {
+    "message": "حفظ علامات التبويب:"
+  },
+  "simpleMode": {
+    "message": "الوضع البسيط"
+  },
+  "smartGroupCopyButton": {
+    "message": "نسخ"
+  },
+  "smartGroupDeleteConfirm": {
+    "message": "حذف هذا المرشح؟ سيتم تحويل علامات التبويب في هذه المجموعة إلى جلسة عادية."
+  },
+  "smartGroupHelpDomain": {
+    "message": "أدخل اسم نطاق (مثل github.com). يطابق النطاق نفسه وجميع النطاقات الفرعية."
+  },
+  "smartGroupHelpKeyword": {
+    "message": "أدخل كلمة للبحث في عناوين URL وعناوين الصفحات (مثل \"react\"). غير حساس لحالة الأحرف."
+  },
+  "smartGroupHelpRegex": {
+    "message": "أدخل تعبيراً نمطياً (مثل (github|gitlab)\\.com). يطابق عنوان URL والعنوان."
+  },
+  "smartGroupNameLabel": {
+    "message": "اسم المرشح"
+  },
+  "smartGroupNamePlaceholder": {
+    "message": "مثال: مشاريع GitHub"
+  },
+  "smartGroupNameRequired": {
+    "message": "اسم المرشح مطلوب"
+  },
+  "smartGroupPatternInvalidRegex": {
+    "message": "تعبير نمطي غير صالح"
+  },
+  "smartGroupPatternLabel": {
+    "message": "النمط"
+  },
+  "smartGroupPatternRequired": {
+    "message": "النمط مطلوب"
+  },
+  "smartGroupPatternTypeKeyword": {
+    "message": "كلمة مفتاحية"
+  },
+  "smartGroupPatternTypeLabel": {
+    "message": "نوع النمط"
+  },
+  "smartGroupPatternTypeRegex": {
+    "message": "تعبير نمطي"
+  },
+  "smartGroupPinButton": {
+    "message": "تثبيت"
+  },
+  "smartGroupPreviewText": {
+    "message": "تطابق هذا النمط حالياً"
+  },
+  "smartGroupUnpinButton": {
+    "message": "إلغاء التثبيت"
+  },
+  "smartGroupsCreateButton": {
+    "message": "+ إنشاء مرشح"
+  },
+  "smartGroupsEmptyMessage": {
+    "message": "لا توجد مرشحات بعد."
+  },
+  "smartGroupsModalTitle": {
+    "message": "إدارة المرشحات"
+  },
+  "snoozeLabel": {
+    "message": "<strong>وضع التأجيل</strong> يخفي الشارة لمدة"
+  },
+  "snoozeSuffix": {
+    "message": "ساعة/ساعات"
+  },
+  "snoozeToolbarBadge": {
+    "message": "تأجيل شارة شريط الأدوات"
+  },
+  "sortBy": {
+    "message": "فرز حسب"
+  },
+  "sortNewest": {
+    "message": "الأحدث أولاً"
+  },
+  "sortNewestToOldest": {
+    "message": "فرز الأحدث أولاً"
+  },
+  "sortOldest": {
+    "message": "الأقدم أولاً"
+  },
+  "sortOldestToNewest": {
+    "message": "فرز الأقدم أولاً"
+  },
+  "sortRainbow": {
+    "message": "قوس قزح"
+  },
+  "splitGroup": {
+    "message": "تقسيم المجموعة"
+  },
+  "supportedFormatsHeading": {
+    "message": "الصيغ المدعومة:"
+  },
+  "tabCount": {
+    "message": "$1 علامة تبويب",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabCountOfTotal": {
+    "message": "$1 من $2 $3",
+    "placeholders": {
+      "filtered": {
+        "content": "$1"
+      },
+      "tabWord": {
+        "content": "$3"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "tabCountPlural": {
+    "message": "$1 علامة تبويب",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabGroupLetter": {
+    "message": "النافذة {letter}"
+  },
+  "tabPlural": {
+    "message": "علامات تبويب"
+  },
+  "tabSingular": {
+    "message": "علامة تبويب"
+  },
+  "templateScheduleNotification": {
+    "message": "تمت إضافة الروتين \"%s\" إلى جلساتك."
+  },
+  "templates": {
+    "message": "روتين"
+  },
+  "time": {
+    "message": "الوقت:"
+  },
+  "tipsOppensession": {
+    "message": "استخدم Shift-Click لتوسيع كل الجلسات أو طيها"
+  },
+  "tipsReminders": {
+    "message": "تُبقي شارة الإشعارات الجلسات المحفوظة في الذهن"
+  },
+  "tipsRename": {
+    "message": "امنح الجلسات أسماءً مخصّصة للمحافظة على التنظيم"
+  },
+  "tipsSingletab": {
+    "message": "اضغط مع الاستمرار على Shift لحفظ علامة التبويب الحالية فقط"
+  },
+  "tipsTitle": {
+    "message": "نصائح"
+  },
+  "tipsToolbar": {
+    "message": "اسحب Tabstract إلى شريط أدوات Safari للبدء."
+  },
+  "todayAt": {
+    "message": "اليوم، $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "toggleAllTabsInWindow": {
+    "message": "تبديل كل علامات التبويب في $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "window": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "toolbar": {
+    "message": "شريط الأدوات"
+  },
+  "trashAutoDeletesHint": {
+    "message": "يُحذف تلقائياً بعد $1 يوم",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "days": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "trashCleanupLog": {
+    "message": "تنظيف السلة: تمت إزالة العناصر المنتهية/الزائدة"
+  },
+  "trashDuplicates": {
+    "message": "حذف المكررات"
+  },
+  "trashEmpty": {
+    "message": "سلة المهملات فارغة"
+  },
+  "trashEmptyDesc": {
+    "message": "ستظهر الروابط المحذوفة هنا ويتم حذفها تلقائياً بعد 30 يوماً."
+  },
+  "trashExpiringSoon": {
+    "message": "سينتهي قريباً"
+  },
+  "trashExpiringThisWeek": {
+    "message": "ينتهي هذا الأسبوع"
+  },
+  "trashExpiringToday": {
+    "message": "ينتهي اليوم"
+  },
+  "trashExpiringTomorrow": {
+    "message": "ينتهي غداً"
+  },
+  "trashLimitHint": {
+    "message": "سلة المهملات محدودة بـ $1 رابط",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "max": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "undo": {
+    "message": "تراجع"
+  },
+  "undoDeleteLink": {
+    "message": "تم حذف الرابط. التراجع؟"
+  },
+  "undoDeleteSession": {
+    "message": "تم حذف الجلسة. التراجع؟"
+  },
+  "undoMergeSession": {
+    "message": "تم دمج الجلسات. التراجع؟"
+  },
+  "undoTimeoutDescPost": {
+    "message": "بعد الحذف"
+  },
+  "undoTimeoutDescPre": {
+    "message": "عرض زر التراجع لمدة"
+  },
+  "undoTimeoutLabel": {
+    "message": "زمن انتهاء زر التراجع"
+  },
+  "undoTimeoutSuffix": {
+    "message": "ثوانٍ"
+  },
+  "unlockAll": {
+    "message": "إلغاء قفل الكل"
+  },
+  "unlockSession": {
+    "message": "إلغاء القفل"
+  },
+  "unlocked": {
+    "message": "غير مقفل"
+  },
+  "unpinFromTop": {
+    "message": "إزالة التثبيت من الأعلى"
+  },
+  "unrecognizedFileFormat": {
+    "message": "تنسيق ملف غير معروف. التنسيقات المدعومة: JSON وOPML وMarkdown وTSV وتصديرات Tab Space وTabs Saver وOneTab."
+  },
+  "unsnooze": {
+    "message": "إلغاء التأجيل"
+  },
+  "untitledFilter": {
+    "message": "صِف هذا المرشح..."
+  },
+  "upgradeToPro": {
+    "message": "الترقية إلى Pro"
+  },
+  "userGuideTitle": {
+    "message": "كيفية استخدام Tabstract"
+  },
+  "viewTrash": {
+    "message": "عرض سلة المهملات"
+  },
+  "weekdayFormat": {
+    "message": "long"
+  },
+  "weekdaysAt": {
+    "message": "أيام الأسبوع عند {time}"
+  },
+  "weekendsAt": {
+    "message": "عطلات نهاية الأسبوع عند {time}"
+  },
+  "weeklyAt": {
+    "message": "أسبوعيًا عند {time}"
+  },
+  "welcomeActionHelp": {
+    "message": "معرفة المزيد"
+  },
+  "welcomeActionSave": {
+    "message": "جرّب جلسة نموذجية"
+  },
+  "welcomeBackSubtitle": {
+    "message": "إليك بعض النصائح لتحصل على أقصى استفادة من Tabstract:"
+  },
+  "welcomeBackTitle1": {
+    "message": "أحسنت، لا علامات تبويب! 💅"
+  },
+  "welcomeBackTitle2": {
+    "message": "صفر علامات تبويب. تعيش الحلم!"
+  },
+  "welcomeBackTitle3": {
+    "message": "لا علامات تبويب؟ أنت أسطورة. 😎"
+  },
+  "welcomeBackTitle4": {
+    "message": "أنهيت كل شيء؟ مذهل!"
+  },
+  "welcomeDescription": {
+    "message": "يحفظ Tabstract علامات تبويب Safari وينظمها لتتخلص من الفوضى."
+  },
+  "welcomeStep0Description": {
+    "message": "اسحب أيقونة Tabstract إلى شريط أدوات Safari للوصول السريع إلى الحفظ والاستعادة."
+  },
+  "welcomeStep0Title": {
+    "message": "أضِفه إلى شريط الأدوات"
+  },
+  "welcomeStep1Description": {
+    "message": "انقر على أيقونة Tabstract في شريط الأدوات أو استخدم Cmd+Shift+S لحفظ كل علامات التبويب المفتوحة."
+  },
+  "welcomeStep1Title": {
+    "message": "احفظ علامات التبويب"
+  },
+  "welcomeStep2Description": {
+    "message": "امنح الجلسات أسماءً مخصصة، واقفل المهم منها، وابق خالياً من الفوضى."
+  },
+  "welcomeStep2Title": {
+    "message": "نظم الجلسات"
+  },
+  "welcomeStep3Description": {
+    "message": "انقر أي جلسة لاستعادة جميع علامات التبويب فوراً، أو استعد العلامات الفردية حسب الحاجة."
+  },
+  "welcomeStep3Title": {
+    "message": "استعادة في أي وقت"
+  },
+  "welcomeTip": {
+    "message": "☆ نصيحة احترافية: اضغط مع الاستمرار على Shift أثناء النقر على زر الحفظ لحفظ العلامة الحالية فقط ☆"
+  },
+  "welcomeTitle": {
+    "message": "ابدأ مع Tabstract"
+  },
+  "windowLabel": {
+    "message": "نافذة"
+  },
+  "yes": {
+    "message": "نعم"
+  },
+  "yesterdayAt": {
+    "message": "أمس، $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "zeroTabs": {
+    "message": "0 علامة تبويب"
+  },
+  "back": {
+    "message": "رجوع"
+  },
+  "icloudSyncDesc": {
+    "message": "حافظ على مزامنة علامات التبويب المحفوظة عبر iPhone وiPad وMac."
+  },
+  "icloudSyncLabel": {
+    "message": "المزامنة مع iCloud"
+  },
+  "lastSynced": {
+    "message": "آخر مزامنة"
+  },
+  "neverSynced": {
+    "message": "لم تتم المزامنة مطلقًا"
+  },
+  "sectionICloudSync": {
+    "message": "مزامنة iCloud - تجريبي"
+  },
+  "syncErrorGeneric": {
+    "message": "خطأ في المزامنة، ستتم إعادة المحاولة تلقائيًا"
+  },
+  "syncErrorNetwork": {
+    "message": "لا يوجد اتصال بالشبكة"
+  },
+  "syncErrorNotAuthenticated": {
+    "message": "سجّل الدخول إلى iCloud للمزامنة"
+  },
+  "syncErrorQuota": {
+    "message": "مساحة تخزين iCloud ممتلئة"
+  },
+  "syncErrorRateLimited": {
+    "message": "طلبات كثيرة جدًا، حاول مرة أخرى لاحقًا"
+  },
+  "syncErrorZoneBusy": {
+    "message": "iCloud مشغول، حاول مرة أخرى لاحقًا"
+  },
+  "syncNoAccount": {
+    "message": "سجّل الدخول إلى iCloud للمزامنة"
+  },
+  "syncNow": {
+    "message": "مزامنة الآن"
+  },
+  "syncing": {
+    "message": "جارٍ المزامنة..."
+  },
+  "synced": {
+    "message": "تمت المزامنة!"
+  },
+  "saveActiveTabAndClose": {
+    "message": "حفظ هذه العلامة وإغلاقها"
+  },
+  "saveActiveTabNoClose": {
+    "message": "حفظ هذه العلامة بدون إغلاق"
+  },
+  "saveAllAndClose": {
+    "message": "حفظ الكل وإغلاق"
+  },
+  "saveAllNoClose": {
+    "message": "حفظ الكل بدون إغلاق"
+  },
+  "moreSaveOptions": {
+    "message": "خيارات حفظ إضافية"
+  },
+  "rename": {
+    "message": "إعادة تسمية"
+  },
+  "share": {
+    "message": "مشاركة"
+  },
+  "sessionDeleted": {
+    "message": "تم حذف الجلسة"
+  },
+  "tabDeleted": {
+    "message": "تم حذف علامة التبويب"
+  },
+  "tabsSaved": {
+    "message": "تم حفظ علامات التبويب"
+  },
+  "linksCopied": {
+    "message": "تم نسخ الروابط"
+  },
+  "connecting": {
+    "message": "جارٍ الاتصال..."
+  },
+  "justSynced": {
+    "message": "تمت المزامنة للتو"
+  },
+  "syncFailed": {
+    "message": "فشلت المزامنة"
+  },
+  "confirmPermanentDelete": {
+    "message": "هل تريد حذف هذه الجلسة نهائيًا؟"
+  },
+  "noSavedSessions": {
+    "message": "لا توجد جلسات محفوظة بعد"
+  },
+  "dayAgo": {
+    "message": "قبل $1 يوم",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "daysAgo": {
+    "message": "قبل $1 أيام",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "weekAgo": {
+    "message": "قبل $1 أسبوع",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "weeksAgo": {
+    "message": "قبل $1 أسابيع",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  }
+}

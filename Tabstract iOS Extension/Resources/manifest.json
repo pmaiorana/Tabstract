@@ -1,0 +1,50 @@
+{
+  "manifest_version": 3,
+  "default_locale": "en",
+  "name": "Tabstract",
+  "description": "Save open tabs, and bring them back later. Designed natively for Safari.",
+  "version": "1.0",
+  "icons": {
+    "48": "images/icon-48.png",
+    "64": "images/icon-64.png",
+    "96": "images/icon-96.png",
+    "512": "images/icon-512.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "ios-popup.html",
+    "default_icon": "images/toolbar-icon.svg"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "unlimitedStorage",
+    "nativeMessaging",
+    "alarms"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; img-src * data:; media-src 'self' https://tabstract.app;"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "images/default_favicon.png",
+        "images/*.svg"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

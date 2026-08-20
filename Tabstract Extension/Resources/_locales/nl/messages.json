@@ -1,0 +1,2837 @@
+{
+  "SnoozeInfo": {
+    "message": "Het badge-icoon in de werkbalk houdt opgeslagen sessies bij zodat ze niet vergeten worden. Snooze verbergt het badge-icoon tijdelijk."
+  },
+  "accentColorLabel": {
+    "message": "Kleur"
+  },
+  "actionLockTabGroup": {
+    "message": "Tabbladgroep vergrendelen"
+  },
+  "actionSendToTabGroup": {
+    "message": "Tabbladen naar tabgroep sturen"
+  },
+  "actionSendToTrash": {
+    "message": "Tabbladen naar prullenbak sturen"
+  },
+  "actionSessionName": {
+    "message": "Naam"
+  },
+  "actionSetColor": {
+    "message": "Kleur van tabbladgroep instellen"
+  },
+  "actionSetLockStatus": {
+    "message": "Vergrendelstatus instellen"
+  },
+  "actionsMenu": {
+    "message": "Acties"
+  },
+  "advancedMode": {
+    "message": "Geavanceerde modus"
+  },
+  "aiDisabledNotice": {
+    "message": "<strong>Apple Intelligence is momenteel uitgeschakeld of niet beschikbaar.</strong> Controleer het Apple Intelligence-menu in Systeeminstellingen"
+  },
+  "aiEnabledButInaccessible": {
+    "message": "<strong>Apple Intelligence lijkt te zijn ingeschakeld op uw systeem, maar Tabstract heeft er geen toegang toe.</strong><br><br>Veelvoorkomende oorzaken:<ul><li>Uw macOS-taal en Siri-taal komen niet overeen. Apple vereist dat beide op dezelfde taal zijn ingesteld.</li><li>Apple Intelligence is nog bezig met initialiseren; wacht een paar minuten en herlaad Tabstract → Instellingen.</li><li>U bevindt zich in een niet-ondersteund land. Apple Intelligence is niet beschikbaar op apparaten die in Vasteland-China zijn gekocht, of op apparaten die in Vasteland-China worden gebruikt met een Apple ID waarvan het land of de regio is ingesteld op Vasteland-China.</li></ul>"
+  },
+  "aiExperimentalNotice": {
+    "message": "<strong>Dit is een nieuwe en experimentele functie</strong>, de resultaten zullen in de loop van de tijd blijven verbeteren"
+  },
+  "aiLanguageNotSupported": {
+    "message": "AI-functies zijn niet beschikbaar in deze taal omdat Apple Intelligence deze nog niet ondersteunt. Schakel over naar Engels, Spaans, Frans, Duits, Italiaans, Japans, Koreaans, Portugees (Brazilië) of Chinees (Vereenvoudigd) om AI-functies te gebruiken."
+  },
+  "aiNotAvailable": {
+    "message": "<strong>Apple Intelligence is niet beschikbaar.</strong> Controleer uw systeeminstellingen om er zeker van te zijn dat het is ingeschakeld en klaar is"
+  },
+  "aiRegenerateTitle": {
+    "message": "Titel opnieuw genereren"
+  },
+  "aiSmartCategorizationDesc": {
+    "message": "Organiseer automatisch tabbladgroepen van <strong>6 of meer</strong> op onderwerp <span class=\"hint\"><strong class=\"info\"></strong>Vereist dat <em>Sessietitels genereren</em> is ingeschakeld</span>"
+  },
+  "aiSmartCategorizationLabel": {
+    "message": "Slimme categorisatie"
+  },
+  "aiTitleSuggestionsDesc": {
+    "message": "Gebruik Apple Intelligence—privé, on-device AI—om sessietitels voor te stellen bij het opslaan van tabbladen"
+  },
+  "aiTitleSuggestionsLabel": {
+    "message": "Sessietitels genereren"
+  },
+  "aiUnsupportedNotice": {
+    "message": "AI-functies vereisen een Mac met Apple Intelligence-ondersteuning en macOS 26.0 of nieuwer"
+  },
+  "all": {
+    "message": "alle"
+  },
+  "am": {
+    "message": "AM"
+  },
+  "any": {
+    "message": "elk"
+  },
+  "appName": {
+    "message": "Tabstract"
+  },
+  "appleIntelligenceUnavailable": {
+    "message": "Apple Intelligence niet beschikbaar"
+  },
+  "atLeastOnePatternRequired": {
+    "message": "Ten minste één patroon vereist"
+  },
+  "avoidDuplicatesDesc": {
+    "message": "Voorkomt dat dezelfde URL meerdere keren in één sessie wordt opgeslagen"
+  },
+  "avoidDuplicatesLabel": {
+    "message": "Geen dubbele tabbladen opslaan"
+  },
+  "avoidDuplicatesSetting": {
+    "message": "<strong>Geen dubbele tabbladen opslaan</strong> in dezelfde sessie"
+  },
+  "bannerNewFeatures": {
+    "message": "<strong>Nieuwe functies!</strong> Actiemenu, ondersteuning voor traditioneel Chinees, kopiëren als opgemaakte tekst, duplicaten opruimen!"
+  },
+  "bannerText": {
+    "message": "Raak nooit meer een tabblad kwijt dankzij ons nieuwe automatische back-upsysteem! Ook: bètatesters gezocht!"
+  },
+  "bannerTitle": {
+    "message": "Tabstract 3.1"
+  },
+  "bulkActionCreateGroup": {
+    "message": "Samenvoegen"
+  },
+  "bulkActionDeselect": {
+    "message": "Alles deselecteren"
+  },
+  "bulkActionDuplicate": {
+    "message": "Dupliceren"
+  },
+  "bulkActionLockUnlock": {
+    "message": "Selectie vergrendelen/ontgrendelen"
+  },
+  "bulkActionRestore": {
+    "message": "Herstellen"
+  },
+  "bulkActionTrash": {
+    "message": "Prullenbak"
+  },
+  "cancel": {
+    "message": "Annuleren"
+  },
+  "clearData": {
+    "message": "Tabstract resetten"
+  },
+  "clearFilters": {
+    "actionsMenu": {
+      "message": "Actions"
+    },
+    "bulkActionDuplicate": {
+      "message": "Duplicate"
+    },
+    "bulkActionLockUnlock": {
+      "message": "Lock/Unlock Selected"
+    },
+    "colorBlue": {
+      "message": "Blue"
+    },
+    "colorDefault": {
+      "message": "Default"
+    },
+    "colorGreen": {
+      "message": "Green"
+    },
+    "colorOrange": {
+      "message": "Orange"
+    },
+    "colorPink": {
+      "message": "Pink"
+    },
+    "colorPurple": {
+      "message": "Purple"
+    },
+    "colorRed": {
+      "message": "Red"
+    },
+    "colorYellow": {
+      "message": "Yellow"
+    },
+    "filterAll": {
+      "message": "All"
+    },
+    "message": "Herstellen"
+  },
+  "clearSchedule": {
+    "message": "Planning wissen"
+  },
+  "clearSearch": {
+    "message": "Zoekopdracht wissen"
+  },
+  "clearSnooze": {
+    "message": "Snooze wissen"
+  },
+  "clickNewToGetStarted": {
+    "message": "Klik op \"Nieuw\" om te beginnen."
+  },
+  "clipboardError": {
+    "message": "Kopieren naar klembord mislukt"
+  },
+  "close": {
+    "message": "Sluiten"
+  },
+  "closeFiltersModal": {
+    "message": "Filtervenster sluiten"
+  },
+  "closeHomeTabOnOpen": {
+    "message": "Sluit Tabstract na sessieherstel"
+  },
+  "closeHomeTabOnOpenDesc": {
+    "message": "Tabstract sluiten wanneer je groepen tabbladen opent"
+  },
+  "closeHomeTabOnOpenLabel": {
+    "message": "Tabstract sluiten na herstellen"
+  },
+  "collapseAll": {
+    "message": "Alles inklappen"
+  },
+  "collapseExpandAll": {
+    "message": "Alles inklappen/uitklappen"
+  },
+  "collapseSession": {
+    "message": "Sessie inklappen"
+  },
+  "collapseTemplate": {
+    "message": "Routine inklappen"
+  },
+  "colorBlue": {
+    "message": "Blauw"
+  },
+  "colorDefault": {
+    "message": "Standaard"
+  },
+  "colorGreen": {
+    "message": "Groen"
+  },
+  "colorOrange": {
+    "message": "Oranje"
+  },
+  "colorPink": {
+    "message": "Roze"
+  },
+  "colorPurple": {
+    "message": "Paars"
+  },
+  "colorRed": {
+    "message": "Rood"
+  },
+  "colorYellow": {
+    "message": "Geel"
+  },
+  "columnColor": {
+    "message": "Kleur"
+  },
+  "columnDateCreated": {
+    "message": "Aanmaakdatum"
+  },
+  "columnDomain": {
+    "message": "Domein"
+  },
+  "columnGroup": {
+    "message": "Tabbladgroep"
+  },
+  "columnLock": {
+    "message": "Vergrendeld"
+  },
+  "columnPinned": {
+    "message": "Vastgezet"
+  },
+  "columnTitle": {
+    "message": "Titel"
+  },
+  "confirmClearSchedule": {
+    "message": "Deze planning wissen?"
+  },
+  "confirmDeleteFromTrash": {
+    "message": "Weet u zeker dat u deze link permanent wilt verwijderen? Dit kan niet ongedaan worden gemaakt."
+  },
+  "confirmDeleteTemplate": {
+    "message": "Deze routine verwijderen? Dit kan niet ongedaan worden gemaakt."
+  },
+  "confirmEmptyTrash": {
+    "message": "Weet u zeker dat u alle items uit de prullenbak permanent wilt verwijderen? Dit kan niet ongedaan worden gemaakt."
+  },
+  "confirmImport": {
+    "message": "WAARSCHUWING: Dit vervangt alle huidige Tabstract-gegevens (instellingen, opgeslagen sessies, prullenbak, enz.) door de geïmporteerde gegevens.\n\nDeze actie kan niet ongedaan worden gemaakt.\n\nWeet u zeker dat u wilt doorgaan?"
+  },
+  "confirmReset": {
+    "message": "Weet u zeker dat u Tabstract wilt resetten?\n\nAlle tabbladen worden verwijderd, inclusief die in vergrendelde sessies.\n\nDit kan niet ongedaan worden gemaakt."
+  },
+  "contactSupport": {
+    "message": "Contact"
+  },
+  "copiedToClipboard": {
+    "message": "Gekopieerd!"
+  },
+  "copyAllToClipboard": {
+    "message": "Kopiëren als Markdown"
+  },
+  "copyFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "copyFormatPlain": {
+    "message": "Platte tekst"
+  },
+  "copyFormatRich": {
+    "message": "Opgemaakte tekst"
+  },
+  "copyMenu": {
+    "message": "Kopiëren..."
+  },
+  "createFilter": {
+    "message": "Filter maken"
+  },
+  "createNewFilter": {
+    "message": "Nieuwe filter maken"
+  },
+  "customColor": {
+    "message": "Aangepaste kleur"
+  },
+  "dailyAt": {
+    "message": "Dagelijks om {time}"
+  },
+  "darkAuto": {
+    "message": "Auto"
+  },
+  "darkDark": {
+    "message": "Donker"
+  },
+  "darkLight": {
+    "message": "Licht"
+  },
+  "darkModeDesc": {
+    "message": "Kies je kleurenschema"
+  },
+  "darkModeLabel": {
+    "message": "Donkere modus"
+  },
+  "darkOff": {
+    "message": "Uit"
+  },
+  "darkSystem": {
+    "message": "Systeem"
+  },
+  "dayFormat": {
+    "message": "numeric"
+  },
+  "dayOfMonth": {
+    "message": "Dag van de maand:"
+  },
+  "days": {
+    "message": "Dagen:"
+  },
+  "debugConsole": {
+    "message": "Debug-console"
+  },
+  "deleteAfterRestore": {
+    "message": "Bij herstel worden de tabbladen uit Tabstract verwijderd <span class=\"hint\"><strong class=\"info\">Shift+Klik</strong> tijdens herstel om tijdelijk uit te schakelen</span>"
+  },
+  "deleteAfterRestoreDesc": {
+    "message": "Herstelde tabbladen worden uit Tabstract verwijderd <span class=\"hint\"><strong class=\"info\">Shift+Klik</strong> om tijdelijk uit te schakelen</span>"
+  },
+  "deleteAfterRestoreLabel": {
+    "message": "Tabbladen verwijderen na herstellen"
+  },
+  "deleteBackup": {
+    "message": "Back-up verwijderen"
+  },
+  "deleteSmartGroup": {
+    "message": "Filter verwijderen"
+  },
+  "deleteTab": {
+    "message": "Dit tabblad verwijderen"
+  },
+  "dismissAIUnavailableMessage": {
+    "message": "Apple Intelligence niet beschikbaar-bericht negeren"
+  },
+  "downloadData": {
+    "message": "Gegevens downloaden"
+  },
+  "downloadReport": {
+    "message": "Rapport downloaden"
+  },
+  "draftDelete": {
+    "message": "Verwijderen"
+  },
+  "dragToReorder": {
+    "message": "Versleep om te herschikken"
+  },
+  "duplicateGroup": {
+    "message": "Groep dupliceren"
+  },
+  "duplicatesRemoved": {
+    "message": "{count} duplica(a)t(en) verwijderd"
+  },
+  "editFilter": {
+    "message": "Filter bewerken"
+  },
+  "editSchedule": {
+    "message": "Planning bewerken"
+  },
+  "emailBodyTemplate": {
+    "message": "Hallo,\n\nIk heb een probleem met Tabstract.\n\nVolg deze stappen om mijn probleem te reproduceren:\n1.\n2.\n3.\n\n\nHier zijn mijn lokale opslaggegevens voor probleemoplossing:\n\n$1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "data": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "emailSupport": {
+    "message": "E-mail support"
+  },
+  "emptySessionHint": {
+    "message": "Sleep links hierheen om aan deze sessie toe te voegen"
+  },
+  "emptyTrash": {
+    "message": "Prullenbak legen"
+  },
+  "emptyTrashWithCount": {
+    "message": "Prullenbak legen ($1 items)",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "enableBadge": {
+    "message": "Toon herinneringsbadge in werkbalk"
+  },
+  "enableKeyboardShortcuts": {
+    "message": "Toetscombinaties inschakelen"
+  },
+  "errorMaxLength": {
+    "message": "Maximale lengte overschreden"
+  },
+  "errorParsingJson": {
+    "message": "Fout bij ontleden van JSON: $1"
+  },
+  "expandAll": {
+    "message": "Alles uitvouwen"
+  },
+  "expandSession": {
+    "message": "Sessie uitvouwen"
+  },
+  "expandTemplate": {
+    "message": "Routine uitvouwen"
+  },
+  "expiredLabel": {
+    "message": "Verlopen"
+  },
+  "expiresInDays": {
+    "message": "Verloopt over $1 dagen",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInHours": {
+    "message": "Verloopt over $1 uur",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInLessThanHour": {
+    "message": "Verloopt binnen < 1 uur"
+  },
+  "export": {
+    "message": "Exporteren"
+  },
+  "exportFormatHTML": {
+    "message": "HTML"
+  },
+  "exportFormatJSON": {
+    "message": "JSON"
+  },
+  "exportFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "exportFormatOPML": {
+    "message": "OPML"
+  },
+  "exportFormatPlain": {
+    "message": "Platte tekst"
+  },
+  "exportMenu": {
+    "message": "Exporteren..."
+  },
+  "exportSavedLinks": {
+    "message": "Opgeslagen links exporteren"
+  },
+  "exportSuccess": {
+    "message": "Export geslaagd!"
+  },
+  "filterAll": {
+    "message": "Alle"
+  },
+  "filterColor": {
+    "message": "Kleur:"
+  },
+  "filterDate": {
+    "message": "Datum:"
+  },
+  "filterDateLastMonth": {
+    "message": "Vorige maand"
+  },
+  "filterDateLastWeek": {
+    "message": "Vorige week"
+  },
+  "filterDateMonth": {
+    "message": "Deze maand"
+  },
+  "filterDateToday": {
+    "message": "Vandaag"
+  },
+  "filterDateWeek": {
+    "message": "Deze week"
+  },
+  "filterDateYesterday": {
+    "message": "Gisteren"
+  },
+  "filterDomain": {
+    "message": "Domein:"
+  },
+  "filterLock": {
+    "message": "Vergrendeling:"
+  },
+  "filterName": {
+    "message": "Beschrijving"
+  },
+  "filters": {
+    "message": "Filters"
+  },
+  "filtersDescription": {
+    "message": "Filters kunnen uw tabbladen automatisch sorteren en organiseren op basis van domein, trefwoord of andere patronen. <strong>Filters worden verwerkt op volgorde van prioriteit</strong>, van boven naar beneden; sleep om opnieuw te ordenen."
+  },
+  "formatOneTab": {
+    "message": "OneTab-export"
+  },
+  "formatTSV": {
+    "message": "TSV"
+  },
+  "formatTabSpace": {
+    "message": "Tab Space-back-up"
+  },
+  "formatTabsSaver": {
+    "message": "Tabs Saver-back-up"
+  },
+  "formatTabstractJSON": {
+    "message": "Tabstract JSON-export"
+  },
+  "frequency": {
+    "message": "Frequentie:"
+  },
+  "fullScreenMode": {
+    "message": "Volledig scherm (F)"
+  },
+  "groupNameRequired": {
+    "message": "Groepsnaam vereist"
+  },
+  "guideAIFeaturesBody": {
+    "message": "Als uw computer Apple Intelligence ondersteunt, kan Tabstract uw opgeslagen tabbladen automatisch in thematische groepen indelen. Klik op het <strong>✨ sprankelicoon</strong> naast een sessietitel om een nieuwe titel te genereren. Computers zonder Apple Intelligence gebruiken in plaats daarvan de datum en tijd."
+  },
+  "guideAIFeaturesTitle": {
+    "message": "Tabbladen organiseren met AI"
+  },
+  "guideBadgeNotificationsBody": {
+    "message": "De badge in de werkbalk toont het aantal opgeslagen sessies, zodat ze niet worden vergeten ook al zijn ze uit beeld. Snooze verbergt de badge tot 24 uur, of u schakelt hem helemaal uit in de instellingen."
+  },
+  "guideBadgeNotificationsTitle": {
+    "message": "Werkbalkbadge"
+  },
+  "guideDragToReorderBody": {
+    "message": "Klik en sleep afzonderlijke links en sessies om uw opgeslagen tabbladen in elke gewenste volgorde te plaatsen."
+  },
+  "guideDragToReorderTitle": {
+    "message": "Ordenen met slepen en neerzetten"
+  },
+  "guideGettingStartedBody": {
+    "message": "Tabstract helpt u Safari-tabbladen op te slaan en te organiseren. Klik met de rechtermuisknop op de Safari-werkbalk, kies \"Aanpassen\" en sleep het Tabstract-pictogram naar de werkbalk. Zodra het daar staat, klikt u op Tabstract en vervolgens op <strong>Tabbladen opslaan</strong> om alle open tabbladen in het huidige venster vast te leggen. "
+  },
+  "guideGettingStartedTitle": {
+    "message": "Aan de slag"
+  },
+  "guideKeyboardShortcutsBody": {
+    "message": "Tabstract bevat toetscombinaties en modificatorcombinaties voor power users. U kunt de sneltoetsen uitschakelen in Instellingen.<br><br>\n                <strong>Belangrijkste sneltoetsen:</strong><br><br>\n                Alle tabbladen opslaan: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd><br>\n                Alleen het huidige tabblad opslaan: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd><br>\n                Lijst met opgeslagen sessies openen: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd><br><br>\n                <strong>Snelle acties:</strong><br><br>\n                Zoekvak focussen: <kbd>/</kbd><br>\n                Nieuwe sessie maken: <kbd>N</kbd><br><br>\n                <strong>Modificatortoetscombinaties:</strong><br><br>\n                Alleen het huidige tabblad opslaan: <kbd>Shift</kbd> + klik op <em>Tabbladen opslaan</em><br>\n                Alle sessies in-/uitklappen: <kbd>Shift</kbd> + klik op <em>sessie inklappen</em><br>\n                Instelling \"Tabbladen verwijderen na herstellen\" tijdelijk opheffen: <kbd>Shift</kbd> + klik op <em>Herstellen</em><br>\n                Instelling \"Tabbladen op de achtergrond herstellen\" tijdelijk opheffen: <kbd>Option</kbd> + klik op <em>Herstellen</em>"
+  },
+  "guideKeyboardShortcutsTitle": {
+    "message": "Toetscombinaties"
+  },
+  "guidePasteLinksBody": {
+    "message": "U kunt links uit andere apps kopiëren en die URL's direct in Tabstract plakken. Tabstract haalt automatisch de paginatitels op en voegt ze toe aan uw verzameling. "
+  },
+  "guidePasteLinksTitle": {
+    "message": "Links naar Tabstract kopiëren en plakken"
+  },
+  "guideShiftClickBody": {
+    "message": "Houd <kbd>Shift</kbd> ingedrukt terwijl u op de inklapknop van een sessie klikt om alle sessies tegelijk in of uit te klappen."
+  },
+  "guideShiftClickTitle": {
+    "message": "Shift-klik om alles in/uit te klappen"
+  },
+  "guideTrashUndoBody": {
+    "message": "Verwijderde links gaan 30 dagen naar de prullenbak voordat ze automatisch worden verwijderd. De prullenbak is beperkt tot 1.000 items zodat Tabstract snel blijft."
+  },
+  "guideTrashUndoTitle": {
+    "message": "Prullenbak"
+  },
+  "helpPageTitle": {
+    "message": "Ondersteuning en probleemoplossing - Tabstract"
+  },
+  "helpSupportInstructions": {
+    "message": "Hebt u vragen, wilt u functies voorstellen of hebt u hulp nodig? Klik op <em>E-mail support</em> en daarna op <em>Toestaan</em>, of mail uw systeemrapport naar <em>help@tabstract.app</em> met alle details over het probleem.<br /><br />Stuur ons gerust een e-mail met functieaanvragen, bugmeldingen, vertaalverbeteringen, enzovoort."
+  },
+  "helpTitle": {
+    "message": "Ondersteuning en probleemoplossing"
+  },
+  "hourFormat": {
+    "message": "numeric"
+  },
+  "hourAgo": {
+    "message": "$1 uur geleden",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hoursAgo": {
+    "message": "$1 uur geleden",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "import": {
+    "message": "Importeren"
+  },
+  "importData": {
+    "message": "Gegevens importeren"
+  },
+  "importSystemBackup": {
+    "message": "Systeemback-up importeren"
+  },
+  "importError": {
+    "message": "Importeren van gegevens mislukt. Zorg ervoor dat het bestand een geldige Tabstract-gegevensexport is."
+  },
+  "importFailedPrefix": {
+    "message": "Import mislukt: "
+  },
+  "importLinksLabel": {
+    "message": "Importeer links van andere tabbeheerders"
+  },
+  "importMenu": {
+    "message": "Importeren..."
+  },
+  "importSuccess": {
+    "message": "Gegevens succesvol geïmporteerd! Tabstract wordt nu opnieuw geladen."
+  },
+  "importSuccessMessage": {
+    "message": "$1 geldige link(s) geïmporteerd (over $2 sessie(s)).\n$3 ongeldige link(s) overgeslagen.\n\nPaginatitels worden op de achtergrond opgehaald.",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "errors": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$3",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "links": {
+        "content": "$1"
+      },
+      "sessions": {
+        "content": "$2"
+      }
+    }
+  },
+  "invalidJsonFormat": {
+    "message": "Ongeldig JSON-formaat: een array met sessies wordt verwacht."
+  },
+  "invalidRegexPrefix": {
+    "message": "Ongeldige reguliere expressie: "
+  },
+  "justNow": {
+    "message": "Zojuist"
+  },
+  "langNameArabic": {
+    "message": "Arabisch"
+  },
+  "langNameChineseCN": {
+    "message": "Vereenvoudigd Chinees"
+  },
+  "langNameChineseTW": {
+    "message": "Traditioneel Chinees"
+  },
+  "langNameDanish": {
+    "message": "Deens"
+  },
+  "langNameDutch": {
+    "message": "Nederlands"
+  },
+  "langNameEnglish": {
+    "message": "Engels"
+  },
+  "langNameFrench": {
+    "message": "Frans"
+  },
+  "langNameFrenchCA": {
+    "message": "Canadees Frans"
+  },
+  "langNameGerman": {
+    "message": "Duits"
+  },
+  "langNameItalian": {
+    "message": "Italiaans"
+  },
+  "langNameJapanese": {
+    "message": "Japans"
+  },
+  "langNameKorean": {
+    "message": "Koreaans"
+  },
+  "langNameNorwegian": {
+    "message": "Noors"
+  },
+  "langNamePortugueseBR": {
+    "message": "Braziliaans Portugees"
+  },
+  "langNamePortuguesePT": {
+    "message": "Portugees"
+  },
+  "langNameRussian": {
+    "message": "Russisch"
+  },
+  "langNameSpanish": {
+    "message": "Spaans"
+  },
+  "langNameSpanishLA": {
+    "message": "Latijns-Amerikaans Spaans"
+  },
+  "langNameSwedish": {
+    "message": "Zweeds"
+  },
+  "langNameTurkish": {
+    "message": "Turks"
+  },
+  "langNameVietnamese": {
+    "message": "Vietnamees"
+  },
+  "languageAuto": {
+    "message": "Systeemstandaard"
+  },
+  "languageDesc": {
+    "message": "Kies weergavetaal"
+  },
+  "languageLabel": {
+    "message": "Taal"
+  },
+  "lastRun": {
+    "message": "Laatst uitgevoerd: {time}"
+  },
+  "launchOnStartup": {
+    "message": "Toon Tabstract bij het starten van de browser"
+  },
+  "launchOnStartupDesc": {
+    "message": "Tabstract openen wanneer je Safari start"
+  },
+  "launchOnStartupLabel": {
+    "message": "Starten bij opstarten"
+  },
+  "learnMore": {
+    "message": "Meer informatie"
+  },
+  "learnMoreAboutFeatures": {
+    "message": "Meer informatie over nieuwe functies"
+  },
+  "linkRestored": {
+    "message": "Link hersteld naar nieuwe sessie"
+  },
+  "lockAll": {
+    "message": "Alles vergrendelen"
+  },
+  "lockSession": {
+    "message": "Vergrendelen"
+  },
+  "lockSessionTitle": {
+    "message": "Sessie vergrendelen"
+  },
+  "lockUnlockAll": {
+    "message": "Alles vergrendelen/ontgrendelen"
+  },
+  "manageFiltersMenuItem": {
+    "message": "Filters beheren..."
+  },
+  "manageTemplates": {
+    "message": "Routines beheren"
+  },
+  "manageTemplatesMenuItem": {
+    "message": "Routines beheren..."
+  },
+  "match": {
+    "message": "Als"
+  },
+  "matches": {
+    "message": "Overeenkomsten:"
+  },
+  "mergeIntoSessionBelow": {
+    "message": "Samenvoegen met sessie hieronder"
+  },
+  "minuteFormat": {
+    "message": "numeric"
+  },
+  "minuteAgo": {
+    "message": "$1 minuut geleden",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "minutesAgo": {
+    "message": "$1 minuten geleden",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "monthFormat": {
+    "message": "long"
+  },
+  "monthlyOn": {
+    "message": "Maandelijks op dag {day} om {time}"
+  },
+  "moreActions": {
+    "message": "Meer acties"
+  },
+  "moreShort": {
+    "message": "More"
+  },
+  "moveToTop": {
+    "message": "Naar boven verplaatsen"
+  },
+  "navHelp": {
+    "message": "Hulp + Tips"
+  },
+  "navHome": {
+    "message": "Home"
+  },
+  "navSelect": {
+    "message": "Selecteren"
+  },
+  "navSettings": {
+    "message": "Instellingen"
+  },
+  "navSnooze": {
+    "message": "Uitstellen"
+  },
+  "needHelpWithTabstract": {
+    "message": "Hulp nodig bij Tabstract"
+  },
+  "never": {
+    "message": "Nooit"
+  },
+  "newButton": {
+    "message": "Nieuw"
+  },
+  "newTabGroup": {
+    "message": "Nieuwe tabbladgroep (N)"
+  },
+  "no": {
+    "message": "Nee"
+  },
+  "noAvailableTabs": {
+    "message": "Geen beschikbare tabbladen"
+  },
+  "noColor": {
+    "message": "Geen kleur"
+  },
+  "noResultsFound": {
+    "message": "Geen resultaten gevonden voor"
+  },
+  "noSavedLinksToExport": {
+    "message": "Geen opgeslagen links om te exporteren."
+  },
+  "noTabsAvailableToSave": {
+    "message": "Geen tabbladen beschikbaar om op te slaan"
+  },
+  "noTabsSaved": {
+    "message": "Geen tabbladen opgeslagen."
+  },
+  "noTemplatesInstructions": {
+    "message": "Nog geen routines opgeslagen.<br>Maak een routine van een sessie om te beginnen."
+  },
+  "noTemplatesSaved": {
+    "message": "Nog geen routines opgeslagen.<br>Maak een routine van een sessie om te beginnen."
+  },
+  "noTemplatesSavedYet": {
+    "message": "Nog geen routines opgeslagen"
+  },
+  "nonMatchingWarning": {
+    "message": "<strong>⚠️ Waarschuwing:</strong> $1 tabblad/tabbladen in deze groep komen niet meer overeen met de patronen en worden verplaatst naar een nieuwe sessie met de titel \"<strong>Verwijderd uit $2</strong>\".",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "content": "$1"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$2",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "none": {
+    "message": "Geen"
+  },
+  "ofTheFollowingConditions": {
+    "message": "van de volgende voorwaarden zijn voldaan:"
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "oneclickSave": {
+    "message": "Een-klik opslaan <span class=\"hint\"><strong class=\"caution\">Let op:</strong> hiermee worden Home en Snooze verwijderd; gebruik Shift+Command+H om Home te openen."
+  },
+  "oneclickSaveDesc": {
+    "message": "<span class=\"hint\"><strong class=\"caution\">Let op:</strong> Deze experimentele functie verwijdert de knoppen Start en Snooze. Gebruik <strong>Shift+Command+H</strong> om Start te openen.</span>"
+  },
+  "oneclickSaveLabel": {
+    "message": "Eén-klik opslaan"
+  },
+  "openLink": {
+    "message": "$1 openen",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "pageTitle": {
+    "message": "Hulpmiddelen en instellingen - Tabstract"
+  },
+  "pasteLinks": {
+    "message": "Links plakken"
+  },
+  "performActions": {
+    "message": "Voer de volgende acties uit:"
+  },
+  "pinToTop": {
+    "message": "Bovenaan vastmaken"
+  },
+  "pinnedTabsDesc": {
+    "message": "Vastgemaakte tabbladen worden niet gesloten of in Tabstract opgeslagen"
+  },
+  "pinnedTabsLabel": {
+    "message": "Vastgemaakte tabbladen niet opslaan"
+  },
+  "pinnedTabsSetting": {
+    "message": "<strong>Gepinde tabbladen niet opslaan</strong> (gepinde tabbladen worden niet gesloten of opgeslagen in Tabstract)"
+  },
+  "pleaseEnterDayBetween1And31": {
+    "message": "Voer een dag in tussen 1 en 31."
+  },
+  "pleaseEnterPattern": {
+    "message": "Voer een patroonwaarde in"
+  },
+  "pleaseSelectAtLeastOneDay": {
+    "message": "Selecteer ten minste één dag voor de wekelijkse planning."
+  },
+  "pm": {
+    "message": "PM"
+  },
+  "refreshData": {
+    "message": "Debugdata vernieuwen"
+  },
+  "removeFromSession": {
+    "message": "$1 uit sessie verwijderen",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "removedFrom": {
+    "message": "Verwijderd van $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "resetGroupColors": {
+    "message": "Kleuren resetten"
+  },
+  "restoreAllTabs": {
+    "message": "Alle tabbladen herstellen"
+  },
+  "restoreInBackground": {
+    "message": "Herstelde tabbladen openen op de achtergrond <span class=\"hint\"><strong class=\"info\">Option+Klik</strong> tijdens herstel om tijdelijk uit te schakelen</span>"
+  },
+  "restoreInBackgroundDesc": {
+    "message": "Herstelde tabbladen openen achter Tabstract in plaats van de focus te wisselen <span class=\"hint\"><strong class=\"info\">Option+Klik</strong> om tijdelijk uit te schakelen</span>"
+  },
+  "restoreInBackgroundLabel": {
+    "message": "Tabbladen op de achtergrond herstellen"
+  },
+  "restoreTabsMerge": {
+    "message": "Samenvoegen"
+  },
+  "restoreTabsReplace": {
+    "message": "Vervangen"
+  },
+  "restoreTabsToCurrentWindow": {
+    "message": "Huidig venster"
+  },
+  "restoreTabsToLabel": {
+    "message": "Tabbladgroepen herstellen in:"
+  },
+  "restoreTabsToNewWindow": {
+    "message": "Nieuw venster"
+  },
+  "restoredFromTrashSessionName": {
+    "message": "Hersteld uit prullenbak"
+  },
+  "restoredLinkSessionName": {
+    "message": "Herstelde link"
+  },
+  "reviewButton": {
+    "message": "Beoordeel ons in de App Store ★★★★★"
+  },
+  "reviewLaterButton": {
+    "message": "Misschien later"
+  },
+  "reviewMessage": {
+    "message": "Tabstract is gratis maar draait op beoordelingen en reviews, laat ons een beoordeling achter!"
+  },
+  "reviewModalText": {
+    "message": "Tabstract is gratis maar draait op beoordelingen en reviews 🚀 Overweeg alsjeblieft om ons een 5-sterren beoordeling te geven!"
+  },
+  "reviewModalTitle": {
+    "message": "Vind je Tabstract leuk?"
+  },
+  "runFiltersConfirm": {
+    "message": "{sessions} sessies met {tabs} tabbladen worden verwerkt. Doorgaan?"
+  },
+  "runFiltersMenuItem": {
+    "message": "Filters uitvoeren"
+  },
+  "runFiltersNoFilters": {
+    "message": "Geen filters gedefinieerd. Maak eerst filters aan."
+  },
+  "runFiltersNoSessions": {
+    "message": "Geen ontgrendelde sessies om te verwerken."
+  },
+  "runFiltersSuccess": {
+    "message": "{matched} tabbladen verwerkt door filters"
+  },
+  "sampleSessionCreated": {
+    "message": "Voorbeeld aangemaakt!"
+  },
+  "sampleSessionName": {
+    "message": "Aan de slag met Tabstract"
+  },
+  "sampleTab1Title": {
+    "message": "Tabstract Website"
+  },
+  "sampleTab2Title": {
+    "message": "Tabstract op App Store"
+  },
+  "sampleTab3Title": {
+    "message": "Beoordeel Tabstract op App Store"
+  },
+  "sampleTab4Title": {
+    "message": "By The Farm"
+  },
+  "save": {
+    "message": "Opslaan"
+  },
+  "saveAllWindowsDesc": {
+    "message": "Slaat tabbladen op van alle geopende Safari-vensters, in plaats van alleen het momenteel actieve venster"
+  },
+  "saveAllWindowsLabel": {
+    "message": "Tabbladen van alle vensters opslaan"
+  },
+  "saveAlsoCloses": {
+    "message": "<strong>Sluit tabbladen</strong> bij opslaan"
+  },
+  "saveAlsoClosesDesc": {
+    "message": "Tabbladen worden na opslaan in Tabstract automatisch gesloten"
+  },
+  "saveAlsoClosesLabel": {
+    "message": "Tabbladen sluiten bij opslaan"
+  },
+  "saveAsTemplate": {
+    "message": "Opslaan als routine"
+  },
+  "saveFilter": {
+    "message": "Filter opslaan"
+  },
+  "saveSelected": {
+    "message": "Geselecteerde opslaan"
+  },
+  "saveSelectedPlural": {
+    "message": "{count} tabbladen opslaan"
+  },
+  "saveSelectedSingular": {
+    "message": "1 tabblad opslaan"
+  },
+  "saveTab": {
+    "message": "Tabblad opslaan"
+  },
+  "saveTabs": {
+    "message": "Tabbladen opslaan"
+  },
+  "saveTabsOnStartupDesc": {
+    "message": "Alle open tabbladen automatisch opslaan en sluiten wanneer je Safari start"
+  },
+  "saveTabsOnStartupLabel": {
+    "message": "Open tabbladen bij opstarten opslaan en sluiten"
+  },
+  "savedOnLabel": {
+    "message": "Opgeslagen: $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "date": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "scheduleAddButton": {
+    "message": "+ Plannen"
+  },
+  "scheduleDaily": {
+    "message": "Dagelijks"
+  },
+  "scheduleEditButton": {
+    "message": "Bewerken"
+  },
+  "scheduleHourly": {
+    "message": "Elk uur"
+  },
+  "scheduleMonthly": {
+    "message": "Maandelijks"
+  },
+  "scheduleNotifyLabel": {
+    "message": "Melding tonen wanneer routine wordt uitgevoerd"
+  },
+  "scheduleWeekly": {
+    "message": "Wekelijks"
+  },
+  "searchFocusTitle": {
+    "message": "Zoekveld focussen (sneltoets: /)"
+  },
+  "searchPlaceholder": {
+    "message": "Zoeken"
+  },
+  "searchResults": {
+    "message": "Zoekresultaten"
+  },
+  "sectionAppleIntelligence": {
+    "message": "AI mogelijk gemaakt door Apple Intelligence"
+  },
+  "sectionAppleIntelligenceDesc": {
+    "message": "On-device AI-functies aangedreven door Apple Intelligence"
+  },
+  "sectionInterface": {
+    "message": "Algemeen"
+  },
+  "sectionInterfaceDesc": {
+    "message": "Personaliseer je Tabstract-ervaring"
+  },
+  "sectionTabRestoring": {
+    "message": "Tabbladen herstellen"
+  },
+  "sectionTabRestoringDesc": {
+    "message": "Bepaalt wat er gebeurt wanneer je tabbladen herstelt"
+  },
+  "sectionTabSaving": {
+    "message": "Tabbladen opslaan"
+  },
+  "sectionTabSavingDesc": {
+    "message": "Bepaalt wat er gebeurt wanneer je tabbladen opslaat"
+  },
+  "selectAll": {
+    "message": "Alles selecteren"
+  },
+  "selectFileToImport": {
+    "message": "Selecteer een bestand om te importeren."
+  },
+  "selectNone": {
+    "message": "Niets selecteren"
+  },
+  "selectTabsToSave": {
+    "message": "Selecteer tabbladen om op te slaan"
+  },
+  "sessionActions": {
+    "message": "Sessieacties"
+  },
+  "sessionLocked": {
+    "message": "Sessie is vergrendeld"
+  },
+  "settingsSubtitle": {
+    "message": "Wijzigingen worden direct opgeslagen."
+  },
+  "shortcutOpenTabstractLabel": {
+    "message": "Tabstract openen:"
+  },
+  "shortcutSaveCurrentTabLabel": {
+    "message": "Huidig tabblad opslaan:"
+  },
+  "shortcutSaveTabsLabel": {
+    "message": "Tabbladen opslaan:"
+  },
+  "simpleMode": {
+    "message": "Eenvoudige modus"
+  },
+  "smartGroupCopyButton": {
+    "message": "Kopiëren"
+  },
+  "smartGroupDeleteConfirm": {
+    "message": "Dit filter verwijderen? Tabbladen in deze groep worden omgezet naar een normale sessie."
+  },
+  "smartGroupHelpDomain": {
+    "message": "Voer een domeinnaam in (bijv. github.com). Komt overeen met exact domein en alle subdomeinen."
+  },
+  "smartGroupHelpKeyword": {
+    "message": "Voer een trefwoord in om te zoeken in URL's en paginatitels (bijv. \"react\"). Niet hoofdlettergevoelig."
+  },
+  "smartGroupHelpRegex": {
+    "message": "Voer een reguliere expressiepatroon in (bijv. (github|gitlab)\\.com). Komt overeen met URL en titel."
+  },
+  "smartGroupNameLabel": {
+    "message": "Filternaam"
+  },
+  "smartGroupNamePlaceholder": {
+    "message": "bijv. GitHub-projecten"
+  },
+  "smartGroupNameRequired": {
+    "message": "Filternaam vereist"
+  },
+  "smartGroupPatternInvalidRegex": {
+    "message": "Ongeldige reguliere expressie"
+  },
+  "smartGroupPatternLabel": {
+    "message": "Patroon"
+  },
+  "smartGroupPatternRequired": {
+    "message": "Patroon vereist"
+  },
+  "smartGroupPatternTypeKeyword": {
+    "message": "Trefwoord"
+  },
+  "smartGroupPatternTypeLabel": {
+    "message": "Patroontype"
+  },
+  "smartGroupPatternTypeRegex": {
+    "message": "Reguliere expressie"
+  },
+  "smartGroupPinButton": {
+    "message": "Vastmaken"
+  },
+  "smartGroupPreviewText": {
+    "message": "komen momenteel overeen met dit patroon"
+  },
+  "smartGroupUnpinButton": {
+    "message": "Losmaken"
+  },
+  "smartGroupsCreateButton": {
+    "message": "+ Filter maken"
+  },
+  "smartGroupsEmptyMessage": {
+    "message": "Nog geen filters gemaakt."
+  },
+  "smartGroupsModalTitle": {
+    "message": "Filters beheren"
+  },
+  "snoozeLabel": {
+    "message": "Snooze verbergt badge voor"
+  },
+  "snoozeSuffix": {
+    "message": "uur"
+  },
+  "snoozeToolbarBadge": {
+    "message": "Werkbalkbadge snoozen"
+  },
+  "sortBy": {
+    "message": "Sorteren op"
+  },
+  "sortNewest": {
+    "message": "Nieuwste eerst"
+  },
+  "sortNewestToOldest": {
+    "message": "Nieuwste eerst sorteren"
+  },
+  "sortOldest": {
+    "message": "Oudste eerst"
+  },
+  "sortOldestToNewest": {
+    "message": "Oudste eerst sorteren"
+  },
+  "sortRainbow": {
+    "message": "Regenboog"
+  },
+  "splitGroup": {
+    "message": "Groep splitsen"
+  },
+  "supportedFormatsHeading": {
+    "message": "Ondersteunde formaten:"
+  },
+  "tabCount": {
+    "message": "$1 tabblad",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabCountOfTotal": {
+    "message": "$1 van $2 $3",
+    "placeholders": {
+      "filtered": {
+        "content": "$1"
+      },
+      "tabWord": {
+        "content": "$3"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "tabCountPlural": {
+    "message": "$1 tabbladen",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabGroupLetter": {
+    "message": "Venster {letter}"
+  },
+  "tabPlural": {
+    "message": "tabbladen"
+  },
+  "tabSingular": {
+    "message": "tabblad"
+  },
+  "templateScheduleNotification": {
+    "message": "Routine \"%s\" is toegevoegd aan uw sessies."
+  },
+  "templates": {
+    "message": "Routines"
+  },
+  "time": {
+    "message": "Tijd:"
+  },
+  "tipsOppensession": {
+    "message": "Shift-klik om alle sessies uit te klappen of in te klappen"
+  },
+  "tipsReminders": {
+    "message": "Meldingbadge houdt opgeslagen sessies in beeld"
+  },
+  "tipsRename": {
+    "message": "Label sessies om georganiseerd te blijven"
+  },
+  "tipsSingletab": {
+    "message": "Houd Shift ingedrukt om alleen het huidige tabblad op te slaan"
+  },
+  "tipsTitle": {
+    "message": "Tips"
+  },
+  "tipsToolbar": {
+    "message": "Sleep Tabstract naar je Safari-werkbalk om te beginnen."
+  },
+  "todayAt": {
+    "message": "Vandaag, $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "toggleAllTabsInWindow": {
+    "message": "Alle tabbladen in $1 omschakelen",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "window": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "toolbar": {
+    "message": "Werkbalk"
+  },
+  "trashAutoDeletesHint": {
+    "message": "Wordt automatisch verwijderd na $1 dagen",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "days": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "trashCleanupLog": {
+    "message": "Prullenbak opschonen: verlopen/overtollige items verwijderd"
+  },
+  "trashDuplicates": {
+    "message": "Duplicaten verwijderen"
+  },
+  "trashEmpty": {
+    "message": "Prullenbak is leeg"
+  },
+  "trashEmptyDesc": {
+    "message": "Verwijderde links verschijnen hier en worden na 30 dagen automatisch verwijderd."
+  },
+  "trashExpiringSoon": {
+    "message": "Verloopt binnenkort"
+  },
+  "trashExpiringThisWeek": {
+    "message": "Verloopt deze week"
+  },
+  "trashExpiringToday": {
+    "message": "Verloopt vandaag"
+  },
+  "trashExpiringTomorrow": {
+    "message": "Verloopt morgen"
+  },
+  "trashLimitHint": {
+    "message": "Prullenbak is beperkt tot $1 links",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "max": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "undo": {
+    "message": "Ongedaan maken"
+  },
+  "undoDeleteLink": {
+    "message": "Link verwijderd. Ongedaan maken?"
+  },
+  "undoDeleteSession": {
+    "message": "Sessie verwijderd. Ongedaan maken?"
+  },
+  "undoMergeSession": {
+    "message": "Sessies samengevoegd. Ongedaan maken?"
+  },
+  "undoTimeoutDescPost": {
+    "message": "na verwijderen"
+  },
+  "undoTimeoutDescPre": {
+    "message": "Knop Ongedaan maken weergeven gedurende"
+  },
+  "undoTimeoutLabel": {
+    "message": "Toon <em>Ongedaan maken</em>-knop voor"
+  },
+  "undoTimeoutSuffix": {
+    "message": "seconden"
+  },
+  "unlockAll": {
+    "message": "Alles ontgrendelen"
+  },
+  "unlockSession": {
+    "message": "Ontgrendelen"
+  },
+  "unlocked": {
+    "message": "Ontgrendeld"
+  },
+  "unpinFromTop": {
+    "message": "Losmaken van boven"
+  },
+  "unrecognizedFileFormat": {
+    "message": "Onbekend bestandsformaat. Ondersteund: Markdown, OneTab, OPML, Platte tekst, Tab Space, Tabs Saver, Tabstract JSON, TSV."
+  },
+  "unsnooze": {
+    "message": "Annuleren"
+  },
+  "untitledFilter": {
+    "message": "Beschrijf dit filter..."
+  },
+  "upgradeToPro": {
+    "message": "Upgrade naar Pro"
+  },
+  "userGuideTitle": {
+    "message": "Tabstract gebruiken"
+  },
+  "viewTrash": {
+    "message": "Prullenbak bekijken"
+  },
+  "weekdayFormat": {
+    "message": "long"
+  },
+  "weekdaysAt": {
+    "message": "Weekdagen om {time}"
+  },
+  "weekendsAt": {
+    "message": "Weekenden om {time}"
+  },
+  "weeklyAt": {
+    "message": "Wekelijks om {time}"
+  },
+  "welcomeActionHelp": {
+    "message": "Meer leren"
+  },
+  "welcomeActionSave": {
+    "message": "Probeer voorbeeldsessie"
+  },
+  "welcomeBackSubtitle": {
+    "message": "Hier zijn enkele tips om het meeste uit Tabstract te halen:"
+  },
+  "welcomeBackTitle1": {
+    "message": "Kijk naar je, geen tabbladen! 💅"
+  },
+  "welcomeBackTitle2": {
+    "message": "Nul tabbladen. De droom!"
+  },
+  "welcomeBackTitle3": {
+    "message": "Geen tabbladen? Je bent een legende. 😎"
+  },
+  "welcomeBackTitle4": {
+    "message": "Alles bij? Indrukwekkend!"
+  },
+  "welcomeDescription": {
+    "message": "Tabstract helpt je je Safari-tabbladen op te slaan en te organiseren, zodat je je leven kunt vereenvoudigen."
+  },
+  "welcomeStep0Description": {
+    "message": "Sleep het Tabstract-pictogram naar je Safari-werkbalk voor snelle toegang tot het opslaan en herstellen van tabbladen."
+  },
+  "welcomeStep0Title": {
+    "message": "Toevoegen aan werkbalk"
+  },
+  "welcomeStep1Description": {
+    "message": "Klik op het Tabstract-pictogram in je werkbalk of gebruik Cmd+Shift+S om al je geopende tabbladen op te slaan."
+  },
+  "welcomeStep1Title": {
+    "message": "Sla je tabbladen op"
+  },
+  "welcomeStep2Description": {
+    "message": "Geef je sessies aangepaste namen, vergrendel de belangrijke en blijf opgeruimd."
+  },
+  "welcomeStep2Title": {
+    "message": "Organiseer sessies"
+  },
+  "welcomeStep3Description": {
+    "message": "Klik op een sessie om al zijn tabbladen direct te herstellen, of herstel individuele tabbladen naar behoefte."
+  },
+  "welcomeStep3Title": {
+    "message": "Herstel op elk moment"
+  },
+  "welcomeTip": {
+    "message": "☆ Pro tip: Houd Shift ingedrukt terwijl je op de opslagknop klikt om alleen het huidige tabblad op te slaan ☆"
+  },
+  "welcomeTitle": {
+    "message": "Aan de slag met Tabstract"
+  },
+  "windowLabel": {
+    "message": "Venster"
+  },
+  "yes": {
+    "message": "Ja"
+  },
+  "yesterdayAt": {
+    "message": "Gisteren, $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "zeroTabs": {
+    "message": "0 tabbladen"
+  },
+  "backupAutomatic": {
+    "message": "Automatisch"
+  },
+  "backupComplete": {
+    "message": "Back-up voltooid!"
+  },
+  "backupExplainer": {
+    "message": "Tabstract maakt automatisch een back-up van je gegevens telkens wanneer je tabbladen opslaat en eenmaal per uur. Back-ups ouder dan 24 uur worden teruggebracht tot één per dag, daarna één per week en na 30 dagen verwijderd. Handmatige back-ups worden voor onbepaalde tijd bewaard."
+  },
+  "backupFailed": {
+    "message": "Back-up mislukt"
+  },
+  "backupLoadError": {
+    "message": "Kan back-ups niet laden."
+  },
+  "backupManual": {
+    "message": "Handmatig"
+  },
+  "backupManualBadge": {
+    "message": "Handmatig"
+  },
+  "backupMenuRestoreMerge": {
+    "message": "Tabbladen herstellen (samenvoegen)"
+  },
+  "backupMenuRestoreReplace": {
+    "message": "Tabbladen herstellen (vervangen)"
+  },
+  "backupMenuRestoreSystem": {
+    "message": "Systeem herstellen (volledige reset)"
+  },
+  "backupNow": {
+    "message": "Nu back-up maken"
+  },
+  "backupPreRestoreBadge": {
+    "message": "Herstelpunt"
+  },
+  "backupActionsLabel": {
+    "message": "Back-upacties"
+  },
+  "backupTabCount": {
+    "message": "$1 tabbladen",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupsTitle": {
+    "message": "Back-up en herstel"
+  },
+  "confirmDeleteBackup": {
+    "message": "Weet je zeker dat je deze back-up wilt verwijderen? Dit kan niet ongedaan worden gemaakt."
+  },
+  "confirmRestoreEverything": {
+    "message": "Dit vervangt AL je huidige Tabstract-gegevens (tabbladen, instellingen, routines, filters, enz.) door gegevens uit deze back-up.\n\nEr wordt eerst een back-up vóór het herstel gemaakt, voor de zekerheid.\n\nDoorgaan?"
+  },
+  "confirmRestoreTabsMerge": {
+    "message": "Dit voegt de back-uptabbladen samen met je bestaande tabbladen, waarbij beide behouden blijven.\n\nEr wordt ook een back-up vóór het herstel gemaakt, voor de zekerheid.\n\nDoorgaan?"
+  },
+  "confirmRestoreTabsOnly": {
+    "message": "Dit vervangt alleen je opgeslagen tabbladen door tabbladen uit deze back-up. Instellingen, routines en filters worden niet gewijzigd.\n\nEr wordt eerst een back-up vóór het herstel gemaakt, voor de zekerheid.\n\nDoorgaan?"
+  },
+  "lastBackup": {
+    "message": "Laatste back-up:"
+  },
+  "loadingBackups": {
+    "message": "Back-ups laden..."
+  },
+  "noBackupsYet": {
+    "message": "Nog geen back-ups"
+  },
+  "restoreError": {
+    "message": "Herstel vanuit back-up mislukt. Probeer het opnieuw."
+  },
+  "restoreTabsDialogDetail": {
+    "message": "Samenvoegen voegt de back-uptabbladen toe naast je bestaande tabbladen. Er wordt eerst een back-up vóór het herstel gemaakt."
+  },
+  "restoreTabsDialogMessage": {
+    "message": "Wil je je huidige tabbladen vervangen of samenvoegen met de back-up?"
+  },
+  "exportBackupShowInFinder": {
+    "message": "Toon in Finder"
+  },
+  "back": {
+    "message": "Terug"
+  },
+  "icloudSyncDesc": {
+    "message": "Houd je opgeslagen tabbladen gesynchroniseerd op iPhone, iPad en Mac."
+  },
+  "icloudSyncLabel": {
+    "message": "Synchroniseer met iCloud"
+  },
+  "lastSynced": {
+    "message": "Laatst gesynchroniseerd"
+  },
+  "neverSynced": {
+    "message": "Nooit gesynchroniseerd"
+  },
+  "sectionICloudSync": {
+    "message": "iCloud-synchronisatie - bèta"
+  },
+  "syncErrorGeneric": {
+    "message": "Synchronisatiefout, wordt automatisch opnieuw geprobeerd"
+  },
+  "syncErrorNetwork": {
+    "message": "Geen netwerkverbinding"
+  },
+  "syncErrorNotAuthenticated": {
+    "message": "Log in bij iCloud om te synchroniseren"
+  },
+  "syncErrorQuota": {
+    "message": "iCloud-opslag is vol"
+  },
+  "syncErrorRateLimited": {
+    "message": "Te veel verzoeken, probeer het later opnieuw"
+  },
+  "syncErrorZoneBusy": {
+    "message": "iCloud is bezet, probeer het later opnieuw"
+  },
+  "syncNoAccount": {
+    "message": "Log in bij iCloud om te synchroniseren"
+  },
+  "syncNow": {
+    "message": "Nu synchroniseren"
+  },
+  "syncing": {
+    "message": "Synchroniseren..."
+  },
+  "synced": {
+    "message": "Gesynchroniseerd!"
+  },
+  "saveActiveTabAndClose": {
+    "message": "Dit tabblad opslaan en sluiten"
+  },
+  "saveActiveTabNoClose": {
+    "message": "Dit tabblad opslaan zonder te sluiten"
+  },
+  "saveAllAndClose": {
+    "message": "Alles opslaan en sluiten"
+  },
+  "saveAllNoClose": {
+    "message": "Alles opslaan zonder te sluiten"
+  },
+  "moreSaveOptions": {
+    "message": "Meer opslagopties"
+  },
+  "rename": {
+    "message": "Hernoemen"
+  },
+  "share": {
+    "message": "Delen"
+  },
+  "sessionDeleted": {
+    "message": "Sessie verwijderd"
+  },
+  "tabDeleted": {
+    "message": "Tabblad verwijderd"
+  },
+  "tabsSaved": {
+    "message": "Tabbladen opgeslagen"
+  },
+  "linksCopied": {
+    "message": "Links gekopieerd"
+  },
+  "connecting": {
+    "message": "Verbinden..."
+  },
+  "justSynced": {
+    "message": "Zojuist gesynchroniseerd"
+  },
+  "syncFailed": {
+    "message": "Synchronisatie mislukt"
+  },
+  "confirmPermanentDelete": {
+    "message": "Deze sessie permanent verwijderen?"
+  },
+  "noSavedSessions": {
+    "message": "Nog geen opgeslagen sessies"
+  },
+  "dayAgo": {
+    "message": "$1 dag geleden",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "daysAgo": {
+    "message": "$1 dagen geleden",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "weekAgo": {
+    "message": "$1 week geleden",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "weeksAgo": {
+    "message": "$1 weken geleden",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  }
+}

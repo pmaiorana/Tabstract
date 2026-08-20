@@ -1,0 +1,760 @@
+:root {
+  color-scheme: light dark;
+  /* Light mode color variables */
+  --bg-primary: #F9F9F9;
+  --bg-secondary: #FFFFFF;
+  --bg-tertiary: #F3F4F6;
+  --border-primary: #D2D2D7;
+
+  --text-primary: #1C1C1E;
+  --text-secondary: #666;
+  --text-tertiary: #8e8e93;
+  --text-on-info: #FFFFFF;
+
+  --info: #007AFF;
+  --info-hover: #005BB5;
+
+  --interactive-hover: #F2F2F7;
+  --interactive-disabled: #d1d1d6;
+}
+
+/* Ensure consistent box sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Overall popup layout */
+body {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  font-family: -apple-system, "SF Pro Text", "SF Pro Icons",
+               "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: var(--text-secondary);
+  background-color: var(--bg-primary);
+  /* Hide popup by default - will be shown by JS if oneclickSave is disabled */
+  visibility: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Split save button container */
+.split-save {
+  display: flex;
+  width: 90%;
+  margin: 12px auto 12px auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Main save button (left side of split) */
+#primaryButton {
+  flex: 1;
+  padding: 10px 0;
+  border: none;
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-on-accent);
+  background-color: var(--info);
+  cursor: pointer;
+  text-align: center;
+}
+#primaryButton:hover {
+  background-color: var(--info-hover);
+}
+/* Hovering main button also highlights divider + chevron */
+#primaryButton:hover ~ .split-save-divider {
+  background-color: var(--info-hover);
+}
+#primaryButton:hover ~ .split-save-chevron {
+  background-color: var(--info-hover);
+}
+#primaryButton:focus {
+  outline: none;
+  box-shadow: none;
+  -webkit-focus-ring-color: transparent;
+}
+#primaryButton:disabled {
+  background-color: var(--interactive-disabled);
+  color: var(--text-tertiary);
+  cursor: default;
+}
+
+/* Main button text centering — offset for chevron+divider so label is visually centered */
+#primaryButton.split-save-main {
+  padding-left: 34px; /* matches chevron width (32px) + divider (2px) */
+}
+
+/* Embossed divider between main button and chevron */
+.split-save-divider {
+  width: 2px;
+  background-color: var(--info);
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Chevron dropdown trigger */
+.split-save-chevron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  padding: 0;
+  border: none;
+  background-color: var(--info);
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.split-save-chevron:hover {
+  background-color: var(--info-hover);
+}
+.split-save-chevron:focus {
+  outline: none;
+  box-shadow: none;
+  -webkit-focus-ring-color: transparent;
+}
+.split-save-chevron svg {
+  transition: transform 0.15s ease;
+}
+.split-save-chevron.open svg {
+  transform: rotate(180deg);
+}
+
+/* When primary is disabled, disable chevron too */
+#primaryButton:disabled ~ .split-save-divider {
+  background-color: var(--interactive-disabled);
+  border-left-color: rgba(0, 0, 0, 0.08);
+  border-right-color: rgba(255, 255, 255, 0.03);
+}
+#primaryButton:disabled ~ .split-save-chevron {
+  background-color: var(--interactive-disabled);
+  color: var(--text-tertiary);
+  cursor: default;
+  pointer-events: none;
+}
+
+/* Save dropdown */
+.save-dropdown {
+  margin: 0 auto 12px;
+  width: 90%;
+  background: var(--bg-secondary);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1),
+              0 0.5px 2px rgba(0, 0, 0, 0.06);
+  position: relative;
+  z-index: 15;
+  border: 1px solid var(--border-primary);
+}
+
+/* Speech-bubble arrow — centered on button */
+.save-dropdown::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  margin-left: -5px;
+  width: 10px;
+  height: 10px;
+  background: var(--bg-secondary);
+  transform: rotate(45deg);
+  border-left: 1px solid var(--border-primary);
+  border-top: 1px solid var(--border-primary);
+  z-index: 0;
+}
+
+.save-dropdown-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 8px 12px;
+  border: none;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  font-size: 13px;
+  text-align: left;
+  cursor: pointer;
+  -webkit-appearance: none;
+  position: relative;
+  z-index: 1;
+}
+
+.save-dropdown-item:first-child {
+  border-radius: 8px 8px 0 0;
+}
+
+.save-dropdown-item:last-child,
+.save-dropdown-item.last-visible {
+  border-radius: 0 0 8px 8px;
+}
+
+.save-dropdown-item + .save-dropdown-item {
+  border-top: 0.5px solid var(--border-primary);
+}
+
+.save-dropdown-item:hover {
+  background-color: var(--interactive-hover);
+}
+
+.dropdown-icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  margin-right: 10px;
+  color: var(--text-secondary);
+}
+
+.save-dropdown-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 9;
+}
+
+/* Bottom row segmented control */
+.bottom-row {
+  display: flex;
+  width: 100%;
+  border: 1px solid var(--border-primary);
+  background-color: var(--bg-secondary);
+  overflow: hidden;
+}
+
+/* Each segment: icon + label */
+.bottom-item {
+  flex: 1;
+  text-decoration: none;
+  color: var(--text-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0;
+  border-right: 1px solid var(--border-primary);
+}
+.bottom-item:last-child {
+  border-right: none;
+}
+
+/* Inline SVG icons styled #666 via currentColor */
+.bottom-item .icon {
+  width: 18px;
+  height: 18px;
+  margin-bottom: 2px;
+  color: var(--text-secondary);
+}
+.bottom-item .icon path {
+  fill: currentColor;
+}
+
+/* Hover effect for each segment */
+.bottom-item:hover:not(.disabled) {
+  background-color: var(--interactive-hover);
+}
+
+/* Disabled state */
+.bottom-item.disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+/* ==============================================
+   DARK MODE STYLES - Updated to Match Main App
+   ============================================== */
+
+/* Dark mode styles apply whenever the `dark-mode` class is set on the body. */
+/* Automatic dark mode is handled via JavaScript by toggling this class */
+html.dark-mode {
+    /* Background Colors */
+    --bg-primary: #0D1117;        /* Main background */
+    --bg-secondary: #161B22;      /* Cards, panels */
+    --bg-tertiary: #21262D;       /* Elevated elements, hover states */
+    --bg-quaternary: #2D333B;     /* Active states, selected items */
+    
+    /* Border Colors */
+    --border-primary: #30363D;    /* Main borders */
+    --border-secondary: #373E47;  /* Secondary borders */
+    --border-accent: #1F6FEB;     /* Accent borders (blue) */
+    
+    /* Text Colors */
+    --text-primary: #F0F6FC;      /* Main text */
+    --text-secondary: #8B949E;    /* Secondary text, hints */
+    --text-tertiary: #656D76;     /* Muted text */
+    --text-accent: #58A6FF;       /* Links, accents */
+    
+    /* Interactive Colors */
+    --interactive-hover: #30363D; /* Hover states */
+    --interactive-active: #373E47; /* Active/pressed states */
+    --interactive-disabled: #484F58; /* Disabled elements */
+    
+    /* Status Colors */
+    --info: #1F6FEB;              /* Blue informational */
+    --info-hover: #58A6FF;
+    
+    --text-on-info: var(--text-primary);
+
+    background-color: var(--bg-primary);
+    color: var(--text-secondary);
+  }
+
+  /* Primary Button */
+  html.dark-mode #primaryButton {
+    background-color: var(--info);
+    color: var(--text-on-accent);
+  }
+
+  html.dark-mode #primaryButton:hover {
+    background-color: var(--info-hover);
+  }
+
+  html.dark-mode #primaryButton:disabled {
+    background-color: var(--interactive-disabled);
+    color: var(--text-tertiary);
+    cursor: default;
+  }
+
+  /* Split button chevron */
+  html.dark-mode .split-save-chevron {
+    background-color: var(--info);
+    color: var(--text-on-accent);
+  }
+  html.dark-mode .split-save-chevron:hover {
+    background-color: var(--info-hover);
+  }
+  html.dark-mode .split-save-divider {
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(255, 255, 255, 0.1);
+  }
+
+  /* Save dropdown */
+  html.dark-mode .save-dropdown {
+    background: var(--bg-secondary);
+    border-color: var(--border-primary);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  html.dark-mode .save-dropdown::before {
+    background: var(--bg-secondary);
+    border-color: var(--border-primary);
+  }
+  html.dark-mode .save-dropdown-item {
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+  }
+  html.dark-mode .save-dropdown-item + .save-dropdown-item {
+    border-color: var(--border-primary);
+  }
+  html.dark-mode .save-dropdown-item:hover {
+    background-color: var(--interactive-hover);
+  }
+
+  /* Bottom Row Container */
+  html.dark-mode .bottom-row {
+    background-color: var(--bg-secondary);
+    border-color: var(--border-primary);
+  }
+
+  /* Bottom Items */
+  html.dark-mode .bottom-item {
+    color: var(--text-primary);
+    border-right: 1px solid var(--border-primary);
+  }
+  
+  html.dark-mode .bottom-item:hover:not(.disabled) {
+    background-color: var(--interactive-hover);
+    color: var(--text-accent);
+  }
+  
+  html.dark-mode .bottom-item:last-child {
+    border-right: none;
+  }
+
+  /* Icons - Remove the filter and use proper color inheritance */
+  html.dark-mode .bottom-item .icon {
+    color: var(--text-secondary);
+    filter: none; /* Remove the invert filter for cleaner styling */
+  }
+  
+  html.dark-mode .bottom-item:hover:not(.disabled) .icon {
+    color: var(--text-accent);
+  }
+
+  /* SVG Path Styling */
+  html.dark-mode .bottom-item .icon path {
+    fill: currentColor;
+  }
+
+/* ================================================
+   TAB SELECTION MODE
+   ================================================ */
+
+/* Expanded popup state */
+body.popup-expanded {
+  width: 480px;
+  max-height: 600px;
+}
+
+/* Hide primary button, dropdown, and bottom row when in selection mode */
+body.popup-expanded .split-save,
+body.popup-expanded .save-dropdown,
+body.popup-expanded .save-dropdown-backdrop,
+body.popup-expanded .bottom-row {
+  display: none !important;
+}
+
+/* Tab selection view container */
+.tab-selection-view {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  max-height: 600px;
+  opacity: 0;
+  animation: fadeIn 0.15s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Header with title and toggle button */
+.tab-selection-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 18px;
+  border-bottom: 1px solid var(--border-primary);
+  background-color: var(--bg-secondary);
+}
+
+.tab-selection-header h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #555;
+  letter-spacing: -0.01em;
+}
+
+/* Toggle button style (matches settings export/import buttons) */
+.toggle-btn {
+  padding: 6px 14px;
+  font-size: 12px;
+  min-width: 90px;
+  background-color: var(--bg-primary);
+  color: var(--info);
+  border: 1px solid var(--info);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.15s ease;
+  white-space: nowrap;
+}
+
+.toggle-btn:hover {
+  background-color: var(--info);
+  color: var(--bg-primary);
+  border-color: var(--info);
+}
+
+/* Scrollable tab list */
+.tab-selection-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0;
+  background-color: var(--bg-secondary);
+  min-height: 200px;
+  max-height: 450px;
+}
+
+/* Individual tab item (matches link-row from main app) */
+.tab-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 18px;
+  border-bottom: 1px solid var(--bg-tertiary);
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.tab-item:last-child {
+  border-bottom: none;
+}
+
+.tab-item:hover {
+  background-color: color-mix(in srgb, var(--info-action-bg) 50%, transparent);
+  border-bottom-color: transparent;
+}
+
+/* Remove border from previous item when hovering next item */
+.tab-item:has(+ .tab-item:hover) {
+  border-bottom-color: transparent;
+}
+
+.tab-item input[type="checkbox"] {
+  margin: 0 10px 0 0;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.tab-item-label {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  cursor: pointer;
+  min-width: 0; /* Allow flex item to shrink below content size */
+}
+
+.tab-item-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  flex-shrink: 0;
+  border-radius: 3px;
+}
+
+.tab-item-title {
+  flex: 1;
+  font-size: 14px;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.3;
+}
+
+/* Footer with action buttons */
+.tab-selection-footer {
+  display: flex;
+  gap: 10px;
+  padding: 14px 18px;
+  border-top: 1px solid var(--border-primary);
+  background-color: var(--bg-primary);
+}
+
+.tab-selection-footer button {
+  flex: 1;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+  border: 1px solid;
+}
+
+.secondary-btn {
+  background-color: var(--bg-primary);
+  color: var(--info);
+  border-color: var(--info);
+}
+
+.secondary-btn:hover {
+  background-color: var(--info-hover);
+  color: var(--bg-primary);
+  border-color: var(--info-hover);
+}
+
+.primary-btn {
+  background-color: var(--info);
+  color: var(--text-on-accent);
+  border-color: var(--info);
+}
+
+.primary-btn:hover {
+  background-color: var(--info-hover);
+  border-color: var(--info-hover);
+}
+
+.primary-btn:disabled {
+  background-color: var(--interactive-disabled);
+  color: var(--text-tertiary);
+  border-color: var(--interactive-disabled);
+  cursor: not-allowed;
+}
+
+/* Dark mode overrides for tab selection */
+html.dark-mode .tab-selection-header {
+  background-color: var(--bg-secondary);
+  border-color: var(--border-primary);
+}
+
+html.dark-mode .tab-selection-header h2 {
+  color: var(--text-primary);
+}
+
+html.dark-mode .toggle-btn {
+  background-color: var(--bg-tertiary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-primary);
+}
+
+html.dark-mode .toggle-btn:hover {
+  background-color: var(--info);
+  color: var(--text-primary);
+  border-color: var(--info);
+}
+
+html.dark-mode .tab-selection-list {
+  background-color: var(--bg-secondary);
+}
+
+html.dark-mode .tab-item {
+  border-color: var(--border-primary);
+}
+
+html.dark-mode .tab-item:hover {
+  background-color: color-mix(in srgb, var(--info-action-bg) 50%, transparent);
+  border-bottom-color: transparent;
+}
+
+html.dark-mode .tab-item:has(+ .tab-item:hover) {
+  border-bottom-color: transparent;
+}
+
+html.dark-mode .tab-selection-footer {
+  background-color: var(--bg-primary);
+  border-color: var(--border-primary);
+}
+
+html.dark-mode .secondary-btn {
+  background-color: var(--bg-tertiary);
+  color: var(--text-primary);
+  border-color: var(--border-primary);
+}
+
+html.dark-mode .secondary-btn:hover {
+  background-color: var(--info);
+  color: var(--text-primary);
+  border-color: var(--info);
+}
+
+html.dark-mode .primary-btn {
+  background-color: var(--info);
+  color: var(--text-on-accent);
+  border-color: var(--info);
+}
+
+html.dark-mode .primary-btn:hover {
+  background-color: var(--info-hover);
+  color: var(--text-on-accent);
+  border-color: var(--info-hover);
+}
+
+html.dark-mode .primary-btn:disabled {
+  background-color: var(--interactive-disabled);
+  color: var(--text-tertiary);
+  border-color: var(--interactive-disabled);
+}
+
+/* ================================================
+   MULTI-WINDOW SUPPORT
+   ================================================ */
+
+/* Window header with icon and title */
+.window-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px 10px 18px;
+  background-color: var(--bg-primary);
+  cursor: pointer;
+}
+
+.window-toggle-icon {
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  border: none;
+  background: none;
+  color: #555;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.15s ease;
+  cursor: pointer;
+}
+
+.window-toggle-icon[data-state="all"] {
+  color: var(--info);
+}
+
+.window-header:hover .window-toggle-icon {
+  color: var(--info);
+}
+
+.window-header:hover .window-toggle-icon[data-state="all"] {
+  color: var(--info-hover);
+}
+
+.window-toggle-icon svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+
+.window-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+  transition: color 0.15s ease;
+  pointer-events: none;
+}
+
+.window-toggle-icon[data-state="all"] + .window-title {
+  color: var(--info);
+}
+
+.window-header:hover .window-title {
+  color: var(--info);
+}
+
+.window-header:hover .window-toggle-icon[data-state="all"] + .window-title {
+  color: var(--info-hover);
+}
+
+.window-spacer {
+  height: 0px;
+}
+
+/* Dark mode overrides for window headers */
+html.dark-mode .window-header {
+  background-color: var(--bg-primary);
+}
+
+html.dark-mode .window-toggle-icon {
+  color: var(--text-primary);
+}
+
+html.dark-mode .window-toggle-icon[data-state="all"] {
+  color: var(--info);
+}
+
+html.dark-mode .window-header:hover .window-toggle-icon {
+  color: var(--info);
+}
+
+html.dark-mode .window-header:hover .window-toggle-icon[data-state="all"] {
+  color: var(--info-hover);
+}
+
+html.dark-mode .window-title {
+  color: var(--text-primary);
+}
+
+html.dark-mode .window-toggle-icon[data-state="all"] + .window-title {
+  color: var(--info);
+}
+
+html.dark-mode .window-header:hover .window-title {
+  color: var(--info);
+}
+
+html.dark-mode .window-header:hover .window-toggle-icon[data-state="all"] + .window-title {
+  color: var(--info-hover);
+}
