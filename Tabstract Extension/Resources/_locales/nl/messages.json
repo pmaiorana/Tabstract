@@ -93,10 +93,10 @@
     "message": "<strong>Nieuwe functies!</strong> Actiemenu, ondersteuning voor traditioneel Chinees, kopiëren als opgemaakte tekst, duplicaten opruimen!"
   },
   "bannerText": {
-    "message": "Raak nooit meer een tabblad kwijt dankzij ons nieuwe automatische back-upsysteem! Ook: bètatesters gezocht!"
+    "message": "Bugfixes en prestatieverbeteringen! iCloud-synchronisatie komt HEEL binnenkort, doe mee aan de bèta!"
   },
   "bannerTitle": {
-    "message": "Tabstract 3.1"
+    "message": "Tabstract 3.2"
   },
   "bulkActionCreateGroup": {
     "message": "Samenvoegen"
@@ -878,7 +878,7 @@
     "message": "Ondersteuning en probleemoplossing - Tabstract"
   },
   "helpSupportInstructions": {
-    "message": "Hebt u vragen, wilt u functies voorstellen of hebt u hulp nodig? Klik op <em>E-mail support</em> en daarna op <em>Toestaan</em>, of mail uw systeemrapport naar <em>help@tabstract.app</em> met alle details over het probleem.<br /><br />Stuur ons gerust een e-mail met functieaanvragen, bugmeldingen, vertaalverbeteringen, enzovoort."
+    "message": "Hebt u vragen, wilt u functies voorstellen of hebt u hulp nodig? Klik op <em>E-mail support</em> en daarna op <em>Toestaan</em>, of mail uw systeemrapport naar <em>help@tabstract.app</em> met alle details over het probleem.<br /><br />Ga naar <a href=\"https://github.com/pmaiorana/Tabstract\" target=\"_blank\">Tabstract op GitHub</a> om functieverzoeken, bugmeldingen, vertaalverbeteringen en andere bijdragen achter te laten."
   },
   "helpTitle": {
     "message": "Ondersteuning en probleemoplossing"

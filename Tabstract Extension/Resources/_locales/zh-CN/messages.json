@@ -93,10 +93,10 @@
     "message": "<strong>新功能!</strong> 動作选单、繁体中文支援、复制为 RTF 格式文字、清除重複項!"
   },
   "bannerText": {
-    "message": "全新自动备份系统，再也不怕丢失标签页！招募Beta测试员！"
+    "message": "错误修复和性能改进！iCloud 同步即将推出，快来加入 Beta 测试！"
   },
   "bannerTitle": {
-    "message": "Tabstract 3.1"
+    "message": "Tabstract 3.2"
   },
   "bulkActionCreateGroup": {
     "message": "合并"
@@ -842,7 +842,7 @@
     "message": "支援与疑難排解 - Tabstract"
   },
   "helpSupportInstructions": {
-    "message": "有問題、功能建議或需要協助嗎?点击<em>電郵支援</em>然後点击<em>允許</em>，或将您的系统報告電郵至<em>help@tabstract.app</em>，並附上您的問題詳情。<br /><br />也歡迎您透过電郵向我们提出功能需求、错误報告、翻譯改進等。"
+    "message": "有問題、功能建議或需要協助嗎?点击<em>電郵支援</em>然後点击<em>允許</em>，或将您的系统報告電郵至<em>help@tabstract.app</em>，並附上您的問題詳情。<br /><br />欢迎访问 <a href=\"https://github.com/pmaiorana/Tabstract\" target=\"_blank\">GitHub 上的 Tabstract</a> 提交功能建议、错误报告、翻译改进以及其他贡献。"
   },
   "helpTitle": {
     "message": "支援"

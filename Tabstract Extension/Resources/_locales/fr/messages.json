@@ -93,10 +93,10 @@
     "message": "<strong>Nouveautés!</strong> Menu d'actions, prise en charge du chinois traditionnel, copier en texte enrichi, nettoyage des doublons!"
   },
   "bannerText": {
-    "message": "Ne perdez plus jamais un onglet grâce à notre nouveau système de sauvegarde automatique ! Aussi : bêta-testeurs recherchés !"
+    "message": "Corrections de bugs et améliorations des performances ! La synchronisation iCloud arrive TRÈS bientôt, rejoignez la bêta !"
   },
   "bannerTitle": {
-    "message": "Tabstract 3.1"
+    "message": "Tabstract 3.2"
   },
   "bulkActionCreateGroup": {
     "message": "Fusionner"
@@ -878,7 +878,7 @@
     "message": "Assistance et dépannage - Tabstract"
   },
   "helpSupportInstructions": {
-    "message": "Vous avez des questions, des idées de fonctionnalités ou besoin d'aide ? Cliquez sur <em>Support par e-mail</em> puis sur <em>Autoriser</em>, ou envoyez votre rapport système à <em>help@tabstract.app</em> avec tous les détails de votre problème.<br /><br />N'hésitez pas non plus à nous écrire pour des demandes de fonctionnalités, des rapports de bogues, des améliorations de traduction, etc."
+    "message": "Vous avez des questions, des idées de fonctionnalités ou besoin d'aide ? Cliquez sur <em>Support par e-mail</em> puis sur <em>Autoriser</em>, ou envoyez votre rapport système à <em>help@tabstract.app</em> avec tous les détails de votre problème.<br /><br />Rendez-vous sur <a href=\"https://github.com/pmaiorana/Tabstract\" target=\"_blank\">Tabstract sur GitHub</a> pour proposer des fonctionnalités, signaler des bugs, améliorer les traductions ou contribuer autrement."
   },
   "helpTitle": {
     "message": "Assistance et dépannage"

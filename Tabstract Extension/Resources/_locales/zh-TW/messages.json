@@ -93,10 +93,10 @@
     "message": "<strong>新功能!</strong> 動作選單、繁體中文支援、複製為 RTF 格式文字、清除重複項!"
   },
   "bannerText": {
-    "message": "全新自動備份系統，再也不怕遺失分頁！招募Beta測試員！"
+    "message": "錯誤修正與效能改善！iCloud 同步即將推出，快來加入 Beta 測試！"
   },
   "bannerTitle": {
-    "message": "Tabstract 3.1"
+    "message": "Tabstract 3.2"
   },
   "bulkActionCreateGroup": {
     "message": "合併"
@@ -842,7 +842,7 @@
     "message": "支援與疑難排解 - Tabstract"
   },
   "helpSupportInstructions": {
-    "message": "有問題、功能建議或需要協助嗎?點擊<em>電郵支援</em>然後點擊<em>允許</em>，或將您的系統報告電郵至<em>help@tabstract.app</em>，並附上您的問題詳情。<br /><br />也歡迎您透過電郵向我們提出功能需求、錯誤報告、翻譯改進等。"
+    "message": "有問題、功能建議或需要協助嗎?點擊<em>電郵支援</em>然後點擊<em>允許</em>，或將您的系統報告電郵至<em>help@tabstract.app</em>，並附上您的問題詳情。<br /><br />歡迎造訪 <a href=\"https://github.com/pmaiorana/Tabstract\" target=\"_blank\">GitHub 上的 Tabstract</a> 提交功能建議、錯誤回報、翻譯改進以及其他貢獻。"
   },
   "helpTitle": {
     "message": "支援"

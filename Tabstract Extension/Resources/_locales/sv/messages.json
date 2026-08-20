@@ -93,10 +93,10 @@
     "message": "<strong>Nyheter!</strong> Åtgärdsmeny, stöd för traditionell kinesiska, kopiera som formaterad text, rensning av dubbletter!"
   },
   "bannerText": {
-    "message": "Tappa aldrig en flik med vårt nya automatiska säkerhetskopieringssystem! Vi söker betatestare!"
+    "message": "Buggfixar och prestandaförbättringar! iCloud-synkronisering kommer MYCKET snart – gå med i betan!"
   },
   "bannerTitle": {
-    "message": "Tabstract 3.1"
+    "message": "Tabstract 3.2"
   },
   "bulkActionCreateGroup": {
     "message": "Slå samman"
@@ -842,7 +842,7 @@
     "message": "Support och felsökning - Tabstract"
   },
   "helpSupportInstructions": {
-    "message": "Har du frågor, funktionsförslag eller behöver hjälp? Klicka på <em>E-postsupport</em> och sedan <em>Tillåt</em>, eller mejla din systemrapport till <em>help@tabstract.app</em> tillsammans med detaljer om ditt problem.<br /><br />Tveka inte att mejla oss med funktionsförslag, buggrapporter, översättningsförbättringar, etc."
+    "message": "Har du frågor, funktionsförslag eller behöver hjälp? Klicka på <em>E-postsupport</em> och sedan <em>Tillåt</em>, eller mejla din systemrapport till <em>help@tabstract.app</em> tillsammans med detaljer om ditt problem.<br /><br />Besök <a href=\"https://github.com/pmaiorana/Tabstract\" target=\"_blank\">Tabstract på GitHub</a> för att lämna funktionsförslag, felrapporter, förbättringar av översättningar och andra bidrag."
   },
   "helpTitle": {
     "message": "Support"

@@ -93,10 +93,10 @@
     "message": "<strong>Yeni özellikler!</strong> Eylemler menüsü, Geleneksel Çince desteği, Zengin Metin olarak kopyalama, yinelenen temizleme!"
   },
   "bannerText": {
-    "message": "Yeni otomatik yedekleme sistemiyle artık hiçbir sekmeyi kaybetmeyin! Beta test kullanıcıları aranıyor!"
+    "message": "Hata düzeltmeleri ve performans iyileştirmeleri! iCloud senkronizasyonu ÇOK yakında geliyor, betaya katılın!"
   },
   "bannerTitle": {
-    "message": "Tabstract 3.1"
+    "message": "Tabstract 3.2"
   },
   "bulkActionCreateGroup": {
     "message": "Birleştir"
@@ -842,7 +842,7 @@
     "message": "Destek ve Sorun Giderme - Tabstract"
   },
   "helpSupportInstructions": {
-    "message": "Sorularınız, özellik istekleriniz veya yardıma mı ihtiyacınız var? <em>E-posta Desteği</em>'ne ve ardından <em>İzin Ver</em>'e tıklayın veya Sistem Raporunuzu sorununuzla ilgili ayrıntılarla birlikte <em>help@tabstract.app</em> adresine e-posta ile gönderin.<br /><br />Özellik istekleri, hata raporları, çeviri iyileştirmeleri vb. için de bize e-posta göndermekten çekinmeyin."
+    "message": "Sorularınız, özellik istekleriniz veya yardıma mı ihtiyacınız var? <em>E-posta Desteği</em>'ne ve ardından <em>İzin Ver</em>'e tıklayın veya Sistem Raporunuzu sorununuzla ilgili ayrıntılarla birlikte <em>help@tabstract.app</em> adresine e-posta ile gönderin.<br /><br />Özellik istekleri, hata bildirimleri, çeviri iyileştirmeleri ve diğer katkılar için <a href=\"https://github.com/pmaiorana/Tabstract\" target=\"_blank\">GitHub'daki Tabstract</a> sayfasını ziyaret edin."
   },
   "helpTitle": {
     "message": "Destek"

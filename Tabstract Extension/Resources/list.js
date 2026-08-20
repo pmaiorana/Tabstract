@@ -9107,7 +9107,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Localize banner text
       const bannerTitle = document.getElementById('banner-title');
       const bannerDesc = document.getElementById('banner-description');
-      if (bannerTitle) bannerTitle.textContent = getMessage('bannerTitle') || 'Tabstract 3.1';
+      if (bannerTitle) bannerTitle.textContent = getMessage('bannerTitle') || 'Tabstract 3.2';
       if (bannerDesc) bannerDesc.textContent = getMessage('bannerText') || '';
 
       const key = banner.id;

@@ -93,10 +93,10 @@
     "message": "<strong>Tính năng mới!</strong> Menu hành động, hỗ trợ tiếng Trung phồn thể, sao chép văn bản có định dạng, dọn dẹp trùng lặp!"
   },
   "bannerText": {
-    "message": "Không bao giờ mất tab nữa nhờ hệ thống sao lưu tự động mới! Tuyển người thử nghiệm beta!"
+    "message": "Sửa lỗi và cải thiện hiệu suất! Đồng bộ iCloud sắp ra mắt RẤT sớm, hãy tham gia bản beta!"
   },
   "bannerTitle": {
-    "message": "Tabstract 3.1"
+    "message": "Tabstract 3.2"
   },
   "bulkActionCreateGroup": {
     "message": "Gộp"
@@ -842,7 +842,7 @@
     "message": "Hỗ trợ và khắc phục sự cố - Tabstract"
   },
   "helpSupportInstructions": {
-    "message": "Có câu hỏi, yêu cầu tính năng hoặc cần trợ giúp? Nhấp <em>Email hỗ trợ</em> sau đó nhấp <em>Cho phép</em>, hoặc gửi email Báo cáo hệ thống của bạn đến <em>help@tabstract.app</em>, cùng với bất kỳ chi tiết nào về vấn đề của bạn.<br /><br />Vui lòng liên hệ với chúng tôi về yêu cầu tính năng, báo cáo lỗi, cải thiện bản dịch, v.v."
+    "message": "Có câu hỏi, yêu cầu tính năng hoặc cần trợ giúp? Nhấp <em>Email hỗ trợ</em> sau đó nhấp <em>Cho phép</em>, hoặc gửi email Báo cáo hệ thống của bạn đến <em>help@tabstract.app</em>, cùng với bất kỳ chi tiết nào về vấn đề của bạn.<br /><br />Vui lòng truy cập <a href=\"https://github.com/pmaiorana/Tabstract\" target=\"_blank\">Tabstract trên GitHub</a> để gửi yêu cầu tính năng, báo lỗi, cải thiện bản dịch và các đóng góp khác."
   },
   "helpTitle": {
     "message": "Hỗ trợ"

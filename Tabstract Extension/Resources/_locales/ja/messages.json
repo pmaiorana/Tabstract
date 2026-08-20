@@ -93,10 +93,10 @@
     "message": "<strong>新機能！</strong> アクションメニュー、繁体字中国語対応、リッチテキストコピー、重複クリーンアップ！"
   },
   "bannerText": {
-    "message": "新しい自動バックアップでタブをもう失くしません！ベータテスター募集中！"
+    "message": "バグ修正とパフォーマンスの向上！iCloud同期がまもなく登場します。ぜひベータ版にご参加ください！"
   },
   "bannerTitle": {
-    "message": "Tabstract 3.1"
+    "message": "Tabstract 3.2"
   },
   "bulkActionCreateGroup": {
     "message": "統合"
@@ -842,7 +842,7 @@
     "message": "サポートとトラブルシューティング - Tabstract"
   },
   "helpSupportInstructions": {
-    "message": "ご質問、機能リクエスト、サポートが必要な場合は、<em>メールサポート</em> をクリックしてから <em>許可</em> を選択するか、システムレポートを <em>help@tabstract.app</em> 宛に問題の詳細と一緒に送信してください。<br /><br />機能リクエスト、バグ報告、翻訳の改善などもお気軽にメールでお寄せください。"
+    "message": "ご質問、機能リクエスト、サポートが必要な場合は、<em>メールサポート</em> をクリックしてから <em>許可</em> を選択するか、システムレポートを <em>help@tabstract.app</em> 宛に問題の詳細と一緒に送信してください。<br /><br />機能リクエスト、バグ報告、翻訳の改善などは <a href=\"https://github.com/pmaiorana/Tabstract\" target=\"_blank\">GitHub の Tabstract</a> からお寄せください。"
   },
   "helpTitle": {
     "message": "サポートとトラブルシューティング"
