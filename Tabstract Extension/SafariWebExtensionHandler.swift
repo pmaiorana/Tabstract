@@ -1649,9 +1649,18 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
             return ["success": false, "error": "Failed to write backup file"]
         }
 
-        // Enforce retention and rebuild index
-        enforceRetentionPolicy()
-        rebuildBackupsIndex()
+        // Enforce retention and rebuild index. Seed the metadata with the backup we
+        // just wrote so the largest file on disk doesn't get read straight back in.
+        var newEntry: [String: Any] = [
+            "filename": filename,
+            "timestamp": backup["timestamp"] as? String ?? "",
+            "trigger": backup["trigger"] as? String ?? "auto"
+        ]
+        if let label = backup["label"] { newEntry["label"] = label }
+        if let summary = backup["summary"] { newEntry["summary"] = summary }
+
+        let metas = loadBackupMetadata(seed: [filename: newEntry])
+        writeBackupsIndex(enforceRetentionPolicy(metas))
 
         return ["success": true, "filename": filename]
     }
@@ -1769,40 +1778,109 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
     /// - 1-7 days: keep most recent per calendar day
     /// - 7-30 days: keep most recent per calendar week
     /// - > 30 days: delete
-    private func enforceRetentionPolicy() {
-        guard let backupsDir = backupsDirectoryURL() else { return }
+    /// Everything retention and the index need about a backup, without its payload.
+    private struct BackupMeta {
+        let url: URL
+        let filename: String
+        let timestampString: String
+        let timestamp: Date
+        let trigger: String
+        let label: String?
+        let summary: [String: Any]?
+    }
 
-        let fm = FileManager.default
-        guard let files = try? fm.contentsOfDirectory(at: backupsDir, includingPropertiesForKeys: nil) else { return }
-
-        let backupFiles = files.filter { $0.lastPathComponent.hasPrefix("backup-") && $0.lastPathComponent.hasSuffix(".json") }
-
-        // Parse metadata from each backup
-        struct BackupMeta {
-            let url: URL
-            let timestamp: Date
-            let trigger: String
-            let label: String?
-        }
-
+    private func parseBackupDate(_ value: String) -> Date {
         let iso = ISO8601DateFormatter()
         iso.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
         let isoBasic = ISO8601DateFormatter()
         isoBasic.formatOptions = [.withInternetDateTime]
+        return iso.date(from: value) ?? isoBasic.date(from: value) ?? Date.distantPast
+    }
+
+    private func backupMeta(fromEntry entry: [String: Any], url: URL) -> BackupMeta {
+        let ts = entry["timestamp"] as? String ?? ""
+        return BackupMeta(
+            url: url,
+            filename: url.lastPathComponent,
+            timestampString: ts,
+            timestamp: parseBackupDate(ts),
+            trigger: entry["trigger"] as? String ?? "auto",
+            label: entry["label"] as? String,
+            summary: entry["summary"] as? [String: Any]
+        )
+    }
+
+    /// Metadata for every backup on disk.
+    ///
+    /// Reads backups-index.json and only opens files the index doesn't already
+    /// describe, so the common path parses no backup payloads at all — each backup
+    /// file is a full copy of extension storage, and there can be dozens of them.
+    /// Still self-healing: the directory listing, not the index, decides which
+    /// backups exist, so files added or deleted outside the extension are picked up
+    /// and a missing or stale index just costs one read of the unknown files.
+    ///
+    /// `seed` supplies metadata for files the caller already has in memory.
+    private func loadBackupMetadata(seed: [String: [String: Any]] = [:]) -> [BackupMeta] {
+        guard let backupsDir = backupsDirectoryURL() else { return [] }
+
+        let fm = FileManager.default
+        guard let files = try? fm.contentsOfDirectory(at: backupsDir, includingPropertiesForKeys: nil) else { return [] }
+
+        let backupFiles = files.filter { $0.lastPathComponent.hasPrefix("backup-") && $0.lastPathComponent.hasSuffix(".json") }
+
+        var known = seed
+        let indexURL = backupsDir.appendingPathComponent("backups-index.json")
+        if let indexData = try? Data(contentsOf: indexURL),
+           let index = try? JSONSerialization.jsonObject(with: indexData) as? [[String: Any]] {
+            for entry in index {
+                guard let filename = entry["filename"] as? String else { continue }
+                if known[filename] == nil { known[filename] = entry }
+            }
+        }
 
         var metas: [BackupMeta] = []
         for fileURL in backupFiles {
+            if let entry = known[fileURL.lastPathComponent] {
+                metas.append(backupMeta(fromEntry: entry, url: fileURL))
+                continue
+            }
+            // Unknown to the index — read this one file to recover its metadata.
             guard let data = try? Data(contentsOf: fileURL),
-                  let json = try? JSONSerialization.jsonObject(with: data) as? [String: Any],
-                  let tsString = json["timestamp"] as? String else { continue }
-
-            let date = iso.date(from: tsString) ?? isoBasic.date(from: tsString) ?? Date.distantPast
-            let trigger = json["trigger"] as? String ?? "auto"
-            let label = json["label"] as? String
-
-            metas.append(BackupMeta(url: fileURL, timestamp: date, trigger: trigger, label: label))
+                  let json = try? JSONSerialization.jsonObject(with: data) as? [String: Any] else { continue }
+            metas.append(backupMeta(fromEntry: json, url: fileURL))
         }
 
+        return metas
+    }
+
+    /// Writes backups-index.json from metadata that's already loaded.
+    private func writeBackupsIndex(_ metas: [BackupMeta]) {
+        guard let backupsDir = backupsDirectoryURL() else { return }
+
+        // Sort newest first
+        let entries: [[String: Any]] = metas
+            .sorted { $0.timestampString > $1.timestampString }
+            .map { meta in
+                var entry: [String: Any] = [
+                    "filename": meta.filename,
+                    "timestamp": meta.timestampString,
+                    "trigger": meta.trigger
+                ]
+                if let label = meta.label { entry["label"] = label }
+                if let summary = meta.summary { entry["summary"] = summary }
+                return entry
+            }
+
+        let indexURL = backupsDir.appendingPathComponent("backups-index.json")
+        if let indexData = try? JSONSerialization.data(withJSONObject: entries, options: [.prettyPrinted]) {
+            try? indexData.write(to: indexURL, options: .atomic)
+        }
+    }
+
+    /// Deletes backups the retention policy no longer keeps, returning the survivors.
+    @discardableResult
+    private func enforceRetentionPolicy(_ metas: [BackupMeta]) -> [BackupMeta] {
+        let fm = FileManager.default
         let now = Date()
         let calendar = Calendar.current
         let h24ago = calendar.date(byAdding: .hour, value: -24, to: now)!
@@ -1811,8 +1889,14 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
 
         var toDelete: [URL] = []
 
+        // Only backups with a usable timestamp are eligible for deletion. A missing
+        // timestamp would parse to distantPast and get swept as "older than 30 days",
+        // so leave those alone rather than deleting a backup we can't date. They stay
+        // in `metas`, and so stay in the index.
+        let eligible = metas.filter { !$0.timestampString.isEmpty && $0.timestamp != Date.distantPast }
+
         // Group backups older than 24h but <= 7 days by calendar day, keep most recent per day
-        let dayGroup = metas.filter { $0.timestamp <= h24ago && $0.timestamp > d7ago && $0.trigger != "manual" && $0.trigger != "pre-restore" && $0.label == nil }
+        let dayGroup = eligible.filter { $0.timestamp <= h24ago && $0.timestamp > d7ago && $0.trigger != "manual" && $0.trigger != "pre-restore" && $0.label == nil }
         let byDay = Dictionary(grouping: dayGroup) { calendar.startOfDay(for: $0.timestamp) }
         for (_, group) in byDay {
             let sorted = group.sorted { $0.timestamp > $1.timestamp }
@@ -1822,7 +1906,7 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
         }
 
         // Group backups older than 7 days but <= 30 days by calendar week, keep most recent per week
-        let weekGroup = metas.filter { $0.timestamp <= d7ago && $0.timestamp > d30ago && $0.trigger != "manual" && $0.trigger != "pre-restore" && $0.label == nil }
+        let weekGroup = eligible.filter { $0.timestamp <= d7ago && $0.timestamp > d30ago && $0.trigger != "manual" && $0.trigger != "pre-restore" && $0.label == nil }
         let byWeek = Dictionary(grouping: weekGroup) { meta -> Date in
             let comps = calendar.dateComponents([.yearForWeekOfYear, .weekOfYear], from: meta.timestamp)
             return calendar.date(from: comps) ?? meta.timestamp
@@ -1835,7 +1919,7 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
         }
 
         // Delete all non-manual/non-labeled backups older than 30 days
-        let oldGroup = metas.filter { $0.timestamp <= d30ago && $0.trigger != "manual" && $0.trigger != "pre-restore" && $0.label == nil }
+        let oldGroup = eligible.filter { $0.timestamp <= d30ago && $0.trigger != "manual" && $0.trigger != "pre-restore" && $0.label == nil }
         for meta in oldGroup {
             toDelete.append(meta.url)
         }
@@ -1843,43 +1927,14 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
         for url in toDelete {
             try? fm.removeItem(at: url)
         }
+
+        let deleted = Set(toDelete.map { $0.path })
+        return metas.filter { !deleted.contains($0.url.path) }
     }
 
-    /// Rebuilds the backups-index.json file by scanning all backup files.
+    /// Rebuilds the backups-index.json file from the backups on disk.
     private func rebuildBackupsIndex() {
-        guard let backupsDir = backupsDirectoryURL() else { return }
-
-        let fm = FileManager.default
-        guard let files = try? fm.contentsOfDirectory(at: backupsDir, includingPropertiesForKeys: nil) else { return }
-
-        let backupFiles = files.filter { $0.lastPathComponent.hasPrefix("backup-") && $0.lastPathComponent.hasSuffix(".json") }
-
-        var entries: [[String: Any]] = []
-        for fileURL in backupFiles {
-            guard let data = try? Data(contentsOf: fileURL),
-                  let json = try? JSONSerialization.jsonObject(with: data) as? [String: Any] else { continue }
-
-            var entry: [String: Any] = [
-                "filename": fileURL.lastPathComponent,
-                "timestamp": json["timestamp"] as? String ?? "",
-                "trigger": json["trigger"] as? String ?? "auto"
-            ]
-            if let label = json["label"] as? String {
-                entry["label"] = label
-            }
-            if let summary = json["summary"] as? [String: Any] {
-                entry["summary"] = summary
-            }
-            entries.append(entry)
-        }
-
-        // Sort newest first
-        entries.sort { ($0["timestamp"] as? String ?? "") > ($1["timestamp"] as? String ?? "") }
-
-        let indexURL = backupsDir.appendingPathComponent("backups-index.json")
-        if let indexData = try? JSONSerialization.data(withJSONObject: entries, options: [.prettyPrinted]) {
-            try? indexData.write(to: indexURL, options: .atomic)
-        }
+        writeBackupsIndex(loadBackupMetadata())
     }
 
     /// Appends a timestamped log line to debug/console.log. Auto-truncates at ~500KB.

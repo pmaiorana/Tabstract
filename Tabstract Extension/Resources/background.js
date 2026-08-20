@@ -1128,6 +1128,13 @@ chrome.runtime.onStartup.addListener(() => {
   });
 });
 
+// Register alarm/badge listeners on every service worker evaluation, not just from
+// onInstalled/onStartup. Safari suspends the service worker mid-session, and a wake
+// caused by an alarm firing does not re-fire onStartup — so without this the
+// onAlarm listener is absent exactly when an alarm needs it and the backup is
+// dropped. wireBadgeReactivity is idempotent.
+wireBadgeReactivity();
+
 // Re-register the hourly backup alarm on every service worker wake.
 // onInstalled/onStartup only fire once; Safari may drop alarms when the
 // service worker is terminated, so we check on every wake and recreate if missing.
@@ -4271,6 +4278,8 @@ function wireBadgeReactivity() {
       cleanupExpiredTrash();
     } else if (alarm && alarm.name === 'hourlyBackup') {
       createBackup('scheduled');
+    } else if (alarm && alarm.name === 'catchUpBackup') {
+      createBackup('scheduled');
     }
   });
   wireBadgeReactivity._wired = true;
@@ -4416,13 +4425,22 @@ function ensureBackupAlarm() {
       debug('[Backup] Hourly alarm is stale (was due', Math.round((now - alarm.scheduledTime) / 60000), 'min ago) — re-registering');
       scheduleBackupAlarm();
     }
-    // Always check if we're overdue for a backup (e.g. after sleep)
+    // Always check if we're overdue for a backup (e.g. after sleep).
+    // Defer it rather than running it here: this function runs on every service
+    // worker wake, including Safari launch, and a backup is the heaviest thing we
+    // do. Running it inline made Safari unresponsive at startup for users with a
+    // lot saved. An alarm also survives the service worker being suspended, which
+    // setTimeout does not.
     chrome.storage.local.get(['lastBackupTimestamp'], (res) => {
       const last = res.lastBackupTimestamp ? new Date(res.lastBackupTimestamp).getTime() : 0;
       const elapsed = now - last;
       if (elapsed > 60 * 60 * 1000) {
-        debug('[Backup] Last backup was', Math.round(elapsed / 60000), 'min ago — creating catch-up backup');
-        createBackup('scheduled');
+        debug('[Backup] Last backup was', Math.round(elapsed / 60000), 'min ago — scheduling catch-up backup');
+        chrome.alarms.get('catchUpBackup', (existing) => {
+          if (!existing) {
+            chrome.alarms.create('catchUpBackup', { delayInMinutes: 1 });
+          }
+        });
       }
     });
   });
