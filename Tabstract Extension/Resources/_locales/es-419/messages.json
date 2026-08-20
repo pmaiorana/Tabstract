@@ -1,0 +1,2706 @@
+{
+  "SnoozeInfo": {
+    "message": "La insignia de la barra de herramientas rastrea las sesiones guardadas para que no se olviden. Snooze oculta la insignia temporalmente."
+  },
+  "accentColorLabel": {
+    "message": "Color"
+  },
+  "actionLockTabGroup": {
+    "message": "Bloquear grupo de pestañas"
+  },
+  "actionSendToTabGroup": {
+    "message": "Enviar pestañas al grupo de pestañas"
+  },
+  "actionSendToTrash": {
+    "message": "Enviar pestañas a la papelera"
+  },
+  "actionSessionName": {
+    "message": "Nombre"
+  },
+  "actionSetColor": {
+    "message": "Establecer color del grupo de pestañas"
+  },
+  "actionSetLockStatus": {
+    "message": "Establecer estado de bloqueo"
+  },
+  "actionsMenu": {
+    "message": "Acciones"
+  },
+  "advancedMode": {
+    "message": "Modo avanzado"
+  },
+  "aiDisabledNotice": {
+    "message": "<strong>Apple Intelligence está actualmente desactivado o no disponible.</strong> Consulta el menú de Apple Intelligence en Ajustes del Sistema"
+  },
+  "aiEnabledButInaccessible": {
+    "message": "<strong>Apple Intelligence parece estar habilitado en tu sistema, pero Tabstract no puede acceder a él.</strong><br><br>Causas comunes:<ul><li>El idioma de macOS y el idioma de Siri no coinciden. Apple requiere que ambos estén configurados en el mismo idioma.</li><li>Apple Intelligence aún se está inicializando; espera unos minutos y recarga Tabstract → Ajustes.</li><li>Estás en un país no compatible. Apple Intelligence no está disponible en dispositivos comprados en China continental, o en dispositivos usados en China continental con un ID de Apple cuyo país o región esté configurado en China continental.</li></ul>"
+  },
+  "aiExperimentalNotice": {
+    "message": "<strong>Esta es una función nueva y experimental</strong>, los resultados seguirán mejorando con el tiempo"
+  },
+  "aiLanguageNotSupported": {
+    "message": "Las funciones de IA no están disponibles en este idioma porque Apple Intelligence aún no lo admite. Cambie a inglés, español, francés, alemán, italiano, japonés, coreano, portugués (Brasil) o chino (simplificado) para usar las funciones de IA."
+  },
+  "aiNotAvailable": {
+    "message": "<strong>Apple Intelligence no está disponible.</strong> Consulta la configuración de tu sistema para asegurarte de que está activado y listo"
+  },
+  "aiRegenerateTitle": {
+    "message": "Regenerar título"
+  },
+  "aiSmartCategorizationDesc": {
+    "message": "Organiza automáticamente grupos de pestañas de <strong>6 o más</strong> en temas <span class=\"hint\"><strong class=\"info\"></strong>Requiere activar <em>Generar títulos de sesión</em></span>"
+  },
+  "aiSmartCategorizationLabel": {
+    "message": "Clasificación inteligente"
+  },
+  "aiTitleSuggestionsDesc": {
+    "message": "Usa Apple Intelligence—IA privada en el dispositivo—para sugerir títulos de sesión al guardar pestañas"
+  },
+  "aiTitleSuggestionsLabel": {
+    "message": "Generar títulos de sesión"
+  },
+  "aiUnsupportedNotice": {
+    "message": "Las funciones de IA requieren un Mac compatible con Apple Intelligence y macOS 26.0 o posterior"
+  },
+  "all": {
+    "message": "todos"
+  },
+  "am": {
+    "message": "AM"
+  },
+  "any": {
+    "message": "cualquiera"
+  },
+  "appName": {
+    "message": "Tabstract"
+  },
+  "appleIntelligenceUnavailable": {
+    "message": "Apple Intelligence no disponible"
+  },
+  "atLeastOnePatternRequired": {
+    "message": "Se requiere al menos un patrón"
+  },
+  "avoidDuplicatesDesc": {
+    "message": "Evita guardar la misma URL varias veces en una sesión"
+  },
+  "avoidDuplicatesLabel": {
+    "message": "No guardar pestañas duplicadas"
+  },
+  "avoidDuplicatesSetting": {
+    "message": "<strong>No guardar pestañas duplicadas</strong> en la misma sesión"
+  },
+  "backupAutomatic": {
+    "message": "Automática"
+  },
+  "backupComplete": {
+    "message": "¡Copia de seguridad completada!"
+  },
+  "backupExplainer": {
+    "message": "Tabstract realiza copias de seguridad automáticas de tus datos cada vez que guardas pestañas y una vez por hora. Las copias de más de 24 horas se reducen a una por día, luego una por semana y se eliminan después de 30 días. Las copias manuales se conservan indefinidamente."
+  },
+  "backupFailed": {
+    "message": "Error en la copia de seguridad"
+  },
+  "backupLoadError": {
+    "message": "No se pudieron cargar las copias de seguridad."
+  },
+  "backupManual": {
+    "message": "Manual"
+  },
+  "backupManualBadge": {
+    "message": "Manual"
+  },
+  "backupMenuRestoreMerge": {
+    "message": "Restaurar pestañas (combinar)"
+  },
+  "backupMenuRestoreReplace": {
+    "message": "Restaurar pestañas (reemplazar)"
+  },
+  "backupMenuRestoreSystem": {
+    "message": "Restaurar sistema (restablecimiento completo)"
+  },
+  "backupNow": {
+    "message": "Hacer copia ahora"
+  },
+  "backupPreRestoreBadge": {
+    "message": "Punto de restauración"
+  },
+  "backupActionsLabel": {
+    "message": "Acciones de respaldo"
+  },
+  "backupTabCount": {
+    "message": "$1 pestañas",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupsTitle": {
+    "message": "Copia de seguridad y restauración"
+  },
+  "bannerNewFeatures": {
+    "message": "<strong>¡Novedades!</strong> Menú de acciones, soporte para chino tradicional, copiar como texto enriquecido, limpieza de duplicados!"
+  },
+  "bannerText": {
+    "message": "¡No pierdas nunca una pestaña con nuestro nuevo sistema de respaldo automático! También: ¡se buscan beta testers!"
+  },
+  "bannerTitle": {
+    "message": "Tabstract 3.1"
+  },
+  "bulkActionCreateGroup": {
+    "message": "Combinar"
+  },
+  "bulkActionDeselect": {
+    "message": "Deseleccionar todo"
+  },
+  "bulkActionDuplicate": {
+    "message": "Duplicar"
+  },
+  "bulkActionLockUnlock": {
+    "message": "Bloquear/Desbloquear seleccionados"
+  },
+  "bulkActionRestore": {
+    "message": "Restaurar"
+  },
+  "bulkActionTrash": {
+    "message": "Papelera"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "clearData": {
+    "message": "Restablecer Tabstract"
+  },
+  "clearFilters": {
+    "actionsMenu": {
+      "message": "Actions"
+    },
+    "bulkActionDuplicate": {
+      "message": "Duplicate"
+    },
+    "bulkActionLockUnlock": {
+      "message": "Lock/Unlock Selected"
+    },
+    "colorBlue": {
+      "message": "Blue"
+    },
+    "colorDefault": {
+      "message": "Default"
+    },
+    "colorGreen": {
+      "message": "Green"
+    },
+    "colorOrange": {
+      "message": "Orange"
+    },
+    "colorPink": {
+      "message": "Pink"
+    },
+    "colorPurple": {
+      "message": "Purple"
+    },
+    "colorRed": {
+      "message": "Red"
+    },
+    "colorYellow": {
+      "message": "Yellow"
+    },
+    "filterAll": {
+      "message": "All"
+    },
+    "message": "Restablecer"
+  },
+  "clearSchedule": {
+    "message": "Borrar programación"
+  },
+  "clearSearch": {
+    "message": "Limpiar búsqueda"
+  },
+  "clearSnooze": {
+    "message": "Borrar posposición"
+  },
+  "clickNewToGetStarted": {
+    "message": "Haz clic en \"Nuevo\" para comenzar."
+  },
+  "clipboardError": {
+    "message": "Error al copiar al portapapeles"
+  },
+  "close": {
+    "message": "Cerrar"
+  },
+  "closeFiltersModal": {
+    "message": "Cerrar modal de filtros"
+  },
+  "closeHomeTabOnOpen": {
+    "message": "Cerrar Tabstract después de restaurar sesiones"
+  },
+  "closeHomeTabOnOpenDesc": {
+    "message": "Cerrar Tabstract al abrir grupos de pestañas"
+  },
+  "closeHomeTabOnOpenLabel": {
+    "message": "Cerrar Tabstract después de restaurar"
+  },
+  "collapseAll": {
+    "message": "Contraer todo"
+  },
+  "collapseExpandAll": {
+    "message": "Contraer/expandir todo"
+  },
+  "collapseSession": {
+    "message": "Contraer sesión"
+  },
+  "collapseTemplate": {
+    "message": "Contraer rutina"
+  },
+  "colorBlue": {
+    "message": "Azul"
+  },
+  "colorDefault": {
+    "message": "Predeterminado"
+  },
+  "colorGreen": {
+    "message": "Verde"
+  },
+  "colorOrange": {
+    "message": "Naranja"
+  },
+  "colorPink": {
+    "message": "Rosa"
+  },
+  "colorPurple": {
+    "message": "Morado"
+  },
+  "colorRed": {
+    "message": "Rojo"
+  },
+  "colorYellow": {
+    "message": "Amarillo"
+  },
+  "columnColor": {
+    "message": "Color"
+  },
+  "columnDateCreated": {
+    "message": "Fecha de creación"
+  },
+  "columnDomain": {
+    "message": "Dominio"
+  },
+  "columnGroup": {
+    "message": "Grupo de pestañas"
+  },
+  "columnLock": {
+    "message": "Bloqueado"
+  },
+  "columnPinned": {
+    "message": "Fijado"
+  },
+  "columnTitle": {
+    "message": "Título"
+  },
+  "confirmClearSchedule": {
+    "message": "¿Borrar esta programación?"
+  },
+  "confirmDeleteBackup": {
+    "message": "¿Estás seguro de que quieres eliminar esta copia de seguridad? Esta acción no se puede deshacer."
+  },
+  "confirmDeleteFromTrash": {
+    "message": "¿Estás seguro de que quieres eliminar permanentemente este enlace? Esta acción no se puede deshacer."
+  },
+  "confirmDeleteTemplate": {
+    "message": "¿Eliminar esta rutina? Esto no se puede deshacer."
+  },
+  "confirmEmptyTrash": {
+    "message": "¿Estás seguro de que quieres eliminar permanentemente todos los elementos de la papelera? Esta acción no se puede deshacer."
+  },
+  "confirmImport": {
+    "message": "ADVERTENCIA: Esto reemplazará completamente todos tus datos actuales de Tabstract (configuración, sesiones guardadas, papelera, etc.) con los datos importados.\n\nEsta acción no se puede deshacer.\n\n¿Estás seguro de que deseas continuar?"
+  },
+  "confirmReset": {
+    "message": "¿Estás seguro de que deseas restablecer Tabstract?\n\nTodas las pestañas se eliminarán, incluidas las pestañas en sesiones bloqueadas.\n\nEsto no se puede deshacer."
+  },
+  "confirmRestoreEverything": {
+    "message": "Esto reemplazará TODOS tus datos actuales de Tabstract (pestañas, ajustes, rutinas, filtros, etc.) con los datos de esta copia de seguridad.\n\nSe creará primero una copia de seguridad previa a la restauración, por si acaso.\n\n¿Continuar?"
+  },
+  "confirmRestoreTabsMerge": {
+    "message": "Esto combinará las pestañas de la copia de seguridad con tus pestañas existentes, conservando ambas.\n\nTambién se creará una copia de seguridad previa a la restauración, por si acaso.\n\n¿Continuar?"
+  },
+  "confirmRestoreTabsOnly": {
+    "message": "Esto reemplazará solo tus pestañas guardadas con las pestañas de esta copia de seguridad. Los ajustes, rutinas y filtros no cambiarán.\n\nSe creará primero una copia de seguridad previa a la restauración, por si acaso.\n\n¿Continuar?"
+  },
+  "contactSupport": {
+    "message": "Contacto"
+  },
+  "copiedToClipboard": {
+    "message": "¡Copiado!"
+  },
+  "copyAllToClipboard": {
+    "message": "Copiar como Markdown"
+  },
+  "copyFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "copyFormatPlain": {
+    "message": "Texto plano"
+  },
+  "copyFormatRich": {
+    "message": "Texto enriquecido"
+  },
+  "copyMenu": {
+    "message": "Copiar..."
+  },
+  "createFilter": {
+    "message": "Crear filtro"
+  },
+  "createNewFilter": {
+    "message": "Crear nuevo filtro"
+  },
+  "customColor": {
+    "message": "Color personalizado"
+  },
+  "dailyAt": {
+    "message": "Diariamente a las {time}"
+  },
+  "darkAuto": {
+    "message": "Automático"
+  },
+  "darkDark": {
+    "message": "Oscuro"
+  },
+  "darkLight": {
+    "message": "Claro"
+  },
+  "darkModeDesc": {
+    "message": "Elige tu esquema de color"
+  },
+  "darkModeLabel": {
+    "message": "Modo oscuro"
+  },
+  "darkOff": {
+    "message": "Desactivado"
+  },
+  "darkSystem": {
+    "message": "Sistema"
+  },
+  "dayFormat": {
+    "message": "numeric"
+  },
+  "dayOfMonth": {
+    "message": "Día del mes:"
+  },
+  "days": {
+    "message": "Días:"
+  },
+  "debugConsole": {
+    "message": "Consola de depuración"
+  },
+  "deleteAfterRestore": {
+    "message": "Restaurar pestañas las elimina de Tabstract <span class=\"hint\"><strong class=\"info\">Shift+Click</strong> al restaurar para desactivar temporalmente</span>"
+  },
+  "deleteAfterRestoreDesc": {
+    "message": "Las pestañas se eliminan de Tabstract al restaurarlas <span class=\"hint\"><strong class=\"info\">Shift+Click</strong> para desactivar temporalmente</span>"
+  },
+  "deleteAfterRestoreLabel": {
+    "message": "Eliminar pestañas después de restaurar"
+  },
+  "deleteBackup": {
+    "message": "Eliminar respaldo"
+  },
+  "deleteSmartGroup": {
+    "message": "Eliminar filtro"
+  },
+  "deleteTab": {
+    "message": "Eliminar esta pestaña"
+  },
+  "dismissAIUnavailableMessage": {
+    "message": "Descartar mensaje de Apple Intelligence no disponible"
+  },
+  "downloadData": {
+    "message": "Descargar datos"
+  },
+  "downloadReport": {
+    "message": "Descargar informe"
+  },
+  "draftDelete": {
+    "message": "Eliminar"
+  },
+  "dragToReorder": {
+    "message": "Arrastrar para reordenar"
+  },
+  "duplicateGroup": {
+    "message": "Duplicar grupo"
+  },
+  "duplicatesRemoved": {
+    "message": "{count} duplicado(s) eliminado(s)"
+  },
+  "editFilter": {
+    "message": "Editar filtro"
+  },
+  "editSchedule": {
+    "message": "Editar programación"
+  },
+  "emailBodyTemplate": {
+    "message": "Hola,\n\nTengo un problema con Tabstract.\n\nSigue estos pasos para reproducir mi problema:\n1.\n2.\n3.\n\n\nAquí están mis datos de almacenamiento local para solucionar problemas:\n\n$1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "data": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "emailSupport": {
+    "message": "Contactar soporte"
+  },
+  "emptySessionHint": {
+    "message": "Arrastra enlaces aquí para añadirlos a esta sesión"
+  },
+  "emptyTrash": {
+    "message": "Vaciar papelera"
+  },
+  "emptyTrashWithCount": {
+    "message": "Vaciar papelera ($1 elementos)",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "enableBadge": {
+    "message": "Mostrar distintivo de recordatorio en la barra de herramientas"
+  },
+  "enableKeyboardShortcuts": {
+    "message": "Activar atajos de teclado"
+  },
+  "errorMaxLength": {
+    "message": "Longitud máxima excedida"
+  },
+  "errorParsingJson": {
+    "message": "Error al analizar JSON: $1"
+  },
+  "expandAll": {
+    "message": "Expandir todo"
+  },
+  "expandSession": {
+    "message": "Expandir sesión"
+  },
+  "expandTemplate": {
+    "message": "Expandir rutina"
+  },
+  "expiredLabel": {
+    "message": "Expirado"
+  },
+  "expiresInDays": {
+    "message": "Expira en $1 días",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInHours": {
+    "message": "Expira en $1 horas",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "expiresInLessThanHour": {
+    "message": "Expira en < 1 hora"
+  },
+  "export": {
+    "message": "Exportar"
+  },
+  "exportBackupShowInFinder": {
+    "message": "Mostrar en Finder"
+  },
+  "exportFormatHTML": {
+    "message": "HTML"
+  },
+  "exportFormatJSON": {
+    "message": "JSON"
+  },
+  "exportFormatMarkdown": {
+    "message": "Markdown"
+  },
+  "exportFormatOPML": {
+    "message": "OPML"
+  },
+  "exportFormatPlain": {
+    "message": "Texto plano"
+  },
+  "exportMenu": {
+    "message": "Exportar..."
+  },
+  "exportSavedLinks": {
+    "message": "Exportar enlaces guardados"
+  },
+  "exportSuccess": {
+    "message": "¡Exportación exitosa!"
+  },
+  "filterAll": {
+    "message": "Todos"
+  },
+  "filterColor": {
+    "message": "Color:"
+  },
+  "filterDate": {
+    "message": "Fecha:"
+  },
+  "filterDateLastMonth": {
+    "message": "El mes pasado"
+  },
+  "filterDateLastWeek": {
+    "message": "La semana pasada"
+  },
+  "filterDateMonth": {
+    "message": "Este mes"
+  },
+  "filterDateToday": {
+    "message": "Hoy"
+  },
+  "filterDateWeek": {
+    "message": "Esta semana"
+  },
+  "filterDateYesterday": {
+    "message": "Ayer"
+  },
+  "filterDomain": {
+    "message": "Dominio:"
+  },
+  "filterLock": {
+    "message": "Bloqueo:"
+  },
+  "filterName": {
+    "message": "Descripción"
+  },
+  "filters": {
+    "message": "Filtros"
+  },
+  "filtersDescription": {
+    "message": "Los filtros pueden ordenar y organizar automáticamente tus pestañas según un dominio, palabra clave u otros patrones. <strong>Los filtros se procesan en orden de prioridad</strong>, de arriba hacia abajo; arrastra para reordenar."
+  },
+  "formatOneTab": {
+    "message": "Exportación OneTab"
+  },
+  "formatTSV": {
+    "message": "TSV"
+  },
+  "formatTabSpace": {
+    "message": "Copia de seguridad de Tab Space"
+  },
+  "formatTabsSaver": {
+    "message": "Copia de seguridad de Tabs Saver"
+  },
+  "formatTabstractJSON": {
+    "message": "Exportación JSON de Tabstract"
+  },
+  "frequency": {
+    "message": "Frecuencia:"
+  },
+  "fullScreenMode": {
+    "message": "Modo pantalla completa (F)"
+  },
+  "groupNameRequired": {
+    "message": "Se requiere nombre de grupo"
+  },
+  "guideAIFeaturesBody": {
+    "message": "Si tu computadora es compatible con Apple Intelligence, Tabstract puede categorizar automáticamente las pestañas guardadas en grupos por tema. Haz clic en el <strong>ícono de brillo ✨</strong> junto a cualquier título de sesión para generar un nuevo título. Las computadoras que no admiten Apple Intelligence usarán la fecha y la hora en su lugar."
+  },
+  "guideAIFeaturesTitle": {
+    "message": "Organiza tus pestañas con IA"
+  },
+  "guideBadgeNotificationsBody": {
+    "message": "La insignia de la barra de herramientas muestra cuántas sesiones guardadas tienes, para que no se olviden aunque estén fuera de la vista. Posponer oculta la insignia hasta 24 horas, o puedes desactivarla por completo en los ajustes."
+  },
+  "guideBadgeNotificationsTitle": {
+    "message": "Insignia de la barra de herramientas"
+  },
+  "guideDragToReorderBody": {
+    "message": "Haz clic y arrastra enlaces individuales y sesiones para reordenar tus pestañas guardadas en el orden que prefieras."
+  },
+  "guideDragToReorderTitle": {
+    "message": "Organiza con arrastrar y soltar"
+  },
+  "guideGettingStartedBody": {
+    "message": "Tabstract te ayuda a guardar y organizar tus pestañas de Safari. Para comenzar, haz clic derecho en la barra de herramientas de Safari, selecciona Personalizar y arrastra el ícono de Tabstract a la barra. Una vez instalado, haz clic en Tabstract y luego en <strong>Guardar pestañas</strong> para capturar todas las pestañas abiertas de la ventana actual. "
+  },
+  "guideGettingStartedTitle": {
+    "message": "Primeros pasos"
+  },
+  "guideKeyboardShortcutsBody": {
+    "message": "Tabstract incluye atajos de teclado y combinaciones de teclas modificadoras para usuarios avanzados. Puedes desactivar los atajos en Ajustes.<br><br>\n                <strong>Atajos principales:</strong><br><br>\n                Guardar todas las pestañas: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd><br>\n                Guardar solo la pestaña actual: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd><br>\n                Abrir la lista de sesiones guardadas: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd><br><br>\n                <strong>Acciones rápidas:</strong><br><br>\n                Focalizar el cuadro de búsqueda: <kbd>/</kbd><br>\n                Crear nueva sesión: <kbd>N</kbd><br><br>\n                <strong>Combinaciones con modificadores:</strong><br><br>\n                Guardar solo la pestaña actual: <kbd>Shift</kbd> + clic en <em>Guardar pestañas</em><br>\n                Expandir/contraer todas las sesiones: <kbd>Shift</kbd> + clic en <em>botón de contraer sesión</em><br>\n                Invertir temporalmente el ajuste \"Eliminar pestañas después de restaurar\": <kbd>Shift</kbd> + clic en <em>Restaurar</em><br>\n                Invertir temporalmente el ajuste \"Restaurar pestañas en segundo plano\": <kbd>Opción</kbd> + clic en <em>Restaurar</em>"
+  },
+  "guideKeyboardShortcutsTitle": {
+    "message": "Atajos de teclado"
+  },
+  "guidePasteLinksBody": {
+    "message": "Puedes copiar enlaces de otras aplicaciones y pegar esas URL directamente en Tabstract. Tabstract obtendrá automáticamente los títulos de las páginas y los añadirá a tu colección. "
+  },
+  "guidePasteLinksTitle": {
+    "message": "Copiar y pegar enlaces en Tabstract"
+  },
+  "guideShiftClickBody": {
+    "message": "Mantén pulsada <kbd>Mayús</kbd> mientras haces clic en el botón de contraer de cualquier sesión para expandir o contraer todas las sesiones a la vez."
+  },
+  "guideShiftClickTitle": {
+    "message": "Mayús+Clic para expandir/contraer todo"
+  },
+  "guideTrashUndoBody": {
+    "message": "Los enlaces eliminados se mueven a la papelera durante 30 días antes de eliminarse automáticamente. La papelera está limitada a 1,000 elementos para mantener Tabstract rápido."
+  },
+  "guideTrashUndoTitle": {
+    "message": "Papelera"
+  },
+  "helpPageTitle": {
+    "message": "Soporte y solución de problemas - Tabstract"
+  },
+  "helpSupportInstructions": {
+    "message": "¿Tienes preguntas, quieres proponer funciones o necesitas ayuda? Haz clic en <em>Contactar soporte</em> y luego en <em>Permitir</em>, o envía tu informe del sistema a <em>help@tabstract.app</em> junto con los detalles de tu problema.<br /><br />También puedes escribirnos para sugerir funciones, informar errores, mejorar traducciones, etc."
+  },
+  "helpTitle": {
+    "message": "Soporte"
+  },
+  "hourFormat": {
+    "message": "numeric"
+  },
+  "hourAgo": {
+    "message": "Hace $1 hora",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hoursAgo": {
+    "message": "Hace $1 horas",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "import": {
+    "message": "Importar"
+  },
+  "importData": {
+    "message": "Importar datos"
+  },
+  "importError": {
+    "message": "Error al importar datos. Asegúrate de que el archivo sea una exportación válida de Tabstract."
+  },
+  "importFailedPrefix": {
+    "message": "Error al importar: "
+  },
+  "importLinksLabel": {
+    "message": "Importar enlaces de otros administradores de pestañas"
+  },
+  "importMenu": {
+    "message": "Importar..."
+  },
+  "importSuccess": {
+    "message": "¡Datos importados correctamente! Tabstract se recargará ahora."
+  },
+  "importSuccessMessage": {
+    "message": "Se importaron $1 enlace(s) válido(s) (en $2 sesión/sesiones).\nSe omitieron $3 enlace(s) no válido(s).\n\nLos títulos de las páginas se obtendrán en segundo plano.",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "errors": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$3",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "links": {
+        "content": "$1"
+      },
+      "sessions": {
+        "content": "$2"
+      }
+    }
+  },
+  "importSystemBackup": {
+    "message": "Importar respaldo del sistema"
+  },
+  "invalidJsonFormat": {
+    "message": "Formato JSON inválido: se esperaba un arreglo de sesiones."
+  },
+  "invalidRegexPrefix": {
+    "message": "Expresión regular no válida: "
+  },
+  "justNow": {
+    "message": "Justo ahora"
+  },
+  "langNameArabic": {
+    "message": "Árabe"
+  },
+  "langNameChineseCN": {
+    "message": "Chino simplificado"
+  },
+  "langNameChineseTW": {
+    "message": "Chino tradicional"
+  },
+  "langNameDanish": {
+    "message": "Danés"
+  },
+  "langNameDutch": {
+    "message": "Holandés"
+  },
+  "langNameEnglish": {
+    "message": "Inglés"
+  },
+  "langNameFrench": {
+    "message": "Francés"
+  },
+  "langNameFrenchCA": {
+    "message": "Francés canadiense"
+  },
+  "langNameGerman": {
+    "message": "Alemán"
+  },
+  "langNameItalian": {
+    "message": "Italiano"
+  },
+  "langNameJapanese": {
+    "message": "Japonés"
+  },
+  "langNameKorean": {
+    "message": "Coreano"
+  },
+  "langNameNorwegian": {
+    "message": "Noruego"
+  },
+  "langNamePortugueseBR": {
+    "message": "Portugués brasileño"
+  },
+  "langNamePortuguesePT": {
+    "message": "Portugués"
+  },
+  "langNameRussian": {
+    "message": "Ruso"
+  },
+  "langNameSpanish": {
+    "message": "Español"
+  },
+  "langNameSpanishLA": {
+    "message": "Español latinoamericano"
+  },
+  "langNameSwedish": {
+    "message": "Sueco"
+  },
+  "langNameTurkish": {
+    "message": "Turco"
+  },
+  "langNameVietnamese": {
+    "message": "Vietnamita"
+  },
+  "languageAuto": {
+    "message": "Predeterminado del sistema"
+  },
+  "languageDesc": {
+    "message": "Elegir idioma de visualización"
+  },
+  "languageLabel": {
+    "message": "Idioma"
+  },
+  "lastBackup": {
+    "message": "Última copia:"
+  },
+  "lastRun": {
+    "message": "Última ejecución: {time}"
+  },
+  "launchOnStartup": {
+    "message": "Mostrar Tabstract al iniciar el navegador"
+  },
+  "launchOnStartupDesc": {
+    "message": "Abrir Tabstract al iniciar Safari"
+  },
+  "launchOnStartupLabel": {
+    "message": "Abrir al iniciar"
+  },
+  "learnMore": {
+    "message": "Más información"
+  },
+  "learnMoreAboutFeatures": {
+    "message": "Más información sobre las nuevas funciones"
+  },
+  "linkRestored": {
+    "message": "Enlace restaurado a nueva sesión"
+  },
+  "loadingBackups": {
+    "message": "Cargando copias de seguridad..."
+  },
+  "lockAll": {
+    "message": "Bloquear todo"
+  },
+  "lockSession": {
+    "message": "Bloquear"
+  },
+  "lockSessionTitle": {
+    "message": "Bloquear sesión"
+  },
+  "lockUnlockAll": {
+    "message": "Bloquear/desbloquear todo"
+  },
+  "manageFiltersMenuItem": {
+    "message": "Administrar filtros..."
+  },
+  "manageTemplates": {
+    "message": "Administrar rutina"
+  },
+  "manageTemplatesMenuItem": {
+    "message": "Administrar rutina..."
+  },
+  "match": {
+    "message": "Si"
+  },
+  "matches": {
+    "message": "Coincidencias:"
+  },
+  "mergeIntoSessionBelow": {
+    "message": "Fusionar con la sesión de abajo"
+  },
+  "minuteFormat": {
+    "message": "numeric"
+  },
+  "minuteAgo": {
+    "message": "Hace $1 minuto",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "minutesAgo": {
+    "message": "Hace $1 minutos",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "monthFormat": {
+    "message": "long"
+  },
+  "monthlyOn": {
+    "message": "Mensualmente el {day} a las {time}"
+  },
+  "moreActions": {
+    "message": "Más acciones"
+  },
+  "moveToTop": {
+    "message": "Enviar arriba"
+  },
+  "navHelp": {
+    "message": "Ayuda y Consejos"
+  },
+  "navHome": {
+    "message": "Inicio"
+  },
+  "navSelect": {
+    "message": "Seleccionar"
+  },
+  "navSettings": {
+    "message": "Ajustes"
+  },
+  "navSnooze": {
+    "message": "Posponer"
+  },
+  "needHelpWithTabstract": {
+    "message": "¿Necesitas ayuda con Tabstract?"
+  },
+  "never": {
+    "message": "Nunca"
+  },
+  "newButton": {
+    "message": "Nuevo"
+  },
+  "newTabGroup": {
+    "message": "Nuevo grupo de pestañas"
+  },
+  "no": {
+    "message": "No"
+  },
+  "noAvailableTabs": {
+    "message": "No hay pestañas disponibles"
+  },
+  "noBackupsYet": {
+    "message": "Aún no hay copias de seguridad"
+  },
+  "noColor": {
+    "message": "Sin color"
+  },
+  "noResultsFound": {
+    "message": "No se encontraron resultados para"
+  },
+  "noSavedLinksToExport": {
+    "message": "No hay enlaces guardados para exportar."
+  },
+  "noTabsAvailableToSave": {
+    "message": "No hay pestañas disponibles para guardar"
+  },
+  "noTabsSaved": {
+    "message": "No hay pestañas guardadas."
+  },
+  "noTemplatesInstructions": {
+    "message": "Aún no hay rutinas guardadas.<br>Crea una rutina desde una sesión para comenzar."
+  },
+  "noTemplatesSaved": {
+    "message": "Aún no se han guardado rutinas.<br>Crea una rutina desde una sesión para comenzar."
+  },
+  "noTemplatesSavedYet": {
+    "message": "Aún no se han guardado rutina"
+  },
+  "nonMatchingWarning": {
+    "message": "<strong>⚠️ Advertencia:</strong> $1 pestaña(s) en este grupo ya no coinciden con los patrones y se moverán a una nueva sesión titulada \"<strong>Eliminado de $2</strong>\".",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "content": "$1"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$2",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "none": {
+    "message": "Ninguno"
+  },
+  "ofTheFollowingConditions": {
+    "message": "de las siguientes condiciones se cumplen:"
+  },
+  "ok": {
+    "message": "Aceptar"
+  },
+  "oneclickSave": {
+    "message": "Guardado con un clic <span class=\"hint\"><strong class=\"caution\">Advertencia:</strong> esto desactiva Inicio y Posponer; usa Shift+Command+H para volver a Inicio.</span>"
+  },
+  "oneclickSaveDesc": {
+    "message": "<span class=\"hint\"><strong class=\"caution\">Precaución:</strong> Esta función experimental elimina los botones Inicio y Posponer. Usa <strong>Shift+Command+H</strong> para abrir Inicio.</span>"
+  },
+  "oneclickSaveLabel": {
+    "message": "Guardado con un clic"
+  },
+  "openLink": {
+    "message": "Abrir $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "pageTitle": {
+    "message": "Herramientas y Ajustes - Tabstract"
+  },
+  "pasteLinks": {
+    "message": "Pegar enlaces"
+  },
+  "performActions": {
+    "message": "Realizar las siguientes acciones:"
+  },
+  "pinToTop": {
+    "message": "Fijar arriba"
+  },
+  "pinnedTabsDesc": {
+    "message": "Las pestañas fijadas no se cerrarán ni se guardarán en Tabstract"
+  },
+  "pinnedTabsLabel": {
+    "message": "No guardar pestañas fijadas"
+  },
+  "pinnedTabsSetting": {
+    "message": "<strong>No guardar pestañas fijadas</strong> (las pestañas fijadas no se cierran ni se guardan en Tabstract)"
+  },
+  "pleaseEnterDayBetween1And31": {
+    "message": "Por favor ingresa un día entre 1 y 31."
+  },
+  "pleaseEnterPattern": {
+    "message": "Por favor ingresa un valor de patrón"
+  },
+  "pleaseSelectAtLeastOneDay": {
+    "message": "Por favor selecciona al menos un día para la programación semanal."
+  },
+  "pm": {
+    "message": "PM"
+  },
+  "refreshData": {
+    "message": "Actualizar datos de depuración"
+  },
+  "removeFromSession": {
+    "message": "Eliminar $1 de la sesión",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "title": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "removedFrom": {
+    "message": "Eliminado de $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "name": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "resetGroupColors": {
+    "message": "Restablecer colores"
+  },
+  "restoreAllTabs": {
+    "message": "Restaurar todas las pestañas"
+  },
+  "restoreError": {
+    "message": "Error al restaurar desde la copia de seguridad. Por favor, inténtalo de nuevo."
+  },
+  "restoreInBackground": {
+    "message": "Las pestañas restauradas se abren en segundo plano <span class=\"hint\"><strong class=\"info\">Option+Click</strong> al restaurar para desactivar temporalmente</span>"
+  },
+  "restoreInBackgroundDesc": {
+    "message": "Las pestañas restauradas se abren detrás de Tabstract en lugar de cambiar el foco <span class=\"hint\"><strong class=\"info\">Option+Click</strong> para desactivar temporalmente</span>"
+  },
+  "restoreInBackgroundLabel": {
+    "message": "Restaurar pestañas en segundo plano"
+  },
+  "restoreTabsDialogDetail": {
+    "message": "Combinar añadirá las pestañas de la copia de seguridad junto a tus pestañas existentes. Se creará primero una copia de seguridad previa a la restauración."
+  },
+  "restoreTabsDialogMessage": {
+    "message": "¿Quieres reemplazar tus pestañas actuales o combinarlas con la copia de seguridad?"
+  },
+  "restoreTabsMerge": {
+    "message": "Combinar"
+  },
+  "restoreTabsReplace": {
+    "message": "Reemplazar"
+  },
+  "restoreTabsToCurrentWindow": {
+    "message": "Ventana actual"
+  },
+  "restoreTabsToLabel": {
+    "message": "Restaurar grupos de pestañas en:"
+  },
+  "restoreTabsToNewWindow": {
+    "message": "Nueva ventana"
+  },
+  "restoredFromTrashSessionName": {
+    "message": "Restaurado de la papelera"
+  },
+  "restoredLinkSessionName": {
+    "message": "Enlace restaurado"
+  },
+  "reviewButton": {
+    "message": "Valóranos en el App Store ★★★★★"
+  },
+  "reviewLaterButton": {
+    "message": "Tal vez después"
+  },
+  "reviewMessage": {
+    "message": "¡Tabstract es gratis pero funciona con valoraciones y reseñas, por favor déjanos una valoración!"
+  },
+  "reviewModalText": {
+    "message": "Tabstract es gratuito pero funciona gracias a valoraciones y reseñas 🚀 ¡Por favor, considera darnos 5 estrellas!"
+  },
+  "reviewModalTitle": {
+    "message": "¿Disfrutas de Tabstract?"
+  },
+  "runFiltersConfirm": {
+    "message": "Se procesarán {sessions} sesiones con {tabs} pestañas. ¿Continuar?"
+  },
+  "runFiltersMenuItem": {
+    "message": "Ejecutar filtros"
+  },
+  "runFiltersNoFilters": {
+    "message": "No hay filtros definidos. Crea filtros primero."
+  },
+  "runFiltersNoSessions": {
+    "message": "No hay sesiones desbloqueadas para procesar."
+  },
+  "runFiltersSuccess": {
+    "message": "{matched} pestañas procesadas por filtros"
+  },
+  "sampleSessionCreated": {
+    "message": "¡Ejemplo creado!"
+  },
+  "sampleSessionName": {
+    "message": "Comenzando con Tabstract"
+  },
+  "sampleTab1Title": {
+    "message": "Sitio web de Tabstract"
+  },
+  "sampleTab2Title": {
+    "message": "Tabstract en App Store"
+  },
+  "sampleTab3Title": {
+    "message": "Calificar Tabstract en App Store"
+  },
+  "sampleTab4Title": {
+    "message": "By The Farm"
+  },
+  "save": {
+    "message": "Guardar"
+  },
+  "saveAllWindowsDesc": {
+    "message": "Guarda pestañas de todas las ventanas abiertas de Safari, en lugar de solo la ventana activa"
+  },
+  "saveAllWindowsLabel": {
+    "message": "Guardar pestañas de todas las ventanas"
+  },
+  "saveAlsoCloses": {
+    "message": "<strong>Cerrar pestañas</strong> al guardar"
+  },
+  "saveAlsoClosesDesc": {
+    "message": "Las pestañas se cierran automáticamente tras guardarlas en Tabstract"
+  },
+  "saveAlsoClosesLabel": {
+    "message": "Cerrar pestañas al guardar"
+  },
+  "saveAsTemplate": {
+    "message": "Guardar como rutina"
+  },
+  "saveFilter": {
+    "message": "Guardar filtro"
+  },
+  "saveSelected": {
+    "message": "Guardar seleccionadas"
+  },
+  "saveSelectedPlural": {
+    "message": "Guardar {count} pestañas"
+  },
+  "saveSelectedSingular": {
+    "message": "Guardar 1 pestaña"
+  },
+  "saveTab": {
+    "message": "Guardar pestaña"
+  },
+  "saveTabs": {
+    "message": "Guardar pestañas"
+  },
+  "saveTabsOnStartupDesc": {
+    "message": "Guardar y cerrar automáticamente todas las pestañas abiertas al iniciar Safari"
+  },
+  "saveTabsOnStartupLabel": {
+    "message": "Guardar y cerrar las pestañas abiertas al iniciar"
+  },
+  "savedOnLabel": {
+    "message": "Guardado: $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "date": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "scheduleAddButton": {
+    "message": "+ Programar"
+  },
+  "scheduleDaily": {
+    "message": "Diaria"
+  },
+  "scheduleEditButton": {
+    "message": "Editar"
+  },
+  "scheduleHourly": {
+    "message": "Cada hora"
+  },
+  "scheduleMonthly": {
+    "message": "Mensual"
+  },
+  "scheduleNotifyLabel": {
+    "message": "Mostrar notificación cuando se ejecute la rutina"
+  },
+  "scheduleWeekly": {
+    "message": "Semanal"
+  },
+  "searchFocusTitle": {
+    "message": "Focar búsqueda (atajo: /)"
+  },
+  "searchPlaceholder": {
+    "message": "Buscar"
+  },
+  "searchResults": {
+    "message": "Resultados de búsqueda"
+  },
+  "sectionAppleIntelligence": {
+    "message": "Inteligencia artificial - Beta"
+  },
+  "sectionAppleIntelligenceDesc": {
+    "message": "Funciones de IA en el dispositivo impulsadas por Apple Intelligence"
+  },
+  "sectionInterface": {
+    "message": "General"
+  },
+  "sectionInterfaceDesc": {
+    "message": "Personaliza tu experiencia en Tabstract"
+  },
+  "sectionTabRestoring": {
+    "message": "Restauración de pestañas"
+  },
+  "sectionTabRestoringDesc": {
+    "message": "Controla lo que ocurre al restaurar pestañas"
+  },
+  "sectionTabSaving": {
+    "message": "Guardado de pestañas"
+  },
+  "sectionTabSavingDesc": {
+    "message": "Controla lo que ocurre al guardar pestañas"
+  },
+  "selectAll": {
+    "message": "Seleccionar todo"
+  },
+  "selectFileToImport": {
+    "message": "Por favor selecciona un archivo para importar."
+  },
+  "selectNone": {
+    "message": "Deseleccionar todo"
+  },
+  "selectTabsToSave": {
+    "message": "Seleccionar pestañas para guardar"
+  },
+  "sessionActions": {
+    "message": "Acciones de sesión"
+  },
+  "sessionLocked": {
+    "message": "La sesión está bloqueada"
+  },
+  "settingsSubtitle": {
+    "message": "Los cambios se aplican de inmediato."
+  },
+  "shortcutOpenTabstractLabel": {
+    "message": "Abrir Tabstract:"
+  },
+  "shortcutSaveCurrentTabLabel": {
+    "message": "Guardar pestaña actual:"
+  },
+  "shortcutSaveTabsLabel": {
+    "message": "Guardar pestañas:"
+  },
+  "simpleMode": {
+    "message": "Modo simple"
+  },
+  "smartGroupCopyButton": {
+    "message": "Copiar"
+  },
+  "smartGroupDeleteConfirm": {
+    "message": "¿Eliminar este filtro? Las pestañas de este grupo se convertirán en una sesión normal."
+  },
+  "smartGroupHelpDomain": {
+    "message": "Ingresa un nombre de dominio (ej., github.com). Coincide con el dominio exacto y todos los subdominios."
+  },
+  "smartGroupHelpKeyword": {
+    "message": "Ingresa una palabra clave para buscar en URLs y títulos de páginas (ej., \"react\"). No distingue mayúsculas de minúsculas."
+  },
+  "smartGroupHelpRegex": {
+    "message": "Ingresa un patrón de expresión regular (ej., (github|gitlab)\\.com). Coincide con la URL y el título."
+  },
+  "smartGroupNameLabel": {
+    "message": "Nombre del filtro"
+  },
+  "smartGroupNamePlaceholder": {
+    "message": "ej., Proyectos de GitHub"
+  },
+  "smartGroupNameRequired": {
+    "message": "Se requiere nombre de filtro"
+  },
+  "smartGroupPatternInvalidRegex": {
+    "message": "Expresión regular no válida"
+  },
+  "smartGroupPatternLabel": {
+    "message": "Patrón"
+  },
+  "smartGroupPatternRequired": {
+    "message": "Se requiere patrón"
+  },
+  "smartGroupPatternTypeKeyword": {
+    "message": "Palabra clave"
+  },
+  "smartGroupPatternTypeLabel": {
+    "message": "Tipo de patrón"
+  },
+  "smartGroupPatternTypeRegex": {
+    "message": "Expresión regular"
+  },
+  "smartGroupPinButton": {
+    "message": "Fijar"
+  },
+  "smartGroupPreviewText": {
+    "message": "coinciden actualmente con este patrón"
+  },
+  "smartGroupUnpinButton": {
+    "message": "Desfijar"
+  },
+  "smartGroupsCreateButton": {
+    "message": "+ Crear filtro"
+  },
+  "smartGroupsEmptyMessage": {
+    "message": "Aún no se han creado filtros."
+  },
+  "smartGroupsModalTitle": {
+    "message": "Administrar filtros"
+  },
+  "snoozeLabel": {
+    "message": "Ocultar distintivo durante"
+  },
+  "snoozeSuffix": {
+    "message": "hora(s)"
+  },
+  "snoozeToolbarBadge": {
+    "message": "Suspender el distintivo de la barra de herramientas"
+  },
+  "sortBy": {
+    "message": "Ordenar por"
+  },
+  "sortNewest": {
+    "message": "Más reciente primero"
+  },
+  "sortNewestToOldest": {
+    "message": "Ordenar más reciente primero"
+  },
+  "sortOldest": {
+    "message": "Más antiguo primero"
+  },
+  "sortOldestToNewest": {
+    "message": "Ordenar más antiguo primero"
+  },
+  "sortRainbow": {
+    "message": "Arcoíris"
+  },
+  "splitGroup": {
+    "message": "Dividir grupo"
+  },
+  "supportedFormatsHeading": {
+    "message": "Formatos compatibles:"
+  },
+  "tabCount": {
+    "message": "$1 pestaña",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabCountOfTotal": {
+    "message": "$1 de $2 $3",
+    "placeholders": {
+      "filtered": {
+        "content": "$1"
+      },
+      "tabWord": {
+        "content": "$3"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "tabCountPlural": {
+    "message": "$1 pestañas",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "count": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "tabGroupLetter": {
+    "message": "Ventana {letter}"
+  },
+  "tabPlural": {
+    "message": "pestañas"
+  },
+  "tabSingular": {
+    "message": "pestaña"
+  },
+  "templateScheduleNotification": {
+    "message": "La rutina \"%s\" se ha agregado a tus sesiones."
+  },
+  "templates": {
+    "message": "Rutina"
+  },
+  "time": {
+    "message": "Hora:"
+  },
+  "tipsOppensession": {
+    "message": "Mayús+Clic para expandir o contraer todas las sesiones"
+  },
+  "tipsReminders": {
+    "message": "La insignia de notificación mantiene las sesiones guardadas en primer plano"
+  },
+  "tipsRename": {
+    "message": "Etiqueta las sesiones para mantenerte organizado"
+  },
+  "tipsSingletab": {
+    "message": "Mantén presionada Mayús para guardar solo la pestaña actual"
+  },
+  "tipsTitle": {
+    "message": "Consejos"
+  },
+  "tipsToolbar": {
+    "message": "Arrastra Tabstract a tu barra de herramientas de Safari para comenzar."
+  },
+  "todayAt": {
+    "message": "Hoy, $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "toggleAllTabsInWindow": {
+    "message": "Alternar todas las pestañas en $1",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "window": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "toolbar": {
+    "message": "Barra de herramientas"
+  },
+  "trashAutoDeletesHint": {
+    "message": "Se elimina automáticamente después de $1 días",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "days": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      },
+      "filterAll": {
+        "message": "All"
+      }
+    }
+  },
+  "trashCleanupLog": {
+    "message": "Limpieza de papelera: se eliminaron elementos caducados/en exceso"
+  },
+  "trashDuplicates": {
+    "message": "Eliminar duplicados"
+  },
+  "trashEmpty": {
+    "message": "La papelera está vacía"
+  },
+  "trashEmptyDesc": {
+    "message": "Los enlaces eliminados aparecerán aquí y se eliminarán automáticamente después de 30 días."
+  },
+  "trashExpiringSoon": {
+    "message": "Caduca pronto"
+  },
+  "trashExpiringThisWeek": {
+    "message": "Caduca esta semana"
+  },
+  "trashExpiringToday": {
+    "message": "Caduca hoy"
+  },
+  "trashExpiringTomorrow": {
+    "message": "Caduca mañana"
+  },
+  "trashLimitHint": {
+    "message": "La papelera está limitada a $1 enlaces",
+    "placeholders": {
+      "actionsMenu": {
+        "message": "Actions"
+      },
+      "bulkActionDuplicate": {
+        "message": "Duplicate"
+      },
+      "bulkActionLockUnlock": {
+        "message": "Lock/Unlock Selected"
+      },
+      "colorBlue": {
+        "message": "Blue"
+      },
+      "colorDefault": {
+        "message": "Default"
+      },
+      "colorGreen": {
+        "message": "Green"
+      },
+      "colorOrange": {
+        "message": "Orange"
+      },
+      "colorPink": {
+        "message": "Pink"
+      },
+      "colorPurple": {
+        "message": "Purple"
+      },
+      "colorRed": {
+        "message": "Red"
+      },
+      "colorYellow": {
+        "message": "Yellow"
+      },
+      "filterAll": {
+        "message": "All"
+      },
+      "max": {
+        "actionsMenu": {
+          "message": "Actions"
+        },
+        "bulkActionDuplicate": {
+          "message": "Duplicate"
+        },
+        "bulkActionLockUnlock": {
+          "message": "Lock/Unlock Selected"
+        },
+        "colorBlue": {
+          "message": "Blue"
+        },
+        "colorDefault": {
+          "message": "Default"
+        },
+        "colorGreen": {
+          "message": "Green"
+        },
+        "colorOrange": {
+          "message": "Orange"
+        },
+        "colorPink": {
+          "message": "Pink"
+        },
+        "colorPurple": {
+          "message": "Purple"
+        },
+        "colorRed": {
+          "message": "Red"
+        },
+        "colorYellow": {
+          "message": "Yellow"
+        },
+        "content": "$1",
+        "filterAll": {
+          "message": "All"
+        }
+      }
+    }
+  },
+  "undo": {
+    "message": "Deshacer"
+  },
+  "undoDeleteLink": {
+    "message": "Enlace eliminado. ¿Deshacer?"
+  },
+  "undoDeleteSession": {
+    "message": "Sesión eliminada. ¿Deshacer?"
+  },
+  "undoMergeSession": {
+    "message": "Sesiones combinadas. ¿Deshacer?"
+  },
+  "undoTimeoutDescPost": {
+    "message": "después de eliminar"
+  },
+  "undoTimeoutDescPre": {
+    "message": "Mostrar el botón Deshacer durante"
+  },
+  "undoTimeoutLabel": {
+    "message": "Mostrar botón <em>Deshacer</em> por "
+  },
+  "undoTimeoutSuffix": {
+    "message": "segundos"
+  },
+  "unlockAll": {
+    "message": "Desbloquear todo"
+  },
+  "unlockSession": {
+    "message": "Desbloquear"
+  },
+  "unlocked": {
+    "message": "Desbloqueado"
+  },
+  "unpinFromTop": {
+    "message": "Desfijar de arriba"
+  },
+  "unrecognizedFileFormat": {
+    "message": "Formato de archivo no reconocido. Formatos compatibles: JSON, OPML, Markdown, TSV y exportaciones de Tab Space, Tabs Saver y OneTab."
+  },
+  "unsnooze": {
+    "message": "Reanudar"
+  },
+  "untitledFilter": {
+    "message": "Describe este filtro..."
+  },
+  "upgradeToPro": {
+    "message": "Actualizar a Pro"
+  },
+  "userGuideTitle": {
+    "message": "Cómo usar Tabstract"
+  },
+  "viewTrash": {
+    "message": "Ver la papelera"
+  },
+  "weekdayFormat": {
+    "message": "long"
+  },
+  "weekdaysAt": {
+    "message": "Días laborables a las {time}"
+  },
+  "weekendsAt": {
+    "message": "Fines de semana a las {time}"
+  },
+  "weeklyAt": {
+    "message": "Semanalmente a las {time}"
+  },
+  "welcomeActionHelp": {
+    "message": "Más información"
+  },
+  "welcomeActionSave": {
+    "message": "Probar sesión de muestra"
+  },
+  "welcomeBackSubtitle": {
+    "message": "Aquí hay algunos consejos para ayudarte a sacar el máximo provecho de Tabstract:"
+  },
+  "welcomeBackTitle1": {
+    "message": "¡Mírate, sin pestañas! 💅"
+  },
+  "welcomeBackTitle2": {
+    "message": "Cero pestañas. ¡Viviendo el sueño!"
+  },
+  "welcomeBackTitle3": {
+    "message": "¿Sin pestañas? Eres una leyenda. 😎"
+  },
+  "welcomeBackTitle4": {
+    "message": "¿Todo al día? ¡Impresionante!"
+  },
+  "welcomeDescription": {
+    "message": "Tabstract te ayuda a guardar y organizar tus pestañas de Safari para que puedas simplificar tu vida."
+  },
+  "welcomeStep0Description": {
+    "message": "Arrastra el ícono de Tabstract a tu barra de herramientas de Safari para acceso rápido al guardar y restaurar pestañas."
+  },
+  "welcomeStep0Title": {
+    "message": "Agregar a la barra"
+  },
+  "welcomeStep1Description": {
+    "message": "Haz clic en el ícono de Tabstract en tu barra de herramientas o usa Cmd+Mayús+S para guardar todas tus pestañas abiertas."
+  },
+  "welcomeStep1Title": {
+    "message": "Guarda tus pestañas"
+  },
+  "welcomeStep2Description": {
+    "message": "Asigna nombres personalizados a tus sesiones, bloquea las importantes y mantente organizado."
+  },
+  "welcomeStep2Title": {
+    "message": "Organiza sesiones"
+  },
+  "welcomeStep3Description": {
+    "message": "Haz clic en cualquier sesión para restaurar todas sus pestañas al instante, o restaura pestañas individuales según sea necesario."
+  },
+  "welcomeStep3Title": {
+    "message": "Restaura en cualquier momento"
+  },
+  "welcomeTip": {
+    "message": "☆ Consejo: Mantén presionado Shift mientras haces clic en el botón de guardar para guardar solo la pestaña actual ☆"
+  },
+  "welcomeTitle": {
+    "message": "Comienza con Tabstract"
+  },
+  "windowLabel": {
+    "message": "Ventana"
+  },
+  "yes": {
+    "message": "Sí"
+  },
+  "yesterdayAt": {
+    "message": "Ayer, $1",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "zeroTabs": {
+    "message": "0 pestañas"
+  }
+}

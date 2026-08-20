@@ -1,0 +1,211 @@
+* {
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    cursor: default;
+}
+
+:root {
+    color-scheme: light dark;
+
+    /* CSS Variables matching extension design */
+    --bg-primary: #FFF;
+    --bg-secondary: #F5F5F7;
+    --bg-tertiary: #F3F4F6;
+    --text-primary: #1C1C1E;
+    --text-secondary: #555;
+    --text-tertiary: #888;
+    --text-accent: #3B82F6;
+    --border-primary: #E5E7EB;
+    --border-secondary: #CCC;
+    --info: #007AFF;
+    --info-hover: #005BB5;
+    --success: #16A34A;
+    --danger: #EF4444;
+    --interactive-hover: #F9FAFB;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding-top: 10px;
+    font-family: -apple-system, "SF Pro Text", "SF Pro Icons",
+                 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: var(--text-secondary);
+    background-color: var(--bg-primary);
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0 0 16px 0;
+    font-weight: 600;
+    color: var(--text-accent);
+    vertical-align: middle;
+    letter-spacing: -0.01em;
+}
+
+h1 em {
+    font-style: normal;
+    color: var(--info);
+    font-weight: 600;
+}
+
+h1 svg {
+    padding-top: 0px;
+    width: 34px;
+    height: 34px;
+    margin: 0 8px 4px 0;
+    vertical-align: middle;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0px auto 60px auto;
+    padding: 32px;
+    background: var(--bg-primary);
+    border-radius: 12px;
+}
+
+#content {
+    text-align: center;
+}
+
+div#container p {
+    margin: 12px 0;
+    line-height: 1.5;
+    font-weight: 450;
+    font-size: 18px;
+    color: var(--text-secondary);
+}
+
+div#container p em {
+    font-style: normal;
+    font-weight: 500;
+}
+
+div#container p em.enabled {
+    color: var(--success);
+}
+
+div#container p em.disabled {
+    color: var(--danger);
+}
+
+/* Privacy note styling */
+p.privacy-note {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: var(--text-tertiary) !important;
+    margin-top: 20px !important;
+    border-top: 1px solid var(--border-primary);
+    padding: 16px 24px 0 24px;
+}
+
+img.splash {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+}
+
+body:not(.platform-mac, .platform-ios) :is(.platform-mac, .platform-ios) {
+    display: none;
+}
+
+body.platform-ios .platform-mac {
+    display: none;
+}
+
+body.platform-mac .platform-ios {
+    display: none;
+}
+
+body:not(.state-on, .state-off) :is(.state-on, .state-off) {
+    display: none;
+}
+
+body.state-on :is(.state-off, .state-unknown) {
+    display: none;
+}
+
+body.state-off :is(.state-on, .state-unknown) {
+    display: none;
+}
+
+/* Hide Safari settings button when extension is enabled */
+body.state-on .open-preferences {
+    display: none;
+}
+
+/* Button styling */
+button {
+    display: block;
+    margin: 24px auto 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: var(--info);
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s ease;
+    min-width: 200px;
+}
+
+button:hover {
+    background-color: var(--info-hover);
+    transform: translateY(-1px);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: none;
+    -webkit-focus-ring-color: transparent;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-primary: #0D1117;
+        --bg-secondary: #161B22;
+        --bg-tertiary: #21262D;
+        --text-primary: #F0F6FC;
+        --text-secondary: #8B949E;
+        --text-tertiary: #656D76;
+        --text-accent: #007AFF;
+        --border-primary: #30363D;
+        --border-secondary: #373E47;
+        --info: #1F6FEB;
+        --info-hover: #1F5F99;
+        --success: #238636;
+        --danger: #DA3633;
+        --interactive-hover: #30363D;
+    }
+
+    body {
+        background-color: #0D1117;
+    }
+
+    #container {
+        background: transparent;
+        box-shadow: none;
+    }
+
+    img.splash {
+        filter: brightness(0.8);
+    }
+    img.splash {
+            content: url("tabstract-splash-dark-mode.png");
+        }
+}
