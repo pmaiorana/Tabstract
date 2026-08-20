@@ -8881,10 +8881,12 @@ function getSelectedTabs() {
   );
 }
 
+// Escapes for both text and attribute contexts. textContent/innerHTML alone
+// leaves quotes intact, which breaks href="..." in the HTML export.
 function escapeHtml(text) {
   const div = document.createElement('div');
   div.textContent = text;
-  return div.innerHTML;
+  return div.innerHTML.replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 }
 
 function exitFullScreenMode() {
@@ -10843,11 +10845,6 @@ function clearSearch() {
   }
 }
 
-function escapeHtml(text) {
-  const div = document.createElement('div');
-  div.textContent = text;
-  return div.innerHTML;
-}
 
 /**
  * Create a sample session to help new users understand how Tabstract works
@@ -11073,20 +11070,29 @@ function generateMarkdownExport(sessions) {
   return output;
 }
 
+// Netscape Bookmark Format, so exports import back into Tabstract as well as
+// Safari/Chrome/Firefox. importHTML() reads this and the older <h3>/<ul> shape.
 function generateHTMLExport(sessions) {
   let body = "";
   sessions.forEach(session => {
-    if (!session.skipSessionHeader) {
+    const tabs = session.tabs.map(tab =>
+      "        <DT><A HREF=\"" + escapeHtml(tab.url) + "\">" +
+      escapeHtml(tab.title || tab.url) + "</A>\n"
+    ).join("");
+
+    if (session.skipSessionHeader) {
+      body += tabs;
+    } else {
       const title = session.customName || new Date(session.timestamp).toLocaleString();
-      body += "<h3>" + escapeHtml(title) + "</h3>\n";
+      body += "    <DT><H3>" + escapeHtml(title) + "</H3>\n" +
+              "    <DL><p>\n" + tabs + "    </DL><p>\n";
     }
-    body += "<ul>\n";
-    session.tabs.forEach(tab => {
-      body += "<li><a href=\"" + escapeHtml(tab.url) + "\">" + escapeHtml(tab.title || tab.url) + "</a></li>\n";
-    });
-    body += "</ul>\n";
   });
-  return "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n</head>\n<body>\n" + body + "</body>\n</html>";
+  return "<!DOCTYPE NETSCAPE-Bookmark-file-1>\n" +
+    "<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=UTF-8\">\n" +
+    "<TITLE>Bookmarks</TITLE>\n" +
+    "<H1>Bookmarks</H1>\n" +
+    "<DL><p>\n" + body + "</DL><p>\n";
 }
 
 function generateOPMLExport(sessions) {
@@ -14039,6 +14045,46 @@ function importMarkdown(fileContent) {
   return { sessions, errorCount };
 }
 
+// Reads Netscape Bookmark Format (<DT><H3> folders, <DT><A> links) as emitted by
+// generateHTMLExport and by Safari/Chrome/Firefox, plus Tabstract's older
+// <h3> + <ul><li><a> exports. Headings and links are walked in document order,
+// so each heading starts a new session and the links after it belong to it.
+function importHTML(fileContent) {
+  let errorCount = 0;
+  const doc = new DOMParser().parseFromString(fileContent, "text/html");
+  const sessions = [];
+  if (!doc.body) return { sessions, errorCount };
+
+  let baseTime = Date.now();
+  let current = null;
+  const newSession = (name) => ({
+    timestamp: new Date(baseTime++).toISOString(),
+    customName: name,
+    tabs: []
+  });
+
+  // <H1> is the document title in Netscape format (and in browser exports),
+  // not a folder, so only <H2>/<H3> start a session.
+  doc.body.querySelectorAll("h2, h3, a[href]").forEach(el => {
+    if (el.tagName === "A") {
+      const url = el.getAttribute("href");
+      if (url && isValidUrl(url)) {
+        if (!current) current = newSession("Imported Session");
+        current.tabs.push({ title: el.textContent.trim() || url, url, favicon: "" });
+      } else {
+        errorCount++;
+      }
+    } else {
+      if (current && current.tabs.length > 0) sessions.push(current);
+      current = newSession(el.textContent.trim() || "Imported Session");
+    }
+  });
+
+  if (current && current.tabs.length > 0) sessions.push(current);
+
+  return { sessions, errorCount };
+}
+
 function handleImportFile(file) {
   if (!file) {
     alert(getMessage("selectFileToImport") || "Please select a file to import.");
@@ -14059,6 +14105,8 @@ function handleImportFile(file) {
 
       if (extension === "opml") {
         finishImport(importOPML(content));
+      } else if (extension === "html" || extension === "htm") {
+        finishImport(importHTML(content));
       } else if (extension === "tabspace") {
         finishImport(importTabSpace(content));
       } else if (extension === "md" || extension === "markdown") {
@@ -14079,7 +14127,7 @@ function handleImportFile(file) {
           importTSV(content, (resultObj) => finishImport(resultObj));
         }
       } else {
-        alert(getMessage("unrecognizedFileFormat") || "Unrecognized file format. Supported formats: JSON, OPML, Markdown, TSV, and exports from Tab Space, Tabs Saver, and OneTab.");
+        alert(getMessage("unrecognizedFileFormat") || "Unrecognized file format. Supported formats: JSON, HTML bookmarks, OPML, Markdown, TSV, plain text, and exports from Tab Space, Tabs Saver, and OneTab.");
       }
     } catch (error) {
       debug('[Tabstract Import] Import failed:', error);
