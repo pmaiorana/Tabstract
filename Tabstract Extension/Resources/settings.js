@@ -964,6 +964,19 @@ async function populateLanguageDropdown() {
     if (currentLang === 'pt') currentLang = 'pt-PT';
     if (currentLang === 'es-mx' || currentLang === 'es-ar') currentLang = 'es-419';
     if (currentLang === 'zh' || currentLang === 'zh-hans') currentLang = 'zh-CN';
+
+    // Resolve to a locale we actually ship. Safari returns region-qualified
+    // codes ('ja-JP', 'de-DE'), but _locales/ is keyed by base language for
+    // most locales — and its folder names are case-sensitive, so 'pt-br' would
+    // 404 even though pt-BR exists. Match case-insensitively, then fall back to
+    // the base language. Anything unrecognized stays as-is for the English fallback.
+    const exactMatch = languages.find(l => l.code.toLowerCase() === currentLang);
+    if (exactMatch) {
+      currentLang = exactMatch.code;
+    } else {
+      const baseMatch = languages.find(l => l.code.toLowerCase() === currentLang.split('-')[0]);
+      if (baseMatch) currentLang = baseMatch.code;
+    }
   }
 
   // Load the messages.json for the current language to get localized names
