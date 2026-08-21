@@ -1,6 +1,8 @@
 # Tabstract
 
-Primary repo for **Tabstract**, the best tab saving extension for Safari.
+Too many tabs? Tabstract helps clear the clutter and sharpen your focus, while keeping your data completely private and local.
+
+**[Download on the App Store](https://apps.apple.com/app/tabstract/id6743376666)** · **[tabstract.app](https://tabstract.app)**
 
 ## Prerequisites
 
