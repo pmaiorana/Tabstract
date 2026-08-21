@@ -442,9 +442,20 @@ document.addEventListener('DOMContentLoaded', () => {
     saveDropdownBackdrop.addEventListener('click', closeSaveDropdown);
     saveDropdown.querySelectorAll('.save-dropdown-item').forEach(item => {
       item.addEventListener('click', () => {
-        handleDropdownAction(item.dataset.action);
+        handleDropdownAction(item.dataset.scope);
       });
     });
+
+    // Close-on-save toggle writes the same setting Settings exposes,
+    // and leaves the dropdown open so the user can then pick a scope.
+    const closeAfterSaveToggle = document.getElementById('closeAfterSaveToggle');
+    if (closeAfterSaveToggle) {
+      closeAfterSaveToggle.addEventListener('change', () => {
+        chrome.storage.local.set({
+          popupBehavior: closeAfterSaveToggle.checked ? 'saveAndClose' : 'saveOnly'
+        });
+      });
+    }
 
     // Close dropdown on Escape
     document.addEventListener('keydown', (e) => {
@@ -517,8 +528,13 @@ function applyDarkModeSetting() {
 // ================================================
 
 function openSaveDropdown() {
-  // Hide "Save All" options when only one tab is open
-  chrome.storage.local.get('pinnedTabs', (settings) => {
+  // Reflect the current close-on-save preference in the toggle
+  chrome.storage.local.get(['pinnedTabs', 'popupBehavior'], (settings) => {
+    const closeToggle = document.getElementById('closeAfterSaveToggle');
+    if (closeToggle) {
+      closeToggle.checked = (settings.popupBehavior || 'saveAndClose') === 'saveAndClose';
+    }
+    // Hide "Save All Tabs" when only one tab is open
     const skipPinned = !!settings.pinnedTabs;
     chrome.tabs.query({ currentWindow: true }, (tabs) => {
       const validCount = tabs.filter(tab => {
@@ -529,21 +545,21 @@ function openSaveDropdown() {
         if (skipPinned && tab.pinned) return false;
         return true;
       }).length;
+      // With a single tab the primary button already covers both save
+      // actions, so the menu collapses to just the close-on-save toggle.
       const singleTab = validCount <= 1;
-      const items = saveDropdown.querySelectorAll('.save-dropdown-item');
-      let lastVisible = null;
-      items.forEach(item => {
-        item.classList.remove('last-visible');
-        const action = item.dataset.action;
-        if (action === 'saveAndClose' || action === 'saveTabsNoClose') {
-          item.style.display = singleTab ? 'none' : '';
-        }
-        if (item.style.display !== 'none') {
-          lastVisible = item;
-        }
+      saveDropdown.querySelectorAll('.save-dropdown-item').forEach(item => {
+        item.style.display = singleTab ? 'none' : '';
       });
-      if (lastVisible) {
-        lastVisible.classList.add('last-visible');
+      const toggleRow = saveDropdown.querySelector('.save-dropdown-toggle');
+      if (toggleRow) {
+        toggleRow.classList.toggle('only-row', singleTab);
+      }
+      const toggleLabel = document.getElementById('closeAfterSaveLabel');
+      if (toggleLabel) {
+        toggleLabel.textContent = getMessage(
+          singleTab ? 'saveAlsoClosesLabelSingular' : 'saveAlsoClosesLabel'
+        );
       }
     });
   });
@@ -570,10 +586,21 @@ function toggleSaveDropdown() {
   }
 }
 
-function handleDropdownAction(action) {
-  closeSaveDropdown();
-  chrome.runtime.sendMessage({ action: action });
-  window.close();
+// Map a menu scope ("tab" | "all") to a background action, using the
+// close-on-save preference the dropdown's toggle writes.
+function handleDropdownAction(scope) {
+  chrome.storage.local.get('popupBehavior', (res) => {
+    const closes = (res.popupBehavior || 'saveAndClose') === 'saveAndClose';
+    let action;
+    if (scope === 'all') {
+      action = closes ? 'saveAndClose' : 'saveTabsNoClose';
+    } else {
+      action = closes ? 'saveActiveTabAndClose' : 'saveActiveTabNoClose';
+    }
+    closeSaveDropdown();
+    chrome.runtime.sendMessage({ action: action });
+    window.close();
+  });
 }
 
 // ================================================

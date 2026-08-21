@@ -2769,6 +2769,15 @@
   "moreSaveOptions": {
     "message": "Altre opzioni di salvataggio"
   },
+  "saveThisTab": {
+    "message": "Salva scheda"
+  },
+  "saveAllTabs": {
+    "message": "Salva tutte le schede"
+  },
+  "saveAlsoClosesLabelSingular": {
+    "message": "Chiudi scheda durante il salvataggio"
+  },
   "rename": {
     "message": "Rinomina"
   },

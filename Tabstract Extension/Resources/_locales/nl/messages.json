@@ -2769,6 +2769,15 @@
   "moreSaveOptions": {
     "message": "Meer opslagopties"
   },
+  "saveThisTab": {
+    "message": "Tabblad opslaan"
+  },
+  "saveAllTabs": {
+    "message": "Alle tabbladen opslaan"
+  },
+  "saveAlsoClosesLabelSingular": {
+    "message": "Tabblad sluiten bij opslaan"
+  },
   "rename": {
     "message": "Hernoemen"
   },

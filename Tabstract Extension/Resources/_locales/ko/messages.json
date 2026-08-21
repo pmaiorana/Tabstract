@@ -2769,6 +2769,15 @@
   "moreSaveOptions": {
     "message": "추가 저장 옵션"
   },
+  "saveThisTab": {
+    "message": "탭 저장"
+  },
+  "saveAllTabs": {
+    "message": "모든 탭 저장"
+  },
+  "saveAlsoClosesLabelSingular": {
+    "message": "저장 시 탭 닫기"
+  },
   "rename": {
     "message": "이름 변경"
   },

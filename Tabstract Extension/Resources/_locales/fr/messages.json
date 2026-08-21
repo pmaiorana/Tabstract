@@ -2769,6 +2769,15 @@
   "moreSaveOptions": {
     "message": "Plus d\u2019options d\u2019enregistrement"
   },
+  "saveThisTab": {
+    "message": "Enregistrer l'onglet"
+  },
+  "saveAllTabs": {
+    "message": "Enregistrer tous les onglets"
+  },
+  "saveAlsoClosesLabelSingular": {
+    "message": "Fermer l\u2019onglet lors de l\u2019enregistrement"
+  },
   "rename": {
     "message": "Renommer"
   },

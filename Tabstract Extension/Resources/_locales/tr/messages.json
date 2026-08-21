@@ -2769,6 +2769,15 @@
   "moreSaveOptions": {
     "message": "Daha fazla kaydetme seçeneği"
   },
+  "saveThisTab": {
+    "message": "Sekmeyi Kaydet"
+  },
+  "saveAllTabs": {
+    "message": "Tüm Sekmeleri Kaydet"
+  },
+  "saveAlsoClosesLabelSingular": {
+    "message": "Kaydederken sekmeyi kapat"
+  },
   "rename": {
     "message": "Yeniden Adlandır"
   },

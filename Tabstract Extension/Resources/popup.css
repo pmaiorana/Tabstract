@@ -187,17 +187,46 @@ body {
   border-radius: 8px 8px 0 0;
 }
 
-.save-dropdown-item:last-child,
-.save-dropdown-item.last-visible {
-  border-radius: 0 0 8px 8px;
-}
-
 .save-dropdown-item + .save-dropdown-item {
   border-top: 0.5px solid var(--border-primary);
 }
 
 .save-dropdown-item:hover {
   background-color: var(--interactive-hover);
+}
+
+/* Close-on-save toggle — always the last row of the panel */
+.save-dropdown-toggle {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-top: 0.5px solid var(--border-primary);
+  border-radius: 0 0 8px 8px;
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+  font-size: 12px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.save-dropdown-toggle:hover {
+  background-color: var(--interactive-hover);
+}
+
+/* Sole row when only one tab is open */
+.save-dropdown-toggle.only-row {
+  border-top: none;
+  border-radius: 8px;
+}
+
+/* Match .dropdown-icon's box exactly so this label lines up with the
+   labels of the items above it */
+.save-dropdown-toggle input {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  margin: 0 10px 0 0;
 }
 
 .dropdown-icon {
@@ -347,6 +376,14 @@ html.dark-mode {
     border-color: var(--border-primary);
   }
   html.dark-mode .save-dropdown-item:hover {
+    background-color: var(--interactive-hover);
+  }
+  html.dark-mode .save-dropdown-toggle {
+    background: var(--bg-secondary);
+    border-color: var(--border-primary);
+    color: var(--text-secondary);
+  }
+  html.dark-mode .save-dropdown-toggle:hover {
     background-color: var(--interactive-hover);
   }
 

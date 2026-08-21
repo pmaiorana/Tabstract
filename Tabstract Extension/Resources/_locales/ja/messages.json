@@ -2769,6 +2769,15 @@
   "moreSaveOptions": {
     "message": "その他の保存オプション"
   },
+  "saveThisTab": {
+    "message": "タブを保存"
+  },
+  "saveAllTabs": {
+    "message": "すべてのタブを保存"
+  },
+  "saveAlsoClosesLabelSingular": {
+    "message": "保存時にタブを閉じる"
+  },
   "rename": {
     "message": "名前を変更"
   },

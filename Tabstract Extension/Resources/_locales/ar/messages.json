@@ -2769,6 +2769,15 @@
   "moreSaveOptions": {
     "message": "خيارات حفظ إضافية"
   },
+  "saveThisTab": {
+    "message": "حفظ علامة التبويب"
+  },
+  "saveAllTabs": {
+    "message": "حفظ كل علامات التبويب"
+  },
+  "saveAlsoClosesLabelSingular": {
+    "message": "أغلق علامة التبويب عند الحفظ"
+  },
   "rename": {
     "message": "إعادة تسمية"
   },

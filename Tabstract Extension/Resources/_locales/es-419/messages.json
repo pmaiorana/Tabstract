@@ -2769,6 +2769,15 @@
   "moreSaveOptions": {
     "message": "Más opciones de guardado"
   },
+  "saveThisTab": {
+    "message": "Guardar pestaña"
+  },
+  "saveAllTabs": {
+    "message": "Guardar todas las pestañas"
+  },
+  "saveAlsoClosesLabelSingular": {
+    "message": "Cerrar pestaña al guardar"
+  },
   "rename": {
     "message": "Renombrar"
   },

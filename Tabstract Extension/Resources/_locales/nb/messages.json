@@ -2769,6 +2769,15 @@
   "moreSaveOptions": {
     "message": "Flere lagringsalternativer"
   },
+  "saveThisTab": {
+    "message": "Lagre fane"
+  },
+  "saveAllTabs": {
+    "message": "Lagre alle faner"
+  },
+  "saveAlsoClosesLabelSingular": {
+    "message": "Lukk fane når du lagrer"
+  },
   "rename": {
     "message": "Gi nytt navn"
   },

@@ -1689,6 +1689,15 @@
   "moreSaveOptions": {
     "message": "Weitere Speicheroptionen"
   },
+  "saveThisTab": {
+    "message": "Tab speichern"
+  },
+  "saveAllTabs": {
+    "message": "Alle Tabs speichern"
+  },
+  "saveAlsoClosesLabelSingular": {
+    "message": "Tab beim Speichern schließen"
+  },
   "rename": {
     "message": "Umbenennen"
   },

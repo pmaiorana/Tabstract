@@ -2769,6 +2769,15 @@
   "moreSaveOptions": {
     "message": "Flere gemmeindstillinger"
   },
+  "saveThisTab": {
+    "message": "Gem fane"
+  },
+  "saveAllTabs": {
+    "message": "Gem alle faner"
+  },
+  "saveAlsoClosesLabelSingular": {
+    "message": "Luk fane når du gemmer"
+  },
   "rename": {
     "message": "Omdøb"
   },

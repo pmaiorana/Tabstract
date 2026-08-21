@@ -2769,6 +2769,15 @@
   "moreSaveOptions": {
     "message": "更多保存选项"
   },
+  "saveThisTab": {
+    "message": "保存分页"
+  },
+  "saveAllTabs": {
+    "message": "保存全部分页"
+  },
+  "saveAlsoClosesLabelSingular": {
+    "message": "保存时关闭分页"
+  },
   "rename": {
     "message": "重命名"
   },

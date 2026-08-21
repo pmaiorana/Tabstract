@@ -2769,6 +2769,15 @@
   "moreSaveOptions": {
     "message": "Mais opções de salvamento"
   },
+  "saveThisTab": {
+    "message": "Salvar aba"
+  },
+  "saveAllTabs": {
+    "message": "Salvar todas as abas"
+  },
+  "saveAlsoClosesLabelSingular": {
+    "message": "Fechar aba ao salvar"
+  },
   "rename": {
     "message": "Renomear"
   },

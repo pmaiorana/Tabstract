@@ -1698,6 +1698,15 @@
   "moreSaveOptions": {
     "message": "More save options"
   },
+  "saveThisTab": {
+    "message": "Save Tab"
+  },
+  "saveAllTabs": {
+    "message": "Save All Tabs"
+  },
+  "saveAlsoClosesLabelSingular": {
+    "message": "Close tab when saving"
+  },
   "rename": {
     "message": "Rename"
   },

@@ -2769,6 +2769,15 @@
   "moreSaveOptions": {
     "message": "Thêm tùy chọn lưu"
   },
+  "saveThisTab": {
+    "message": "Lưu tab"
+  },
+  "saveAllTabs": {
+    "message": "Lưu tất cả tab"
+  },
+  "saveAlsoClosesLabelSingular": {
+    "message": "Đóng tab khi lưu"
+  },
   "rename": {
     "message": "Đổi tên"
   },

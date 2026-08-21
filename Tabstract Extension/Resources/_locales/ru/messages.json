@@ -2769,6 +2769,15 @@
   "moreSaveOptions": {
     "message": "Ещё варианты сохранения"
   },
+  "saveThisTab": {
+    "message": "Сохранить вкладку"
+  },
+  "saveAllTabs": {
+    "message": "Сохранить все вкладки"
+  },
+  "saveAlsoClosesLabelSingular": {
+    "message": "Закрывать вкладку при сохранении"
+  },
   "rename": {
     "message": "Переименовать"
   },

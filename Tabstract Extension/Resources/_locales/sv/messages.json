@@ -2769,6 +2769,15 @@
   "moreSaveOptions": {
     "message": "Fler sparalternativ"
   },
+  "saveThisTab": {
+    "message": "Spara flik"
+  },
+  "saveAllTabs": {
+    "message": "Spara alla flikar"
+  },
+  "saveAlsoClosesLabelSingular": {
+    "message": "Stäng flik vid sparning"
+  },
   "rename": {
     "message": "Byt namn"
   },

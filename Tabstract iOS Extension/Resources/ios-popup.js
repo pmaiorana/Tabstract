@@ -787,7 +787,14 @@
     var dropdownOpen = false;
 
     function openDropdown() {
-        /* Hide "Save All" options when only one tab is open */
+        /* Reflect the current close-on-save preference in the toggle */
+        chrome.storage.local.get('popupBehavior', function (res) {
+            var closeToggle = document.getElementById('closeAfterSaveToggle');
+            if (closeToggle) {
+                closeToggle.checked = (res.popupBehavior || 'saveAndClose') === 'saveAndClose';
+            }
+        });
+        /* Hide "Save All Tabs" when only one tab is open */
         chrome.tabs.query({ currentWindow: true }, function (tabs) {
             var validCount = tabs.filter(function (tab) {
                 if (!tab.url) return false;
@@ -796,21 +803,19 @@
                 if (tab.url === 'about:blank') return false;
                 return true;
             }).length;
+            /* With a single tab the primary button already covers both save
+               actions, so the menu collapses to just the close-on-save toggle. */
             var singleTab = validCount <= 1;
-            var items = saveDropdown.querySelectorAll('.save-dropdown-item');
-            var lastVisible = null;
-            items.forEach(function (item) {
-                item.classList.remove('last-visible');
-                var action = item.dataset.action;
-                if (action === 'saveAndCloseIOS' || action === 'saveTabsNoClose') {
-                    item.style.display = singleTab ? 'none' : '';
-                }
-                if (item.style.display !== 'none') {
-                    lastVisible = item;
-                }
+            saveDropdown.querySelectorAll('.save-dropdown-item').forEach(function (item) {
+                item.style.display = singleTab ? 'none' : '';
             });
-            if (lastVisible) {
-                lastVisible.classList.add('last-visible');
+            var toggleRow = saveDropdown.querySelector('.save-dropdown-toggle');
+            if (toggleRow) {
+                toggleRow.classList.toggle('only-row', singleTab);
+            }
+            var toggleLabel = document.getElementById('closeAfterSaveLabel');
+            if (toggleLabel) {
+                toggleLabel.textContent = t(singleTab ? 'saveAlsoClosesLabelSingular' : 'saveAlsoClosesLabel');
             }
         });
         saveDropdown.style.display = '';
@@ -836,16 +841,27 @@
         }
     }
 
-    function handleDropdownAction(action) {
-        closeDropdown();
-        saveBtn.disabled = true;
-        chrome.runtime.sendMessage({ action: action }, function () {
-            saveLabel.textContent = '\u2713';
-            setTimeout(function () {
-                updateSaveLabel();
-                saveBtn.disabled = false;
-            }, 600);
-            loadSessions();
+    /* Map a menu scope ("tab" | "all") to a background action, using the
+       close-on-save preference the dropdown's toggle writes. */
+    function handleDropdownAction(scope) {
+        chrome.storage.local.get('popupBehavior', function (res) {
+            var closes = (res.popupBehavior || 'saveAndClose') === 'saveAndClose';
+            var action;
+            if (scope === 'all') {
+                action = closes ? 'saveAndCloseIOS' : 'saveTabsNoClose';
+            } else {
+                action = closes ? 'saveActiveTabAndClose' : 'saveActiveTabNoClose';
+            }
+            closeDropdown();
+            saveBtn.disabled = true;
+            chrome.runtime.sendMessage({ action: action }, function () {
+                saveLabel.textContent = '\u2713';
+                setTimeout(function () {
+                    updateSaveLabel();
+                    saveBtn.disabled = false;
+                }, 600);
+                loadSessions();
+            });
         });
     }
 
@@ -1650,9 +1666,22 @@
         saveBackdrop.addEventListener('click', closeDropdown);
         saveDropdown.querySelectorAll('.save-dropdown-item').forEach(function (item) {
             item.addEventListener('click', function () {
-                handleDropdownAction(this.dataset.action);
+                handleDropdownAction(this.dataset.scope);
             });
         });
+
+        /* close-on-save toggle writes the same setting Settings exposes,
+           and leaves the dropdown open so the user can then pick a scope */
+        var closeAfterSaveToggle = document.getElementById('closeAfterSaveToggle');
+        if (closeAfterSaveToggle) {
+            closeAfterSaveToggle.addEventListener('change', function () {
+                chrome.storage.local.set({
+                    popupBehavior: this.checked ? 'saveAndClose' : 'saveOnly'
+                });
+                var settingsToggle = document.getElementById('ios-saveAlsoCloses');
+                if (settingsToggle) settingsToggle.checked = this.checked;
+            });
+        }
 
         /* wire up kebab menu */
         var kebabOpen = false;
