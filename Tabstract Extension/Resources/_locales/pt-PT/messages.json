@@ -315,7 +315,7 @@
     "message": "Modo escuro"
   },
   "darkOff": {
-    "message": "Desactivado"
+    "message": "Desativado"
   },
   "darkSystem": {
     "message": "Sistema"
@@ -333,7 +333,7 @@
     "message": "Consola de depuração"
   },
   "deleteAfterRestore": {
-    "message": "Ao restaurar, os separadores são removidos do Tabstract <span class=\"hint\"><strong class=\"info\">Shift+Click</strong> ao restaurar para desactivar temporariamente</span>"
+    "message": "Ao restaurar, os separadores são removidos do Tabstract <span class=\"hint\"><strong class=\"info\">Shift+Click</strong> ao restaurar para desativar temporariamente</span>"
   },
   "deleteAfterRestoreDesc": {
     "message": "Os separadores são removidos do Tabstract ao serem restaurados <span class=\"hint\"><strong class=\"info\">Shift+Clique</strong> para desativar temporariamente</span>"
@@ -1619,7 +1619,7 @@
     "message": "Restaurar todos os separadores"
   },
   "restoreInBackground": {
-    "message": "Os separadores restaurados abrem em segundo plano <span class=\"hint\"><strong class=\"info\">Option+Click</strong> ao restaurar para desactivar temporariamente</span>"
+    "message": "Os separadores restaurados abrem em segundo plano <span class=\"hint\"><strong class=\"info\">Option+Click</strong> ao restaurar para desativar temporariamente</span>"
   },
   "restoreInBackgroundDesc": {
     "message": "Os separadores restaurados abrem-se atrás do Tabstract em vez de mudar o foco <span class=\"hint\"><strong class=\"info\">Option+Clique</strong> para desativar temporariamente</span>"
