@@ -8,3 +8,7 @@ DerivedData/
 
 # macOS
 .DS_Store
+
+# Working notes — implementation plans, specs, scratch design docs.
+# Kept local; not part of the published repo.
+docs/
