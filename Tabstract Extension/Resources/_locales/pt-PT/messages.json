@@ -87,7 +87,7 @@
     "message": "Não guardar separadores duplicados"
   },
   "avoidDuplicatesSetting": {
-    "message": "<strong>Não guardar abas duplicadas</strong> na mesma sessão"
+    "message": "<strong>Não guardar separadores duplicados</strong> na mesma sessão"
   },
   "bannerNewFeatures": {
     "message": "<strong>Novidades!</strong> Menu de ações, suporte para chinês tradicional, copiar como texto formatado, limpeza de duplicados!"
@@ -264,7 +264,7 @@
     "message": "AVISO: Isto substituirá completamente todos os seus dados atuais do Tabstract (definições, sessões guardadas, reciclagem, etc.) pelos dados importados.\n\nEsta ação não pode ser revertida.\n\nTem a certeza de que deseja continuar?"
   },
   "confirmReset": {
-    "message": "Tem a certeza de que pretende redefinir o Tabstract?\n\nTodas as abas serão apagadas, incluindo as das sessões bloqueadas.\n\nEsta ação não pode ser desfeita."
+    "message": "Tem a certeza de que pretende redefinir o Tabstract?\n\nTodos os separadores serão apagados, incluindo os das sessões bloqueadas.\n\nEsta ação não pode ser desfeita."
   },
   "contactSupport": {
     "message": "Contacto"
@@ -333,7 +333,7 @@
     "message": "Consola de depuração"
   },
   "deleteAfterRestore": {
-    "message": "Ao restaurar, as abas são removidas do Tabstract <span class=\"hint\"><strong class=\"info\">Shift+Click</strong> ao restaurar para desactivar temporariamente</span>"
+    "message": "Ao restaurar, os separadores são removidos do Tabstract <span class=\"hint\"><strong class=\"info\">Shift+Click</strong> ao restaurar para desactivar temporariamente</span>"
   },
   "deleteAfterRestoreDesc": {
     "message": "Os separadores são removidos do Tabstract ao serem restaurados <span class=\"hint\"><strong class=\"info\">Shift+Clique</strong> para desativar temporariamente</span>"
@@ -827,10 +827,10 @@
     "message": "Nome do grupo necessário"
   },
   "guideAIFeaturesBody": {
-    "message": "Se o seu computador for compatível com Apple Intelligence, o Tabstract pode categorizar automaticamente as abas guardadas em grupos temáticos. Clique no <strong>ícone brilhante ✨</strong> ao lado de qualquer título de sessão para gerar um novo título. Computadores sem Apple Intelligence utilizam a data e a hora em alternativa."
+    "message": "Se o seu computador for compatível com Apple Intelligence, o Tabstract pode categorizar automaticamente os separadores guardados em grupos temáticos. Clique no <strong>ícone brilhante ✨</strong> ao lado de qualquer título de sessão para gerar um novo título. Computadores sem Apple Intelligence utilizam a data e a hora em alternativa."
   },
   "guideAIFeaturesTitle": {
-    "message": "Organização das abas com IA"
+    "message": "Organização dos separadores com IA"
   },
   "guideBadgeNotificationsBody": {
     "message": "O distintivo da barra de ferramentas mostra o número de sessões guardadas para que não sejam esquecidas mesmo fora de vista. O Adiar oculta o distintivo por até 24 horas, ou pode desativá-lo completamente nas Definições."
@@ -839,19 +839,19 @@
     "message": "Distintivo da barra de ferramentas"
   },
   "guideDragToReorderBody": {
-    "message": "Clique e arraste links e sessões individuais para reorganizar as suas abas guardadas na ordem que preferir."
+    "message": "Clique e arraste links e sessões individuais para reorganizar os seus separadores guardados na ordem que preferir."
   },
   "guideDragToReorderTitle": {
     "message": "Organização por arrastar e largar"
   },
   "guideGettingStartedBody": {
-    "message": "O Tabstract ajuda-o a guardar e organizar as suas abas do Safari. Para começar, clique com o botão direito na barra de ferramentas do Safari, escolha \"Personalizar\" e arraste o ícone do Tabstract para a barra. Depois de o colocar lá, clique em Tabstract e em <strong>Guardar abas</strong> para capturar todas as abas abertas na janela atual. "
+    "message": "O Tabstract ajuda-o a guardar e organizar os seus separadores do Safari. Para começar, clique com o botão direito na barra de ferramentas do Safari, escolha \"Personalizar\" e arraste o ícone do Tabstract para a barra. Depois de o colocar lá, clique em Tabstract e em <strong>Guardar separadores</strong> para capturar todos os separadores abertos na janela atual. "
   },
   "guideGettingStartedTitle": {
     "message": "Primeiros passos"
   },
   "guideKeyboardShortcutsBody": {
-    "message": "O Tabstract inclui atalhos de teclado e combinações com teclas modificadoras para utilizadores avançados. Pode desativar os atalhos nas Definições.<br><br>\n                <strong>Atalhos principais:</strong><br><br>\n                Guardar todas as abas: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd><br>\n                Guardar apenas a aba atual: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd><br>\n                Abrir a lista de sessões guardadas: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd><br><br>\n                <strong>Ações rápidas:</strong><br><br>\n                Colocar foco na caixa de pesquisa: <kbd>/</kbd><br>\n                Criar uma nova sessão: <kbd>N</kbd><br><br>\n                <strong>Combinações com teclas modificadoras:</strong><br><br>\n                Guardar apenas a aba atual: <kbd>Shift</kbd> + clique em <em>Guardar abas</em><br>\n                Expandir/recolher todas as sessões: <kbd>Shift</kbd> + clique no <em>botão de recolher sessão</em><br>\n                Desativar temporariamente a definição \"Remover abas após restaurar\": <kbd>Shift</kbd> + clique em <em>Restaurar</em><br>\n                Desativar temporariamente a definição \"Restaurar abas em segundo plano\": <kbd>Option</kbd> + clique em <em>Restaurar</em>"
+    "message": "O Tabstract inclui atalhos de teclado e combinações com teclas modificadoras para utilizadores avançados. Pode desativar os atalhos nas Definições.<br><br>\n                <strong>Atalhos principais:</strong><br><br>\n                Guardar todos os separadores: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd><br>\n                Guardar apenas o separador atual: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd><br>\n                Abrir a lista de sessões guardadas: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd><br><br>\n                <strong>Ações rápidas:</strong><br><br>\n                Colocar foco na caixa de pesquisa: <kbd>/</kbd><br>\n                Criar uma nova sessão: <kbd>N</kbd><br><br>\n                <strong>Combinações com teclas modificadoras:</strong><br><br>\n                Guardar apenas o separador atual: <kbd>Shift</kbd> + clique em <em>Guardar separadores</em><br>\n                Expandir/recolher todas as sessões: <kbd>Shift</kbd> + clique no <em>botão de recolher sessão</em><br>\n                Desativar temporariamente a definição \"Remover separadores após restaurar\": <kbd>Shift</kbd> + clique em <em>Restaurar</em><br>\n                Desativar temporariamente a definição \"Restaurar separadores em segundo plano\": <kbd>Option</kbd> + clique em <em>Restaurar</em>"
   },
   "guideKeyboardShortcutsTitle": {
     "message": "Atalhos de teclado"
@@ -1209,7 +1209,7 @@
     "message": "Não"
   },
   "noAvailableTabs": {
-    "message": "Não há abas disponíveis"
+    "message": "Não há separadores disponíveis"
   },
   "noColor": {
     "message": "Sem cor"
@@ -1224,7 +1224,7 @@
     "message": "Nenhum separador disponível para guardar"
   },
   "noTabsSaved": {
-    "message": "Não há abas guardadas."
+    "message": "Não há separadores guardados."
   },
   "noTemplatesInstructions": {
     "message": "Ainda não há rotinas guardadas.<br>Crie uma rotina a partir de uma sessão para começar."
@@ -1435,7 +1435,7 @@
     "message": "Não guardar separadores fixados"
   },
   "pinnedTabsSetting": {
-    "message": "<strong>Não guardar abas fixas</strong> (abas fixas não são fechadas nem guardadas no Tabstract)"
+    "message": "<strong>Não guardar separadores fixos</strong> (os separadores fixos não são fechados nem guardados no Tabstract)"
   },
   "pleaseEnterDayBetween1And31": {
     "message": "Por favor, insira um dia entre 1 e 31."
@@ -1616,10 +1616,10 @@
     "message": "Redefinir cores"
   },
   "restoreAllTabs": {
-    "message": "Restaurar todas as abas"
+    "message": "Restaurar todos os separadores"
   },
   "restoreInBackground": {
-    "message": "As abas restauradas abrem em segundo plano <span class=\"hint\"><strong class=\"info\">Option+Click</strong> ao restaurar para desactivar temporariamente</span>"
+    "message": "Os separadores restaurados abrem em segundo plano <span class=\"hint\"><strong class=\"info\">Option+Click</strong> ao restaurar para desactivar temporariamente</span>"
   },
   "restoreInBackgroundDesc": {
     "message": "Os separadores restaurados abrem-se atrás do Tabstract em vez de mudar o foco <span class=\"hint\"><strong class=\"info\">Option+Clique</strong> para desativar temporariamente</span>"
@@ -1706,7 +1706,7 @@
     "message": "Guardar separadores de todas as janelas"
   },
   "saveAlsoCloses": {
-    "message": "<strong>Fechar abas</strong> ao guardar"
+    "message": "<strong>Fechar separadores</strong> ao guardar"
   },
   "saveAlsoClosesDesc": {
     "message": "Os separadores são fechados automaticamente após guardar no Tabstract"
@@ -1724,16 +1724,16 @@
     "message": "Guardar selecionadas"
   },
   "saveSelectedPlural": {
-    "message": "Guardar {count} abas"
+    "message": "Guardar {count} separadores"
   },
   "saveSelectedSingular": {
-    "message": "Guardar 1 aba"
+    "message": "Guardar 1 separador"
   },
   "saveTab": {
-    "message": "Guardar aba"
+    "message": "Guardar separador"
   },
   "saveTabs": {
-    "message": "Guardar abas"
+    "message": "Guardar separadores"
   },
   "saveTabsOnStartupDesc": {
     "message": "Guardar e fechar automaticamente todos os separadores abertos ao iniciar o Safari"
@@ -1885,7 +1885,7 @@
     "message": "Desselecionar tudo"
   },
   "selectTabsToSave": {
-    "message": "Selecionar abas para guardar"
+    "message": "Selecionar separadores para guardar"
   },
   "sessionActions": {
     "message": "Ações da sessão"
@@ -1900,10 +1900,10 @@
     "message": "Abrir Tabstract:"
   },
   "shortcutSaveCurrentTabLabel": {
-    "message": "Guardar aba atual:"
+    "message": "Guardar separador atual:"
   },
   "shortcutSaveTabsLabel": {
-    "message": "Guardar abas:"
+    "message": "Guardar separadores:"
   },
   "simpleMode": {
     "message": "Modo simples"
@@ -2770,10 +2770,10 @@
     "message": "Mais opções de gravação"
   },
   "saveThisTab": {
-    "message": "Guardar aba"
+    "message": "Guardar separador"
   },
   "saveAllTabs": {
-    "message": "Guardar todas as abas"
+    "message": "Guardar todos os separadores"
   },
   "saveAlsoClosesLabelSingular": {
     "message": "Fechar separador ao guardar"

@@ -129,7 +129,10 @@ The target page polls every 3 seconds (debug mode only), runs `getComputedStyle(
 #### Localization
 - Messages defined in `_locales/[lang]/messages.json` files
 - JavaScript accesses via `chrome.i18n.getMessage(key)`
-- Supports 17 locales: en, ar, de, es, es-419, fr, fr-CA, it, ja, ko, nl, pt-BR, pt-PT, ru, sv, zh-CN, zh-TW
+- Supports 21 locales: en, ar, da, de, es, es-419, fr, fr-CA, it, ja, ko, nb, nl, pt-BR, pt-PT, ru, sv, tr, vi, zh-CN, zh-TW
+- The `_locales/` directory is the source of truth for which locales exist — check it rather than trusting this list
+- Both the macOS and iOS extension targets build from the same `Tabstract Extension/Resources/_locales`, so one edit covers both platforms
+- pt-BR uses "aba" for tab; pt-PT uses "separador" (masculine — watch article and adjective agreement)
 
 ## Common Development Issues
 
