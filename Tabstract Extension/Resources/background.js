@@ -838,6 +838,35 @@ chrome.storage.onChanged.addListener((changes) => {
   }
 });
 
+/**
+ * Serialize a value with object keys in sorted order.
+ *
+ * JSON.stringify emits keys in insertion order, so two records holding identical
+ * data produce different text if their keys were assigned in a different order.
+ * Records that round-trip through sync are rebuilt as { ...payload, _syncModifiedAt }
+ * and come back with a different key order than the locally-created originals, so a
+ * plain JSON.stringify comparison reports every record as changed.
+ *
+ * Confirmed 2026-08-21: deleting one session marked all 101 untouched trashed links
+ * dirty (0 recognised as unchanged) and pushed 107 records instead of 6. Array order
+ * is preserved — it is meaningful — only object keys are sorted.
+ */
+function stableStringify(value) {
+  if (value === null || typeof value !== 'object') return JSON.stringify(value);
+  if (Array.isArray(value)) {
+    return '[' + value.map(v => {
+      const s = stableStringify(v);
+      return s === undefined ? 'null' : s;
+    }).join(',') + ']';
+  }
+  const parts = [];
+  for (const key of Object.keys(value).sort()) {
+    const s = stableStringify(value[key]);
+    if (s !== undefined) parts.push(JSON.stringify(key) + ':' + s);
+  }
+  return '{' + parts.join(',') + '}';
+}
+
 // Sync: detect storage changes to synced keys (catches edits from list.js)
 // No blanket _syncMergeInProgress guard here — per-record _syncMergedRecordNames
 // checks inside each loop skip records from the current merge while allowing
@@ -851,7 +880,7 @@ chrome.storage.onChanged.addListener((changes) => {
       if (classifyRecord(t.id, t) !== 'Template') continue;
       if (_syncMergedRecordNames.has(t.id)) continue;
       const old = oldTemplates.find(o => o.id === t.id);
-      if (!old || JSON.stringify(old) !== JSON.stringify(t)) {
+      if (!old || stableStringify(old) !== stableStringify(t)) {
         markSyncDirty('Template', t.id, t);
       }
     }
@@ -872,7 +901,7 @@ chrome.storage.onChanged.addListener((changes) => {
       if (classifyRecord('smartgroup-' + g.id, g) !== 'SmartGroup') continue;
       if (_syncMergedRecordNames.has('smartgroup-' + g.id)) continue;
       const old = oldGroups.find(o => o.id === g.id);
-      if (!old || JSON.stringify(old) !== JSON.stringify(g)) {
+      if (!old || stableStringify(old) !== stableStringify(g)) {
         markSyncDirty('SmartGroup', 'smartgroup-' + g.id, g);
       }
     }
@@ -893,7 +922,7 @@ chrome.storage.onChanged.addListener((changes) => {
       if (classifyRecord('session-' + s.timestamp, s) !== 'Session') continue;
       if (_syncMergedRecordNames.has('session-' + s.timestamp)) continue;
       const old = oldSessions.find(o => o.timestamp === s.timestamp);
-      if (!old || JSON.stringify(old) !== JSON.stringify(s)) {
+      if (!old || stableStringify(old) !== stableStringify(s)) {
         markSyncDirty('Session', 'session-' + s.timestamp, s);
       }
     }
@@ -914,7 +943,7 @@ chrome.storage.onChanged.addListener((changes) => {
       if (classifyRecord('trash-' + l.id, l) !== 'TrashedLink') continue;
       if (_syncMergedRecordNames.has('trash-' + l.id)) continue;
       const old = oldLinks.find(o => o.id === l.id);
-      if (!old || JSON.stringify(old) !== JSON.stringify(l)) {
+      if (!old || stableStringify(old) !== stableStringify(l)) {
         markSyncDirty('TrashedLink', 'trash-' + l.id, l);
       }
     }
