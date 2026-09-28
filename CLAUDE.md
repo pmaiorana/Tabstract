@@ -113,6 +113,31 @@ The target page polls every 3 seconds (debug mode only), runs `getComputedStyle(
 - `list.js`, `popup.js`, `settings.js`: `captureDebugSnapshot()`, `inspectElement()`, polling loop
 - Swift handlers: `debugLog`, `debugSnapshot`, `checkElementInspectorRequest`, `elementInspectorResult`
 
+#### iCloud Sync Debugging
+
+**Rule: never change sync code from a code reading alone.** State a hypothesis, run a test that can falsify it, then fix. Every past attempt to fix sync by reasoning about the code made it worse. The 2026-09-28 session (commits 7b36746, 8858090, fb82f51) is the model: three real bugs, each confirmed by a test before a small fix.
+
+**How sync works (enough to debug it):**
+- One CloudKit record per session/template/smartGroup/trashedLink, payload as a CKAsset, in the private DB zone `TabstractZone`. Debug builds use the **Development** environment; TestFlight/App Store use **Production** (the schema must be deployed there first).
+- Edits land in `_syncDirtyRecords` (via explicit `markSyncDirty` calls and the `storage.onChanged` diff in background.js), pushed after a 2s debounce, then a pull immediately follows. The pull returns the device's own records back as **echoes**; the merge skips them by `deviceID`.
+- After a merge, `_syncMergedRecordNames` blocks dirty-marking of merged records for 2s so the merge's own writes don't bounce back. Echoes are **not** added to this set (7b36746). Own-device upserts for records missing locally, not dirty, and not in an in-flight push are **adopted**, not skipped (8858090, fb82f51). Deletion echoes are always skipped.
+- **Re-enabling sync on a device stamps all its records as newest and full-pushes them.** That device wins every conflict. Use it deliberately (the device with correct data), never to "refresh" a stale one.
+
+**Tools, in order of usefulness:**
+1. **Server truth** via Apple's CloudKit CLI. One-time setup in a real Terminal (not this session): `xcrun cktool save-token --type user`, answer `n`, sign in. Then:
+   ```
+   xcrun cktool query-records --team-id 84HBFJDM48 --container-id iCloud.com.paulmaiorana.Tabstract \
+     --environment development --database-type private --zone-name TabstractZone \
+     --record-type Session --filters "isDeleted == 1" --requested-fields deletedAt --requested-fields deviceID
+   ```
+   `recordName` is not queryable, so always filter on `isDeleted == 0` (live) or `== 1` (tombstones). Payload assets are encrypted; their download URLs are useless.
+2. **Phone storage**: open the popup on the phone, then Mac Safari → Develop → the iPhone → the Tabstract page, and paste a `chrome.storage.local.get(null, …)` snippet in that console. In the phone's background console, `typeof stableStringify` is `"undefined"` on builds older than 2026-08-21.
+3. **Timed reproduction** from the Mac list page console: write a change to storage, `setTimeout` a `deleteSession` message, then read the Mac log and query the server. A delay of 4.5s lands inside the post-pull guard window; 3.2s does not (push latency is ~1s).
+4. **Mac log** (`debug/console.log` in the App Group container): lines from `[background]` and `[list]` interleave and truncate mid-line, usually right where a record name would be. **Absence of a line is not evidence.** Pull-cadence gaps are the Mac asleep.
+5. **What does not work**: the Safari MCP can't attach to extension pages or the phone. `devicectl` can copy only `Library/`, `Documents/`, `tmp/` from the iOS App Group container, and the sync/debug files live at its root. `log show` for the Swift `os_log` lines fails under the shell hook.
+
+**Push-size baseline** (any push near the trash count is a regression): one edit = 1 record; deleting a session with N tabs = N+1; opening the list page = a pull with 0 changes.
+
 #### Code Patterns
 - **Message passing**: Background script coordinates all tab operations via chrome.runtime.sendMessage/onMessage
 - **Settings management**: ensureDefaultSettings() ensures all preferences have values on startup
