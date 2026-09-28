@@ -4579,7 +4579,9 @@ function initializeBadge() {
     chrome.storage.local.get(['accentColor'], (result) => {
       const color = result.accentColor || '#007AFF';
       chrome.action.setBadgeBackgroundColor({ color: color });
-      chrome.action.setBadgeTextColor({ color: '#FFFFFF' });
+      if (chrome.action.setBadgeTextColor) {
+        chrome.action.setBadgeTextColor({ color: '#FFFFFF' });
+      }
     });
   } catch (e) {
   }
