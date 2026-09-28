@@ -5053,6 +5053,7 @@ function mergeRemoteChanges(changes, deletions, callback) {
 
     const CURRENT_SCHEMA_VERSION = 1;
     let skippedNewerVersion = false;
+    const readoptedNames = new Set(); // own-device records adopted because they were missing locally
 
     debug('[Sync] Merge starting:', changes.length, 'changes,', deletions.length, 'deletions');
     debug('[Sync] Local state before cleanup: sessions=' + sessions.length, 'templates=' + templates.length, 'smartGroups=' + smartGroups.length, 'trashedLinks=' + trashedLinks.length);
@@ -5095,8 +5096,19 @@ function mergeRemoteChanges(changes, deletions, callback) {
       // local edits made between push and pull — including re-applying a
       // tombstone after the user has undone the delete.
       if (localDeviceID && change.deviceID === localDeviceID) {
-        debug('[Sync] Skipping own-device echo:', recordName, isDeleted ? '(deletion)' : '(upsert)');
-        continue;
+        // Exception: an own-device upsert for a record this device no longer
+        // holds, with nothing pending for it, is not an echo — it is a record
+        // this device lost (e.g. a full pull after re-enabling sync). Adopt it.
+        // Deletion echoes are always skipped so an undone delete is never
+        // re-applied.
+        const ownType = isDeleted ? null : classifyRecord(recordName, payload);
+        const existsLocally = ownType ? localRecordExists(ownType, recordName, sessions, templates, smartGroups, trashedLinks) : true;
+        if (isDeleted || existsLocally || _syncDirtyRecords.has(recordName)) {
+          debug('[Sync] Skipping own-device echo:', recordName, isDeleted ? '(deletion)' : '(upsert)');
+          continue;
+        }
+        debug('[Sync] Adopting own-device record missing locally:', recordName);
+        readoptedNames.add(recordName);
       }
 
       // Classify by recordName prefix (deletions have no payload)
@@ -5290,7 +5302,7 @@ function mergeRemoteChanges(changes, deletions, callback) {
     // delete of a just-pushed record for 2s after each push→pull cycle.
     _syncMergedRecordNames.clear();
     for (const change of changes) {
-      if (localDeviceID && change.deviceID === localDeviceID) continue;
+      if (localDeviceID && change.deviceID === localDeviceID && !readoptedNames.has(change.recordName)) continue;
       _syncMergedRecordNames.add(change.recordName);
     }
     for (const deletion of deletions) {
@@ -5386,6 +5398,19 @@ function mergeRemoteChanges(changes, deletions, callback) {
       if (callback) callback(true);
     }
   });
+}
+
+/**
+ * Check whether a record is present in the local arrays (same lookups as applyDeletion).
+ */
+function localRecordExists(recordType, recordName, sessions, templates, smartGroups, trashedLinks) {
+  switch (recordType) {
+    case 'Session':     return sessions.some(s => 'session-' + s.timestamp === recordName);
+    case 'Template':    return templates.some(t => t.id === recordName);
+    case 'SmartGroup':  return smartGroups.some(g => g.id === recordName.replace(/^smartgroup-/, ''));
+    case 'TrashedLink': return trashedLinks.some(l => l.id === recordName.replace(/^trash-/, ''));
+    default:            return false;
+  }
 }
 
 /**
