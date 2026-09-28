@@ -136,6 +136,8 @@ The target page polls every 3 seconds (debug mode only), runs `getComputedStyle(
 4. **Mac log** (`debug/console.log` in the App Group container): lines from `[background]` and `[list]` interleave and truncate mid-line, usually right where a record name would be. **Absence of a line is not evidence.** Pull-cadence gaps are the Mac asleep.
 5. **What does not work**: the Safari MCP can't attach to extension pages or the phone. `devicectl` can copy only `Library/`, `Documents/`, `tmp/` from the iOS App Group container, and the sync/debug files live at its root. `log show` for the Swift `os_log` lines fails under the shell hook.
 
+**Schema.** `cloudkit-schema.ckdb` at the repo root is what is deployed (Development and Production identical as of 2026-09-28). To change it: edit the file, `xcrun cktool import-schema … --environment development --file cloudkit-schema.ckdb` (needs a management token: `xcrun cktool save-token --type management`, generate it by hand in the console and answer `e`), then deploy Development → Production in the CloudKit Console (Schema → Deploy Schema Changes). The CLI cannot write Production. Verify with `export-schema --environment production` and diff. Production changes are additive only.
+
 **Push-size baseline** (any push near the trash count is a regression): one edit = 1 record; deleting a session with N tabs = N+1; opening the list page = a pull with 0 changes.
 
 #### Code Patterns
