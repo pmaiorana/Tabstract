@@ -3,7 +3,7 @@
   "default_locale": "en",
   "name": "Tabstract",
   "description": "Save open tabs, and bring them back later. Designed natively for Safari.",
-  "version": "1.0",
+  "version": "3.3",
   "icons": {
     "48": "images/icon-48.png",
     "64": "images/icon-64.png",
