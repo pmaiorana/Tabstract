@@ -2176,6 +2176,29 @@ if (icloudSyncToggle) {
   });
 }
 
+// Copy Diagnostics link handler
+const copyDiagnosticsBtn = document.getElementById('copyDiagnosticsBtn');
+if (copyDiagnosticsBtn) {
+  copyDiagnosticsBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (copyDiagnosticsBtn.classList.contains('synced')) return;
+    chrome.runtime.sendMessage({ action: "getSyncDiagnostics", platform: "macOS" }, async (response) => {
+      if (!response || !response.success) return;
+      try {
+        await copyToClipboard(response.text);
+        copyDiagnosticsBtn.classList.add('synced');
+        copyDiagnosticsBtn.textContent = chrome.i18n.getMessage("diagnosticsCopied") || "Copied!";
+        setTimeout(() => {
+          copyDiagnosticsBtn.classList.remove('synced');
+          copyDiagnosticsBtn.textContent = chrome.i18n.getMessage("copyDiagnostics") || "Copy Diagnostics";
+        }, 1500);
+      } catch (err) {
+        alert(getMessage("clipboardError") || "Failed to copy to clipboard");
+      }
+    });
+  });
+}
+
 // Sync Now link handler
 if (syncNowBtn) {
   syncNowBtn.addEventListener('click', (e) => {

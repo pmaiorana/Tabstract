@@ -1293,6 +1293,8 @@
             /* sync status */
             var syncRow = document.getElementById('ios-syncStatusRow');
             var syncText = document.getElementById('ios-syncStatusText');
+            var diagRow = document.getElementById('ios-diagnosticsRow');
+            if (diagRow) diagRow.style.display = result.icloudSyncEnabled ? '' : 'none';
             if (result.icloudSyncEnabled) {
                 syncRow.style.display = '';
                 if (result.icloudSyncLastTime) {
@@ -1326,7 +1328,9 @@
             if (storageKey === 'icloudSyncEnabled') {
                 var syncRow = document.getElementById('ios-syncStatusRow');
                 var syncText = document.getElementById('ios-syncStatusText');
+                var diagRow = document.getElementById('ios-diagnosticsRow');
                 syncRow.style.display = el.checked ? '' : 'none';
+                if (diagRow) diagRow.style.display = el.checked ? '' : 'none';
                 if (el.checked) {
                     if (syncText) syncText.textContent = t('connecting');
                     chrome.runtime.sendMessage({ action: 'enableSync' }, function (resp) {
@@ -1376,6 +1380,31 @@
             settingsView.style.display = 'none';
             settingsView.classList.remove('sliding-out');
             mainView.style.display = '';
+        });
+    }
+
+    /* Copy Diagnostics button */
+    var copyDiagBtn = document.getElementById('ios-copyDiagBtn');
+    if (copyDiagBtn) {
+        copyDiagBtn.addEventListener('click', function () {
+            if (copyDiagBtn.disabled) return;
+            copyDiagBtn.disabled = true;
+            chrome.runtime.sendMessage({ action: 'getSyncDiagnostics', platform: 'iOS' }, function (resp) {
+                if (!resp || !resp.success || !navigator.clipboard) {
+                    copyDiagBtn.disabled = false;
+                    return;
+                }
+                navigator.clipboard.writeText(resp.text).then(function () {
+                    copyDiagBtn.textContent = t('diagnosticsCopied');
+                }, function () {
+                    copyDiagBtn.textContent = t('syncFailed');
+                }).then(function () {
+                    setTimeout(function () {
+                        copyDiagBtn.textContent = t('copyDiagnostics');
+                        copyDiagBtn.disabled = false;
+                    }, 1500);
+                });
+            });
         });
     }
 

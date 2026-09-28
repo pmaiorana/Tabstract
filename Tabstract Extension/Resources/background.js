@@ -958,8 +958,20 @@ chrome.storage.onChanged.addListener((changes) => {
   }
 });
 
+// Ring buffer of recent sync log lines, kept regardless of DEBUG_MODE so a
+// tester can send diagnostics without enabling debug mode. In memory only.
+const SYNC_LOG_RING_MAX = 200;
+const _syncLogRing = [];
+
 // Debug logging function
 function debug(...args) {
+  if (typeof args[0] === 'string' && args[0].startsWith('[Sync]')) {
+    const line = new Date().toISOString() + ' ' + args.map(a =>
+      typeof a === 'string' ? a : JSON.stringify(a)
+    ).join(' ');
+    _syncLogRing.push(line);
+    if (_syncLogRing.length > SYNC_LOG_RING_MAX) _syncLogRing.shift();
+  }
   if (DEBUG_MODE) {
     console.log('[Tabstract]', ...args);
     nativeDebugLog('log', 'background', args.map(a =>
@@ -1641,6 +1653,44 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     browser.runtime.sendNativeMessage("application.id", { action: "syncStatus" })
       .then((response) => sendResponse(response))
       .catch((error) => sendResponse({ success: false, error: String(error) }));
+    return true;
+
+  } else if (message.action === "getSyncDiagnostics") {
+    // Plain-text report a tester can paste into an email. No debug mode needed.
+    chrome.storage.local.get(['savedSessions', 'savedTemplates', 'smartGroups', 'trashedLinks',
+      'icloudSyncEnabled', 'icloudSyncDeviceID', 'icloudSyncLastTime', '_syncDirtyRecords'], (data) => {
+      browser.runtime.sendNativeMessage("application.id", { action: "syncStatus" })
+        .catch((error) => ({ error: String(error) }))
+        .then((status) => {
+          const manifest = chrome.runtime.getManifest();
+          const lines = [
+            'Tabstract sync diagnostics',
+            'Generated: ' + new Date().toISOString(),
+            'Version: ' + manifest.version,
+            'Platform: ' + (message.platform || navigator.platform),
+            'User agent: ' + navigator.userAgent,
+            '',
+            'Sync enabled: ' + !!data.icloudSyncEnabled,
+            'Device ID: ' + (data.icloudSyncDeviceID || 'none'),
+            'Last sync (JS): ' + (data.icloudSyncLastTime || 'never'),
+            'Last sync (native): ' + (status && status.lastSyncTime || 'never'),
+            'Account status: ' + (status && status.accountStatus || 'unknown'),
+            'Last error: ' + (status && (status.lastError || status.error) || 'none'),
+            '',
+            'Groups: ' + (data.savedSessions || []).length,
+            'Routines: ' + (data.savedTemplates || []).length,
+            'Filters: ' + (data.smartGroups || []).length,
+            'Trash: ' + (data.trashedLinks || []).length,
+            'Pending (persisted): ' + Object.keys(data._syncDirtyRecords || {}).length,
+            'Pending (memory): ' + _syncDirtyRecords.size,
+            'In flight: ' + _syncInFlightRecordNames.size,
+            '',
+            'Recent sync log (' + _syncLogRing.length + ' lines):',
+            ..._syncLogRing
+          ];
+          sendResponse({ success: true, text: lines.join('\n') });
+        });
+    });
     return true;
 
   } else if (message.action === "triggerSync") {

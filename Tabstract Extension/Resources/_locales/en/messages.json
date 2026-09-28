@@ -1771,5 +1771,14 @@
         "content": "$1"
       }
     }
+  },
+  "copyDiagnostics": {
+    "message": "Copy Diagnostics"
+  },
+  "copyDiagnosticsDesc": {
+    "message": "Having trouble? Send us a report."
+  },
+  "diagnosticsCopied": {
+    "message": "Copied!"
   }
 }
