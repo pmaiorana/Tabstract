@@ -1412,12 +1412,14 @@ const SYNC_GATED_ACTIONS = new Set([
   'runFiltersOnSessions'
 ]);
 
-chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+function handleRuntimeMessage(message, sender, sendResponse) {
   // Gate synced-key writes during merge to prevent data loss
   if (_syncMergeInProgress && SYNC_GATED_ACTIONS.has(message.action)) {
     _syncDeferredWrites.push(() => {
-      // Re-dispatch the message after merge completes
-      chrome.runtime.sendMessage(message).catch(() => {});
+      // Replay after the merge completes by calling this handler directly.
+      // A page never receives its own runtime.sendMessage (verified in
+      // Safari 2026-09-28), so re-sending the message would drop the action.
+      handleRuntimeMessage(message, sender, () => {});
     });
     sendResponse({ success: true, deferred: true });
     return false;
@@ -2378,7 +2380,8 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     checkTemplateSchedules();
     return false;
   }
-});
+}
+chrome.runtime.onMessage.addListener(handleRuntimeMessage);
 
 // ============================================================================
 // Template Scheduling - Interval-based (Safari-compatible)
