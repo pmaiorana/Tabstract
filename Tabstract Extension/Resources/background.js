@@ -73,6 +73,7 @@ let _syncMergedRecordNames = new Set(); // record names from current/recent merg
 let _syncMergeGeneration = 0;           // incremented each merge; onChanged uses to ignore stale events
 let _syncDeferredWrites = [];           // queued operations during merge
 let _syncPendingConflictCopies = [];    // conflict copies to mark dirty after merge
+let _syncInFlightRecordNames = new Set(); // records in a push whose response hasn't arrived yet
 let lastAICheckDetails = null;
 
 // Cache for page metadata to survive content script termination and browser restarts
@@ -4891,8 +4892,12 @@ function executeSyncPush() {
 
   const records = Array.from(_syncDirtyRecords.values());
   // Clear in-memory map so new edits during push go to a fresh map,
-  // but keep storage copy until push succeeds (survives page termination)
+  // but keep storage copy until push succeeds (survives page termination).
+  // Remember what is in flight: until the response arrives these records are
+  // in neither the dirty map nor on the server, and the merge must still
+  // treat them as pending (see own-device adoption in mergeRemoteChanges).
   _syncDirtyRecords.clear();
+  for (const r of records) _syncInFlightRecordNames.add(r.recordName);
   try { chrome.alarms.clear(SYNC_PUSH_DEBOUNCE_ALARM); } catch (e) {}
 
   browser.runtime.sendNativeMessage("application.id", {
@@ -4900,6 +4905,7 @@ function executeSyncPush() {
     records: records
   }).then((response) => {
     _syncPushInProgress = false;
+    for (const r of records) _syncInFlightRecordNames.delete(r.recordName);
     if (response && response.success) {
       debug('[Sync] Push succeeded:', response.pushed, 'records');
       // Push confirmed — now safe to clear persisted dirty records.
@@ -4941,6 +4947,7 @@ function executeSyncPush() {
     }
   }).catch((error) => {
     _syncPushInProgress = false;
+    for (const r of records) _syncInFlightRecordNames.delete(r.recordName);
     debug('[Sync] Push error:', String(error));
     records.forEach(r => { if (!_syncDirtyRecords.has(r.recordName)) _syncDirtyRecords.set(r.recordName, r); });
     // Persist re-queued records
@@ -5103,7 +5110,7 @@ function mergeRemoteChanges(changes, deletions, callback) {
         // re-applied.
         const ownType = isDeleted ? null : classifyRecord(recordName, payload);
         const existsLocally = ownType ? localRecordExists(ownType, recordName, sessions, templates, smartGroups, trashedLinks) : true;
-        if (isDeleted || existsLocally || _syncDirtyRecords.has(recordName)) {
+        if (isDeleted || existsLocally || _syncDirtyRecords.has(recordName) || _syncInFlightRecordNames.has(recordName)) {
           debug('[Sync] Skipping own-device echo:', recordName, isDeleted ? '(deletion)' : '(upsert)');
           continue;
         }
