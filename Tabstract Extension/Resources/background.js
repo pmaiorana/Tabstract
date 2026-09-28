@@ -5284,9 +5284,13 @@ function mergeRemoteChanges(changes, deletions, callback) {
       chrome.storage.local.set({ _syncNewerVersionAvailable: true });
     }
 
-    // Track all merged record names to prevent onChanged from re-dirtying them
+    // Track all merged record names to prevent onChanged from re-dirtying them.
+    // Own-device echoes are skipped above and never written locally, so they
+    // must not be guarded: guarding them silently dropped any local edit or
+    // delete of a just-pushed record for 2s after each push→pull cycle.
     _syncMergedRecordNames.clear();
     for (const change of changes) {
+      if (localDeviceID && change.deviceID === localDeviceID) continue;
       _syncMergedRecordNames.add(change.recordName);
     }
     for (const deletion of deletions) {
