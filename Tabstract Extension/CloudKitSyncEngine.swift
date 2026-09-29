@@ -353,6 +353,7 @@ actor CloudKitSyncEngine {
         var allFailedRecordNames: [String] = []
         var allConflictRecordNames: [String] = []
         var anyConflicts = false
+        var perRecordError: String? = nil
 
         // Process in batches
         let batches = stride(from: 0, to: records.count, by: CloudKitSyncEngine.maxRecordsPerBatch)
@@ -417,6 +418,9 @@ actor CloudKitSyncEngine {
             if let failed = result["failedRecordNames"] as? [String] {
                 allFailedRecordNames.append(contentsOf: failed)
             }
+            if perRecordError == nil, let failureError = result["failureError"] as? String {
+                perRecordError = failureError
+            }
             if let conflicts = result["conflictRecordNames"] as? [String] {
                 allConflictRecordNames.append(contentsOf: conflicts)
             }
@@ -444,7 +448,18 @@ actor CloudKitSyncEngine {
             response["conflictRecordNames"] = allConflictRecordNames
         }
         response["hasConflicts"] = anyConflicts
-        updateLastSyncTime()
+        if let failureError = perRecordError {
+            response["failureError"] = failureError
+        }
+        // Only stamp "last synced" when something actually reached the server.
+        // A batch or per-record failure (e.g. offline) is recorded as the last error
+        // so the UI stops reporting a sync that never happened.
+        if totalPushed > 0 {
+            updateLastSyncTime()
+        }
+        if let failureError = lastError ?? perRecordError {
+            updateLastError(failureError)
+        }
         return response
     }
 
@@ -453,15 +468,24 @@ actor CloudKitSyncEngine {
         private let lock = NSLock()
         private var _conflictRecordNames: [String] = []
         private var _failedRecordNames: [String] = []
+        private var _firstFailureError: String? = nil
 
-        func addFailure(_ name: String, isConflict: Bool) {
+        func addFailure(_ name: String, isConflict: Bool, errorCode: String? = nil) {
             lock.lock()
             defer { lock.unlock() }
             if isConflict {
                 _conflictRecordNames.append(name)
             } else {
                 _failedRecordNames.append(name)
+                if _firstFailureError == nil { _firstFailureError = errorCode }
             }
+        }
+
+        // Mapped code of the first non-conflict per-record failure (e.g. networkUnavailable)
+        var firstFailureError: String? {
+            lock.lock()
+            defer { lock.unlock() }
+            return _firstFailureError
         }
 
         var conflictRecordNames: [String] {
@@ -511,7 +535,8 @@ actor CloudKitSyncEngine {
                         isConflict = false
                         os_log(.error, "CloudKitSyncEngine: Per-record error for %@: %@", recordID.recordName, error.localizedDescription)
                     }
-                    collector.addFailure(recordID.recordName, isConflict: isConflict)
+                    collector.addFailure(recordID.recordName, isConflict: isConflict,
+                                         errorCode: isConflict ? nil : self.mapCKError(error))
                 }
             }
 
@@ -526,6 +551,9 @@ actor CloudKitSyncEngine {
                         "conflictRecordNames": collector.conflictRecordNames,
                         "hasConflicts": collector.hasConflicts
                     ]
+                    if let failureError = collector.firstFailureError {
+                        response["failureError"] = failureError
+                    }
                 case .failure(let error):
                     response = [
                         "pushed": 0,

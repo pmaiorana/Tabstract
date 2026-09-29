@@ -4960,7 +4960,12 @@ function executeSyncPush() {
     _syncPushInProgress = false;
     for (const r of records) _syncInFlightRecordNames.delete(r.recordName);
     if (response && response.success) {
-      debug('[Sync] Push succeeded:', response.pushed, 'records');
+      const failedCount = (response.failedRecordNames || []).length;
+      if (response.pushed > 0 || failedCount === 0) {
+        debug('[Sync] Push succeeded:', response.pushed, 'records', failedCount ? `(${failedCount} failed: ${response.failureError})` : '');
+      } else {
+        debug('[Sync] Push failed for all', failedCount, 'records:', response.failureError);
+      }
       // Push confirmed — now safe to clear persisted dirty records.
       // Persist current map (may have new edits added during push).
       if (_syncDirtyRecords.size > 0) {
@@ -4968,7 +4973,9 @@ function executeSyncPush() {
       } else {
         chrome.storage.local.remove('_syncDirtyRecords');
       }
-      chrome.storage.local.set({ icloudSyncLastTime: new Date().toISOString() });
+      if (response.pushed > 0) {
+        chrome.storage.local.set({ icloudSyncLastTime: new Date().toISOString() });
+      }
       broadcastSyncState(false);
       // Re-queue non-conflict failures (network errors, etc.)
       if (response.failedRecordNames && response.failedRecordNames.length > 0) {
