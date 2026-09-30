@@ -1292,19 +1292,67 @@
             }
             /* sync status */
             var syncRow = document.getElementById('ios-syncStatusRow');
-            var syncText = document.getElementById('ios-syncStatusText');
             var diagRow = document.getElementById('ios-diagnosticsRow');
+            var errorRow = document.getElementById('ios-syncErrorRow');
             if (diagRow) diagRow.style.display = result.icloudSyncEnabled ? '' : 'none';
             if (result.icloudSyncEnabled) {
                 syncRow.style.display = '';
-                if (result.icloudSyncLastTime) {
-                    syncText.textContent = t('lastSynced') + ' ' + getRelativeTime(result.icloudSyncLastTime);
-                } else {
-                    syncText.textContent = t('neverSynced');
-                }
+                refreshSyncStatus();
             } else {
                 syncRow.style.display = 'none';
+                if (errorRow) errorRow.style.display = 'none';
             }
+        });
+    }
+
+    /* Same mapping as settings.js on macOS */
+    function getSyncErrorMessage(code) {
+        var map = {
+            notAuthenticated: 'syncErrorNotAuthenticated',
+            networkUnavailable: 'syncErrorNetwork',
+            quotaExceeded: 'syncErrorQuota',
+            rateLimited: 'syncErrorRateLimited',
+            zoneBusy: 'syncErrorZoneBusy',
+            noAccount: 'syncNoAccount'
+        };
+        return t(map[code] || 'syncErrorGeneric');
+    }
+
+    function showSyncError(code) {
+        var errorRow = document.getElementById('ios-syncErrorRow');
+        var errorText = document.getElementById('ios-syncErrorText');
+        if (!errorRow || !errorText) return;
+        if (code) {
+            errorText.textContent = getSyncErrorMessage(code);
+            errorRow.style.display = '';
+        } else {
+            errorRow.style.display = 'none';
+        }
+    }
+
+    /* Ask the background page for the native sync state: last sync time,
+       iCloud account status and the last error. iOS used to show only the
+       JS-side timestamp, so a tester with no iCloud account or a failing
+       push saw nothing wrong. */
+    function refreshSyncStatus() {
+        var syncText = document.getElementById('ios-syncStatusText');
+        var syncNow = document.getElementById('ios-syncNowBtn');
+        chrome.runtime.sendMessage({ action: 'getSyncStatus' }, function (resp) {
+            if (chrome.runtime.lastError || !resp) return;
+            var noAccount = resp.accountStatus === 'noAccount' || resp.accountStatus === 'restricted';
+            if (noAccount) {
+                if (syncText) syncText.textContent = t('syncNoAccount');
+                if (syncNow) syncNow.style.display = 'none';
+                showSyncError(null);
+                return;
+            }
+            if (syncNow) syncNow.style.display = '';
+            if (syncText) {
+                syncText.textContent = resp.lastSyncTime
+                    ? t('lastSynced') + ' ' + getRelativeTime(resp.lastSyncTime)
+                    : t('neverSynced');
+            }
+            showSyncError(resp.lastError || null);
         });
     }
 
@@ -1336,23 +1384,20 @@
                     chrome.runtime.sendMessage({ action: 'enableSync' }, function (resp) {
                         chrome.storage.local.set({ _iosDebugSync: { time: Date.now(), action: 'enableSync', response: resp, error: chrome.runtime.lastError ? chrome.runtime.lastError.message : null } });
                         if (!resp || !resp.success) {
-                            // Revert toggle on failure
+                            // Revert toggle on failure and say why
                             el.checked = false;
                             chrome.storage.local.set({ icloudSyncEnabled: false });
                             syncRow.style.display = 'none';
+                            if (diagRow) diagRow.style.display = 'none';
                             if (syncText) syncText.textContent = '';
+                            showSyncError((resp && resp.error) || 'unknown');
                         } else {
-                            // Update status after successful enable + push/pull
-                            chrome.storage.local.get('icloudSyncLastTime', function (data) {
-                                if (syncText) {
-                                    syncText.textContent = data.icloudSyncLastTime
-                                        ? t('lastSynced') + ' ' + getRelativeTime(data.icloudSyncLastTime)
-                                        : t('justSynced');
-                                }
-                            });
+                            showSyncError(null);
+                            refreshSyncStatus();
                         }
                     });
                 } else {
+                    showSyncError(null);
                     chrome.runtime.sendMessage({ action: 'disableSync' }, function (resp) {
                         chrome.storage.local.set({ _iosDebugSync: { time: Date.now(), action: 'disableSync', response: resp, error: chrome.runtime.lastError ? chrome.runtime.lastError.message : null } });
                     });
@@ -1417,13 +1462,7 @@
             syncNowBtn.disabled = true;
             chrome.runtime.sendMessage({ action: 'triggerSync' }, function (resp) {
                 syncNowBtn.disabled = false;
-                chrome.storage.local.get('icloudSyncLastTime', function (data) {
-                    if (data.icloudSyncLastTime) {
-                        syncText.textContent = t('lastSynced') + ' ' + getRelativeTime(data.icloudSyncLastTime);
-                    } else {
-                        syncText.textContent = resp && resp.success ? t('justSynced') : t('syncFailed');
-                    }
-                });
+                refreshSyncStatus();
             });
         });
     }

@@ -988,6 +988,10 @@ html.dark-mode .tab-row.swipe-container:first-child .tab-content-row {
     color: var(--text-secondary);
 }
 
+.sync-error-text {
+    color: var(--danger);
+}
+
 .sync-now-btn {
     border: none;
     background: none;
