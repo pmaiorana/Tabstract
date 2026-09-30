@@ -5579,11 +5579,22 @@ async function performFullPush(callback) {
         }
       } else {
         lastError = response?.error;
-        debug('[Sync] Full push batch failed:', lastError);
+        debug('[Sync] Full push batch failed:', lastError, '- re-queuing', batch.length, 'records');
+        requeueBatch(batch);
       }
     } catch (error) {
       lastError = String(error);
-      debug('[Sync] Full push batch error:', lastError);
+      debug('[Sync] Full push batch error:', lastError, '- re-queuing', batch.length, 'records');
+      requeueBatch(batch);
+    }
+  }
+
+  // A whole batch that failed (offline, rate limited, native messaging error)
+  // goes back into the dirty map so the normal push cycle retries it.
+  // Without this the records were only pushed again if each was edited.
+  function requeueBatch(batch) {
+    for (const r of batch) {
+      if (!_syncDirtyRecords.has(r.recordName)) _syncDirtyRecords.set(r.recordName, r);
     }
   }
 

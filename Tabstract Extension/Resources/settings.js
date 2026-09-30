@@ -2164,12 +2164,12 @@ if (icloudSyncToggle) {
         // Revert toggle on failure
         icloudSyncToggle.checked = !enabled;
         toggleSyncUI(!enabled);
-        // Show error
-        if (response?.error === 'noAccount') {
-          if (syncErrorRow) syncErrorRow.style.display = '';
-          if (syncErrorText) {
-            syncErrorText.textContent = chrome.i18n.getMessage("syncNoAccount") || "Sign in to iCloud to sync";
-          }
+        // Show why. Anything other than a missing account used to revert silently.
+        if (syncErrorRow) syncErrorRow.style.display = '';
+        if (syncErrorText) {
+          syncErrorText.textContent = response?.error === 'noAccount'
+            ? (chrome.i18n.getMessage("syncNoAccount") || "Sign in to iCloud to sync")
+            : getSyncErrorMessage(response?.error);
         }
       }
     });
