@@ -1780,5 +1780,8 @@
   },
   "diagnosticsCopied": {
     "message": "Copied!"
+  },
+  "syncErrorZoneNotFound": {
+    "message": "Tabstract's iCloud data was removed. Turn sync back on to upload this device's data."
   }
 }

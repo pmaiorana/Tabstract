@@ -25,26 +25,6 @@ func withThrowingTimeout<T: Sendable>(seconds: Double, operation: @Sendable @esc
     }
 }
 
-// Registers for CKAccountChanged so CKContainer refreshes its cached account status.
-// Must be an NSObject (not actor) to use @objc selectors.
-@available(macOS 12.0, iOS 16.0, *)
-private class AccountChangeObserver: NSObject {
-    var onAccountChange: (() -> Void)?
-
-    override init() {
-        super.init()
-        NotificationCenter.default.addObserver(
-            self, selector: #selector(accountChanged),
-            name: .CKAccountChanged, object: nil
-        )
-    }
-    deinit { NotificationCenter.default.removeObserver(self) }
-    @objc func accountChanged() {
-        os_log(.info, "CloudKitSyncEngine: CKAccountChanged — clearing cached user ID")
-        onAccountChange?()
-    }
-}
-
 @available(macOS 12.0, iOS 16.0, *)
 actor CloudKitSyncEngine {
 
@@ -74,7 +54,6 @@ actor CloudKitSyncEngine {
     private let container: CKContainer
     private let privateDB: CKDatabase
     private let zoneID: CKRecordZone.ID
-    private let accountObserver = AccountChangeObserver()
 
     // Account status cache — avoids redundant CloudKit calls within 60s
     private var cachedAccountStatus: [String: Any]?
@@ -90,12 +69,6 @@ actor CloudKitSyncEngine {
             zoneName: CloudKitSyncEngine.zoneName,
             ownerName: CKCurrentUserDefaultName
         )
-        accountObserver.onAccountChange = { [weak self] in
-            Task { [weak self] in
-                guard let self else { return }
-                await self.clearCachedUserRecordID()
-            }
-        }
     }
 
     // MARK: - Sync Directory
@@ -253,15 +226,6 @@ actor CloudKitSyncEngine {
         var state = loadSyncState()
         state["lastError"] = nil
         saveSyncState(state)
-    }
-
-    func clearCachedUserRecordID() {
-        var state = loadSyncState()
-        state.removeValue(forKey: "userRecordID")
-        saveSyncState(state)
-        cachedAccountStatus = nil
-        accountStatusCacheTime = nil
-        os_log(.info, "CloudKitSyncEngine: Cleared cached userRecordID and account status")
     }
 
     // MARK: - Account Status
@@ -795,7 +759,8 @@ actor CloudKitSyncEngine {
 
     nonisolated static func mapCKErrorStatic(_ error: Error) -> String {
         guard let ckError = error as? CKError else {
-            return "unknown"
+            let ns = error as NSError
+            return "unknown:\(ns.domain):\(ns.code)"
         }
 
         switch ckError.code {
@@ -813,8 +778,15 @@ actor CloudKitSyncEngine {
             return "conflict"
         case .zoneBusy:
             return "zoneBusy"
-        case .zoneNotFound:
+        case .zoneNotFound, .userDeletedZone:
             return "zoneNotFound"
+        case .partialFailure:
+            // Zone-level failures (e.g. the zone was deleted) arrive wrapped in a
+            // partialFailure; report the first underlying error instead of "unknown".
+            if let inner = ckError.partialErrorsByItemID?.values.first {
+                return mapCKErrorStatic(inner)
+            }
+            return "unknown:partialFailure"
         case .incompatibleVersion:
             return "incompatibleVersion"
         case .badContainer:
@@ -824,7 +796,8 @@ actor CloudKitSyncEngine {
         case .managedAccountRestricted:
             return "managedAccountRestricted"
         default:
-            return "unknown"
+            // Keep the raw CKError code so Copy Diagnostics can name it
+            return "unknown:\(ckError.code.rawValue)"
         }
     }
 }

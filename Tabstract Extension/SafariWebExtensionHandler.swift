@@ -2668,7 +2668,21 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
         }
 
         let result = await engine.pushRecords(records: records)
+        if result["error"] as? String == "zoneNotFound" {
+            await handleZoneGone(engine)
+        }
         return result
+    }
+
+    /// The zone was deleted on the server (Reset iCloud Data on another device, or an
+    /// iCloud account switch). Recreating it here would silently re-upload this device's
+    /// data and undo the reset, so sync turns itself off and the user re-enables it
+    /// deliberately. Enable recreates the zone and does a full push.
+    @available(macOS 12.0, iOS 16.0, *)
+    private func handleZoneGone(_ engine: CloudKitSyncEngine) async {
+        await engine.setEnabled(false)
+        await engine.clearChangeToken()
+        await engine.updateLastError("zoneNotFound")
     }
 
     @available(macOS 12.0, iOS 16.0, *)
@@ -2707,6 +2721,8 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
 
         if result["success"] as? Bool == true {
             await engine.updateLastSyncTime()
+        } else if result["error"] as? String == "zoneNotFound" {
+            await handleZoneGone(engine)
         } else if let error = result["error"] as? String,
                   error != "notAuthenticated" && error != "temporarilyUnavailable" {
             await engine.updateLastError(error)

@@ -5000,6 +5000,9 @@ function executeSyncPush() {
       records.forEach(r => { if (!_syncDirtyRecords.has(r.recordName)) _syncDirtyRecords.set(r.recordName, r); });
       // Persist re-queued records (storage copy may be stale if new edits came in)
       chrome.storage.local.set({ _syncDirtyRecords: Object.fromEntries(_syncDirtyRecords) });
+      if (response?.error === 'zoneNotFound') {
+        disableSyncAfterZoneGone();
+      }
     }
     if (_syncPushDeferred) {
       _syncPushDeferred = false;
@@ -5083,6 +5086,9 @@ function executeSyncPull(callback, _tokenRetries) {
       debug('[Sync] Pull failed:', response?.error);
       if (response?.error === 'notAuthenticated') {
         suspendSyncAlarm();
+      }
+      if (response?.error === 'zoneNotFound') {
+        disableSyncAfterZoneGone();
       }
       if (callback) callback(false);
       if (_syncPullDeferred) {
@@ -5675,6 +5681,23 @@ function scheduleSyncAlarm() {
  */
 function clearSyncAlarm() {
   try { chrome.alarms.clear(SYNC_ALARM_NAME); } catch (e) {}
+}
+
+/**
+ * The server zone is gone (Reset iCloud Data elsewhere, or an account switch).
+ * The native side has already flagged itself disabled with lastError
+ * "zoneNotFound"; mirror that here so the alarm stops and the toggle reads
+ * off. Local data is untouched. Re-enabling recreates the zone and pushes it.
+ */
+function disableSyncAfterZoneGone() {
+  debug('[Sync] Zone missing on server, turning sync off until re-enabled');
+  chrome.storage.local.set({ icloudSyncEnabled: false, icloudSyncDeviceID: null }, () => {
+    clearSyncAlarm();
+    _syncDirtyRecords.clear();
+    chrome.storage.local.remove('_syncDirtyRecords');
+    if (_syncPushTimeout) { clearTimeout(_syncPushTimeout); _syncPushTimeout = null; }
+    broadcastSyncState(false);
+  });
 }
 
 let _syncAlarmSuspended = false;

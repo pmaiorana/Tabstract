@@ -1297,10 +1297,12 @@
             if (diagRow) diagRow.style.display = result.icloudSyncEnabled ? '' : 'none';
             if (result.icloudSyncEnabled) {
                 syncRow.style.display = '';
-                refreshSyncStatus();
+                refreshSyncStatus(true);
             } else {
                 syncRow.style.display = 'none';
                 if (errorRow) errorRow.style.display = 'none';
+                // Sync can turn itself off (server zone gone); show why
+                refreshSyncStatus(false);
             }
         });
     }
@@ -1313,6 +1315,7 @@
             quotaExceeded: 'syncErrorQuota',
             rateLimited: 'syncErrorRateLimited',
             zoneBusy: 'syncErrorZoneBusy',
+            zoneNotFound: 'syncErrorZoneNotFound',
             noAccount: 'syncNoAccount'
         };
         return t(map[code] || 'syncErrorGeneric');
@@ -1334,11 +1337,15 @@
        iCloud account status and the last error. iOS used to show only the
        JS-side timestamp, so a tester with no iCloud account or a failing
        push saw nothing wrong. */
-    function refreshSyncStatus() {
+    function refreshSyncStatus(enabled) {
         var syncText = document.getElementById('ios-syncStatusText');
         var syncNow = document.getElementById('ios-syncNowBtn');
         chrome.runtime.sendMessage({ action: 'getSyncStatus' }, function (resp) {
             if (chrome.runtime.lastError || !resp) return;
+            if (enabled === false) {
+                showSyncError(resp.lastError || null);
+                return;
+            }
             var noAccount = resp.accountStatus === 'noAccount' || resp.accountStatus === 'restricted';
             if (noAccount) {
                 if (syncText) syncText.textContent = t('syncNoAccount');

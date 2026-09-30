@@ -10,6 +10,7 @@ This is a Safari Web Extension project built with Swift and JavaScript. Developm
 - **Build iOS**: Select "Tabstract iOS" scheme with an iOS Simulator destination, then Build (⌘B). CLI: `xcodebuild -scheme "Tabstract iOS" -destination "generic/platform=iOS Simulator" build`
 - **Enable extension**: After running, enable the extension in Safari → Settings → Extensions
 - **Clean build artifacts**: Product → Clean Build Folder in Xcode, or manually delete from `~/Library/Developer/Xcode/DerivedData/`
+- **Stale JS in the built bundle**: `xcodebuild` sometimes skips re-copying an edited `Resources/*.js` file (seen 2026-09-29: two builds in a row shipped the old `background.js` and `settings.js`). After a build, `grep` the appex under `DerivedData/.../Debug/Tabstract.app/Contents/PlugIns/Tabstract Extension.appex/Contents/Resources/` for a string you just added. If it is missing, `touch` the source file and build again.
 
 ## Project Architecture
 

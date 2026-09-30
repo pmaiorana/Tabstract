@@ -465,9 +465,9 @@ function loadUIFromStorage() {
   if (icloudSyncToggle) {
     icloudSyncToggle.checked = !!result.icloudSyncEnabled;
     toggleSyncUI(icloudSyncToggle.checked);
-    if (icloudSyncToggle.checked) {
-      refreshSyncStatus();
-    }
+    // Also when off: sync can turn itself off (server zone gone) and leave
+    // a lastError explaining why.
+    refreshSyncStatus();
   }
 });
 }
@@ -2132,7 +2132,8 @@ function getSyncErrorMessage(errorCode) {
     networkUnavailable: chrome.i18n.getMessage("syncErrorNetwork") || "No network connection",
     quotaExceeded: chrome.i18n.getMessage("syncErrorQuota") || "iCloud storage is full",
     rateLimited: chrome.i18n.getMessage("syncErrorRateLimited") || "Too many requests, try again later",
-    zoneBusy: chrome.i18n.getMessage("syncErrorZoneBusy") || "iCloud is busy, try again later"
+    zoneBusy: chrome.i18n.getMessage("syncErrorZoneBusy") || "iCloud is busy, try again later",
+    zoneNotFound: chrome.i18n.getMessage("syncErrorZoneNotFound") || "Tabstract's iCloud data was removed. Turn sync back on to upload this device's data."
   };
   return messages[errorCode] || (chrome.i18n.getMessage("syncErrorGeneric") || "Sync error, will retry automatically");
 }
