@@ -1007,6 +1007,15 @@ html.dark-mode .tab-row.swipe-container:first-child .tab-content-row {
     opacity: 0.5;
 }
 
+.sync-reset-btn {
+    flex-shrink: 0;
+    text-align: right;
+}
+
+.sync-reset-btn.armed {
+    color: var(--danger);
+}
+
 /* ================================================================== */
 /*  Trash view                                                        */
 /* ================================================================== */

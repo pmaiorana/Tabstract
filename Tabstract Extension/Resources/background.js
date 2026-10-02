@@ -1651,6 +1651,34 @@ function handleRuntimeMessage(message, sender, sendResponse) {
       });
     return true;
 
+  } else if (message.action === "resetSync") {
+    // Delete Tabstract's data from iCloud and turn sync off here. Local data
+    // stays. Other devices notice the missing zone and turn sync off too.
+    browser.runtime.sendNativeMessage("application.id", { action: "syncReset" })
+      .then((response) => {
+        if (!response || !response.success) {
+          sendResponse({ success: false, error: response?.error || 'unknown' });
+          return;
+        }
+        chrome.storage.local.set({
+          icloudSyncEnabled: false,
+          icloudSyncLastTime: null,
+          icloudSyncDeviceID: null
+        }, () => {
+          clearSyncAlarm();
+          _syncDirtyRecords.clear();
+          chrome.storage.local.remove('_syncDirtyRecords');
+          if (_syncPushTimeout) { clearTimeout(_syncPushTimeout); _syncPushTimeout = null; }
+          debug('[Sync] Reset: zone deleted, sync turned off on this device');
+          broadcastSyncState(false);
+          sendResponse({ success: true });
+        });
+      })
+      .catch((error) => {
+        sendResponse({ success: false, error: String(error) });
+      });
+    return true;
+
   } else if (message.action === "getSyncStatus") {
     browser.runtime.sendNativeMessage("application.id", { action: "syncStatus" })
       .then((response) => sendResponse(response))

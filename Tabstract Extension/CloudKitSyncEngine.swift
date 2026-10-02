@@ -304,6 +304,31 @@ actor CloudKitSyncEngine {
         }
     }
 
+    /// Deletes the zone and everything in it. A zone that is already gone counts as success.
+    func deleteZone() async throws {
+        let operation = CKModifyRecordZonesOperation(recordZonesToSave: nil, recordZoneIDsToDelete: [zoneID])
+        operation.qualityOfService = .userInitiated
+
+        try await withCheckedThrowingContinuation { (continuation: CheckedContinuation<Void, Error>) in
+            operation.modifyRecordZonesResultBlock = { result in
+                switch result {
+                case .success:
+                    os_log(.info, "CloudKitSyncEngine: Zone deleted")
+                    continuation.resume()
+                case .failure(let error):
+                    if CloudKitSyncEngine.mapCKErrorStatic(error) == "zoneNotFound" {
+                        os_log(.info, "CloudKitSyncEngine: Zone already absent")
+                        continuation.resume()
+                    } else {
+                        os_log(.error, "CloudKitSyncEngine: Zone deletion failed: %@", error.localizedDescription)
+                        continuation.resume(throwing: error)
+                    }
+                }
+            }
+            privateDB.add(operation)
+        }
+    }
+
     // MARK: - Push Records
 
     func pushRecords(records: [[String: Any]]) async -> [String: Any] {

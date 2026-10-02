@@ -1142,6 +1142,19 @@
                 syncText.textContent = t('lastSynced') + ' ' + getRelativeTime(changes.icloudSyncLastTime.newValue);
             }
         }
+        /* The background page can turn sync off on its own (server zone gone
+           after a reset elsewhere). Reflect that while settings are open. */
+        if (changes.icloudSyncEnabled && changes.icloudSyncEnabled.newValue === false) {
+            var toggle = document.getElementById('ios-icloudSync');
+            if (toggle && toggle.checked) {
+                toggle.checked = false;
+                var row = document.getElementById('ios-syncStatusRow');
+                var diag = document.getElementById('ios-diagnosticsRow');
+                if (row) row.style.display = 'none';
+                if (diag) diag.style.display = 'none';
+                refreshSyncStatus(false);
+            }
+        }
     });
 
     /* ------------------------------------------------------------------ */
@@ -1456,6 +1469,49 @@
                         copyDiagBtn.disabled = false;
                     }, 1500);
                 });
+            });
+        });
+    }
+
+    /* Reset iCloud Data — two taps within 5s (confirm() is blocked in iOS popups) */
+    var resetSyncBtn = document.getElementById('ios-resetSyncBtn');
+    if (resetSyncBtn) {
+        var _resetArmed = false;
+        var _resetTimer = null;
+        var disarmReset = function () {
+            _resetArmed = false;
+            if (_resetTimer) { clearTimeout(_resetTimer); _resetTimer = null; }
+            resetSyncBtn.classList.remove('armed');
+            resetSyncBtn.textContent = t('resetSyncData');
+        };
+        resetSyncBtn.addEventListener('click', function () {
+            if (resetSyncBtn.disabled) return;
+            if (!_resetArmed) {
+                _resetArmed = true;
+                resetSyncBtn.classList.add('armed');
+                resetSyncBtn.textContent = t('confirmAction') || 'Confirm?';
+                _resetTimer = setTimeout(disarmReset, 5000);
+                return;
+            }
+            disarmReset();
+            resetSyncBtn.disabled = true;
+            resetSyncBtn.textContent = t('syncing');
+            chrome.runtime.sendMessage({ action: 'resetSync' }, function (resp) {
+                resetSyncBtn.disabled = false;
+                if (resp && resp.success) {
+                    resetSyncBtn.textContent = t('resetSyncDone');
+                    var toggle = document.getElementById('ios-icloudSync');
+                    if (toggle) toggle.checked = false;
+                    var syncRow = document.getElementById('ios-syncStatusRow');
+                    var diagRow = document.getElementById('ios-diagnosticsRow');
+                    if (syncRow) syncRow.style.display = 'none';
+                    if (diagRow) diagRow.style.display = 'none';
+                    showSyncError(null);
+                    setTimeout(function () { resetSyncBtn.textContent = t('resetSyncData'); }, 2500);
+                } else {
+                    resetSyncBtn.textContent = t('resetSyncData');
+                    showSyncError((resp && resp.error) || 'unknown');
+                }
             });
         });
     }

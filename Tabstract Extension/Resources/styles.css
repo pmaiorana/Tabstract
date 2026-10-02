@@ -6986,6 +6986,15 @@ html.dark-mode .trash-actions .delete-btn:hover {
   padding: 8px 16px;
 }
 
+.sync-reset-link {
+  white-space: nowrap;
+}
+
+.sync-reset-link.armed {
+  color: var(--text-warning, #e74c3c);
+  font-weight: 600;
+}
+
 .sync-error-text {
   font-size: 13px;
   color: var(--text-warning, #e74c3c);

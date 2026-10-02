@@ -1538,13 +1538,14 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
         case "showBackupInFinder":
             return handleShowBackupInFinder(data: messageDict)
         // MARK: - iCloud Sync
-        case "syncEnable", "syncDisable", "syncStatus", "syncPush", "syncFullPush", "syncPull":
+        case "syncEnable", "syncDisable", "syncReset", "syncStatus", "syncPush", "syncFullPush", "syncPull":
             guard #available(macOS 12.0, iOS 16.0, *) else {
                 return ["success": false, "error": "iCloud Sync requires macOS 12.0 / iOS 16.0 or later"]
             }
             switch action {
             case "syncEnable": return await handleSyncEnable()
             case "syncDisable": return await handleSyncDisable()
+            case "syncReset": return await handleSyncReset()
             case "syncStatus": return await handleSyncStatus()
             case "syncPush", "syncFullPush": return await handleSyncPush(data: messageDict)
             case "syncPull": return await handleSyncPull()
@@ -2600,6 +2601,41 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
     private func handleSyncDisable() async -> [String: Any] {
         let engine = SafariWebExtensionHandler.syncEngine
         await engine.setEnabled(false)
+        return ["success": true]
+    }
+
+    /// Reset iCloud Data: delete the zone (all of Tabstract's cloud data for this
+    /// account) and turn sync off here. Local data is untouched. Other devices hit
+    /// zoneNotFound on their next sync and turn themselves off (see handleZoneGone).
+    @available(macOS 12.0, iOS 16.0, *)
+    private func handleSyncReset() async -> [String: Any] {
+        let engine = SafariWebExtensionHandler.syncEngine
+
+        let accountResult: [String: Any]
+        do {
+            accountResult = try await withThrowingTimeout(seconds: 10) {
+                await engine.checkAccountStatus()
+            }
+        } catch {
+            return ["success": false, "error": "timeout"]
+        }
+        guard accountResult["status"] as? String == "available" else {
+            return ["success": false, "error": "noAccount"]
+        }
+
+        do {
+            try await withThrowingTimeout(seconds: 15) {
+                try await engine.deleteZone()
+            }
+        } catch is SyncTimeoutError {
+            return ["success": false, "error": "timeout"]
+        } catch {
+            return ["success": false, "error": engine.mapCKError(error)]
+        }
+
+        await engine.setEnabled(false)
+        await engine.clearChangeToken()
+        await engine.clearLastError()
         return ["success": true]
     }
 

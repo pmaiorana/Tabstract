@@ -2177,6 +2177,59 @@ if (icloudSyncToggle) {
   });
 }
 
+// The background page can turn sync off on its own (server zone gone after a
+// reset on another device). Reflect that while this page is open.
+chrome.storage.onChanged.addListener((changes) => {
+  if (changes.icloudSyncEnabled && changes.icloudSyncEnabled.newValue === false
+      && icloudSyncToggle && icloudSyncToggle.checked) {
+    icloudSyncToggle.checked = false;
+    toggleSyncUI(false);
+    refreshSyncStatus();
+  }
+});
+
+// Reset iCloud Data — two clicks within 5s (confirm() is unreliable in extension pages)
+const resetSyncBtn = document.getElementById('resetSyncBtn');
+if (resetSyncBtn) {
+  let armed = false;
+  let armTimer = null;
+  const labelIdle = chrome.i18n.getMessage("resetSyncData") || "Reset iCloud Data";
+  const disarm = () => {
+    armed = false;
+    if (armTimer) { clearTimeout(armTimer); armTimer = null; }
+    resetSyncBtn.classList.remove('armed');
+    resetSyncBtn.textContent = labelIdle;
+  };
+  resetSyncBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (resetSyncBtn.classList.contains('syncing') || resetSyncBtn.classList.contains('synced')) return;
+    if (!armed) {
+      armed = true;
+      resetSyncBtn.classList.add('armed');
+      resetSyncBtn.textContent = chrome.i18n.getMessage("resetSyncConfirm") || "Delete from iCloud? Click again to confirm";
+      armTimer = setTimeout(disarm, 5000);
+      return;
+    }
+    disarm();
+    resetSyncBtn.classList.add('syncing');
+    resetSyncBtn.textContent = chrome.i18n.getMessage("syncing") || "Syncing...";
+    chrome.runtime.sendMessage({ action: "resetSync" }, (response) => {
+      resetSyncBtn.classList.remove('syncing');
+      if (response && response.success) {
+        resetSyncBtn.classList.add('synced');
+        resetSyncBtn.textContent = chrome.i18n.getMessage("resetSyncDone") || "iCloud data removed";
+        if (icloudSyncToggle) icloudSyncToggle.checked = false;
+        toggleSyncUI(false);
+        setTimeout(() => { resetSyncBtn.classList.remove('synced'); resetSyncBtn.textContent = labelIdle; }, 2500);
+      } else {
+        resetSyncBtn.textContent = labelIdle;
+        if (syncErrorRow) syncErrorRow.style.display = '';
+        if (syncErrorText) syncErrorText.textContent = getSyncErrorMessage(response?.error);
+      }
+    });
+  });
+}
+
 // Copy Diagnostics link handler
 const copyDiagnosticsBtn = document.getElementById('copyDiagnosticsBtn');
 if (copyDiagnosticsBtn) {
