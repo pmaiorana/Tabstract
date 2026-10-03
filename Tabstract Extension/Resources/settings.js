@@ -2088,13 +2088,13 @@ function refreshSyncStatus() {
     // Update last synced text
     if (response.lastSyncTime) {
       const date = new Date(response.lastSyncTime);
-      const timeStr = date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+      const timeStr = date.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
       const dateStr = date.toLocaleDateString();
       const now = new Date();
       const isToday = date.toDateString() === now.toDateString();
       if (syncStatusText) {
         const label = chrome.i18n.getMessage("lastSynced") || "Last synced";
-        syncStatusText.textContent = `${label}: ${isToday ? timeStr : dateStr + ' ' + timeStr}`;
+        syncStatusText.textContent = `${label} ${isToday ? timeStr : dateStr + ' ' + timeStr}`;
       }
     } else {
       if (syncStatusText) {
@@ -2193,7 +2193,7 @@ const resetSyncBtn = document.getElementById('resetSyncBtn');
 if (resetSyncBtn) {
   let armed = false;
   let armTimer = null;
-  const labelIdle = chrome.i18n.getMessage("resetSyncData") || "Reset iCloud Data";
+  const labelIdle = chrome.i18n.getMessage("syncResetData") || "Reset Data";
   const disarm = () => {
     armed = false;
     if (armTimer) { clearTimeout(armTimer); armTimer = null; }
@@ -2206,7 +2206,7 @@ if (resetSyncBtn) {
     if (!armed) {
       armed = true;
       resetSyncBtn.classList.add('armed');
-      resetSyncBtn.textContent = chrome.i18n.getMessage("resetSyncConfirm") || "Delete from iCloud? Click again to confirm";
+      resetSyncBtn.textContent = chrome.i18n.getMessage("resetSyncConfirm") || "Confirm Reset";
       armTimer = setTimeout(disarm, 5000);
       return;
     }
@@ -2217,7 +2217,7 @@ if (resetSyncBtn) {
       resetSyncBtn.classList.remove('syncing');
       if (response && response.success) {
         resetSyncBtn.classList.add('synced');
-        resetSyncBtn.textContent = chrome.i18n.getMessage("resetSyncDone") || "iCloud data removed";
+        resetSyncBtn.textContent = chrome.i18n.getMessage("syncResetDoneShort") || "Removed";
         if (icloudSyncToggle) icloudSyncToggle.checked = false;
         toggleSyncUI(false);
         setTimeout(() => { resetSyncBtn.classList.remove('synced'); resetSyncBtn.textContent = labelIdle; }, 2500);
@@ -2244,7 +2244,7 @@ if (copyDiagnosticsBtn) {
         copyDiagnosticsBtn.textContent = chrome.i18n.getMessage("diagnosticsCopied") || "Copied!";
         setTimeout(() => {
           copyDiagnosticsBtn.classList.remove('synced');
-          copyDiagnosticsBtn.textContent = chrome.i18n.getMessage("copyDiagnostics") || "Copy Diagnostics";
+          copyDiagnosticsBtn.textContent = chrome.i18n.getMessage("syncCopyLogs") || "Copy Logs";
         }, 1500);
       } catch (err) {
         alert(getMessage("clipboardError") || "Failed to copy to clipboard");

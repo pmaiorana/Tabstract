@@ -123,13 +123,26 @@
                     <div class="setting-row sync-status-row" id="ios-syncErrorRow" style="display: none;">
                         <span class="sync-status-text sync-error-text" id="ios-syncErrorText"></span>
                     </div>
-                    <div class="setting-row sync-status-row" id="ios-diagnosticsRow" style="display: none;">
-                        <span class="sync-status-text" data-i18n="copyDiagnosticsDesc">Having trouble? Send us a report.</span>
-                        <button id="ios-copyDiagBtn" class="sync-now-btn" data-i18n="copyDiagnostics">Copy Diagnostics</button>
+                </div>
+            </section>
+
+            <!-- Sync troubleshooting -->
+            <section class="settings-section">
+                <h2 class="section-label" data-i18n="syncTroubleshooting">Troubleshooting</h2>
+                <div class="settings-group">
+                    <div class="setting-row sync-tool-row">
+                        <span class="setting-text">
+                            <span data-i18n="copyDiagnostics">Copy Diagnostics</span>
+                            <span class="setting-desc" data-i18n="copyDiagnosticsDesc">Having trouble? Send us a report.</span>
+                        </span>
+                        <button id="ios-copyDiagBtn" class="sync-now-btn" data-i18n="syncCopyAction">Copy</button>
                     </div>
-                    <div class="setting-row sync-status-row" id="ios-resetSyncRow">
-                        <span class="sync-status-text" data-i18n="resetSyncDataDesc">Deletes Tabstract's data from iCloud and turns sync off on every device. Your saved tabs stay on each device.</span>
-                        <button id="ios-resetSyncBtn" class="sync-now-btn sync-reset-btn" data-i18n="resetSyncData">Reset iCloud Data</button>
+                    <div class="setting-row sync-tool-row">
+                        <span class="setting-text">
+                            <span data-i18n="resetSyncData">Reset iCloud Data</span>
+                            <span class="setting-desc" data-i18n="resetSyncDataDesc">Clears Tabstract's data from iCloud and turns sync off everywhere. Your devices keep their tabs.</span>
+                        </span>
+                        <button id="ios-resetSyncBtn" class="sync-now-btn sync-reset-btn" data-i18n="syncResetAction">Reset</button>
                     </div>
                 </div>
             </section>

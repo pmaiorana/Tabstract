@@ -6951,6 +6951,7 @@ html.dark-mode .trash-actions .delete-btn:hover {
 .sync-status-row {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 12px;
   padding: 8px 16px 8px 45px;
   min-height: 0;
@@ -6959,6 +6960,14 @@ html.dark-mode .trash-actions .delete-btn:hover {
 .sync-status-text {
   font-size: 13px;
   color: var(--text-tertiary, #999);
+}
+
+/* Left: status + Sync Now. Right: tester tools. */
+.sync-status-group {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
 }
 
 .sync-now-link {
@@ -6986,8 +6995,9 @@ html.dark-mode .trash-actions .delete-btn:hover {
   padding: 8px 16px;
 }
 
-.sync-reset-link {
+.sync-now-link {
   white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .sync-reset-link.armed {

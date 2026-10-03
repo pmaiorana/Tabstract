@@ -1149,9 +1149,7 @@
             if (toggle && toggle.checked) {
                 toggle.checked = false;
                 var row = document.getElementById('ios-syncStatusRow');
-                var diag = document.getElementById('ios-diagnosticsRow');
                 if (row) row.style.display = 'none';
-                if (diag) diag.style.display = 'none';
                 refreshSyncStatus(false);
             }
         }
@@ -1305,9 +1303,7 @@
             }
             /* sync status */
             var syncRow = document.getElementById('ios-syncStatusRow');
-            var diagRow = document.getElementById('ios-diagnosticsRow');
             var errorRow = document.getElementById('ios-syncErrorRow');
-            if (diagRow) diagRow.style.display = result.icloudSyncEnabled ? '' : 'none';
             if (result.icloudSyncEnabled) {
                 syncRow.style.display = '';
                 refreshSyncStatus(true);
@@ -1396,9 +1392,7 @@
             if (storageKey === 'icloudSyncEnabled') {
                 var syncRow = document.getElementById('ios-syncStatusRow');
                 var syncText = document.getElementById('ios-syncStatusText');
-                var diagRow = document.getElementById('ios-diagnosticsRow');
                 syncRow.style.display = el.checked ? '' : 'none';
-                if (diagRow) diagRow.style.display = el.checked ? '' : 'none';
                 if (el.checked) {
                     if (syncText) syncText.textContent = t('connecting');
                     chrome.runtime.sendMessage({ action: 'enableSync' }, function (resp) {
@@ -1408,7 +1402,6 @@
                             el.checked = false;
                             chrome.storage.local.set({ icloudSyncEnabled: false });
                             syncRow.style.display = 'none';
-                            if (diagRow) diagRow.style.display = 'none';
                             if (syncText) syncText.textContent = '';
                             showSyncError((resp && resp.error) || 'unknown');
                         } else {
@@ -1465,7 +1458,7 @@
                     copyDiagBtn.textContent = t('syncFailed');
                 }).then(function () {
                     setTimeout(function () {
-                        copyDiagBtn.textContent = t('copyDiagnostics');
+                        copyDiagBtn.textContent = t('syncCopyAction');
                         copyDiagBtn.disabled = false;
                     }, 1500);
                 });
@@ -1482,7 +1475,7 @@
             _resetArmed = false;
             if (_resetTimer) { clearTimeout(_resetTimer); _resetTimer = null; }
             resetSyncBtn.classList.remove('armed');
-            resetSyncBtn.textContent = t('resetSyncData');
+            resetSyncBtn.textContent = t('syncResetAction');
         };
         resetSyncBtn.addEventListener('click', function () {
             if (resetSyncBtn.disabled) return;
@@ -1499,17 +1492,15 @@
             chrome.runtime.sendMessage({ action: 'resetSync' }, function (resp) {
                 resetSyncBtn.disabled = false;
                 if (resp && resp.success) {
-                    resetSyncBtn.textContent = t('resetSyncDone');
+                    resetSyncBtn.textContent = t('syncResetDoneShort');
                     var toggle = document.getElementById('ios-icloudSync');
                     if (toggle) toggle.checked = false;
                     var syncRow = document.getElementById('ios-syncStatusRow');
-                    var diagRow = document.getElementById('ios-diagnosticsRow');
                     if (syncRow) syncRow.style.display = 'none';
-                    if (diagRow) diagRow.style.display = 'none';
                     showSyncError(null);
-                    setTimeout(function () { resetSyncBtn.textContent = t('resetSyncData'); }, 2500);
+                    setTimeout(function () { resetSyncBtn.textContent = t('syncResetAction'); }, 2500);
                 } else {
-                    resetSyncBtn.textContent = t('resetSyncData');
+                    resetSyncBtn.textContent = t('syncResetAction');
                     showSyncError((resp && resp.error) || 'unknown');
                 }
             });

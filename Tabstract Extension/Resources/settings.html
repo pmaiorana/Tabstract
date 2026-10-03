@@ -194,20 +194,19 @@
           </li>
           <li id="syncStatusRow" style="display: none;">
             <div class="settings-row sync-status-row">
-              <a href="#" class="sync-now-link" id="syncNowBtn" data-i18n="syncNow">Sync Now</a>
-              <span class="sync-status-text" id="syncStatusText" data-i18n="neverSynced">Never synced</span>
-              <a href="#" class="sync-now-link" id="copyDiagnosticsBtn" data-i18n="copyDiagnostics">Copy Diagnostics</a>
+              <div class="sync-status-group">
+                <span class="sync-status-text" id="syncStatusText" data-i18n="neverSynced">Never synced</span>
+                <a href="#" class="sync-now-link" id="syncNowBtn" data-i18n="syncNow">Sync Now</a>
+              </div>
+              <div class="sync-status-group">
+                <a href="#" class="sync-now-link" id="copyDiagnosticsBtn" data-i18n="syncCopyLogs" data-i18n-title="copyDiagnosticsDesc" title="Having trouble? Send us a report.">Copy Logs</a>
+                <a href="#" class="sync-now-link sync-reset-link" id="resetSyncBtn" data-i18n="syncResetData" data-i18n-title="resetSyncDataDesc" title="Clears Tabstract's data from iCloud and turns sync off everywhere. Your devices keep their tabs.">Reset Data</a>
+              </div>
             </div>
           </li>
           <li id="syncErrorRow" style="display: none;">
             <div class="settings-row sync-error-row">
               <span class="sync-error-text" id="syncErrorText"></span>
-            </div>
-          </li>
-          <li id="syncResetRow">
-            <div class="settings-row sync-status-row">
-              <a href="#" class="sync-now-link sync-reset-link" id="resetSyncBtn" data-i18n="resetSyncData">Reset iCloud Data</a>
-              <span class="sync-status-text" id="resetSyncDesc" data-i18n="resetSyncDataDesc">Deletes Tabstract's data from iCloud and turns sync off on every device. Your saved tabs stay on each device.</span>
             </div>
           </li>
         </ul>

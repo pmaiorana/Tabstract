@@ -1007,9 +1007,13 @@ html.dark-mode .tab-row.swipe-container:first-child .tab-content-row {
     opacity: 0.5;
 }
 
-.sync-reset-btn {
+.sync-tool-row {
+    cursor: default;
+}
+
+.sync-tool-row .sync-now-btn {
     flex-shrink: 0;
-    text-align: right;
+    white-space: nowrap;
 }
 
 .sync-reset-btn.armed {
