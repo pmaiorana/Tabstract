@@ -2842,5 +2842,44 @@
         "content": "$1"
       }
     }
+  },
+  "copyDiagnostics": {
+    "message": "診断情報をコピー"
+  },
+  "copyDiagnosticsDesc": {
+    "message": "問題がありますか？レポートをお送りください。"
+  },
+  "diagnosticsCopied": {
+    "message": "コピーしました"
+  },
+  "syncErrorZoneNotFound": {
+    "message": "TabstractのiCloudデータが削除されました。このデバイスのデータをアップロードするには、同期をもう一度オンにしてください。"
+  },
+  "resetSyncData": {
+    "message": "iCloudデータをリセット"
+  },
+  "resetSyncDataDesc": {
+    "message": "iCloudからTabstractのデータを消去し、すべてのデバイスで同期をオフにします。各デバイスのタブはそのまま残ります。"
+  },
+  "syncTroubleshooting": {
+    "message": "トラブルシューティング"
+  },
+  "syncCopyAction": {
+    "message": "コピー"
+  },
+  "syncResetAction": {
+    "message": "リセット"
+  },
+  "syncResetDoneShort": {
+    "message": "削除しました"
+  },
+  "resetSyncConfirm": {
+    "message": "リセットを確認"
+  },
+  "syncCopyLogs": {
+    "message": "ログをコピー"
+  },
+  "syncResetData": {
+    "message": "データをリセット"
   }
 }

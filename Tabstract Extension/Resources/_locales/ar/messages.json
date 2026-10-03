@@ -2842,5 +2842,44 @@
         "content": "$1"
       }
     }
+  },
+  "copyDiagnostics": {
+    "message": "نسخ بيانات التشخيص"
+  },
+  "copyDiagnosticsDesc": {
+    "message": "هل تواجه مشكلة؟ أرسل لنا تقريرًا."
+  },
+  "diagnosticsCopied": {
+    "message": "تم النسخ!"
+  },
+  "syncErrorZoneNotFound": {
+    "message": "تمت إزالة بيانات Tabstract من iCloud. أعد تشغيل المزامنة لرفع بيانات هذا الجهاز."
+  },
+  "resetSyncData": {
+    "message": "إعادة تعيين بيانات iCloud"
+  },
+  "resetSyncDataDesc": {
+    "message": "يحذف بيانات Tabstract من iCloud ويوقف المزامنة على كل الأجهزة. تحتفظ أجهزتك بعلامات التبويب الخاصة بها."
+  },
+  "syncTroubleshooting": {
+    "message": "استكشاف الأخطاء"
+  },
+  "syncCopyAction": {
+    "message": "نسخ"
+  },
+  "syncResetAction": {
+    "message": "إعادة تعيين"
+  },
+  "syncResetDoneShort": {
+    "message": "تمت الإزالة"
+  },
+  "resetSyncConfirm": {
+    "message": "تأكيد إعادة التعيين"
+  },
+  "syncCopyLogs": {
+    "message": "نسخ السجلات"
+  },
+  "syncResetData": {
+    "message": "إعادة تعيين البيانات"
   }
 }

@@ -2842,5 +2842,44 @@
         "content": "$1"
       }
     }
+  },
+  "copyDiagnostics": {
+    "message": "Kopiera diagnostik"
+  },
+  "copyDiagnosticsDesc": {
+    "message": "Problem? Skicka oss en rapport."
+  },
+  "diagnosticsCopied": {
+    "message": "Kopierat!"
+  },
+  "syncErrorZoneNotFound": {
+    "message": "Tabstracts iCloud-data togs bort. Slå på synkronisering igen för att ladda upp den här enhetens data."
+  },
+  "resetSyncData": {
+    "message": "Återställ iCloud-data"
+  },
+  "resetSyncDataDesc": {
+    "message": "Raderar Tabstracts data från iCloud och stänger av synkronisering överallt. Dina enheter behåller sina flikar."
+  },
+  "syncTroubleshooting": {
+    "message": "Felsökning"
+  },
+  "syncCopyAction": {
+    "message": "Kopiera"
+  },
+  "syncResetAction": {
+    "message": "Återställ"
+  },
+  "syncResetDoneShort": {
+    "message": "Borttaget"
+  },
+  "resetSyncConfirm": {
+    "message": "Bekräfta återställning"
+  },
+  "syncCopyLogs": {
+    "message": "Kopiera loggar"
+  },
+  "syncResetData": {
+    "message": "Återställ data"
   }
 }

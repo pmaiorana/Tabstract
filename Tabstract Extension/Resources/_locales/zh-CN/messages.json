@@ -2842,5 +2842,44 @@
         "content": "$1"
       }
     }
+  },
+  "copyDiagnostics": {
+    "message": "复制诊断信息"
+  },
+  "copyDiagnosticsDesc": {
+    "message": "遇到问题？请给我们发送报告。"
+  },
+  "diagnosticsCopied": {
+    "message": "已复制！"
+  },
+  "syncErrorZoneNotFound": {
+    "message": "Tabstract 的 iCloud 数据已被移除。重新开启同步以上传此设备的数据。"
+  },
+  "resetSyncData": {
+    "message": "重置 iCloud 数据"
+  },
+  "resetSyncDataDesc": {
+    "message": "从 iCloud 中清除 Tabstract 的数据，并在所有设备上关闭同步。各设备上的标签页会保留。"
+  },
+  "syncTroubleshooting": {
+    "message": "故障排除"
+  },
+  "syncCopyAction": {
+    "message": "复制"
+  },
+  "syncResetAction": {
+    "message": "重置"
+  },
+  "syncResetDoneShort": {
+    "message": "已移除"
+  },
+  "resetSyncConfirm": {
+    "message": "确认重置"
+  },
+  "syncCopyLogs": {
+    "message": "复制日志"
+  },
+  "syncResetData": {
+    "message": "重置数据"
   }
 }

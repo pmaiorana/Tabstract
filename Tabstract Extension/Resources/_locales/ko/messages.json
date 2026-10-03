@@ -2842,5 +2842,44 @@
         "content": "$1"
       }
     }
+  },
+  "copyDiagnostics": {
+    "message": "진단 정보 복사"
+  },
+  "copyDiagnosticsDesc": {
+    "message": "문제가 있나요? 보고서를 보내 주세요."
+  },
+  "diagnosticsCopied": {
+    "message": "복사됨!"
+  },
+  "syncErrorZoneNotFound": {
+    "message": "Tabstract의 iCloud 데이터가 제거되었습니다. 이 기기의 데이터를 업로드하려면 동기화를 다시 켜세요."
+  },
+  "resetSyncData": {
+    "message": "iCloud 데이터 재설정"
+  },
+  "resetSyncDataDesc": {
+    "message": "iCloud에서 Tabstract 데이터를 지우고 모든 기기에서 동기화를 끕니다. 각 기기의 탭은 그대로 유지됩니다."
+  },
+  "syncTroubleshooting": {
+    "message": "문제 해결"
+  },
+  "syncCopyAction": {
+    "message": "복사"
+  },
+  "syncResetAction": {
+    "message": "재설정"
+  },
+  "syncResetDoneShort": {
+    "message": "제거됨"
+  },
+  "resetSyncConfirm": {
+    "message": "재설정 확인"
+  },
+  "syncCopyLogs": {
+    "message": "로그 복사"
+  },
+  "syncResetData": {
+    "message": "데이터 재설정"
   }
 }

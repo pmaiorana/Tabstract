@@ -2842,5 +2842,44 @@
         "content": "$1"
       }
     }
+  },
+  "copyDiagnostics": {
+    "message": "Скопировать диагностику"
+  },
+  "copyDiagnosticsDesc": {
+    "message": "Возникли проблемы? Отправьте нам отчёт."
+  },
+  "diagnosticsCopied": {
+    "message": "Скопировано!"
+  },
+  "syncErrorZoneNotFound": {
+    "message": "Данные Tabstract в iCloud были удалены. Включите синхронизацию снова, чтобы загрузить данные с этого устройства."
+  },
+  "resetSyncData": {
+    "message": "Сбросить данные iCloud"
+  },
+  "resetSyncDataDesc": {
+    "message": "Удаляет данные Tabstract из iCloud и выключает синхронизацию на всех устройствах. Вкладки на устройствах сохраняются."
+  },
+  "syncTroubleshooting": {
+    "message": "Устранение неполадок"
+  },
+  "syncCopyAction": {
+    "message": "Копировать"
+  },
+  "syncResetAction": {
+    "message": "Сбросить"
+  },
+  "syncResetDoneShort": {
+    "message": "Удалено"
+  },
+  "resetSyncConfirm": {
+    "message": "Подтвердить сброс"
+  },
+  "syncCopyLogs": {
+    "message": "Скопировать журналы"
+  },
+  "syncResetData": {
+    "message": "Сбросить данные"
   }
 }

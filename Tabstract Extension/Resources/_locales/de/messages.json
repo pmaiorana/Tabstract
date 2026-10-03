@@ -1762,5 +1762,44 @@
         "content": "$1"
       }
     }
+  },
+  "copyDiagnostics": {
+    "message": "Diagnose kopieren"
+  },
+  "copyDiagnosticsDesc": {
+    "message": "Probleme? Schick uns einen Bericht."
+  },
+  "diagnosticsCopied": {
+    "message": "Kopiert!"
+  },
+  "syncErrorZoneNotFound": {
+    "message": "Die iCloud-Daten von Tabstract wurden entfernt. Aktiviere die Synchronisierung erneut, um die Daten dieses Geräts hochzuladen."
+  },
+  "resetSyncData": {
+    "message": "iCloud-Daten zurücksetzen"
+  },
+  "resetSyncDataDesc": {
+    "message": "Löscht die Tabstract-Daten aus iCloud und deaktiviert die Synchronisierung überall. Deine Geräte behalten ihre Tabs."
+  },
+  "syncTroubleshooting": {
+    "message": "Fehlerbehebung"
+  },
+  "syncCopyAction": {
+    "message": "Kopieren"
+  },
+  "syncResetAction": {
+    "message": "Zurücksetzen"
+  },
+  "syncResetDoneShort": {
+    "message": "Entfernt"
+  },
+  "resetSyncConfirm": {
+    "message": "Zurücksetzen bestätigen"
+  },
+  "syncCopyLogs": {
+    "message": "Protokolle kopieren"
+  },
+  "syncResetData": {
+    "message": "Daten zurücksetzen"
   }
 }

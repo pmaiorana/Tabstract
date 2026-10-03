@@ -2842,5 +2842,44 @@
         "content": "$1"
       }
     }
+  },
+  "copyDiagnostics": {
+    "message": "Diagnose kopiëren"
+  },
+  "copyDiagnosticsDesc": {
+    "message": "Problemen? Stuur ons een rapport."
+  },
+  "diagnosticsCopied": {
+    "message": "Gekopieerd!"
+  },
+  "syncErrorZoneNotFound": {
+    "message": "De iCloud-gegevens van Tabstract zijn verwijderd. Zet synchronisatie weer aan om de gegevens van dit apparaat te uploaden."
+  },
+  "resetSyncData": {
+    "message": "iCloud-gegevens resetten"
+  },
+  "resetSyncDataDesc": {
+    "message": "Wist de gegevens van Tabstract uit iCloud en zet synchronisatie overal uit. Je apparaten behouden hun tabbladen."
+  },
+  "syncTroubleshooting": {
+    "message": "Problemen oplossen"
+  },
+  "syncCopyAction": {
+    "message": "Kopieer"
+  },
+  "syncResetAction": {
+    "message": "Reset"
+  },
+  "syncResetDoneShort": {
+    "message": "Verwijderd"
+  },
+  "resetSyncConfirm": {
+    "message": "Reset bevestigen"
+  },
+  "syncCopyLogs": {
+    "message": "Logboeken kopiëren"
+  },
+  "syncResetData": {
+    "message": "Gegevens resetten"
   }
 }

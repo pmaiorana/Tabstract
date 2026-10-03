@@ -2842,5 +2842,44 @@
         "content": "$1"
       }
     }
+  },
+  "copyDiagnostics": {
+    "message": "Copiar diagnóstico"
+  },
+  "copyDiagnosticsDesc": {
+    "message": "Tem problemas? Envie-nos um relatório."
+  },
+  "diagnosticsCopied": {
+    "message": "Copiado!"
+  },
+  "syncErrorZoneNotFound": {
+    "message": "Os dados do Tabstract em iCloud foram removidos. Volte a ativar a sincronização para carregar os dados deste dispositivo."
+  },
+  "resetSyncData": {
+    "message": "Repor dados de iCloud"
+  },
+  "resetSyncDataDesc": {
+    "message": "Apaga os dados do Tabstract de iCloud e desativa a sincronização em todos os dispositivos. Os seus dispositivos mantêm os separadores."
+  },
+  "syncTroubleshooting": {
+    "message": "Resolução de problemas"
+  },
+  "syncCopyAction": {
+    "message": "Copiar"
+  },
+  "syncResetAction": {
+    "message": "Repor"
+  },
+  "syncResetDoneShort": {
+    "message": "Removido"
+  },
+  "resetSyncConfirm": {
+    "message": "Confirmar reposição"
+  },
+  "syncCopyLogs": {
+    "message": "Copiar registos"
+  },
+  "syncResetData": {
+    "message": "Repor dados"
   }
 }

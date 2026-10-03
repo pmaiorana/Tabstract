@@ -2842,5 +2842,44 @@
         "content": "$1"
       }
     }
+  },
+  "copyDiagnostics": {
+    "message": "Tanılamayı Kopyala"
+  },
+  "copyDiagnosticsDesc": {
+    "message": "Sorun mu yaşıyorsunuz? Bize bir rapor gönderin."
+  },
+  "diagnosticsCopied": {
+    "message": "Kopyalandı!"
+  },
+  "syncErrorZoneNotFound": {
+    "message": "Tabstract'ın iCloud verileri kaldırıldı. Bu cihazın verilerini yüklemek için eşitlemeyi yeniden açın."
+  },
+  "resetSyncData": {
+    "message": "iCloud Verilerini Sıfırla"
+  },
+  "resetSyncDataDesc": {
+    "message": "Tabstract verilerini iCloud'dan siler ve her yerde eşitlemeyi kapatır. Cihazlarınızdaki sekmeler korunur."
+  },
+  "syncTroubleshooting": {
+    "message": "Sorun Giderme"
+  },
+  "syncCopyAction": {
+    "message": "Kopyala"
+  },
+  "syncResetAction": {
+    "message": "Sıfırla"
+  },
+  "syncResetDoneShort": {
+    "message": "Kaldırıldı"
+  },
+  "resetSyncConfirm": {
+    "message": "Sıfırlamayı Onayla"
+  },
+  "syncCopyLogs": {
+    "message": "Günlükleri Kopyala"
+  },
+  "syncResetData": {
+    "message": "Verileri Sıfırla"
   }
 }

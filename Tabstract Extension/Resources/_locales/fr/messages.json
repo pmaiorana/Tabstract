@@ -2767,7 +2767,7 @@
     "message": "Tout enregistrer sans fermer"
   },
   "moreSaveOptions": {
-    "message": "Plus d\u2019options d\u2019enregistrement"
+    "message": "Plus d’options d’enregistrement"
   },
   "saveThisTab": {
     "message": "Enregistrer l'onglet"
@@ -2776,7 +2776,7 @@
     "message": "Enregistrer tous les onglets"
   },
   "saveAlsoClosesLabelSingular": {
-    "message": "Fermer l\u2019onglet lors de l\u2019enregistrement"
+    "message": "Fermer l’onglet lors de l’enregistrement"
   },
   "rename": {
     "message": "Renommer"
@@ -2800,7 +2800,7 @@
     "message": "Connexion..."
   },
   "justSynced": {
-    "message": "Synchronisé à l\u2019instant"
+    "message": "Synchronisé à l’instant"
   },
   "syncFailed": {
     "message": "Échec de la synchronisation"
@@ -2842,5 +2842,44 @@
         "content": "$1"
       }
     }
+  },
+  "copyDiagnostics": {
+    "message": "Copier le diagnostic"
+  },
+  "copyDiagnosticsDesc": {
+    "message": "Un problème ? Envoyez-nous un rapport."
+  },
+  "diagnosticsCopied": {
+    "message": "Copié !"
+  },
+  "syncErrorZoneNotFound": {
+    "message": "Les données iCloud de Tabstract ont été supprimées. Réactivez la synchronisation pour envoyer les données de cet appareil."
+  },
+  "resetSyncData": {
+    "message": "Réinitialiser les données iCloud"
+  },
+  "resetSyncDataDesc": {
+    "message": "Efface les données de Tabstract dans iCloud et désactive la synchronisation partout. Vos appareils conservent leurs onglets."
+  },
+  "syncTroubleshooting": {
+    "message": "Dépannage"
+  },
+  "syncCopyAction": {
+    "message": "Copier"
+  },
+  "syncResetAction": {
+    "message": "Réinitialiser"
+  },
+  "syncResetDoneShort": {
+    "message": "Supprimé"
+  },
+  "resetSyncConfirm": {
+    "message": "Confirmer la réinitialisation"
+  },
+  "syncCopyLogs": {
+    "message": "Copier les journaux"
+  },
+  "syncResetData": {
+    "message": "Réinitialiser les données"
   }
 }

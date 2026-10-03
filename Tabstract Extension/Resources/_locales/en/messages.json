@@ -1810,8 +1810,5 @@
   },
   "syncResetData": {
     "message": "Reset Data"
-  },
-  "resetSyncDone": {
-    "message": "iCloud data removed"
   }
 }

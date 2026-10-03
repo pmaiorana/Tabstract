@@ -2842,5 +2842,44 @@
         "content": "$1"
       }
     }
+  },
+  "copyDiagnostics": {
+    "message": "Kopiér diagnostik"
+  },
+  "copyDiagnosticsDesc": {
+    "message": "Problemer? Send os en rapport."
+  },
+  "diagnosticsCopied": {
+    "message": "Kopieret!"
+  },
+  "syncErrorZoneNotFound": {
+    "message": "Tabstracts iCloud-data blev fjernet. Slå synkronisering til igen for at uploade denne enheds data."
+  },
+  "resetSyncData": {
+    "message": "Nulstil iCloud-data"
+  },
+  "resetSyncDataDesc": {
+    "message": "Sletter Tabstracts data fra iCloud og slår synkronisering fra overalt. Dine enheder beholder deres faner."
+  },
+  "syncTroubleshooting": {
+    "message": "Fejlfinding"
+  },
+  "syncCopyAction": {
+    "message": "Kopiér"
+  },
+  "syncResetAction": {
+    "message": "Nulstil"
+  },
+  "syncResetDoneShort": {
+    "message": "Fjernet"
+  },
+  "resetSyncConfirm": {
+    "message": "Bekræft nulstilling"
+  },
+  "syncCopyLogs": {
+    "message": "Kopiér log"
+  },
+  "syncResetData": {
+    "message": "Nulstil data"
   }
 }

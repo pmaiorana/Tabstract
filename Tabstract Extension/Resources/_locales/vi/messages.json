@@ -2842,5 +2842,44 @@
         "content": "$1"
       }
     }
+  },
+  "copyDiagnostics": {
+    "message": "Sao chép chẩn đoán"
+  },
+  "copyDiagnosticsDesc": {
+    "message": "Gặp sự cố? Hãy gửi báo cáo cho chúng tôi."
+  },
+  "diagnosticsCopied": {
+    "message": "Đã sao chép!"
+  },
+  "syncErrorZoneNotFound": {
+    "message": "Dữ liệu iCloud của Tabstract đã bị xóa. Bật lại đồng bộ để tải lên dữ liệu của thiết bị này."
+  },
+  "resetSyncData": {
+    "message": "Đặt lại dữ liệu iCloud"
+  },
+  "resetSyncDataDesc": {
+    "message": "Xóa dữ liệu Tabstract khỏi iCloud và tắt đồng bộ trên mọi thiết bị. Các thiết bị của bạn vẫn giữ nguyên các tab."
+  },
+  "syncTroubleshooting": {
+    "message": "Khắc phục sự cố"
+  },
+  "syncCopyAction": {
+    "message": "Sao chép"
+  },
+  "syncResetAction": {
+    "message": "Đặt lại"
+  },
+  "syncResetDoneShort": {
+    "message": "Đã xóa"
+  },
+  "resetSyncConfirm": {
+    "message": "Xác nhận đặt lại"
+  },
+  "syncCopyLogs": {
+    "message": "Sao chép nhật ký"
+  },
+  "syncResetData": {
+    "message": "Đặt lại dữ liệu"
   }
 }
