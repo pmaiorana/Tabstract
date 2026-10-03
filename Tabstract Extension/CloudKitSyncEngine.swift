@@ -343,6 +343,7 @@ actor CloudKitSyncEngine {
         var allConflictRecordNames: [String] = []
         var anyConflicts = false
         var perRecordError: String? = nil
+        var retryAfter: Double? = nil
 
         // Process in batches
         let batches = stride(from: 0, to: records.count, by: CloudKitSyncEngine.maxRecordsPerBatch)
@@ -403,6 +404,9 @@ actor CloudKitSyncEngine {
             if let error = result["error"] as? String {
                 lastError = error
             }
+            if let batchRetry = result["retryAfter"] as? Double {
+                retryAfter = max(retryAfter ?? 0, batchRetry)
+            }
             totalPushed += result["pushed"] as? Int ?? 0
             if let failed = result["failedRecordNames"] as? [String] {
                 allFailedRecordNames.append(contentsOf: failed)
@@ -439,6 +443,9 @@ actor CloudKitSyncEngine {
         response["hasConflicts"] = anyConflicts
         if let failureError = perRecordError {
             response["failureError"] = failureError
+        }
+        if let retryAfter = retryAfter {
+            response["retryAfter"] = retryAfter
         }
         // Only stamp "last synced" when something actually reached the server.
         // A batch or per-record failure (e.g. offline) is recorded as the last error
@@ -548,6 +555,9 @@ actor CloudKitSyncEngine {
                         "pushed": 0,
                         "error": self.mapCKError(error)
                     ]
+                    if let retryAfter = CloudKitSyncEngine.retryAfterSeconds(error) {
+                        response["retryAfter"] = retryAfter
+                    }
                     os_log(.error, "CloudKitSyncEngine: Push batch failed: %@", error.localizedDescription)
                 }
                 continuation.resume(returning: response)
@@ -568,6 +578,7 @@ actor CloudKitSyncEngine {
         var newToken: CKServerChangeToken?  // zone-level callbacks are serialized per-zone
         var errorStr: String?
         var tokenExpired = false
+        var retryAfter: Double?
 
         func addChanged(_ record: [String: Any]) {
             lock.lock()
@@ -691,6 +702,7 @@ actor CloudKitSyncEngine {
                         collector.tokenExpired = true
                     } else {
                         collector.errorStr = CloudKitSyncEngine.mapCKErrorStatic(error)
+                        collector.retryAfter = CloudKitSyncEngine.retryAfterSeconds(error)
                     }
                     os_log(.error, "CloudKitSyncEngine: Zone fetch failed: %@", error.localizedDescription)
                 }
@@ -704,6 +716,9 @@ actor CloudKitSyncEngine {
                     if collector.errorStr == nil {
                         collector.errorStr = CloudKitSyncEngine.mapCKErrorStatic(error)
                     }
+                    if collector.retryAfter == nil {
+                        collector.retryAfter = CloudKitSyncEngine.retryAfterSeconds(error)
+                    }
                     os_log(.error, "CloudKitSyncEngine: Pull changes failed: %@", error.localizedDescription)
                 }
 
@@ -714,6 +729,9 @@ actor CloudKitSyncEngine {
                 ]
                 if let err = collector.errorStr {
                     response["error"] = err
+                }
+                if let retryAfter = collector.retryAfter {
+                    response["retryAfter"] = retryAfter
                 }
                 continuation.resume(returning: response)
             }
@@ -780,6 +798,18 @@ actor CloudKitSyncEngine {
 
     nonisolated func mapCKError(_ error: Error) -> String {
         Self.mapCKErrorStatic(error)
+    }
+
+    /// CloudKit's suggested wait before retrying (rate limit, zone busy, service
+    /// unavailable). Also looks inside a partialFailure.
+    nonisolated static func retryAfterSeconds(_ error: Error) -> Double? {
+        guard let ckError = error as? CKError else { return nil }
+        if let seconds = ckError.retryAfterSeconds { return seconds }
+        if ckError.code == .partialFailure,
+           let inner = ckError.partialErrorsByItemID?.values.first {
+            return retryAfterSeconds(inner)
+        }
+        return nil
     }
 
     nonisolated static func mapCKErrorStatic(_ error: Error) -> String {

@@ -4949,6 +4949,42 @@ function scheduleSyncPush() {
 }
 
 /**
+ * Retry timing after a failed push or pull.
+ *
+ * CloudKit may answer rate-limit / busy / unavailable errors with a
+ * retry-after; the native side passes it through as `retryAfter` (seconds).
+ * Until that moment both push and pull stand down. A failed push with no
+ * retry-after is retried after SYNC_RETRY_MS instead of waiting for the next
+ * 5-minute cycle (a failed push used to clear its own retry alarm and then
+ * never reschedule).
+ */
+const SYNC_RETRY_MS = 60000;
+let _syncBackoffUntil = 0;
+let _syncRetryTimeout = null;
+
+function noteRetryAfter(response) {
+  const seconds = Number(response && response.retryAfter);
+  if (seconds > 0) {
+    _syncBackoffUntil = Date.now() + seconds * 1000;
+    debug('[Sync] Server asked to retry after', seconds, 's');
+    return seconds * 1000;
+  }
+  return SYNC_RETRY_MS;
+}
+
+function scheduleSyncPushRetry(delayMs) {
+  if (_syncRetryTimeout) clearTimeout(_syncRetryTimeout);
+  _syncRetryTimeout = setTimeout(() => {
+    _syncRetryTimeout = null;
+    executeSyncPush();
+  }, delayMs);
+  // Alarm fallback in case the page is suspended before the timeout fires
+  try { chrome.alarms.clear(SYNC_PUSH_DEBOUNCE_ALARM); } catch (e) {}
+  chrome.alarms.create(SYNC_PUSH_DEBOUNCE_ALARM, { delayInMinutes: Math.max(1, Math.ceil(delayMs / 60000)) });
+  debug('[Sync] Push retry scheduled in', Math.round(delayMs / 1000), 's');
+}
+
+/**
  * Execute sync push: drain dirty map and send to CloudKit via native messaging.
  */
 function broadcastSyncState(syncing) {
@@ -4968,6 +5004,12 @@ function executeSyncPush() {
     }
   }
   if (_syncDirtyRecords.size === 0) return;
+  if (Date.now() < _syncBackoffUntil) {
+    const wait = _syncBackoffUntil - Date.now();
+    debug('[Sync] Push held back', Math.round(wait / 1000), 's (server retry-after)');
+    scheduleSyncPushRetry(wait);
+    return;
+  }
   _syncPushInProgress = true;
   _syncPushLockedAt = Date.now();
 
@@ -4993,6 +5035,9 @@ function executeSyncPush() {
         debug('[Sync] Push succeeded:', response.pushed, 'records', failedCount ? `(${failedCount} failed: ${response.failureError})` : '');
       } else {
         debug('[Sync] Push failed for all', failedCount, 'records:', response.failureError);
+      }
+      if (failedCount > 0) {
+        scheduleSyncPushRetry(noteRetryAfter(response));
       }
       // Push confirmed — now safe to clear persisted dirty records.
       // Persist current map (may have new edits added during push).
@@ -5030,6 +5075,8 @@ function executeSyncPush() {
       chrome.storage.local.set({ _syncDirtyRecords: Object.fromEntries(_syncDirtyRecords) });
       if (response?.error === 'zoneNotFound') {
         disableSyncAfterZoneGone();
+      } else if (response?.error !== 'notAuthenticated') {
+        scheduleSyncPushRetry(noteRetryAfter(response));
       }
     }
     if (_syncPushDeferred) {
@@ -5043,6 +5090,7 @@ function executeSyncPush() {
     records.forEach(r => { if (!_syncDirtyRecords.has(r.recordName)) _syncDirtyRecords.set(r.recordName, r); });
     // Persist re-queued records
     chrome.storage.local.set({ _syncDirtyRecords: Object.fromEntries(_syncDirtyRecords) });
+    scheduleSyncPushRetry(SYNC_RETRY_MS);
     if (_syncPushDeferred) {
       _syncPushDeferred = false;
       executeSyncPush();
@@ -5065,6 +5113,11 @@ function executeSyncPull(callback, _tokenRetries) {
       if (callback) callback(false);
       return;
     }
+  }
+  if (Date.now() < _syncBackoffUntil) {
+    debug('[Sync] Pull held back', Math.round((_syncBackoffUntil - Date.now()) / 1000), 's (server retry-after)');
+    if (callback) callback(false);
+    return;
   }
   _syncPullInProgress = true;
   _syncPullLockedAt = Date.now();
@@ -5118,6 +5171,7 @@ function executeSyncPull(callback, _tokenRetries) {
       if (response?.error === 'zoneNotFound') {
         disableSyncAfterZoneGone();
       }
+      noteRetryAfter(response);
       if (callback) callback(false);
       if (_syncPullDeferred) {
         _syncPullDeferred = false;
